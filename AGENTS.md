@@ -7,7 +7,7 @@ Guidance for coding agents working in this repository. Read the [README](README.
 | Path | Contents |
 |---|---|
 | `scripts/` | TypeScript scripts that run every step. Node runs them directly (type stripping), there is no build step. |
-| `patches/` | Patches applied to wasm-vips, libvips, Meson and Emscripten. The changes that make the build work without threads. |
+| `patches/` | Patches applied to wasm-vips, libvips, Meson and Emscripten. The changes that make the build work without threads. `gutenberg-*.patch` apply to the Gutenberg clone of the e2e test. |
 | `upstream/` | Upstream patches and `SHA256SUMS`. `npm run setup` downloads the release archives next to them. |
 | `plugins/wasm-vips-nothreads-demo/` | The WordPress plugin. `build/` is generated. `.wordpress-org/` holds the plugin icon: edit the SVG, then run `npm run plugin:assets`. |
 | `wordpress/` | Docker Compose setup for the WordPress test. |
@@ -27,6 +27,7 @@ Generated and ignored: `src/` (pinned clones and the npm build), `work/` (trees 
 | `npm run bench` | Every Node and browser benchmark behind the tables in `docs/benchmarks.md`. |
 | `npm run wordpress` | Builds the plugin worker and starts WordPress at http://localhost:8889. |
 | `npm run wordpress:test` | Uploads a 24 MP and a 50 MP image 3 times each in Chromium, Firefox and WebKit with each plugin setup, and records time, memory and workers. |
+| `npm run gutenberg:test` | Clones Gutenberg into `src/gutenberg-e2e` and runs its media e2e tests in Chromium, Firefox and WebKit, once with the release build and once with the build without threads. Takes about an hour. |
 | `npm run plugin:assets` | Renders the icon SVG in `.wordpress-org/` to the PNG sizes WordPress.org uses. |
 | `npm run plugin:zip` | Checks that the plugin versions match, copies the plugin to `build/wasm-vips-nothreads-demo/` and zips it as `build/wasm-vips-nothreads-demo-<version>.zip`, with its SHA-256 in `build/wasm-vips-nothreads-demo-<version>.zip.sha256`. |
 | `npm run tsc` | TypeScript check of `scripts/`. |

@@ -30,7 +30,7 @@ The builds:
 | baseline | The same release built from source here, with threads |
 | nothreads | The same commit built without threads |
 
-In the browser tables, npm and baseline run on a cross-origin isolated page, since they need it. nothreads runs on a plain page without isolation. Browsers run every build with libvips concurrency 1, which the release build sets on the web.
+In the browser tables, npm and baseline run on a cross-origin isolated page, since they need it. nothreads runs on a plain page without isolation. Browsers run every build with libvips concurrency 1, which the release build sets on the web, except in [More threads per image](#browsers-more-threads-per-image).
 
 ## Browsers, one worker
 
@@ -77,6 +77,23 @@ Start-up of one instance, 24 MP runs: Chromium 53 ms (baseline) and 34 ms (nothr
 | | WebKit | 790 ms | 803 ms |
 
 Four workers hold four heaps, 256 to 442.5 MiB each in these runs.
+
+## Browsers, more threads per image
+
+The release build on the isolated page, one worker, 24 MP JPEG and WebP, with libvips concurrency set by `vips.concurrency()` after start-up. The c1 column is the baseline column of the one-worker table, from an earlier run, so differences of a few percent are within noise.
+
+| Browser | c1 | c4 | c8 | Heap (c1, c4, c8) |
+|---|---|---|---|---|
+| Chromium | 1830 ms | 1644 ms | 1630 ms | 256, 368.75, 368.75 MiB |
+| Firefox | 1897 ms | 1843 ms | 2327 ms | 256, 368.75, 368.75 MiB |
+| WebKit | 1709 ms | 1609 ms | 1706 ms | 256, 368.75, 368.75 MiB |
+
+- Every run finished, and the workers reported the concurrency that was set.
+- Concurrency 4 is 3 to 10% faster than concurrency 1.
+- Concurrency 8 is no faster than 4: about the same in Chromium, 6% slower in WebKit and 26% slower in Firefox, where its batches spread from 2175 to 3108 ms.
+- nothreads with four workers (the four-worker table) is 2.1 to 2.4 times faster than baseline with one worker at concurrency 4.
+- nothreads ignores the setting. Its one-worker times in the same runs stay within 4% of the one-worker table.
+- The outputs are byte-identical at every concurrency.
 
 ## Phones
 

@@ -56,6 +56,9 @@ onmessage = async ( { data } ) => {
 			vips = await Vips( {
 				dynamicLibraries: data.avif ? [ 'vips-heif.wasm' ] : [],
 			} );
+			if ( data.concurrency ) {
+				vips.concurrency( data.concurrency );
+			}
 			postMessage( { ready: true, concurrency: vips.concurrency() } );
 			return;
 		}

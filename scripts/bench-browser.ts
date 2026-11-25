@@ -3,7 +3,7 @@
  * COOP/COEP headers on iso/, and runs each variant in Chromium, Firefox and WebKit.
  *
  * Usage: node scripts/bench-browser.ts [--browsers chromium,firefox,webkit] [--jobs 4] [--iters 5] [--avif]
- *          [--input <file in images/>] [--only 2048x2048.jpeg,...] [--label <name>]
+ *          [--input <file in images/>] [--only 2048x2048.jpeg,...] [--concurrency <n>] [--label <name>]
  *        --system Safari,Firefox,"Google Chrome" opens the installed apps instead of Playwright browsers.
  * Output: results/browser-<browser>[-<label>].json
  */
@@ -35,6 +35,7 @@ const { values: args } = parseArgs( {
 		avif: { type: 'boolean', default: false },
 		input: { type: 'string' },
 		only: { type: 'string' },
+		concurrency: { type: 'string' },
 		label: { type: 'string' },
 	},
 } );
@@ -47,6 +48,9 @@ if ( args.input ) {
 }
 if ( args.only ) {
 	query.set( 'only', args.only );
+}
+if ( args.concurrency ) {
+	query.set( 'concurrency', args.concurrency );
 }
 
 // Serves the same tree that scripts/deploy.ts publishes, plus the npm build.

@@ -1,0 +1,54 @@
+diff --git a/packages/upload-media/src/feature-detection.ts b/packages/upload-media/src/feature-detection.ts
+index 67fb144a..d54f5654 100644
+--- a/packages/upload-media/src/feature-detection.ts
++++ b/packages/upload-media/src/feature-detection.ts
+@@ -34,14 +34,12 @@ let cachedResult: FeatureDetectionResult | null = null;
+  *
+  * Checks (in order of evaluation):
+  * 1. WebAssembly support (required for wasm-vips).
+- * 2. SharedArrayBuffer support (required for WASM threading; relies on
+- *    cross-origin isolation headers being set).
+- * 3. Web Worker support (baseline requirement for the processing worker).
+- * 4. Device memory: disables on devices reporting ≤ 2 GB of RAM.
+- * 5. Hardware concurrency: disables on devices reporting fewer than 2 CPU cores.
+- * 6. Network conditions: disables when the data saver flag is on, or when the
++ * 2. Web Worker support (baseline requirement for the processing worker).
++ * 3. Device memory: disables on devices reporting ≤ 2 GB of RAM.
++ * 4. Hardware concurrency: disables on devices reporting fewer than 2 CPU cores.
++ * 5. Network conditions: disables when the data saver flag is on, or when the
+  *    connection's effective type is `slow-2g` or `2g`.
+- * 7. CSP compatibility for blob URL workers: a probe Worker is created from a
++ * 6. CSP compatibility for blob URL workers: a probe Worker is created from a
+  *    blob: URL to confirm the site's Content Security Policy permits inline
+  *    worker creation (`worker-src` must allow `blob:`).
+  *
+@@ -64,15 +62,6 @@ export function detectClientSideMediaSupport(): FeatureDetectionResult {
+ 		return cachedResult;
+ 	}
+ 
+-	// Check SharedArrayBuffer support (required for WASM threading).
+-	if ( typeof SharedArrayBuffer === 'undefined' ) {
+-		cachedResult = {
+-			supported: false,
+-			reason: 'SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.',
+-		};
+-		return cachedResult;
+-	}
+-
+ 	// Check Web Worker support.
+ 	if ( typeof Worker === 'undefined' ) {
+ 		cachedResult = {
+diff --git a/packages/e2e-tests/mu-plugins/nothreads-no-isolation.php b/packages/e2e-tests/mu-plugins/nothreads-no-isolation.php
+new file mode 100644
+index 00000000..b1fd6043
+--- /dev/null
++++ b/packages/e2e-tests/mu-plugins/nothreads-no-isolation.php
+@@ -0,0 +1,8 @@
++<?php
++/**
++ * Plugin Name: Nothreads e2e, no cross-origin isolation
++ *
++ * The wasm-vips build without threads needs no SharedArrayBuffer, so the editor is not isolated.
++ */
++
++add_filter( 'gutenberg_use_document_isolation_policy', '__return_false' );

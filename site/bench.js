@@ -1,10 +1,12 @@
 // Browser benchmark, shared by plain/index.html and iso/index.html.
-// Query: lib=baseline|nothreads, jobs, iters, avif=1, input=<file in images/>, only=<size>.<format>,...
+// Query: lib=baseline|nothreads, jobs, iters, avif=1, input=<file in images/>, only=<size>.<format>,...,
+// concurrency=<libvips threads per image, the wasm-vips default on the web is 1>
 const p = new URLSearchParams( location.search );
 const lib = p.get( 'lib' ) || 'nothreads';
 const jobs = Number( p.get( 'jobs' ) || 1 );
 const iters = Number( p.get( 'iters' ) || 5 );
 const avif = p.get( 'avif' ) === '1';
+const concurrency = Number( p.get( 'concurrency' ) || 0 );
 
 const SIZES = [
 	[ 'thumbnail', 150, 150, true ],
@@ -62,7 +64,9 @@ async function bench( input ) {
 		);
 		// Without cross-origin isolation the pthreads build never finishes initialising, so give up after 60s.
 		const ready = await Promise.race( [
-			Promise.all( workers.map( ( w ) => call( w, { lib, avif } ) ) ),
+			Promise.all(
+				workers.map( ( w ) => call( w, { lib, avif, concurrency } ) )
+			),
 			new Promise( ( _, fail ) =>
 				setTimeout(
 					() => fail( new Error( 'init did not finish within 60s' ) ),

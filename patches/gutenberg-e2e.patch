@@ -1,0 +1,304 @@
+diff --git a/test/e2e/specs/editor/various/big-image-size-threshold.spec.js b/test/e2e/specs/editor/various/big-image-size-threshold.spec.js
+index 10744b93..896a0cba 100644
+--- a/test/e2e/specs/editor/various/big-image-size-threshold.spec.js
++++ b/test/e2e/specs/editor/various/big-image-size-threshold.spec.js
+@@ -47,7 +47,7 @@ test.describe( 'Big image size threshold', () => {
+ 		// Skip if cross-origin isolation is not enabled.
+ 		// The vips library requires SharedArrayBuffer which needs cross-origin isolation.
+ 		const isCrossOriginIsolated = await page.evaluate(
+-			() => window.crossOriginIsolated
++			() => window.wp.uploadMedia.isClientSideMediaSupported()
+ 		);
+ 		// eslint-disable-next-line playwright/no-skipped-test
+ 		test.skip(
+@@ -155,7 +155,7 @@ test.describe( 'Big image size threshold', () => {
+ 	} ) => {
+ 		// Skip if cross-origin isolation is not enabled.
+ 		const isCrossOriginIsolated = await page.evaluate(
+-			() => window.crossOriginIsolated
++			() => window.wp.uploadMedia.isClientSideMediaSupported()
+ 		);
+ 		// eslint-disable-next-line playwright/no-skipped-test
+ 		test.skip(
+@@ -227,7 +227,7 @@ test.describe( 'Big image size threshold', () => {
+ 		requestUtils,
+ 	} ) => {
+ 		const isCrossOriginIsolated = await page.evaluate(
+-			() => window.crossOriginIsolated
++			() => window.wp.uploadMedia.isClientSideMediaSupported()
+ 		);
+ 		// eslint-disable-next-line playwright/no-skipped-test
+ 		test.skip(
+diff --git a/test/e2e/specs/editor/various/client-side-media-processing.spec.js b/test/e2e/specs/editor/various/client-side-media-processing.spec.js
+index 83ab7cec..3c7075bf 100644
+--- a/test/e2e/specs/editor/various/client-side-media-processing.spec.js
++++ b/test/e2e/specs/editor/various/client-side-media-processing.spec.js
+@@ -1063,12 +1063,12 @@ test.describe( 'Client-side media processing', () => {
+ 		 */
+ 		await page.evaluate( () => {
+ 			for ( const worker of window.__capturedBlobWorkers ) {
+-				worker.terminate();
+ 				worker.dispatchEvent(
+ 					new ErrorEvent( 'error', {
+ 						message: 'Simulated worker crash',
+ 					} )
+ 				);
++				worker.terminate();
+ 			}
+ 		} );
+ 
+diff --git a/test/e2e/specs/editor/various/gif-to-video.spec.js b/test/e2e/specs/editor/various/gif-to-video.spec.js
+index 3dded3bf..7af5e197 100644
+--- a/test/e2e/specs/editor/various/gif-to-video.spec.js
++++ b/test/e2e/specs/editor/various/gif-to-video.spec.js
+@@ -131,7 +131,7 @@ class GifToVideoUtils {
+ 			return (
+ 				typeof ImageDecoder !== 'undefined' &&
+ 				typeof VideoEncoder !== 'undefined' &&
+-				window.crossOriginIsolated === true
++				window.wp.uploadMedia.isClientSideMediaSupported()
+ 			);
+ 		} );
+ 		testInstance.skip(
+diff --git a/test/e2e/playwright.media.config.ts b/test/e2e/playwright.media.config.ts
+new file mode 100644
+index 00000000..a6c655f0
+--- /dev/null
++++ b/test/e2e/playwright.media.config.ts
+@@ -0,0 +1,12 @@
++import { defineConfig, devices } from '@playwright/test';
++import config from './playwright.config';
++
++export default defineConfig( {
++	...config,
++	reporter: [ [ 'list' ], [ 'json', { outputFile: process.env.MEDIA_RESULTS } ] ],
++	projects: [
++		{ name: 'chromium', use: { ...devices[ 'Desktop Chrome' ] } },
++		{ name: 'firefox', use: { ...devices[ 'Desktop Firefox' ] } },
++		{ name: 'webkit', use: { ...devices[ 'Desktop Safari' ] } },
++	],
++} );
+diff --git a/test/e2e/specs/editor/various/client-side-media-nothreads-extra.spec.js b/test/e2e/specs/editor/various/client-side-media-nothreads-extra.spec.js
+new file mode 100644
+index 00000000..c1c70ee3
+--- /dev/null
++++ b/test/e2e/specs/editor/various/client-side-media-nothreads-extra.spec.js
+@@ -0,0 +1,206 @@
++const path = require( 'path' );
++const fs = require( 'fs/promises' );
++const os = require( 'os' );
++const { randomUUID } = require( 'crypto' );
++const { createRequire } = require( 'node:module' );
++const { pathToFileURL } = require( 'node:url' );
++const { test, expect } = require( '@wordpress/e2e-test-utils-playwright' );
++const {
++	skipIfClientSideMediaInactive,
++} = require( './client-side-media-utils' );
++
++const wasmVipsEntry = pathToFileURL(
++	createRequire( require.resolve( '@wordpress/vips/package.json' ) ).resolve(
++		'wasm-vips'
++	)
++).href;
++
++const ASSETS_DIR = path.join( __dirname, '..', '..', '..', 'assets' );
++
++async function upload( input, fileName ) {
++	const dir = await fs.mkdtemp( path.join( os.tmpdir(), 'gutenberg-test-media-' ) );
++	const file = path.join( dir, randomUUID() + path.extname( fileName ) );
++	await fs.copyFile( path.join( ASSETS_DIR, fileName ), file );
++	await input.setInputFiles( file );
++}
++
++async function waitForUploadQueueEmpty( page, timeout = 120_000 ) {
++	await page.waitForFunction(
++		() => window.wp.data.select( 'core/upload-media' ).getItems().length === 0,
++		undefined,
++		{ timeout }
++	);
++}
++
++async function probe( url ) {
++	const { default: Vips } = await import( wasmVipsEntry );
++	const vips = await Vips( {} );
++	const response = await fetch( url );
++	const image = vips.Image.newFromBuffer(
++		new Uint8Array( await response.arrayBuffer() )
++	);
++	return {
++		width: image.width,
++		height: image.height,
++		format: image.format,
++		bits: image.getTypeof( 'bits-per-sample' ) ? image.getInt( 'bits-per-sample' ) : null,
++	};
++}
++
++test.describe( 'Client-side media processing, extra cases', () => {
++	test.beforeAll( async ( { requestUtils } ) => {
++		await requestUtils.deleteAllMedia();
++	} );
++
++	test.beforeEach( async ( { admin, page } ) => {
++		await admin.createNewPost();
++		await skipIfClientSideMediaInactive( page, test );
++	} );
++
++	test.afterEach( async ( { requestUtils } ) => {
++		await requestUtils.deleteAllMedia();
++	} );
++
++	for ( const bits of [ 10, 12 ] ) {
++		test( `decodes a ${ bits }-bit AVIF and generates its sub-sizes`, async ( {
++			page,
++			editor,
++			requestUtils,
++		} ) => {
++			await editor.insertBlock( { name: 'core/image' } );
++			const imageBlock = editor.canvas.locator(
++				'role=document[name="Block: Image"i]'
++			);
++			await upload(
++				imageBlock.locator( 'data-testid=form-file-upload-input' ),
++				`1024x683_e2e_test_image_${ bits }bit.avif`
++			);
++			await expect(
++				imageBlock.getByRole( 'img', {
++					name: 'This image has an empty alt attribute',
++				} )
++			).toHaveAttribute( 'src', /^https?:\/\//, { timeout: 60_000 } );
++			await waitForUploadQueueEmpty( page );
++
++			const id = await page.evaluate(
++				() =>
++					window.wp.data.select( 'core/block-editor' ).getSelectedBlock()
++						?.attributes?.id
++			);
++			const media = await requestUtils.rest( {
++				path: `/wp/v2/media/${ id }`,
++			} );
++
++			expect( media.mime_type ).toBe( 'image/avif' );
++			expect( media.media_details.width ).toBe( 1024 );
++			expect( media.media_details.height ).toBe( 683 );
++			for ( const sizeName of [ 'thumbnail', 'medium', 'medium_large' ] ) {
++				const size = media.media_details.sizes[ sizeName ];
++				expect( size, sizeName ).toBeDefined();
++				const probed = await probe( size.source_url );
++				expect( probed.width ).toBe( size.width );
++				expect( probed.height ).toBe( size.height );
++				test.info().annotations.push( {
++					type: 'sub-size',
++					description: `${ sizeName } ${ probed.width }x${ probed.height } ${ probed.format } bits=${ probed.bits }`,
++				} );
++			}
++		} );
++	}
++
++	test( 'cancels an upload while vips is processing it', async ( {
++		page,
++		editor,
++		requestUtils,
++	} ) => {
++		await page.evaluate( () => {
++			window.__capturedBlobWorkers = [];
++			const OriginalWorker = window.Worker;
++			window.Worker = class extends OriginalWorker {
++				constructor( scriptURL, options ) {
++					super( scriptURL, options );
++					if ( String( scriptURL ).startsWith( 'blob:' ) ) {
++						window.__capturedBlobWorkers.push( this );
++					}
++				}
++			};
++		} );
++
++		await editor.insertBlock( { name: 'core/image' } );
++		const imageBlock = editor.canvas.locator(
++			'role=document[name="Block: Image"i]'
++		);
++		await upload(
++			imageBlock.locator( 'data-testid=form-file-upload-input' ),
++			'5000x4000_e2e_test_image_oversized.jpeg'
++		);
++
++		await page.waitForFunction(
++			() => window.__capturedBlobWorkers.length > 0,
++			undefined,
++			{ timeout: 30_000 }
++		);
++		// Let vips start on the image before cancelling.
++		await page.waitForTimeout( 300 );
++
++		const cancelMs = await page.evaluate( async () => {
++			const { select, dispatch } = window.wp.data;
++			const start = performance.now();
++			for ( const item of select( 'core/upload-media' ).getItems() ) {
++				if ( ! item.parentId ) {
++					await dispatch( 'core/upload-media' ).cancelItem(
++						item.id,
++						new Error( 'Cancelled' ),
++						true
++					);
++				}
++			}
++			await new Promise( ( resolve ) => {
++				const check = () =>
++					select( 'core/upload-media' ).getItems().length === 0
++						? resolve()
++						: setTimeout( check, 10 );
++				check();
++			} );
++			return Math.round( performance.now() - start );
++		} );
++		test.info().annotations.push( {
++			type: 'cancel',
++			description: `queue empty ${ cancelMs } ms after cancel`,
++		} );
++		expect( cancelMs ).toBeLessThan( 30_000 );
++
++		await expect
++			.poll( () =>
++				page.evaluate( () =>
++					window.wp.data.select( 'core/editor' ).isPostSavingLocked()
++				)
++			)
++			.toBe( false );
++
++		// The next upload still completes in the same editor session.
++		await editor.setContent( '' );
++		await editor.insertBlock( { name: 'core/image' } );
++		const nextBlock = editor.canvas.locator(
++			'role=document[name="Block: Image"i]'
++		);
++		await upload(
++			nextBlock.locator( 'data-testid=form-file-upload-input' ),
++			'1024x768_e2e_test_image_size.jpeg'
++		);
++		await expect(
++			nextBlock.getByRole( 'img', {
++				name: 'This image has an empty alt attribute',
++			} )
++		).toHaveAttribute( 'src', /^https?:\/\//, { timeout: 60_000 } );
++		await waitForUploadQueueEmpty( page );
++
++		const id = await page.evaluate(
++			() =>
++				window.wp.data.select( 'core/block-editor' ).getSelectedBlock()
++					?.attributes?.id
++		);
++		const media = await requestUtils.rest( { path: `/wp/v2/media/${ id }` } );
++		expect( media.media_details.sizes.medium ).toBeDefined();
++	} );
++} );
+diff --git a/.wp-env.test.json b/.wp-env.test.json
+--- a/.wp-env.test.json
++++ b/.wp-env.test.json
+@@ -2,7 +2,7 @@
+ 	"$schema": "./schemas/json/wp-env.json",
+ 	"testsEnvironment": false,
+ 	"port": 8889,
+-	"core": "WordPress/WordPress",
++	"core": "WordPress/WordPress#32845e40595e4c684dd1047903e182141f539224",
+ 	"plugins": [ "." ],
+ 	"themes": [ "./test/emptytheme" ],
+ 	"config": {

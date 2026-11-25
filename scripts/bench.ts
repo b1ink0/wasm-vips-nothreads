@@ -115,4 +115,6 @@ if ( step !== 'node' ) {
 	browser();
 	browser( '--avif', '--label', 'avif' );
 	browser( '--input', LARGE, '--iters', '3', '--label', '50mp' );
+	browser( '--concurrency', '4', '--label', 'c4' );
+	browser( '--concurrency', '8', '--label', 'c8' );
 }

@@ -20,6 +20,7 @@ Every WordPress image size of a 24 MP JPEG, encoded as JPEG and WebP, in one wor
 - With AVIF added, or with a 50 MP input, the difference stays within 4%. AVIF output is byte-identical too.
 - The build without threads also ran in every browser tried on an Android phone and an iPhone. See [Phones](docs/benchmarks.md#phones).
 - In WordPress, the release build starts its thread pool with the vips worker: 9 workers for one upload in Chromium and Firefox, where the build without threads starts 1.
+- The media e2e tests of Gutenberg pass in Chromium, Firefox and WebKit without isolation, including animated GIF and WebP, palette PNG, UltraHDR, 10 and 12-bit AVIF and cancelling an upload. See [Gutenberg e2e tests](docs/gutenberg-e2e.md).
 
 All tables and the method: [Benchmarks](docs/benchmarks.md).
 
@@ -64,6 +65,7 @@ npm run build           # build both wasm-vips variants in Docker (the first bui
 npm run bench           # every Node and browser benchmark, written to results/
 npm run wordpress       # build the plugin worker, start WordPress at http://localhost:8889 (admin, password)
 npm run wordpress:test  # upload images in Chromium, Firefox and WebKit with each plugin setup
+npm run gutenberg:test  # the media e2e tests of Gutenberg with both builds (about an hour)
 npm run plugin:zip      # zip the plugin into build/
 npm run deploy          # publish the benchmark pages, the plugin zip and the Blueprint to GitHub Pages
 ```
@@ -77,6 +79,7 @@ To test WordPress on a phone, expose it through an HTTPS tunnel, for example `cl
 | [How it works](docs/how-it-works.md) | Why the release build needs isolation, each patch, and where the parallelism goes. |
 | [Benchmarks](docs/benchmarks.md) | Method, setups and every result table. |
 | [WordPress plugin](docs/wordpress-plugin.md) | What the plugin changes, the test setup and its results. |
+| [Gutenberg e2e tests](docs/gutenberg-e2e.md) | The media e2e tests of Gutenberg with both builds, the tests added and every failure. |
 | [Updating](docs/updating.md) | Where each version is pinned and how to move to a new release. |
 | [AGENTS.md](AGENTS.md) | Layout, commands and conventions for coding agents. |
 

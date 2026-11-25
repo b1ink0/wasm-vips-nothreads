@@ -1,0 +1,4447 @@
+{
+	"gutenberg": "d15f04a87173302fb9107e8e663abdef5de47398",
+	"runs": {
+		"baseline": [
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can set overlay color using color picker on block placeholder",
+				"status": "passed",
+				"ms": 1315
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can set overlay color using color picker on block placeholder",
+				"status": "passed",
+				"ms": 2373
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can set overlay color using color picker on block placeholder",
+				"status": "passed",
+				"ms": 2315
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "computes overlay color correctly for uploaded image",
+				"status": "passed",
+				"ms": 1948
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "computes overlay color correctly for uploaded image",
+				"status": "passed",
+				"ms": 3810
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "computes overlay color correctly for uploaded image",
+				"status": "passed",
+				"ms": 2779
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can have the title edited",
+				"status": "passed",
+				"ms": 813
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can have the title edited",
+				"status": "passed",
+				"ms": 1687
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can have the title edited",
+				"status": "passed",
+				"ms": 1538
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can be resized using drag & drop",
+				"status": "passed",
+				"ms": 1092
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can be resized using drag & drop",
+				"status": "passed",
+				"ms": 2660
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can be resized using drag & drop",
+				"status": "passed",
+				"ms": 1621
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "dims the background image down by 50% black when transformed from the Image block",
+				"status": "passed",
+				"ms": 813
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "dims the background image down by 50% black when transformed from the Image block",
+				"status": "passed",
+				"ms": 1656
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "dims the background image down by 50% black when transformed from the Image block",
+				"status": "passed",
+				"ms": 1242
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "other cover blocks are not over the navigation block when the menu is open",
+				"status": "passed",
+				"ms": 2289
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "other cover blocks are not over the navigation block when the menu is open",
+				"status": "passed",
+				"ms": 3489
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "other cover blocks are not over the navigation block when the menu is open",
+				"status": "passed",
+				"ms": 3032
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can use focal point picker to set the focal point of the cover image",
+				"status": "passed",
+				"ms": 931
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can use focal point picker to set the focal point of the cover image",
+				"status": "passed",
+				"ms": 1766
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can use focal point picker to set the focal point of the cover image",
+				"status": "passed",
+				"ms": 1380
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "correctly computes isDark based on dimRatio and overlay color",
+				"status": "passed",
+				"ms": 960
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "correctly computes isDark based on dimRatio and overlay color",
+				"status": "passed",
+				"ms": 2541
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "correctly computes isDark based on dimRatio and overlay color",
+				"status": "passed",
+				"ms": 1398
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "preserves explicit dimRatio of 100 when replacing an image",
+				"status": "passed",
+				"ms": 1181
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "preserves explicit dimRatio of 100 when replacing an image",
+				"status": "passed",
+				"ms": 2226
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "preserves explicit dimRatio of 100 when replacing an image",
+				"status": "passed",
+				"ms": 1559
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "shows the overlay when using an empty featured image",
+				"status": "passed",
+				"ms": 878
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "shows the overlay when using an empty featured image",
+				"status": "passed",
+				"ms": 1912
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "shows the overlay when using an empty featured image",
+				"status": "passed",
+				"ms": 1272
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "hides overlay controls when a viewport style state is selected",
+				"status": "passed",
+				"ms": 1109
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "hides overlay controls when a viewport style state is selected",
+				"status": "passed",
+				"ms": 1921
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "hides overlay controls when a viewport style state is selected",
+				"status": "passed",
+				"ms": 1726
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can be transformed from pasting shortcode, and can undo/redo",
+				"status": "passed",
+				"ms": 1101
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can be transformed from pasting shortcode, and can undo/redo",
+				"status": "passed",
+				"ms": 2429
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can be transformed from pasting shortcode, and can undo/redo",
+				"status": "passed",
+				"ms": 2583
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can be created using uploaded images",
+				"status": "passed",
+				"ms": 1155
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can be created using uploaded images",
+				"status": "passed",
+				"ms": 2008
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can be created using uploaded images",
+				"status": "passed",
+				"ms": 1476
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "links an added image using the site default until a link is chosen",
+				"status": "passed",
+				"ms": 974
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "links an added image using the site default until a link is chosen",
+				"status": "passed",
+				"ms": 1787
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "links an added image using the site default until a link is chosen",
+				"status": "passed",
+				"ms": 1362
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "gallery caption can be edited",
+				"status": "passed",
+				"ms": 919
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "gallery caption can be edited",
+				"status": "passed",
+				"ms": 2156
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "gallery caption can be edited",
+				"status": "passed",
+				"ms": 1513
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "applies the gallery size and link to an added image",
+				"status": "passed",
+				"ms": 837
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "applies the gallery size and link to an added image",
+				"status": "passed",
+				"ms": 1492
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "applies the gallery size and link to an added image",
+				"status": "passed",
+				"ms": 1485
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "keeps the link and size of saved images",
+				"status": "passed",
+				"ms": 927
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "keeps the link and size of saved images",
+				"status": "passed",
+				"ms": 1781
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "keeps the link and size of saved images",
+				"status": "passed",
+				"ms": 1360
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "Grid layout uses native controls without Gallery Flex child styles",
+				"status": "passed",
+				"ms": 1811
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "Grid layout uses native controls without Gallery Flex child styles",
+				"status": "passed",
+				"ms": 3022
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "Grid layout uses native controls without Gallery Flex child styles",
+				"status": "passed",
+				"ms": 2143
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "uploaded images' captions can be edited",
+				"status": "passed",
+				"ms": 1075
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "uploaded images' captions can be edited",
+				"status": "passed",
+				"ms": 2166
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "uploaded images' captions can be edited",
+				"status": "passed",
+				"ms": 1553
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "when initially added the media library shows the Create Gallery view",
+				"status": "passed",
+				"ms": 830
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "when initially added the media library shows the Create Gallery view",
+				"status": "passed",
+				"ms": 1937
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "when initially added the media library shows the Create Gallery view",
+				"status": "passed",
+				"ms": 1294
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can randomize the image on the front end",
+				"status": "passed",
+				"ms": 1327
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can randomize the image on the front end",
+				"status": "passed",
+				"ms": 2099
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can randomize the image on the front end",
+				"status": "passed",
+				"ms": 1722
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can randomize the image with a lightbox effect on the front end",
+				"status": "passed",
+				"ms": 1448
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can randomize the image with a lightbox effect on the front end",
+				"status": "passed",
+				"ms": 2755
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can randomize the image with a lightbox effect on the front end",
+				"status": "passed",
+				"ms": 1639
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "crops linked images to a uniform height in the editor canvas",
+				"status": "passed",
+				"ms": 745
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "crops linked images to a uniform height in the editor canvas",
+				"status": "passed",
+				"ms": 1749
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "crops linked images to a uniform height in the editor canvas",
+				"status": "passed",
+				"ms": 1205
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "does not crop images to a uniform height when cropping is disabled",
+				"status": "passed",
+				"ms": 750
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "does not crop images to a uniform height when cropping is disabled",
+				"status": "passed",
+				"ms": 1693
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "does not crop images to a uniform height when cropping is disabled",
+				"status": "passed",
+				"ms": 1288
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "crops images to a uniform height in a dynamic gallery",
+				"status": "passed",
+				"ms": 1139
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "crops images to a uniform height in a dynamic gallery",
+				"status": "passed",
+				"ms": 2149
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "crops images to a uniform height in a dynamic gallery",
+				"status": "passed",
+				"ms": 1659
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be inserted via image upload",
+				"status": "passed",
+				"ms": 1009
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be inserted via image upload",
+				"status": "passed",
+				"ms": 1639
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be inserted via image upload",
+				"status": "passed",
+				"ms": 1307
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should place caret on caption when clicking to add one",
+				"status": "passed",
+				"ms": 1211
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should place caret on caption when clicking to add one",
+				"status": "passed",
+				"ms": 2726
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should place caret on caption when clicking to add one",
+				"status": "passed",
+				"ms": 1715
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should keep a caption typed while the image uploads",
+				"status": "passed",
+				"ms": 1194
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should keep a caption typed while the image uploads",
+				"status": "passed",
+				"ms": 2331
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should keep a caption typed while the image uploads",
+				"status": "passed",
+				"ms": 1677
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should hide an empty caption when the image is deselected",
+				"status": "passed",
+				"ms": 1270
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should hide an empty caption when the image is deselected",
+				"status": "passed",
+				"ms": 2066
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should hide an empty caption when the image is deselected",
+				"status": "passed",
+				"ms": 1418
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should show the caption again when removing it is undone",
+				"status": "passed",
+				"ms": 933
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should show the caption again when removing it is undone",
+				"status": "passed",
+				"ms": 2668
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should show the caption again when removing it is undone",
+				"status": "passed",
+				"ms": 1308
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should allow soft line breaks in caption",
+				"status": "passed",
+				"ms": 1116
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should allow soft line breaks in caption",
+				"status": "passed",
+				"ms": 2696
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should allow soft line breaks in caption",
+				"status": "passed",
+				"ms": 1870
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should have keyboard navigable toolbar for caption",
+				"status": "passed",
+				"ms": 1146
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should have keyboard navigable toolbar for caption",
+				"status": "passed",
+				"ms": 2103
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should have keyboard navigable toolbar for caption",
+				"status": "failed",
+				"ms": 1559
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should drag and drop files into media placeholder",
+				"status": "passed",
+				"ms": 956
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should drag and drop files into media placeholder",
+				"status": "passed",
+				"ms": 2014
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should drag and drop files into media placeholder",
+				"status": "passed",
+				"ms": 1609
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "allows rotating an image using the media editor modal",
+				"status": "passed",
+				"ms": 1318
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "allows rotating an image using the media editor modal",
+				"status": "failed",
+				"ms": 7325
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "allows rotating an image using the media editor modal",
+				"status": "failed",
+				"ms": 6849
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should undo without broken temporary state",
+				"status": "passed",
+				"ms": 1143
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should undo without broken temporary state",
+				"status": "passed",
+				"ms": 1978
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should undo without broken temporary state",
+				"status": "passed",
+				"ms": 1686
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be replaced by dragging-and-dropping images from the inserter",
+				"status": "passed",
+				"ms": 2156
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be replaced by dragging-and-dropping images from the inserter",
+				"status": "failed",
+				"ms": 99158
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be replaced by dragging-and-dropping images from the inserter",
+				"status": "passed",
+				"ms": 2454
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "image inserted via upload should appear in the frontend published post content",
+				"status": "passed",
+				"ms": 1512
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "image inserted via upload should appear in the frontend published post content",
+				"status": "passed",
+				"ms": 2564
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "image inserted via upload should appear in the frontend published post content",
+				"status": "passed",
+				"ms": 1683
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "image inserted via link should appear in the frontend published post content",
+				"status": "passed",
+				"ms": 3601
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "image inserted via link should appear in the frontend published post content",
+				"status": "passed",
+				"ms": 3805
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "image inserted via link should appear in the frontend published post content",
+				"status": "passed",
+				"ms": 3706
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Insert from URL prepends https when URL has no protocol",
+				"status": "passed",
+				"ms": 3418
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Insert from URL prepends https when URL has no protocol",
+				"status": "passed",
+				"ms": 3758
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Insert from URL prepends https when URL has no protocol",
+				"status": "passed",
+				"ms": 3638
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "adding a link should reflect configuration in published post content",
+				"status": "passed",
+				"ms": 1697
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "adding a link should reflect configuration in published post content",
+				"status": "passed",
+				"ms": 2015
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "adding a link should reflect configuration in published post content",
+				"status": "passed",
+				"ms": 1875
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "appends https protocol to links added which are missing a protocol",
+				"status": "passed",
+				"ms": 1045
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "appends https protocol to links added which are missing a protocol",
+				"status": "passed",
+				"ms": 1492
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "appends https protocol to links added which are missing a protocol",
+				"status": "passed",
+				"ms": 1616
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should upload external image to media library only when the toolbar button is clicked",
+				"status": "passed",
+				"ms": 2496
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should upload external image to media library only when the toolbar button is clicked",
+				"status": "passed",
+				"ms": 2955
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should upload external image to media library only when the toolbar button is clicked",
+				"status": "passed",
+				"ms": 2914
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should upload through prepublish panel",
+				"status": "passed",
+				"ms": 2196
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should upload through prepublish panel",
+				"status": "passed",
+				"ms": 2683
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should upload through prepublish panel",
+				"status": "passed",
+				"ms": 2597
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "uploads data url through blobs from raw handling",
+				"status": "passed",
+				"ms": 933
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "uploads data url through blobs from raw handling",
+				"status": "passed",
+				"ms": 1247
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "uploads data url through blobs from raw handling",
+				"status": "passed",
+				"ms": 1321
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should have keyboard navigable link UI popover",
+				"status": "passed",
+				"ms": 1296
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should have keyboard navigable link UI popover",
+				"status": "passed",
+				"ms": 1805
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should have keyboard navigable link UI popover",
+				"status": "passed",
+				"ms": 1722
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should give the image its context menu while selected @webkit @firefox",
+				"status": "passed",
+				"ms": 1521
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should give the image its context menu while selected @webkit @firefox",
+				"status": "passed",
+				"ms": 1779
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should give the image its context menu while selected @webkit @firefox",
+				"status": "passed",
+				"ms": 1616
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "keeps the image when a replacement upload fails, and Reset still removes it",
+				"status": "passed",
+				"ms": 2052
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "keeps the image when a replacement upload fails, and Reset still removes it",
+				"status": "passed",
+				"ms": 1536
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "keeps the image when a replacement upload fails, and Reset still removes it",
+				"status": "passed",
+				"ms": 1700
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Block settings - link DISABLED, lightbox UNDEFINED - should hide UI when block override is undefined",
+				"status": "passed",
+				"ms": 1384
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Block settings - link DISABLED, lightbox UNDEFINED - should hide UI when block override is undefined",
+				"status": "passed",
+				"ms": 1201
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Block settings - link DISABLED, lightbox UNDEFINED - should hide UI when block override is undefined",
+				"status": "passed",
+				"ms": 1212
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Block settings - link DISABLED, lightbox ENABLED - should show UI while block override is active, but hide UI if override is removed",
+				"status": "passed",
+				"ms": 910
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Block settings - link DISABLED, lightbox ENABLED - should show UI while block override is active, but hide UI if override is removed",
+				"status": "passed",
+				"ms": 1146
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Block settings - link DISABLED, lightbox ENABLED - should show UI while block override is active, but hide UI if override is removed",
+				"status": "passed",
+				"ms": 1220
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Overlay image should not inherit content image's margins",
+				"status": "passed",
+				"ms": 1308
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Overlay image should not inherit content image's margins",
+				"status": "passed",
+				"ms": 1397
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Overlay image should not inherit content image's margins",
+				"status": "passed",
+				"ms": 1551
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should keep the overlay intact when reopened before the close cleanup runs",
+				"status": "failed",
+				"ms": 1361
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should keep the overlay intact when reopened before the close cleanup runs",
+				"status": "passed",
+				"ms": 1743
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should keep the overlay intact when reopened before the close cleanup runs",
+				"status": "passed",
+				"ms": 1558
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Trigger button should still be placed inside the figure",
+				"status": "passed",
+				"ms": 1509
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Trigger button should still be placed inside the figure",
+				"status": "passed",
+				"ms": 1460
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Trigger button should still be placed inside the figure",
+				"status": "passed",
+				"ms": 1539
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should make only the rest of the page inert and restore it on close",
+				"status": "passed",
+				"ms": 1456
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should make only the rest of the page inert and restore it on close",
+				"status": "passed",
+				"ms": 1502
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should make only the rest of the page inert and restore it on close",
+				"status": "passed",
+				"ms": 1670
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be inserted via image upload",
+				"status": "passed",
+				"ms": 1514
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be inserted via image upload",
+				"status": "passed",
+				"ms": 1574
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be inserted via image upload",
+				"status": "passed",
+				"ms": 1586
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "preserves the aspect ratio when only the width is set",
+				"status": "passed",
+				"ms": 744
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "preserves the aspect ratio when only the width is set",
+				"status": "passed",
+				"ms": 1088
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "preserves the aspect ratio when only the width is set",
+				"status": "passed",
+				"ms": 1170
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "preserves the aspect ratio for images in a grid gallery",
+				"status": "passed",
+				"ms": 801
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "preserves the aspect ratio for images in a grid gallery",
+				"status": "passed",
+				"ms": 1279
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "preserves the aspect ratio for images in a grid gallery",
+				"status": "passed",
+				"ms": 1185
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "keeps the animation in every sub-size of an animated GIF",
+				"status": "passed",
+				"ms": 2831
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "keeps the animation in every sub-size of an animated GIF",
+				"status": "skipped",
+				"ms": 891
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "keeps the animation in every sub-size of an animated GIF",
+				"status": "skipped",
+				"ms": 1042
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "keeps the animation in every sub-size of an animated WebP",
+				"status": "passed",
+				"ms": 2872
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "keeps the animation in every sub-size of an animated WebP",
+				"status": "skipped",
+				"ms": 1380
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "keeps the animation in every sub-size of an animated WebP",
+				"status": "skipped",
+				"ms": 1087
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "generates static first-frame sub-sizes of an animated GIF, matching core",
+				"status": "passed",
+				"ms": 2433
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "generates static first-frame sub-sizes of an animated GIF, matching core",
+				"status": "skipped",
+				"ms": 1209
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "generates static first-frame sub-sizes of an animated GIF, matching core",
+				"status": "skipped",
+				"ms": 1048
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "generates static first-frame sub-sizes of an animated WebP, matching core",
+				"status": "passed",
+				"ms": 2763
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "generates static first-frame sub-sizes of an animated WebP, matching core",
+				"status": "skipped",
+				"ms": 954
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "generates static first-frame sub-sizes of an animated WebP, matching core",
+				"status": "skipped",
+				"ms": 1222
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should scale down images larger than the threshold",
+				"status": "passed",
+				"ms": 3061
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should scale down images larger than the threshold",
+				"status": "skipped",
+				"ms": 1069
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should scale down images larger than the threshold",
+				"status": "skipped",
+				"ms": 1108
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should not scale images smaller than the threshold",
+				"status": "passed",
+				"ms": 3076
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should not scale images smaller than the threshold",
+				"status": "skipped",
+				"ms": 1075
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should not scale images smaller than the threshold",
+				"status": "skipped",
+				"ms": 1077
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should finish uploading an image the browser cannot decode",
+				"status": "passed",
+				"ms": 3239
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should finish uploading an image the browser cannot decode",
+				"status": "skipped",
+				"ms": 988
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should finish uploading an image the browser cannot decode",
+				"status": "skipped",
+				"ms": 1052
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "decodes a 10-bit AVIF and generates its sub-sizes",
+				"status": "passed",
+				"ms": 3421,
+				"notes": [
+					"sub-size: thumbnail 150x150 ushort bits=10",
+					"sub-size: medium 300x200 ushort bits=10",
+					"sub-size: medium_large 768x512 ushort bits=10"
+				]
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "decodes a 10-bit AVIF and generates its sub-sizes",
+				"status": "skipped",
+				"ms": 943
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "decodes a 10-bit AVIF and generates its sub-sizes",
+				"status": "skipped",
+				"ms": 1108
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "decodes a 12-bit AVIF and generates its sub-sizes",
+				"status": "passed",
+				"ms": 3573,
+				"notes": [
+					"sub-size: thumbnail 150x150 ushort bits=12",
+					"sub-size: medium 300x200 ushort bits=12",
+					"sub-size: medium_large 768x512 ushort bits=12"
+				]
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "decodes a 12-bit AVIF and generates its sub-sizes",
+				"status": "skipped",
+				"ms": 925
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "decodes a 12-bit AVIF and generates its sub-sizes",
+				"status": "skipped",
+				"ms": 1070
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "cancels an upload while vips is processing it",
+				"status": "passed",
+				"ms": 3131,
+				"notes": [
+					"cancel: queue empty 12 ms after cancel"
+				]
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "cancels an upload while vips is processing it",
+				"status": "skipped",
+				"ms": 1311
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "cancels an upload while vips is processing it",
+				"status": "skipped",
+				"ms": 1092
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves a JPEG below the size threshold",
+				"status": "passed",
+				"ms": 3337
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves a JPEG below the size threshold",
+				"status": "skipped",
+				"ms": 1051
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves a JPEG below the size threshold",
+				"status": "skipped",
+				"ms": 1035
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves an opaque PNG without format conversion",
+				"status": "passed",
+				"ms": 2908
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves an opaque PNG without format conversion",
+				"status": "skipped",
+				"ms": 1111
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves an opaque PNG without format conversion",
+				"status": "skipped",
+				"ms": 1049
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves an animated GIF",
+				"status": "passed",
+				"ms": 3361
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves an animated GIF",
+				"status": "skipped",
+				"ms": 981
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves an animated GIF",
+				"status": "skipped",
+				"ms": 1209
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "decodes and uploads a WebP image as WebP",
+				"status": "passed",
+				"ms": 3553
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "decodes and uploads a WebP image as WebP",
+				"status": "skipped",
+				"ms": 940
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "decodes and uploads a WebP image as WebP",
+				"status": "skipped",
+				"ms": 1132
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "decodes and uploads an AVIF image as AVIF",
+				"status": "passed",
+				"ms": 3258
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "decodes and uploads an AVIF image as AVIF",
+				"status": "skipped",
+				"ms": 966
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "decodes and uploads an AVIF image as AVIF",
+				"status": "skipped",
+				"ms": 1047
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves UltraHDR gain map through sub-size resize",
+				"status": "passed",
+				"ms": 4238
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves UltraHDR gain map through sub-size resize",
+				"status": "skipped",
+				"ms": 1028
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves UltraHDR gain map through sub-size resize",
+				"status": "skipped",
+				"ms": 1104
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "keeps sub-sizes of an indexed PNG indexed",
+				"status": "passed",
+				"ms": 4278
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "keeps sub-sizes of an indexed PNG indexed",
+				"status": "skipped",
+				"ms": 1015
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "keeps sub-sizes of an indexed PNG indexed",
+				"status": "skipped",
+				"ms": 1130
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "scales oversized images and generates the standard sub-sizes",
+				"status": "passed",
+				"ms": 4321
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "scales oversized images and generates the standard sub-sizes",
+				"status": "skipped",
+				"ms": 1025
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "scales oversized images and generates the standard sub-sizes",
+				"status": "skipped",
+				"ms": 1089
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "uploads multiple images via gallery",
+				"status": "passed",
+				"ms": 4242
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "uploads multiple images via gallery",
+				"status": "skipped",
+				"ms": 1131
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "uploads multiple images via gallery",
+				"status": "skipped",
+				"ms": 1058
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "rejects an unsupported file type",
+				"status": "passed",
+				"ms": 1287
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "rejects an unsupported file type",
+				"status": "skipped",
+				"ms": 1475
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "rejects an unsupported file type",
+				"status": "skipped",
+				"ms": 1070
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "converts opaque PNG sub-sizes to JPEG when image_editor_output_format is filtered",
+				"status": "passed",
+				"ms": 3855
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "converts opaque PNG sub-sizes to JPEG when image_editor_output_format is filtered",
+				"status": "skipped",
+				"ms": 1118
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "converts opaque PNG sub-sizes to JPEG when image_editor_output_format is filtered",
+				"status": "skipped",
+				"ms": 1076
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves a transparent PNG even when PNG-to-JPEG is filtered",
+				"status": "passed",
+				"ms": 4465
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves a transparent PNG even when PNG-to-JPEG is filtered",
+				"status": "skipped",
+				"ms": 1008
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves a transparent PNG even when PNG-to-JPEG is filtered",
+				"status": "skipped",
+				"ms": 1390
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "converts JPEG sub-sizes to WebP when image_editor_output_format is filtered",
+				"status": "passed",
+				"ms": 4508
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "converts JPEG sub-sizes to WebP when image_editor_output_format is filtered",
+				"status": "skipped",
+				"ms": 930
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "converts JPEG sub-sizes to WebP when image_editor_output_format is filtered",
+				"status": "skipped",
+				"ms": 1191
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "registers one generated file under every image size sharing its dimensions",
+				"status": "passed",
+				"ms": 4191
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "registers one generated file under every image size sharing its dimensions",
+				"status": "skipped",
+				"ms": 957
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "registers one generated file under every image size sharing its dimensions",
+				"status": "skipped",
+				"ms": 1067
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "renders srcset on the front end after publishing a CSM-uploaded image",
+				"status": "passed",
+				"ms": 4823
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "renders srcset on the front end after publishing a CSM-uploaded image",
+				"status": "skipped",
+				"ms": 1032
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "renders srcset on the front end after publishing a CSM-uploaded image",
+				"status": "skipped",
+				"ms": 1070
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "auto-rotates images based on EXIF orientation",
+				"status": "skipped",
+				"ms": 0,
+				"notes": [
+					"fixme: undefined"
+				]
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "auto-rotates images based on EXIF orientation",
+				"status": "skipped",
+				"ms": 0,
+				"notes": [
+					"fixme: undefined"
+				]
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "auto-rotates images based on EXIF orientation",
+				"status": "skipped",
+				"ms": 0,
+				"notes": [
+					"fixme: undefined"
+				]
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "rotates AVIF sub-sizes from EXIF-only orientation",
+				"status": "passed",
+				"ms": 5341
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "rotates AVIF sub-sizes from EXIF-only orientation",
+				"status": "skipped",
+				"ms": 991
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "rotates AVIF sub-sizes from EXIF-only orientation",
+				"status": "skipped",
+				"ms": 1127
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "recovers from a transient upload failure via automatic retry",
+				"status": "passed",
+				"ms": 6128
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "recovers from a transient upload failure via automatic retry",
+				"status": "skipped",
+				"ms": 954
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "recovers from a transient upload failure via automatic retry",
+				"status": "skipped",
+				"ms": 1086
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "surfaces an error after exhausting upload retries",
+				"status": "passed",
+				"ms": 11350
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "surfaces an error after exhausting upload retries",
+				"status": "skipped",
+				"ms": 1131
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "surfaces an error after exhausting upload retries",
+				"status": "skipped",
+				"ms": 1186
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "reports a server failure in plain language",
+				"status": "passed",
+				"ms": 4317
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "reports a server failure in plain language",
+				"status": "skipped",
+				"ms": 992
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "reports a server failure in plain language",
+				"status": "skipped",
+				"ms": 1177
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "recovers when the image processing worker crashes mid-upload",
+				"status": "passed",
+				"ms": 3443
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "recovers when the image processing worker crashes mid-upload",
+				"status": "skipped",
+				"ms": 1587
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "recovers when the image processing worker crashes mid-upload",
+				"status": "skipped",
+				"ms": 1252
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "shows the Resolution control when a URL-keyed cache stands in front of the REST API",
+				"status": "passed",
+				"ms": 4655
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "shows the Resolution control when a URL-keyed cache stands in front of the REST API",
+				"status": "skipped",
+				"ms": 1101
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "shows the Resolution control when a URL-keyed cache stands in front of the REST API",
+				"status": "skipped",
+				"ms": 1140
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/gif-to-video.spec.js",
+				"title": "keeps the uploaded GIF as an Image block and offers an opt-in Video transform",
+				"status": "passed",
+				"ms": 2793
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/gif-to-video.spec.js",
+				"title": "keeps the uploaded GIF as an Image block and offers an opt-in Video transform",
+				"status": "skipped",
+				"ms": 926
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/gif-to-video.spec.js",
+				"title": "keeps the uploaded GIF as an Image block and offers an opt-in Video transform",
+				"status": "skipped",
+				"ms": 1099
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/gif-to-video.spec.js",
+				"title": "completes the upload of a long animated GIF and produces a single-frame poster",
+				"status": "passed",
+				"ms": 2846
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/gif-to-video.spec.js",
+				"title": "completes the upload of a long animated GIF and produces a single-frame poster",
+				"status": "skipped",
+				"ms": 1033
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/gif-to-video.spec.js",
+				"title": "completes the upload of a long animated GIF and produces a single-frame poster",
+				"status": "skipped",
+				"ms": 1056
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/heic-exif-preservation.spec.ts",
+				"title": "keeps EXIF in the uploaded JPEG and strips it from sub-sizes",
+				"status": "passed",
+				"ms": 3385
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/heic-exif-preservation.spec.ts",
+				"title": "keeps EXIF in the uploaded JPEG and strips it from sub-sizes",
+				"status": "skipped",
+				"ms": 1102
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/heic-exif-preservation.spec.ts",
+				"title": "keeps EXIF in the uploaded JPEG and strips it from sub-sizes",
+				"status": "skipped",
+				"ms": 1095
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/heic-unsupported-error.spec.js",
+				"title": "explains why the file failed and waits to be dismissed",
+				"status": "passed",
+				"ms": 1356
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/heic-unsupported-error.spec.js",
+				"title": "explains why the file failed and waits to be dismissed",
+				"status": "passed",
+				"ms": 1309
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/heic-unsupported-error.spec.js",
+				"title": "explains why the file failed and waits to be dismissed",
+				"status": "failed",
+				"ms": 31489
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/heic-unsupported-error.spec.js",
+				"title": "blames the file, not the browser, when the HEIC is damaged",
+				"status": "passed",
+				"ms": 1153
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/heic-unsupported-error.spec.js",
+				"title": "blames the file, not the browser, when the HEIC is damaged",
+				"status": "passed",
+				"ms": 1208
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/heic-unsupported-error.spec.js",
+				"title": "blames the file, not the browser, when the HEIC is damaged",
+				"status": "failed",
+				"ms": 31682
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/heic-upload-progress-snackbar.spec.js",
+				"title": "counts a single HEIC upload as one file",
+				"status": "passed",
+				"ms": 1397
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/heic-upload-progress-snackbar.spec.js",
+				"title": "counts a single HEIC upload as one file",
+				"status": "passed",
+				"ms": 1522
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/heic-upload-progress-snackbar.spec.js",
+				"title": "counts a single HEIC upload as one file",
+				"status": "passed",
+				"ms": 2142
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/heic-wrong-extension.spec.js",
+				"title": "converts it rather than uploading the raw HEIC bytes",
+				"status": "passed",
+				"ms": 1145
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/heic-wrong-extension.spec.js",
+				"title": "converts it rather than uploading the raw HEIC bytes",
+				"status": "passed",
+				"ms": 1641
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/heic-wrong-extension.spec.js",
+				"title": "converts it rather than uploading the raw HEIC bytes",
+				"status": "failed",
+				"ms": 61594
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/heic-wrong-extension.spec.js",
+				"title": "routes it to the HEIC conversion, not to the server",
+				"status": "passed",
+				"ms": 1013
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/heic-wrong-extension.spec.js",
+				"title": "routes it to the HEIC conversion, not to the server",
+				"status": "passed",
+				"ms": 1414
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/heic-wrong-extension.spec.js",
+				"title": "routes it to the HEIC conversion, not to the server",
+				"status": "failed",
+				"ms": 61734
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "completes and dismisses when uploading to an image block",
+				"status": "passed",
+				"ms": 4396
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "completes and dismisses when uploading to an image block",
+				"status": "passed",
+				"ms": 4853
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "completes and dismisses when uploading to an image block",
+				"status": "passed",
+				"ms": 4859
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "does not claim completion for a file the server rejects",
+				"status": "passed",
+				"ms": 1006
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "does not claim completion for a file the server rejects",
+				"status": "passed",
+				"ms": 1188
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "does not claim completion for a file the server rejects",
+				"status": "passed",
+				"ms": 1387
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "does not claim completion for a file the server rejects",
+				"status": "passed",
+				"ms": 774
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "does not claim completion for a file the server rejects",
+				"status": "passed",
+				"ms": 1130
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "does not claim completion for a file the server rejects",
+				"status": "passed",
+				"ms": 1258
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Save draft button during a single image upload",
+				"status": "passed",
+				"ms": 1082
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Save draft button during a single image upload",
+				"status": "passed",
+				"ms": 1523
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Save draft button during a single image upload",
+				"status": "passed",
+				"ms": 1423
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Save draft button during a multi-file gallery upload",
+				"status": "passed",
+				"ms": 1772
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Save draft button during a multi-file gallery upload",
+				"status": "passed",
+				"ms": 1618
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Save draft button during a multi-file gallery upload",
+				"status": "passed",
+				"ms": 1588
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Publish button during a single image upload",
+				"status": "passed",
+				"ms": 1373
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Publish button during a single image upload",
+				"status": "passed",
+				"ms": 1357
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Publish button during a single image upload",
+				"status": "passed",
+				"ms": 1373
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should prevent saving via keyboard shortcut during upload",
+				"status": "passed",
+				"ms": 1366
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should prevent saving via keyboard shortcut during upload",
+				"status": "passed",
+				"ms": 1638
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should prevent saving via keyboard shortcut during upload",
+				"status": "passed",
+				"ms": 1780
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should re-enable Save draft button after upload error",
+				"status": "passed",
+				"ms": 1004
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should re-enable Save draft button after upload error",
+				"status": "passed",
+				"ms": 1234
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should re-enable Save draft button after upload error",
+				"status": "passed",
+				"ms": 1420
+			}
+		],
+		"nothreads": [
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can set overlay color using color picker on block placeholder",
+				"status": "passed",
+				"ms": 1190
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can set overlay color using color picker on block placeholder",
+				"status": "passed",
+				"ms": 3431
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can set overlay color using color picker on block placeholder",
+				"status": "passed",
+				"ms": 3917
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "computes overlay color correctly for uploaded image",
+				"status": "passed",
+				"ms": 3103
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "computes overlay color correctly for uploaded image",
+				"status": "passed",
+				"ms": 4482
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "computes overlay color correctly for uploaded image",
+				"status": "passed",
+				"ms": 8093
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can have the title edited",
+				"status": "passed",
+				"ms": 1447
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can have the title edited",
+				"status": "passed",
+				"ms": 1748
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can have the title edited",
+				"status": "passed",
+				"ms": 2073
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can be resized using drag & drop",
+				"status": "passed",
+				"ms": 1588
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can be resized using drag & drop",
+				"status": "passed",
+				"ms": 2319
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can be resized using drag & drop",
+				"status": "passed",
+				"ms": 2524
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "dims the background image down by 50% black when transformed from the Image block",
+				"status": "passed",
+				"ms": 1193
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "dims the background image down by 50% black when transformed from the Image block",
+				"status": "passed",
+				"ms": 1852
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "dims the background image down by 50% black when transformed from the Image block",
+				"status": "passed",
+				"ms": 2557
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "other cover blocks are not over the navigation block when the menu is open",
+				"status": "passed",
+				"ms": 2958
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "other cover blocks are not over the navigation block when the menu is open",
+				"status": "passed",
+				"ms": 3804
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "other cover blocks are not over the navigation block when the menu is open",
+				"status": "passed",
+				"ms": 4510
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can use focal point picker to set the focal point of the cover image",
+				"status": "passed",
+				"ms": 1158
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can use focal point picker to set the focal point of the cover image",
+				"status": "passed",
+				"ms": 1622
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "can use focal point picker to set the focal point of the cover image",
+				"status": "passed",
+				"ms": 1847
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "correctly computes isDark based on dimRatio and overlay color",
+				"status": "passed",
+				"ms": 1223
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "correctly computes isDark based on dimRatio and overlay color",
+				"status": "passed",
+				"ms": 2378
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "correctly computes isDark based on dimRatio and overlay color",
+				"status": "passed",
+				"ms": 2371
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "preserves explicit dimRatio of 100 when replacing an image",
+				"status": "passed",
+				"ms": 1861
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "preserves explicit dimRatio of 100 when replacing an image",
+				"status": "passed",
+				"ms": 3109
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "preserves explicit dimRatio of 100 when replacing an image",
+				"status": "passed",
+				"ms": 2717
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "shows the overlay when using an empty featured image",
+				"status": "passed",
+				"ms": 1463
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "shows the overlay when using an empty featured image",
+				"status": "passed",
+				"ms": 2382
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "shows the overlay when using an empty featured image",
+				"status": "passed",
+				"ms": 1954
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "hides overlay controls when a viewport style state is selected",
+				"status": "passed",
+				"ms": 1619
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "hides overlay controls when a viewport style state is selected",
+				"status": "passed",
+				"ms": 2216
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/cover.spec.js",
+				"title": "hides overlay controls when a viewport style state is selected",
+				"status": "passed",
+				"ms": 2188
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can be transformed from pasting shortcode, and can undo/redo",
+				"status": "passed",
+				"ms": 1464
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can be transformed from pasting shortcode, and can undo/redo",
+				"status": "passed",
+				"ms": 2295
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can be transformed from pasting shortcode, and can undo/redo",
+				"status": "passed",
+				"ms": 2602
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can be created using uploaded images",
+				"status": "passed",
+				"ms": 1203
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can be created using uploaded images",
+				"status": "passed",
+				"ms": 2057
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can be created using uploaded images",
+				"status": "passed",
+				"ms": 2410
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "links an added image using the site default until a link is chosen",
+				"status": "passed",
+				"ms": 1345
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "links an added image using the site default until a link is chosen",
+				"status": "passed",
+				"ms": 2005
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "links an added image using the site default until a link is chosen",
+				"status": "passed",
+				"ms": 2201
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "gallery caption can be edited",
+				"status": "passed",
+				"ms": 1576
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "gallery caption can be edited",
+				"status": "passed",
+				"ms": 2463
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "gallery caption can be edited",
+				"status": "passed",
+				"ms": 1905
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "applies the gallery size and link to an added image",
+				"status": "passed",
+				"ms": 1539
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "applies the gallery size and link to an added image",
+				"status": "passed",
+				"ms": 1878
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "applies the gallery size and link to an added image",
+				"status": "passed",
+				"ms": 1749
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "keeps the link and size of saved images",
+				"status": "passed",
+				"ms": 1304
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "keeps the link and size of saved images",
+				"status": "passed",
+				"ms": 2171
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "keeps the link and size of saved images",
+				"status": "passed",
+				"ms": 1936
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "Grid layout uses native controls without Gallery Flex child styles",
+				"status": "passed",
+				"ms": 2024
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "Grid layout uses native controls without Gallery Flex child styles",
+				"status": "passed",
+				"ms": 2838
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "Grid layout uses native controls without Gallery Flex child styles",
+				"status": "passed",
+				"ms": 3119
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "uploaded images' captions can be edited",
+				"status": "passed",
+				"ms": 1359
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "uploaded images' captions can be edited",
+				"status": "passed",
+				"ms": 2167
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "uploaded images' captions can be edited",
+				"status": "passed",
+				"ms": 2250
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "when initially added the media library shows the Create Gallery view",
+				"status": "passed",
+				"ms": 1046
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "when initially added the media library shows the Create Gallery view",
+				"status": "passed",
+				"ms": 2296
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "when initially added the media library shows the Create Gallery view",
+				"status": "passed",
+				"ms": 1688
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can randomize the image on the front end",
+				"status": "passed",
+				"ms": 1575
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can randomize the image on the front end",
+				"status": "passed",
+				"ms": 3493
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can randomize the image on the front end",
+				"status": "passed",
+				"ms": 2569
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can randomize the image with a lightbox effect on the front end",
+				"status": "passed",
+				"ms": 1752
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can randomize the image with a lightbox effect on the front end",
+				"status": "passed",
+				"ms": 3064
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "can randomize the image with a lightbox effect on the front end",
+				"status": "passed",
+				"ms": 2460
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "crops linked images to a uniform height in the editor canvas",
+				"status": "passed",
+				"ms": 1006
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "crops linked images to a uniform height in the editor canvas",
+				"status": "passed",
+				"ms": 1751
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "crops linked images to a uniform height in the editor canvas",
+				"status": "passed",
+				"ms": 1781
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "does not crop images to a uniform height when cropping is disabled",
+				"status": "passed",
+				"ms": 968
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "does not crop images to a uniform height when cropping is disabled",
+				"status": "passed",
+				"ms": 1641
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "does not crop images to a uniform height when cropping is disabled",
+				"status": "passed",
+				"ms": 1669
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "crops images to a uniform height in a dynamic gallery",
+				"status": "passed",
+				"ms": 1334
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "crops images to a uniform height in a dynamic gallery",
+				"status": "passed",
+				"ms": 2829
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/gallery.spec.js",
+				"title": "crops images to a uniform height in a dynamic gallery",
+				"status": "passed",
+				"ms": 2438
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be inserted via image upload",
+				"status": "passed",
+				"ms": 1123
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be inserted via image upload",
+				"status": "passed",
+				"ms": 1893
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be inserted via image upload",
+				"status": "passed",
+				"ms": 2025
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should place caret on caption when clicking to add one",
+				"status": "passed",
+				"ms": 1225
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should place caret on caption when clicking to add one",
+				"status": "passed",
+				"ms": 2618
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should place caret on caption when clicking to add one",
+				"status": "passed",
+				"ms": 2124
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should keep a caption typed while the image uploads",
+				"status": "passed",
+				"ms": 1297
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should keep a caption typed while the image uploads",
+				"status": "passed",
+				"ms": 2029
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should keep a caption typed while the image uploads",
+				"status": "passed",
+				"ms": 2160
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should hide an empty caption when the image is deselected",
+				"status": "passed",
+				"ms": 1127
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should hide an empty caption when the image is deselected",
+				"status": "passed",
+				"ms": 2256
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should hide an empty caption when the image is deselected",
+				"status": "passed",
+				"ms": 1833
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should show the caption again when removing it is undone",
+				"status": "passed",
+				"ms": 1707
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should show the caption again when removing it is undone",
+				"status": "passed",
+				"ms": 2663
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should show the caption again when removing it is undone",
+				"status": "passed",
+				"ms": 1675
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should allow soft line breaks in caption",
+				"status": "passed",
+				"ms": 1456
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should allow soft line breaks in caption",
+				"status": "passed",
+				"ms": 2248
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should allow soft line breaks in caption",
+				"status": "passed",
+				"ms": 2305
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should have keyboard navigable toolbar for caption",
+				"status": "passed",
+				"ms": 1318
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should have keyboard navigable toolbar for caption",
+				"status": "passed",
+				"ms": 2215
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should have keyboard navigable toolbar for caption",
+				"status": "failed",
+				"ms": 2847
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should drag and drop files into media placeholder",
+				"status": "passed",
+				"ms": 1970
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should drag and drop files into media placeholder",
+				"status": "passed",
+				"ms": 2334
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should drag and drop files into media placeholder",
+				"status": "passed",
+				"ms": 4000
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "allows rotating an image using the media editor modal",
+				"status": "passed",
+				"ms": 2619
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "allows rotating an image using the media editor modal",
+				"status": "passed",
+				"ms": 3087
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "allows rotating an image using the media editor modal",
+				"status": "passed",
+				"ms": 4330
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should undo without broken temporary state",
+				"status": "passed",
+				"ms": 1339
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should undo without broken temporary state",
+				"status": "passed",
+				"ms": 3065
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should undo without broken temporary state",
+				"status": "passed",
+				"ms": 1935
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be replaced by dragging-and-dropping images from the inserter",
+				"status": "passed",
+				"ms": 2320
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be replaced by dragging-and-dropping images from the inserter",
+				"status": "failed",
+				"ms": 99093
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be replaced by dragging-and-dropping images from the inserter",
+				"status": "passed",
+				"ms": 3507
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "image inserted via upload should appear in the frontend published post content",
+				"status": "passed",
+				"ms": 1809
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "image inserted via upload should appear in the frontend published post content",
+				"status": "passed",
+				"ms": 2418
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "image inserted via upload should appear in the frontend published post content",
+				"status": "passed",
+				"ms": 3074
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "image inserted via link should appear in the frontend published post content",
+				"status": "passed",
+				"ms": 4617
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "image inserted via link should appear in the frontend published post content",
+				"status": "passed",
+				"ms": 4107
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "image inserted via link should appear in the frontend published post content",
+				"status": "passed",
+				"ms": 3969
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Insert from URL prepends https when URL has no protocol",
+				"status": "passed",
+				"ms": 3272
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Insert from URL prepends https when URL has no protocol",
+				"status": "passed",
+				"ms": 3814
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Insert from URL prepends https when URL has no protocol",
+				"status": "passed",
+				"ms": 3752
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "adding a link should reflect configuration in published post content",
+				"status": "passed",
+				"ms": 1404
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "adding a link should reflect configuration in published post content",
+				"status": "passed",
+				"ms": 1922
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "adding a link should reflect configuration in published post content",
+				"status": "passed",
+				"ms": 1993
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "appends https protocol to links added which are missing a protocol",
+				"status": "passed",
+				"ms": 1003
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "appends https protocol to links added which are missing a protocol",
+				"status": "passed",
+				"ms": 1704
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "appends https protocol to links added which are missing a protocol",
+				"status": "passed",
+				"ms": 1726
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should upload external image to media library only when the toolbar button is clicked",
+				"status": "passed",
+				"ms": 2476
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should upload external image to media library only when the toolbar button is clicked",
+				"status": "passed",
+				"ms": 3058
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should upload external image to media library only when the toolbar button is clicked",
+				"status": "passed",
+				"ms": 3764
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should upload through prepublish panel",
+				"status": "passed",
+				"ms": 2144
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should upload through prepublish panel",
+				"status": "passed",
+				"ms": 2680
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should upload through prepublish panel",
+				"status": "passed",
+				"ms": 3234
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "uploads data url through blobs from raw handling",
+				"status": "passed",
+				"ms": 1079
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "uploads data url through blobs from raw handling",
+				"status": "passed",
+				"ms": 1216
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "uploads data url through blobs from raw handling",
+				"status": "passed",
+				"ms": 1707
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should have keyboard navigable link UI popover",
+				"status": "passed",
+				"ms": 1489
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should have keyboard navigable link UI popover",
+				"status": "passed",
+				"ms": 2008
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should have keyboard navigable link UI popover",
+				"status": "passed",
+				"ms": 2387
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should give the image its context menu while selected @webkit @firefox",
+				"status": "passed",
+				"ms": 1419
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should give the image its context menu while selected @webkit @firefox",
+				"status": "passed",
+				"ms": 1997
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should give the image its context menu while selected @webkit @firefox",
+				"status": "failed",
+				"ms": 2160
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "keeps the image when a replacement upload fails, and Reset still removes it",
+				"status": "passed",
+				"ms": 1354
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "keeps the image when a replacement upload fails, and Reset still removes it",
+				"status": "passed",
+				"ms": 1580
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "keeps the image when a replacement upload fails, and Reset still removes it",
+				"status": "passed",
+				"ms": 2703
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Block settings - link DISABLED, lightbox UNDEFINED - should hide UI when block override is undefined",
+				"status": "passed",
+				"ms": 855
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Block settings - link DISABLED, lightbox UNDEFINED - should hide UI when block override is undefined",
+				"status": "passed",
+				"ms": 1274
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Block settings - link DISABLED, lightbox UNDEFINED - should hide UI when block override is undefined",
+				"status": "passed",
+				"ms": 1645
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Block settings - link DISABLED, lightbox ENABLED - should show UI while block override is active, but hide UI if override is removed",
+				"status": "passed",
+				"ms": 970
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Block settings - link DISABLED, lightbox ENABLED - should show UI while block override is active, but hide UI if override is removed",
+				"status": "passed",
+				"ms": 1276
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Block settings - link DISABLED, lightbox ENABLED - should show UI while block override is active, but hide UI if override is removed",
+				"status": "passed",
+				"ms": 1583
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Overlay image should not inherit content image's margins",
+				"status": "passed",
+				"ms": 1235
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Overlay image should not inherit content image's margins",
+				"status": "passed",
+				"ms": 1747
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Overlay image should not inherit content image's margins",
+				"status": "passed",
+				"ms": 2563
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should keep the overlay intact when reopened before the close cleanup runs",
+				"status": "passed",
+				"ms": 1502
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should keep the overlay intact when reopened before the close cleanup runs",
+				"status": "passed",
+				"ms": 1717
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should keep the overlay intact when reopened before the close cleanup runs",
+				"status": "passed",
+				"ms": 2840
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Trigger button should still be placed inside the figure",
+				"status": "passed",
+				"ms": 3193
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Trigger button should still be placed inside the figure",
+				"status": "passed",
+				"ms": 1937
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "Trigger button should still be placed inside the figure",
+				"status": "passed",
+				"ms": 1849
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should make only the rest of the page inert and restore it on close",
+				"status": "passed",
+				"ms": 1485
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should make only the rest of the page inert and restore it on close",
+				"status": "passed",
+				"ms": 2580
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "should make only the rest of the page inert and restore it on close",
+				"status": "passed",
+				"ms": 2202
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be inserted via image upload",
+				"status": "passed",
+				"ms": 1617
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be inserted via image upload",
+				"status": "passed",
+				"ms": 1792
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "can be inserted via image upload",
+				"status": "passed",
+				"ms": 2805
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "preserves the aspect ratio when only the width is set",
+				"status": "passed",
+				"ms": 785
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "preserves the aspect ratio when only the width is set",
+				"status": "passed",
+				"ms": 1288
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "preserves the aspect ratio when only the width is set",
+				"status": "passed",
+				"ms": 1579
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/blocks/image.spec.js",
+				"title": "preserves the aspect ratio for images in a grid gallery",
+				"status": "passed",
+				"ms": 915
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/blocks/image.spec.js",
+				"title": "preserves the aspect ratio for images in a grid gallery",
+				"status": "passed",
+				"ms": 1809
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/blocks/image.spec.js",
+				"title": "preserves the aspect ratio for images in a grid gallery",
+				"status": "passed",
+				"ms": 1632
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "keeps the animation in every sub-size of an animated GIF",
+				"status": "passed",
+				"ms": 2737
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "keeps the animation in every sub-size of an animated GIF",
+				"status": "passed",
+				"ms": 2643
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "keeps the animation in every sub-size of an animated GIF",
+				"status": "passed",
+				"ms": 4735
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "keeps the animation in every sub-size of an animated WebP",
+				"status": "passed",
+				"ms": 2492
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "keeps the animation in every sub-size of an animated WebP",
+				"status": "passed",
+				"ms": 3223
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "keeps the animation in every sub-size of an animated WebP",
+				"status": "passed",
+				"ms": 5582
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "generates static first-frame sub-sizes of an animated GIF, matching core",
+				"status": "passed",
+				"ms": 2500
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "generates static first-frame sub-sizes of an animated GIF, matching core",
+				"status": "passed",
+				"ms": 3745
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "generates static first-frame sub-sizes of an animated GIF, matching core",
+				"status": "passed",
+				"ms": 4929
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "generates static first-frame sub-sizes of an animated WebP, matching core",
+				"status": "passed",
+				"ms": 2432
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "generates static first-frame sub-sizes of an animated WebP, matching core",
+				"status": "passed",
+				"ms": 2606
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/animated-image-subsizes.spec.ts",
+				"title": "generates static first-frame sub-sizes of an animated WebP, matching core",
+				"status": "passed",
+				"ms": 4838
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should scale down images larger than the threshold",
+				"status": "passed",
+				"ms": 4021
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should scale down images larger than the threshold",
+				"status": "passed",
+				"ms": 4332
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should scale down images larger than the threshold",
+				"status": "passed",
+				"ms": 4438
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should not scale images smaller than the threshold",
+				"status": "passed",
+				"ms": 2528
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should not scale images smaller than the threshold",
+				"status": "passed",
+				"ms": 3414
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should not scale images smaller than the threshold",
+				"status": "passed",
+				"ms": 4813
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should finish uploading an image the browser cannot decode",
+				"status": "passed",
+				"ms": 2641
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should finish uploading an image the browser cannot decode",
+				"status": "failed",
+				"ms": 3279
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/big-image-size-threshold.spec.js",
+				"title": "should finish uploading an image the browser cannot decode",
+				"status": "failed",
+				"ms": 5139
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "decodes a 10-bit AVIF and generates its sub-sizes",
+				"status": "passed",
+				"ms": 3329,
+				"notes": [
+					"sub-size: thumbnail 150x150 ushort bits=10",
+					"sub-size: medium 300x200 ushort bits=10",
+					"sub-size: medium_large 768x512 ushort bits=10"
+				]
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "decodes a 10-bit AVIF and generates its sub-sizes",
+				"status": "passed",
+				"ms": 3507,
+				"notes": [
+					"sub-size: thumbnail 150x150 ushort bits=10",
+					"sub-size: medium 300x200 ushort bits=10",
+					"sub-size: medium_large 768x512 ushort bits=10"
+				]
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "decodes a 10-bit AVIF and generates its sub-sizes",
+				"status": "passed",
+				"ms": 5139,
+				"notes": [
+					"sub-size: thumbnail 150x150 ushort bits=10",
+					"sub-size: medium 300x200 ushort bits=10",
+					"sub-size: medium_large 768x512 ushort bits=10"
+				]
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "decodes a 12-bit AVIF and generates its sub-sizes",
+				"status": "passed",
+				"ms": 3566,
+				"notes": [
+					"sub-size: thumbnail 150x150 ushort bits=12",
+					"sub-size: medium 300x200 ushort bits=12",
+					"sub-size: medium_large 768x512 ushort bits=12"
+				]
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "decodes a 12-bit AVIF and generates its sub-sizes",
+				"status": "passed",
+				"ms": 3226,
+				"notes": [
+					"sub-size: thumbnail 150x150 ushort bits=12",
+					"sub-size: medium 300x200 ushort bits=12",
+					"sub-size: medium_large 768x512 ushort bits=12"
+				]
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "decodes a 12-bit AVIF and generates its sub-sizes",
+				"status": "passed",
+				"ms": 3729,
+				"notes": [
+					"sub-size: thumbnail 150x150 ushort bits=12",
+					"sub-size: medium 300x200 ushort bits=12",
+					"sub-size: medium_large 768x512 ushort bits=12"
+				]
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "cancels an upload while vips is processing it",
+				"status": "passed",
+				"ms": 3142,
+				"notes": [
+					"cancel: queue empty 734 ms after cancel"
+				]
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "cancels an upload while vips is processing it",
+				"status": "passed",
+				"ms": 3346,
+				"notes": [
+					"cancel: queue empty 7 ms after cancel"
+				]
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-nothreads-extra.spec.js",
+				"title": "cancels an upload while vips is processing it",
+				"status": "passed",
+				"ms": 5486,
+				"notes": [
+					"cancel: queue empty 89 ms after cancel"
+				]
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves a JPEG below the size threshold",
+				"status": "passed",
+				"ms": 2311
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves a JPEG below the size threshold",
+				"status": "passed",
+				"ms": 2956
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves a JPEG below the size threshold",
+				"status": "passed",
+				"ms": 3864
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves an opaque PNG without format conversion",
+				"status": "passed",
+				"ms": 2098
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves an opaque PNG without format conversion",
+				"status": "passed",
+				"ms": 2628
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves an opaque PNG without format conversion",
+				"status": "passed",
+				"ms": 3903
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves an animated GIF",
+				"status": "passed",
+				"ms": 2337
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves an animated GIF",
+				"status": "passed",
+				"ms": 3107
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves an animated GIF",
+				"status": "passed",
+				"ms": 3842
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "decodes and uploads a WebP image as WebP",
+				"status": "passed",
+				"ms": 2111
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "decodes and uploads a WebP image as WebP",
+				"status": "passed",
+				"ms": 3419
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "decodes and uploads a WebP image as WebP",
+				"status": "passed",
+				"ms": 3136
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "decodes and uploads an AVIF image as AVIF",
+				"status": "passed",
+				"ms": 2192
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "decodes and uploads an AVIF image as AVIF",
+				"status": "passed",
+				"ms": 4207
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "decodes and uploads an AVIF image as AVIF",
+				"status": "passed",
+				"ms": 5133
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves UltraHDR gain map through sub-size resize",
+				"status": "passed",
+				"ms": 2541
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves UltraHDR gain map through sub-size resize",
+				"status": "passed",
+				"ms": 2940
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves UltraHDR gain map through sub-size resize",
+				"status": "passed",
+				"ms": 3928
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "keeps sub-sizes of an indexed PNG indexed",
+				"status": "passed",
+				"ms": 2505
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "keeps sub-sizes of an indexed PNG indexed",
+				"status": "passed",
+				"ms": 3385
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "keeps sub-sizes of an indexed PNG indexed",
+				"status": "passed",
+				"ms": 4199
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "scales oversized images and generates the standard sub-sizes",
+				"status": "passed",
+				"ms": 2819
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "scales oversized images and generates the standard sub-sizes",
+				"status": "passed",
+				"ms": 4093
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "scales oversized images and generates the standard sub-sizes",
+				"status": "passed",
+				"ms": 4326
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "uploads multiple images via gallery",
+				"status": "passed",
+				"ms": 2486
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "uploads multiple images via gallery",
+				"status": "passed",
+				"ms": 2809
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "uploads multiple images via gallery",
+				"status": "passed",
+				"ms": 3085
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "rejects an unsupported file type",
+				"status": "passed",
+				"ms": 1188
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "rejects an unsupported file type",
+				"status": "passed",
+				"ms": 1105
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "rejects an unsupported file type",
+				"status": "passed",
+				"ms": 1358
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "converts opaque PNG sub-sizes to JPEG when image_editor_output_format is filtered",
+				"status": "passed",
+				"ms": 2753
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "converts opaque PNG sub-sizes to JPEG when image_editor_output_format is filtered",
+				"status": "passed",
+				"ms": 3845
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "converts opaque PNG sub-sizes to JPEG when image_editor_output_format is filtered",
+				"status": "passed",
+				"ms": 4596
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves a transparent PNG even when PNG-to-JPEG is filtered",
+				"status": "passed",
+				"ms": 2573
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves a transparent PNG even when PNG-to-JPEG is filtered",
+				"status": "passed",
+				"ms": 4582
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "preserves a transparent PNG even when PNG-to-JPEG is filtered",
+				"status": "passed",
+				"ms": 3866
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "converts JPEG sub-sizes to WebP when image_editor_output_format is filtered",
+				"status": "passed",
+				"ms": 2812
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "converts JPEG sub-sizes to WebP when image_editor_output_format is filtered",
+				"status": "passed",
+				"ms": 3914
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "converts JPEG sub-sizes to WebP when image_editor_output_format is filtered",
+				"status": "passed",
+				"ms": 4038
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "registers one generated file under every image size sharing its dimensions",
+				"status": "passed",
+				"ms": 2891
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "registers one generated file under every image size sharing its dimensions",
+				"status": "passed",
+				"ms": 4462
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "registers one generated file under every image size sharing its dimensions",
+				"status": "passed",
+				"ms": 3680
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "renders srcset on the front end after publishing a CSM-uploaded image",
+				"status": "passed",
+				"ms": 3354
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "renders srcset on the front end after publishing a CSM-uploaded image",
+				"status": "passed",
+				"ms": 4317
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "renders srcset on the front end after publishing a CSM-uploaded image",
+				"status": "passed",
+				"ms": 5082
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "auto-rotates images based on EXIF orientation",
+				"status": "skipped",
+				"ms": 0,
+				"notes": [
+					"fixme: undefined"
+				]
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "auto-rotates images based on EXIF orientation",
+				"status": "skipped",
+				"ms": 0,
+				"notes": [
+					"fixme: undefined"
+				]
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "auto-rotates images based on EXIF orientation",
+				"status": "skipped",
+				"ms": 0,
+				"notes": [
+					"fixme: undefined"
+				]
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "rotates AVIF sub-sizes from EXIF-only orientation",
+				"status": "passed",
+				"ms": 3047
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "rotates AVIF sub-sizes from EXIF-only orientation",
+				"status": "passed",
+				"ms": 4205
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "rotates AVIF sub-sizes from EXIF-only orientation",
+				"status": "passed",
+				"ms": 4554
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "recovers from a transient upload failure via automatic retry",
+				"status": "passed",
+				"ms": 3535
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "recovers from a transient upload failure via automatic retry",
+				"status": "passed",
+				"ms": 4007
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "recovers from a transient upload failure via automatic retry",
+				"status": "passed",
+				"ms": 3856
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "surfaces an error after exhausting upload retries",
+				"status": "passed",
+				"ms": 9003
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "surfaces an error after exhausting upload retries",
+				"status": "passed",
+				"ms": 9475
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "surfaces an error after exhausting upload retries",
+				"status": "passed",
+				"ms": 9333
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "reports a server failure in plain language",
+				"status": "passed",
+				"ms": 1620
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "reports a server failure in plain language",
+				"status": "passed",
+				"ms": 2879
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "reports a server failure in plain language",
+				"status": "passed",
+				"ms": 2721
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "recovers when the image processing worker crashes mid-upload",
+				"status": "passed",
+				"ms": 2540
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "recovers when the image processing worker crashes mid-upload",
+				"status": "passed",
+				"ms": 3504
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "recovers when the image processing worker crashes mid-upload",
+				"status": "passed",
+				"ms": 2946
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "shows the Resolution control when a URL-keyed cache stands in front of the REST API",
+				"status": "passed",
+				"ms": 2358
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "shows the Resolution control when a URL-keyed cache stands in front of the REST API",
+				"status": "passed",
+				"ms": 2693
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/client-side-media-processing.spec.js",
+				"title": "shows the Resolution control when a URL-keyed cache stands in front of the REST API",
+				"status": "passed",
+				"ms": 2693
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/gif-to-video.spec.js",
+				"title": "keeps the uploaded GIF as an Image block and offers an opt-in Video transform",
+				"status": "passed",
+				"ms": 3297
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/gif-to-video.spec.js",
+				"title": "keeps the uploaded GIF as an Image block and offers an opt-in Video transform",
+				"status": "passed",
+				"ms": 3530
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/gif-to-video.spec.js",
+				"title": "keeps the uploaded GIF as an Image block and offers an opt-in Video transform",
+				"status": "passed",
+				"ms": 3326
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/gif-to-video.spec.js",
+				"title": "completes the upload of a long animated GIF and produces a single-frame poster",
+				"status": "passed",
+				"ms": 2222
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/gif-to-video.spec.js",
+				"title": "completes the upload of a long animated GIF and produces a single-frame poster",
+				"status": "passed",
+				"ms": 3062
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/gif-to-video.spec.js",
+				"title": "completes the upload of a long animated GIF and produces a single-frame poster",
+				"status": "passed",
+				"ms": 3484
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/heic-exif-preservation.spec.ts",
+				"title": "keeps EXIF in the uploaded JPEG and strips it from sub-sizes",
+				"status": "passed",
+				"ms": 2405
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/heic-exif-preservation.spec.ts",
+				"title": "keeps EXIF in the uploaded JPEG and strips it from sub-sizes",
+				"status": "passed",
+				"ms": 2757
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/heic-exif-preservation.spec.ts",
+				"title": "keeps EXIF in the uploaded JPEG and strips it from sub-sizes",
+				"status": "passed",
+				"ms": 2909
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/heic-unsupported-error.spec.js",
+				"title": "explains why the file failed and waits to be dismissed",
+				"status": "passed",
+				"ms": 1060
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/heic-unsupported-error.spec.js",
+				"title": "explains why the file failed and waits to be dismissed",
+				"status": "passed",
+				"ms": 1359
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/heic-unsupported-error.spec.js",
+				"title": "explains why the file failed and waits to be dismissed",
+				"status": "failed",
+				"ms": 31548
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/heic-unsupported-error.spec.js",
+				"title": "blames the file, not the browser, when the HEIC is damaged",
+				"status": "passed",
+				"ms": 995
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/heic-unsupported-error.spec.js",
+				"title": "blames the file, not the browser, when the HEIC is damaged",
+				"status": "passed",
+				"ms": 1548
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/heic-unsupported-error.spec.js",
+				"title": "blames the file, not the browser, when the HEIC is damaged",
+				"status": "failed",
+				"ms": 31787
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/heic-upload-progress-snackbar.spec.js",
+				"title": "counts a single HEIC upload as one file",
+				"status": "passed",
+				"ms": 2448
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/heic-upload-progress-snackbar.spec.js",
+				"title": "counts a single HEIC upload as one file",
+				"status": "passed",
+				"ms": 3139
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/heic-upload-progress-snackbar.spec.js",
+				"title": "counts a single HEIC upload as one file",
+				"status": "passed",
+				"ms": 2584
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/heic-wrong-extension.spec.js",
+				"title": "converts it rather than uploading the raw HEIC bytes",
+				"status": "passed",
+				"ms": 1046
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/heic-wrong-extension.spec.js",
+				"title": "converts it rather than uploading the raw HEIC bytes",
+				"status": "passed",
+				"ms": 1440
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/heic-wrong-extension.spec.js",
+				"title": "converts it rather than uploading the raw HEIC bytes",
+				"status": "failed",
+				"ms": 61626
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/heic-wrong-extension.spec.js",
+				"title": "routes it to the HEIC conversion, not to the server",
+				"status": "passed",
+				"ms": 975
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/heic-wrong-extension.spec.js",
+				"title": "routes it to the HEIC conversion, not to the server",
+				"status": "passed",
+				"ms": 1451
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/heic-wrong-extension.spec.js",
+				"title": "routes it to the HEIC conversion, not to the server",
+				"status": "failed",
+				"ms": 61874
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "completes and dismisses when uploading to an image block",
+				"status": "passed",
+				"ms": 4318
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "completes and dismisses when uploading to an image block",
+				"status": "passed",
+				"ms": 5078
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "completes and dismisses when uploading to an image block",
+				"status": "passed",
+				"ms": 4943
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "does not claim completion for a file the server rejects",
+				"status": "passed",
+				"ms": 807
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "does not claim completion for a file the server rejects",
+				"status": "passed",
+				"ms": 2300
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "does not claim completion for a file the server rejects",
+				"status": "passed",
+				"ms": 1322
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "does not claim completion for a file the server rejects",
+				"status": "passed",
+				"ms": 781
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "does not claim completion for a file the server rejects",
+				"status": "passed",
+				"ms": 3338
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-progress-snackbar.spec.js",
+				"title": "does not claim completion for a file the server rejects",
+				"status": "passed",
+				"ms": 1198
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Save draft button during a single image upload",
+				"status": "passed",
+				"ms": 1366
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Save draft button during a single image upload",
+				"status": "passed",
+				"ms": 2150
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Save draft button during a single image upload",
+				"status": "passed",
+				"ms": 1490
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Save draft button during a multi-file gallery upload",
+				"status": "passed",
+				"ms": 1779
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Save draft button during a multi-file gallery upload",
+				"status": "passed",
+				"ms": 3260
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Save draft button during a multi-file gallery upload",
+				"status": "passed",
+				"ms": 1642
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Publish button during a single image upload",
+				"status": "passed",
+				"ms": 1571
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Publish button during a single image upload",
+				"status": "passed",
+				"ms": 3713
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should disable Publish button during a single image upload",
+				"status": "passed",
+				"ms": 1448
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should prevent saving via keyboard shortcut during upload",
+				"status": "passed",
+				"ms": 1339
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should prevent saving via keyboard shortcut during upload",
+				"status": "passed",
+				"ms": 2964
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should prevent saving via keyboard shortcut during upload",
+				"status": "passed",
+				"ms": 1775
+			},
+			{
+				"browser": "chromium",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should re-enable Save draft button after upload error",
+				"status": "passed",
+				"ms": 972
+			},
+			{
+				"browser": "firefox",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should re-enable Save draft button after upload error",
+				"status": "passed",
+				"ms": 3000
+			},
+			{
+				"browser": "webkit",
+				"file": "editor/various/upload-save-lock.spec.js",
+				"title": "should re-enable Save draft button after upload error",
+				"status": "passed",
+				"ms": 1201
+			}
+		]
+	}
+}

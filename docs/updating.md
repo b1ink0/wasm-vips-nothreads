@@ -8,6 +8,8 @@ Every input is pinned so a build can be reproduced: source commits, release arch
 |---|---|
 | wasm-vips commit | `WASM_VIPS` in `scripts/setup.ts` |
 | Gutenberg commit (the `@wordpress/vips` sources of the WordPress release) | `GUTENBERG` in `scripts/setup.ts` |
+| Gutenberg commit of the e2e test | `GUTENBERG` in `scripts/gutenberg-e2e.ts` |
+| WordPress commit of the e2e test | `core` in `.wp-env.test.json`, changed by `patches/gutenberg-e2e.patch` |
 | libvips and npm release archives | `DOWNLOADS` in `scripts/setup.ts`, hashes in `upstream/SHA256SUMS` |
 | Upstream patches that wasm-vips downloads during its build | `upstream/*.patch`, hashes in `upstream/SHA256SUMS` |
 | emsdk image and Meson version | `patches/pin-vendored.patch` (the wasm-vips `Dockerfile`) |
@@ -34,3 +36,10 @@ Every input is pinned so a build can be reproduced: source commits, release arch
 4. Run `npm run wordpress:down`, `npm run wordpress` and `npm run wordpress:test`.
 5. Check that the hooks the plugin depends on still exist in the release: the `@wordpress/vips/worker` script module ID, the `wp_set_up_cross_origin_isolation` hooks, the `wp-upload-media` script handle and the `SharedArrayBuffer` check in `@wordpress/upload-media`.
 6. Update `Tested up to` and, if the worker changed, the version in `plugins/wasm-vips-nothreads-demo/`.
+
+## A new Gutenberg commit for the e2e test
+
+1. Set `GUTENBERG` in `scripts/gutenberg-e2e.ts` to the new commit and move `src/gutenberg-e2e` aside.
+2. Run `npm run gutenberg:test`. A patch that no longer applies stops the script.
+3. Refresh the patches that failed: change the files in `src/gutenberg-e2e` and save `git -C src/gutenberg-e2e diff` of the test files as `gutenberg-e2e.patch` and of the other files as `gutenberg-nothreads.patch`. New files need `git diff --no-index /dev/null <file>`.
+4. Check that `SPECS` in the script still lists every spec that uploads media.
