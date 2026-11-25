@@ -1,0 +1,23 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>wasm-vips bench, isolated</title>
+<link rel="stylesheet" href="../style.css">
+<!-- Static hosts cannot send COOP/COEP, so this service worker adds them and reloads the page once.
+     Every resource is same-origin, so require-corp works in every browser. -->
+<script>window.coi = { coepCredentialless: () => false };</script>
+<script src="coi-serviceworker.js"></script>
+<main>
+	<p><a href="../">All runs</a> · This page is cross-origin isolated through a service worker.</p>
+	<h1 id="summary">Running…</h1>
+	<h2>Input</h2>
+	<img id="input" alt="">
+	<p><label>Run again with your own image <input id="file" type="file" accept="image/*" disabled></label></p>
+	<h2>Output</h2>
+	<div id="outputs" class="outputs"></div>
+	<details>
+		<summary>Raw result</summary>
+		<pre id="log"></pre>
+	</details>
+</main>
+<script type="module" src="../bench.js"></script>

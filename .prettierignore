@@ -1,0 +1,11 @@
+/build
+/node_modules
+/src
+/upstream
+/vendor
+/work
+/plugins/*/build
+/results
+/site/iso/coi-serviceworker.js
+package-lock.json
+composer.lock

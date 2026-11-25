@@ -1,0 +1,27 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.env.*
+.vscode/
+.idea/
+notes/
+
+# npm run setup and npm run build: clones, downloads and build trees.
+src/
+work/
+upstream/*.tar.xz
+upstream/*.tgz
+
+# Composer packages.
+vendor/
+
+# The GitHub Pages site and the plugin zip.
+build/
+
+# npm run wordpress builds it from src/.
+plugins/*/build/
+
+# Console output. The JSON files next to them are the results.
+results/*.log
+results/*.out

@@ -1,0 +1,54 @@
+# WordPress 7.2 RC3 at http://localhost:8889. Started by npm run wordpress.
+# Client-side media processing needs a secure context, and localhost counts as one.
+name: wasm-vips-nothreads
+
+x-env: &env
+  WORDPRESS_DB_HOST: db
+  WORDPRESS_DB_USER: root
+  WORDPRESS_DB_PASSWORD: root
+  WORDPRESS_DB_NAME: wp
+  # The site URL follows the request host, so the site also works through an HTTPS tunnel for phones.
+  # wp-config.php already sets HTTPS from X-Forwarded-Proto. WP-CLI has no host and keeps the stored URL.
+  WORDPRESS_CONFIG_EXTRA: |
+    if ( isset( $$_SERVER['HTTP_HOST'] ) ) {
+      define( 'WP_HOME', ( empty( $$_SERVER['HTTPS'] ) ? 'http://' : 'https://' ) . $$_SERVER['HTTP_HOST'] );
+      define( 'WP_SITEURL', WP_HOME );
+    }
+
+x-volumes: &volumes
+  - wproot:/var/www/html
+  - ../plugins/wasm-vips-nothreads-demo:/var/www/html/wp-content/plugins/wasm-vips-nothreads-demo:ro
+
+services:
+  db:
+    image: mariadb:11.8@sha256:e1d5495f445654134f226f55a41ce0da227116f6f27f283101f405c794d841fc
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: wp
+    healthcheck:
+      test: [CMD, healthcheck.sh, --connect, --innodb_initialized]
+      interval: 2s
+      retries: 30
+  wp:
+    image: wordpress:beta-7.2-php8.4-apache@sha256:480afc9491e66ba8ab951d2a944760fc53c6a775bab35221084abe21438707a6
+    depends_on:
+      db:
+        condition: service_healthy
+    ports: ['127.0.0.1:8889:80']
+    environment: *env
+    volumes:
+      - wproot:/var/www/html
+      - ../plugins/wasm-vips-nothreads-demo:/var/www/html/wp-content/plugins/wasm-vips-nothreads-demo:ro
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini:ro
+  cli:
+    image: wordpress:cli-2.12.0-php8.4@sha256:df224f633697444bbd1d2ca54b357b4f86834f82a74881b3e1acfbcc761025bb
+    user: '33:33'
+    depends_on: [wp]
+    environment:
+      <<: *env
+      HOME: /tmp
+    volumes: *volumes
+    entrypoint: ['sleep', 'infinity']
+
+volumes:
+  wproot:

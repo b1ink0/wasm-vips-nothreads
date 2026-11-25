@@ -1,0 +1,110 @@
+{
+	"label": "50mp-baseline-default",
+	"lib": "src/baseline/lib",
+	"input": "input-8660x5773.jpg",
+	"jobs": 1,
+	"concurrency": 8,
+	"iters": 3,
+	"avif": false,
+	"cpus": 8,
+	"heapMiB": [
+		531
+	],
+	"totalHeapMiB": 531,
+	"node": "v24.22.1",
+	"initMs": 67,
+	"medianMs": 2229,
+	"minMs": 2144,
+	"maxMs": 2240,
+	"times": [
+		2144,
+		2240,
+		2229
+	],
+	"outputs": [
+		{
+			"task": "1536x1536.jpeg",
+			"width": 1536,
+			"height": 1024,
+			"bytes": 223111,
+			"sha256": "dbf69a2bd4f5f2107bc44479fbc483c02338941b06961389f9d95afa913af1cc"
+		},
+		{
+			"task": "1536x1536.webp",
+			"width": 1536,
+			"height": 1024,
+			"bytes": 207004,
+			"sha256": "81f51dd4bb673fbaca07e4bbe2fc30e4e65f51712315111369df9219128ad1ed"
+		},
+		{
+			"task": "2048x2048.jpeg",
+			"width": 2048,
+			"height": 1365,
+			"bytes": 407402,
+			"sha256": "c75a46ec6dd70bf79a630d1bfceb382c21fbb1d8399dc36e177f754647a880a6"
+		},
+		{
+			"task": "2048x2048.webp",
+			"width": 2048,
+			"height": 1365,
+			"bytes": 376122,
+			"sha256": "03e93e20fc24016d35db6376d5a176c6d6eb399726a08708e97a90a56019368e"
+		},
+		{
+			"task": "large.jpeg",
+			"width": 1024,
+			"height": 683,
+			"bytes": 84711,
+			"sha256": "f32eddd0b0d44f7e84205e044393c976f221208d561d090eca72b28e672fa675"
+		},
+		{
+			"task": "large.webp",
+			"width": 1024,
+			"height": 683,
+			"bytes": 71262,
+			"sha256": "e9e17fc0f72253b1ea19eadd5ee6bd77b2c402a361ee1cfd4f11faffe7fa1a9f"
+		},
+		{
+			"task": "medium_large.jpeg",
+			"width": 768,
+			"height": 512,
+			"bytes": 40101,
+			"sha256": "3b0271ce9b29e1b3fa6aba81fbb7951bd94f8cae5e91a55e389eef93fe4d4f0d"
+		},
+		{
+			"task": "medium_large.webp",
+			"width": 768,
+			"height": 512,
+			"bytes": 38546,
+			"sha256": "4cc51576e9a104de6aa13b629c774d2fc78846aa3d875fbd96690d6fc47fc2a2"
+		},
+		{
+			"task": "medium.jpeg",
+			"width": 300,
+			"height": 200,
+			"bytes": 2923,
+			"sha256": "e83709ef429751783f3d0ff07e75bfe7d9a120ef3e80365ee31138cf3421b8fa"
+		},
+		{
+			"task": "medium.webp",
+			"width": 300,
+			"height": 200,
+			"bytes": 608,
+			"sha256": "9379cbca0a6f31b7df0f432b3fb1e4edc55def40ee8714ce61ccb14172007643"
+		},
+		{
+			"task": "thumbnail.jpeg",
+			"width": 150,
+			"height": 150,
+			"bytes": 1243,
+			"sha256": "f094ff8d1e7b7987a0f7182ba4ca9dbeac4f169afba35b393cb9e9bde1c98490"
+		},
+		{
+			"task": "thumbnail.webp",
+			"width": 150,
+			"height": 150,
+			"bytes": 188,
+			"sha256": "f8ad492b2f02ec672745bd65cf82db79339ac8ac2eb66238856ae460dfd6e66c"
+		}
+	]
+}

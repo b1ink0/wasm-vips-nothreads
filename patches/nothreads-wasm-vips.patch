@@ -1,0 +1,72 @@
+--- a/build.sh
++++ b/build.sh
+@@ -101,7 +101,11 @@
+ # Common compiler flags
+ # Default optimization level is for binary size (-Os)
+ # Overridden to performance (-O3) for select dependencies that benefit
+-COMMON_FLAGS="-Os -pthread -fwasm-exceptions"
++COMMON_FLAGS="-Os -fwasm-exceptions"
++# Stop Meson from adding -pthread for dependency('threads') on Emscripten
++patch -p1 -d /root/.local/share/pipx/venvs/meson/lib/python3.12/site-packages < /patches/meson-nothreads.patch
++# Web Crypto rejects views of resizable (GROWABLE_ARRAYBUFFERS) memory, like shared memory
++patch -p1 -d $EMSDK/upstream/emscripten < /patches/emscripten-growable-random.patch
+ if [ "$WASM_EXNREF" = "true" ]; then
+   COMMON_FLAGS+=" -sWASM_LEGACY_EXCEPTIONS=0"
+   export RUSTFLAGS+=" -Cllvm-args=-wasm-use-legacy-eh=0"
+@@ -484,6 +488,7 @@
+   cd $DEPS/vips
+   # Emscripten specific patches
+   patch -p1 < /vendor/libvips-wasm-vips-$VERSION_VIPS.patch
++  patch -p1 < /patches/libvips-nothreads.patch
+   # Disable building man pages, gettext po files, tools, and (fuzz-)tests
+   sed -i "/subdir('man')/{N;N;N;N;d;}" meson.build
+   meson setup _build --prefix=$TARGET $MESON_ARGS --default-library=static --buildtype=release \
+--- a/src/meson.build
++++ b/src/meson.build
+@@ -126,7 +126,6 @@
+     web_link_args = [
+         '--use-preload-plugins',
+         '-sENVIRONMENT=web',
+-        '-sPTHREAD_POOL_SIZE=navigator.hardwareConcurrency>6?navigator.hardwareConcurrency:6',
+         '-sMIN_CHROME_VERSION=95',
+         '-sMIN_FIREFOX_VERSION=100',
+         '-sMIN_SAFARI_VERSION=160400',
+--- a/src/vips-library.js
++++ b/src/vips-library.js
+@@ -18,13 +18,6 @@
+         // (virtual calls, bounds checks and buffer resizing).
+         ENV['VIPS_DISC_THRESHOLD'] = {{{ MAXIMUM_MEMORY }}};
+ 
+-        // Enforce a fixed thread pool by default on the web.
+-        ENV['VIPS_MAX_THREADS'] = {{{ PTHREAD_POOL_SIZE }}};
+-
+-        // We cannot safely spawn dedicated workers on the web. Therefore, to avoid any potential deadlocks, we reduce
+-        // the concurrency to 1. For more details, see:
+-        // https://emscripten.org/docs/porting/pthreads.html#blocking-on-the-main-browser-thread
+-        ENV['VIPS_CONCURRENCY'] = 1;
+ #endif
+ #if ENVIRONMENT_MAY_BE_NODE
+         // libvips stores temporary files by default in `/tmp`; set the TMPDIR env variable to override this directory.
+--- a/src/bindings/utils.cpp
++++ b/src/bindings/utils.cpp
+@@ -42,6 +42,7 @@ std::vector<double> invert(const std::vector<double> &vector) {
+     return new_vector;
+ }
+ 
++#ifdef __EMSCRIPTEN_PTHREADS__
+ static void run(void *arg) {
+     std::function<void()> *f = static_cast<std::function<void()> *>(arg);
+     (*f)();
+@@ -52,5 +53,12 @@ bool proxy_sync(const std::function<void()> &func) {
+     return emscripten_proxy_sync(q, emscripten_main_runtime_thread_id(), run,
+                                  (void *)&func);
+ }
++#else
++// Without pthreads there is no other thread to proxy to.
++bool proxy_sync(const std::function<void()> &func) {
++    func();
++    return true;
++}
++#endif
+ 
+ }  // namespace vips

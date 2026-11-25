@@ -1,0 +1,47 @@
+{
+	"name": "wasm-vips-nothreads",
+	"private": true,
+	"description": "wasm-vips built without pthreads, so it runs without cross-origin isolation, compared with the release build.",
+	"license": "MIT",
+	"type": "module",
+	"engines": {
+		"node": "^22.22.2 || >=24.15"
+	},
+	"scripts": {
+		"setup": "node scripts/setup.ts",
+		"build": "node scripts/build.ts",
+		"images": "node scripts/images.ts",
+		"bench": "node scripts/bench.ts",
+		"bench:node": "node scripts/bench-node.ts",
+		"bench:browser": "playwright install chromium firefox webkit && node scripts/bench-browser.ts",
+		"deploy": "node scripts/deploy.ts",
+		"wordpress": "node scripts/wordpress.ts",
+		"wordpress:test": "playwright install chromium firefox webkit && node scripts/wordpress-test.ts",
+		"wordpress:down": "docker compose -f wordpress/compose.yml down -v",
+		"plugin:assets": "playwright install chromium && node scripts/plugin.ts assets",
+		"plugin:zip": "node scripts/plugin.ts zip",
+		"format-js": "wp-scripts format",
+		"lint-js": "wp-scripts lint-js",
+		"lint-php": "composer lint",
+		"tsc": "tsc",
+		"prepare": "husky"
+	},
+	"devDependencies": {
+		"@types/gh-pages": "6.1.0",
+		"@types/node": "24.19.3",
+		"@wordpress/prettier-config": "5.2.0",
+		"@wordpress/scripts": "37.2.0",
+		"comctx": "1.4.3",
+		"esbuild": "0.28.2",
+		"gh-pages": "6.3.0",
+		"globals": "17.14.0",
+		"husky": "9.1.7",
+		"lint-staged": "17.6.2",
+		"playwright": "1.64.0",
+		"typescript": "6.0.3"
+	},
+	"overrides": {
+		"@playwright/test": "1.64.0",
+		"prettier": "npm:wp-prettier@3.9.6"
+	}
+}

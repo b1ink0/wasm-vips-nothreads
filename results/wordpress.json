@@ -1,0 +1,2240 @@
+[
+	{
+		"setup": "core",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": "isolate-and-credentialless",
+			"coep": null,
+			"coop": null
+		},
+		"id": 7,
+		"ms": 2176,
+		"memory": {
+			"idle": 586,
+			"peak": 1128,
+			"after": 1129
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": "isolate-and-credentialless",
+			"coep": null,
+			"coop": null
+		},
+		"id": 9,
+		"ms": 2370,
+		"memory": {
+			"idle": 599,
+			"peak": 972,
+			"after": 894
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-1.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": "isolate-and-credentialless",
+			"coep": null,
+			"coop": null
+		},
+		"id": 11,
+		"ms": 2145,
+		"memory": {
+			"idle": 601,
+			"peak": 1318,
+			"after": 760
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-2.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "chromium",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": "isolate-and-credentialless",
+			"coep": null,
+			"coop": null
+		},
+		"id": 13,
+		"ms": 2556,
+		"memory": {
+			"idle": 597,
+			"peak": 1640,
+			"after": 1407
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-1.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "chromium",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": "isolate-and-credentialless",
+			"coep": null,
+			"coop": null
+		},
+		"id": 15,
+		"ms": 3136,
+		"memory": {
+			"idle": 600,
+			"peak": 1623,
+			"after": 1361
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-2.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "chromium",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": "isolate-and-credentialless",
+			"coep": null,
+			"coop": null
+		},
+		"id": 17,
+		"ms": 2453,
+		"memory": {
+			"idle": 597,
+			"peak": 1918,
+			"after": 1592
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-3.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 20,
+		"ms": 3905,
+		"memory": {
+			"idle": 1370,
+			"peak": 1377,
+			"after": 1290
+		},
+		"workers": 0,
+		"requests": {
+			"media": 1,
+			"sideload": 0
+		},
+		"console": [
+			"Client-side media processing unavailable: SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.. Using server-side processing."
+		],
+		"clientSide": false,
+		"sizes": [
+			"medium",
+			"large",
+			"thumbnail",
+			"medium_large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-3.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 22,
+		"ms": 3179,
+		"memory": {
+			"idle": 1159,
+			"peak": 1187,
+			"after": 1215
+		},
+		"workers": 0,
+		"requests": {
+			"media": 1,
+			"sideload": 0
+		},
+		"console": [
+			"Client-side media processing unavailable: SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.. Using server-side processing."
+		],
+		"clientSide": false,
+		"sizes": [
+			"medium",
+			"large",
+			"thumbnail",
+			"medium_large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-4.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 24,
+		"ms": 2862,
+		"memory": {
+			"idle": 1259,
+			"peak": 1308,
+			"after": 1302
+		},
+		"workers": 0,
+		"requests": {
+			"media": 1,
+			"sideload": 0
+		},
+		"console": [
+			"Client-side media processing unavailable: SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.. Using server-side processing."
+		],
+		"clientSide": false,
+		"sizes": [
+			"medium",
+			"large",
+			"thumbnail",
+			"medium_large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-5.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "firefox",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 26,
+		"ms": 7725,
+		"memory": {
+			"idle": 1288,
+			"peak": 1316,
+			"after": 1014
+		},
+		"workers": 0,
+		"requests": {
+			"media": 1,
+			"sideload": 0
+		},
+		"console": [
+			"Client-side media processing unavailable: SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.. Using server-side processing."
+		],
+		"clientSide": false,
+		"sizes": [
+			"medium",
+			"large",
+			"thumbnail",
+			"medium_large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-4.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "firefox",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 28,
+		"ms": 6881,
+		"memory": {
+			"idle": 1455,
+			"peak": 1505,
+			"after": 1262
+		},
+		"workers": 0,
+		"requests": {
+			"media": 1,
+			"sideload": 0
+		},
+		"console": [
+			"Client-side media processing unavailable: SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.. Using server-side processing."
+		],
+		"clientSide": false,
+		"sizes": [
+			"medium",
+			"large",
+			"thumbnail",
+			"medium_large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-5.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "firefox",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 30,
+		"ms": 7186,
+		"memory": {
+			"idle": 1454,
+			"peak": 1328,
+			"after": 992
+		},
+		"workers": 0,
+		"requests": {
+			"media": 1,
+			"sideload": 0
+		},
+		"console": [
+			"Client-side media processing unavailable: SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.. Using server-side processing."
+		],
+		"clientSide": false,
+		"sizes": [
+			"medium",
+			"large",
+			"thumbnail",
+			"medium_large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-6.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 32,
+		"ms": 3165,
+		"memory": {
+			"idle": 759,
+			"peak": 798,
+			"after": 763
+		},
+		"workers": 0,
+		"requests": {
+			"media": 1,
+			"sideload": 0
+		},
+		"console": [
+			"Client-side media processing unavailable: SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.. Using server-side processing."
+		],
+		"clientSide": false,
+		"sizes": [
+			"medium",
+			"large",
+			"thumbnail",
+			"medium_large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-6.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 34,
+		"ms": 3418,
+		"memory": {
+			"idle": 714,
+			"peak": 764,
+			"after": 712
+		},
+		"workers": 0,
+		"requests": {
+			"media": 1,
+			"sideload": 0
+		},
+		"console": [
+			"Client-side media processing unavailable: SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.. Using server-side processing."
+		],
+		"clientSide": false,
+		"sizes": [
+			"medium",
+			"large",
+			"thumbnail",
+			"medium_large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-7.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 36,
+		"ms": 2941,
+		"memory": {
+			"idle": 802,
+			"peak": 849,
+			"after": 827
+		},
+		"workers": 0,
+		"requests": {
+			"media": 1,
+			"sideload": 0
+		},
+		"console": [
+			"Client-side media processing unavailable: SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.. Using server-side processing."
+		],
+		"clientSide": false,
+		"sizes": [
+			"medium",
+			"large",
+			"thumbnail",
+			"medium_large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "webkit",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 38,
+		"ms": 6643,
+		"memory": {
+			"idle": 789,
+			"peak": 821,
+			"after": 756
+		},
+		"workers": 0,
+		"requests": {
+			"media": 1,
+			"sideload": 0
+		},
+		"console": [
+			"Client-side media processing unavailable: SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.. Using server-side processing."
+		],
+		"clientSide": false,
+		"sizes": [
+			"medium",
+			"large",
+			"thumbnail",
+			"medium_large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-7.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "webkit",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 40,
+		"ms": 7123,
+		"memory": {
+			"idle": 731,
+			"peak": 790,
+			"after": 790
+		},
+		"workers": 0,
+		"requests": {
+			"media": 1,
+			"sideload": 0
+		},
+		"console": [
+			"Client-side media processing unavailable: SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.. Using server-side processing."
+		],
+		"clientSide": false,
+		"sizes": [
+			"medium",
+			"large",
+			"thumbnail",
+			"medium_large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-8.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "core",
+		"browser": "webkit",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 42,
+		"ms": 7225,
+		"memory": {
+			"idle": 680,
+			"peak": 811,
+			"after": 809
+		},
+		"workers": 0,
+		"requests": {
+			"media": 1,
+			"sideload": 0
+		},
+		"console": [
+			"Client-side media processing unavailable: SharedArrayBuffer is not available. This may be due to missing cross-origin isolation headers.. Using server-side processing."
+		],
+		"clientSide": false,
+		"sizes": [
+			"medium",
+			"large",
+			"thumbnail",
+			"medium_large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-9.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": "isolate-and-credentialless",
+			"coep": null,
+			"coop": null
+		},
+		"id": 44,
+		"ms": 2471,
+		"memory": {
+			"idle": 572,
+			"peak": 1117,
+			"after": 980
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-9.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": "isolate-and-credentialless",
+			"coep": null,
+			"coop": null
+		},
+		"id": 46,
+		"ms": 2051,
+		"memory": {
+			"idle": 578,
+			"peak": 1254,
+			"after": 1145
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-10.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": "isolate-and-credentialless",
+			"coep": null,
+			"coop": null
+		},
+		"id": 48,
+		"ms": 2148,
+		"memory": {
+			"idle": 596,
+			"peak": 1316,
+			"after": 1298
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-11.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "chromium",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": "isolate-and-credentialless",
+			"coep": null,
+			"coop": null
+		},
+		"id": 50,
+		"ms": 2792,
+		"memory": {
+			"idle": 585,
+			"peak": 1641,
+			"after": 1359
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-10.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "chromium",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": "isolate-and-credentialless",
+			"coep": null,
+			"coop": null
+		},
+		"id": 52,
+		"ms": 2639,
+		"memory": {
+			"idle": 598,
+			"peak": 1535,
+			"after": 1392
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-11.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "chromium",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": "isolate-and-credentialless",
+			"coep": null,
+			"coop": null
+		},
+		"id": 54,
+		"ms": 3018,
+		"memory": {
+			"idle": 590,
+			"peak": 1627,
+			"after": 1415
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-12.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": "credentialless",
+			"coop": "same-origin"
+		},
+		"id": 56,
+		"ms": 2556,
+		"memory": {
+			"idle": 1453,
+			"peak": 1816,
+			"after": 1407
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-12.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": "credentialless",
+			"coop": "same-origin"
+		},
+		"id": 58,
+		"ms": 2350,
+		"memory": {
+			"idle": 1258,
+			"peak": 1822,
+			"after": 1447
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-13.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": "credentialless",
+			"coop": "same-origin"
+		},
+		"id": 60,
+		"ms": 2631,
+		"memory": {
+			"idle": 1457,
+			"peak": 1737,
+			"after": 1313
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-14.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "firefox",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": "credentialless",
+			"coop": "same-origin"
+		},
+		"id": 62,
+		"ms": 3158,
+		"memory": {
+			"idle": 1329,
+			"peak": 1945,
+			"after": 1432
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-13.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "firefox",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": "credentialless",
+			"coop": "same-origin"
+		},
+		"id": 64,
+		"ms": 3986,
+		"memory": {
+			"idle": 1216,
+			"peak": 1755,
+			"after": 1376
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-14.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "firefox",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": "credentialless",
+			"coop": "same-origin"
+		},
+		"id": 66,
+		"ms": 3118,
+		"memory": {
+			"idle": 1483,
+			"peak": 1990,
+			"after": 1370
+		},
+		"workers": 9,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-15.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": "require-corp",
+			"coop": "same-origin"
+		},
+		"id": 68,
+		"ms": 3194,
+		"memory": {
+			"idle": 799,
+			"peak": 1562,
+			"after": 1481
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-15.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": "require-corp",
+			"coop": "same-origin"
+		},
+		"id": 70,
+		"ms": 3692,
+		"memory": {
+			"idle": 805,
+			"peak": 1376,
+			"after": 1322
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-16.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": "require-corp",
+			"coop": "same-origin"
+		},
+		"id": 72,
+		"ms": 4241,
+		"memory": {
+			"idle": 834,
+			"peak": 1203,
+			"after": 920
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-17.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "webkit",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": "require-corp",
+			"coop": "same-origin"
+		},
+		"id": 74,
+		"ms": 4043,
+		"memory": {
+			"idle": 823,
+			"peak": 1868,
+			"after": 1570
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-16.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "webkit",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": "require-corp",
+			"coop": "same-origin"
+		},
+		"id": 76,
+		"ms": 3731,
+		"memory": {
+			"idle": 806,
+			"peak": 1766,
+			"after": 1331
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-17.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "csme",
+		"browser": "webkit",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": true,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": "require-corp",
+			"coop": "same-origin"
+		},
+		"id": 78,
+		"ms": 3751,
+		"memory": {
+			"idle": 811,
+			"peak": 1815,
+			"after": 1542
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-18.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 80,
+		"ms": 1958,
+		"memory": {
+			"idle": 583,
+			"peak": 789,
+			"after": 458
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-18.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 82,
+		"ms": 1748,
+		"memory": {
+			"idle": 599,
+			"peak": 897,
+			"after": 752
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-19.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 84,
+		"ms": 1640,
+		"memory": {
+			"idle": 593,
+			"peak": 891,
+			"after": 743
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-20.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "chromium",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 86,
+		"ms": 2606,
+		"memory": {
+			"idle": 588,
+			"peak": 1501,
+			"after": 1020
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-19.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "chromium",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 88,
+		"ms": 2628,
+		"memory": {
+			"idle": 575,
+			"peak": 1498,
+			"after": 660
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-20.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "chromium",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 90,
+		"ms": 2203,
+		"memory": {
+			"idle": 595,
+			"peak": 1698,
+			"after": 954
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-21.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 92,
+		"ms": 2406,
+		"memory": {
+			"idle": 1373,
+			"peak": 1606,
+			"after": 1372
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-21.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 94,
+		"ms": 2427,
+		"memory": {
+			"idle": 1447,
+			"peak": 1662,
+			"after": 1231
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-22.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 96,
+		"ms": 2498,
+		"memory": {
+			"idle": 1476,
+			"peak": 1558,
+			"after": 1409
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"medium",
+			"thumbnail",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-23.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "firefox",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 98,
+		"ms": 4458,
+		"memory": {
+			"idle": 1320,
+			"peak": 1489,
+			"after": 1126
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-22.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "firefox",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 100,
+		"ms": 3769,
+		"memory": {
+			"idle": 1447,
+			"peak": 1854,
+			"after": 1280
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-23.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "firefox",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 102,
+		"ms": 3159,
+		"memory": {
+			"idle": 1475,
+			"peak": 1778,
+			"after": 1463
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-24.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 104,
+		"ms": 3008,
+		"memory": {
+			"idle": 719,
+			"peak": 1149,
+			"after": 1167
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-24.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 106,
+		"ms": 2385,
+		"memory": {
+			"idle": 820,
+			"peak": 1257,
+			"after": 1272
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-25.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 108,
+		"ms": 2847,
+		"memory": {
+			"idle": 734,
+			"peak": 1184,
+			"after": 1195
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-26.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "webkit",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 110,
+		"ms": 3087,
+		"memory": {
+			"idle": 811,
+			"peak": 1282,
+			"after": 1053
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-25.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "webkit",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 112,
+		"ms": 3259,
+		"memory": {
+			"idle": 808,
+			"peak": 1197,
+			"after": 1043
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-26.jpg",
+		"width": 2560,
+		"height": 1707
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"browser": "webkit",
+		"image": "images/input-8660x5773.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 114,
+		"ms": 3053,
+		"memory": {
+			"idle": 802,
+			"peak": 1248,
+			"after": 863
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"sizes": [
+			"thumbnail",
+			"medium",
+			"medium_large",
+			"large",
+			"1536x1536",
+			"2048x2048"
+		],
+		"originalImage": "input-8660x5773-27.jpg",
+		"width": 2560,
+		"height": 1707
+	}
+]

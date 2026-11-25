@@ -1,0 +1,78 @@
+diff --color -ruN libvips-base/libvips/iofuncs/sinkdisc.c libvips-nothreads/libvips/iofuncs/sinkdisc.c
+--- libvips-base/libvips/iofuncs/sinkdisc.c	2026-09-26 16:59:16
++++ libvips-nothreads/libvips/iofuncs/sinkdisc.c	2026-11-25 13:01:21
+@@ -246,6 +246,7 @@
+ 	 */
+ 	vips__region_no_ownership(wbuffer->region);
+ 
++#if !defined(__EMSCRIPTEN__) || defined(__EMSCRIPTEN_PTHREADS__)
+ 	/* Make this last (picks up parts of wbuffer on startup).
+ 	 */
+ 	if (vips_thread_execute("wbuffer", wbuffer_write_thread, wbuffer)) {
+@@ -254,6 +255,7 @@
+ 	}
+ 
+ 	wbuffer->running = TRUE;
++#endif
+ 
+ 	return wbuffer;
+ }
+@@ -275,9 +277,17 @@
+ 			return -1;
+ 	}
+ 
++#if defined(__EMSCRIPTEN__) && !defined(__EMSCRIPTEN_PTHREADS__)
++	/* No threads: write this buffer now on the calling thread.
++	 */
++	vips_semaphore_downn(&write->buf->nwrite, 0);
++	wbuffer_write(write->buf);
++	vips_semaphore_up(&write->buf->done);
++#else
+ 	/* Set the background writer going for this buffer.
+ 	 */
+ 	vips_semaphore_up(&write->buf->go);
++#endif
+ 
+ 	return 0;
+ }
+diff --color -ruN libvips-base/libvips/iofuncs/threadpool.c libvips-nothreads/libvips/iofuncs/threadpool.c
+--- libvips-base/libvips/iofuncs/threadpool.c	2026-09-26 16:59:16
++++ libvips-nothreads/libvips/iofuncs/threadpool.c	2026-11-25 13:01:06
+@@ -647,6 +647,29 @@
+ 	pool->work = work;
+ 	pool->a = a;
+ 
++#if defined(__EMSCRIPTEN__) && !defined(__EMSCRIPTEN_PTHREADS__)
++	/* No threads: run a single worker inline on the calling thread.
++	 */
++	{
++		VipsWorker worker = { .pool = pool };
++
++		g_private_set(&worker_key, &worker);
++
++		while (!pool->stop &&
++			!worker.stop &&
++			!pool->error) {
++			vips_worker_work_unit(&worker);
++
++			if (progress &&
++				progress(pool->a))
++				pool->error = TRUE;
++		}
++
++		VIPS_FREEF(g_object_unref, worker.state);
++		g_private_set(&worker_key, NULL);
++		n_working = 1;
++	}
++#else
+ 	/* Start with half of the max number of threads, then let it drift up
+ 	 * and down with load.
+ 	 */
+@@ -696,6 +719,7 @@
+ 			n_working += 1;
+ 		}
+ 	}
++#endif
+ 
+ 	/* This will block until the last worker completes.
+ 	 */

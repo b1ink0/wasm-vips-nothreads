@@ -1,0 +1,35 @@
+{
+	"label": "50mp-single-nothreads",
+	"lib": "src/nothreads/lib",
+	"input": "input-8660x5773.jpg",
+	"jobs": 1,
+	"concurrency": 1,
+	"iters": 5,
+	"avif": false,
+	"cpus": 8,
+	"heapMiB": [
+		368.75
+	],
+	"totalHeapMiB": 368.75,
+	"node": "v24.22.1",
+	"initMs": 67,
+	"medianMs": 236,
+	"minMs": 229,
+	"maxMs": 247,
+	"times": [
+		247,
+		238,
+		236,
+		229,
+		232
+	],
+	"outputs": [
+		{
+			"task": "2048x2048.jpeg",
+			"width": 2048,
+			"height": 1365,
+			"bytes": 407402,
+			"sha256": "c75a46ec6dd70bf79a630d1bfceb382c21fbb1d8399dc36e177f754647a880a6"
+		}
+	]
+}

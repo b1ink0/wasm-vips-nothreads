@@ -1,0 +1,14 @@
+diff --color -ruN emscripten-base/src/lib/libwasi.js emscripten-nothreads/src/lib/libwasi.js
+--- emscripten-base/src/lib/libwasi.js	2026-11-25 13:52:05
++++ emscripten-nothreads/src/lib/libwasi.js	2026-11-25 13:52:11
+@@ -610,8 +610,8 @@
+     }
+ #endif
+ 
+-#if SHARED_MEMORY
+-    // like with most Web APIs, we can't use Web Crypto API directly on shared memory,
++#if SHARED_MEMORY || GROWABLE_ARRAYBUFFERS
++    // like with most Web APIs, we can't use Web Crypto API directly on shared or resizable memory,
+     // so we need to create an intermediate buffer and copy it to the destination
+     return (view) => (view.set(crypto.getRandomValues(new Uint8Array(view.byteLength))), 0);
+ #else
