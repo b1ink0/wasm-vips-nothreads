@@ -2,6 +2,9 @@
 
 An experiment: [wasm-vips](https://github.com/kleisauke/wasm-vips) compiled without WebAssembly threads, to find out whether client-side media processing in WordPress needs a cross-origin isolated page.
 
+> [!IMPORTANT]
+> This is an experiment, not a maintained package. It is not affiliated with or supported by wasm-vips. For anything other than testing, use the official [wasm-vips](https://github.com/kleisauke/wasm-vips).
+
 ## Finding
 
 In the browser, the release build of wasm-vips already runs libvips with one worker thread, and WordPress runs all processing in one worker. So in WordPress its threads do no parallel work, yet they are the only reason the editor must be cross-origin isolated: threads share memory through `SharedArrayBuffer`, which browsers only allow on isolated pages.
