@@ -1,12 +1,12 @@
 /**
- * Runs the media e2e tests of Gutenberg in Chromium, Firefox and WebKit twice: with the release
- * wasm-vips as Gutenberg ships it, and with the build without threads, the `SharedArrayBuffer`
+ * Runs the media e2e tests of Gutenberg in Chromium, Firefox and WebKit twice: with the wasm-vips
+ * release built from source here, with threads, and with the build without threads, the `SharedArrayBuffer`
  * check removed and no cross-origin isolation.
  * Clones Gutenberg at a pinned commit into src/gutenberg-e2e, applies patches/gutenberg-e2e.patch
  * to both runs and patches/gutenberg-nothreads.patch to the second, then starts its test site at
  * http://localhost:8889 with wp-env.
  *
- * Usage: node scripts/gutenberg-e2e.ts. Needs npm run setup and npm run build nothreads first.
+ * Usage: node scripts/gutenberg-e2e.ts. Needs npm run setup and npm run build first.
  * Output: results/gutenberg-e2e.json
  */
 import { execFileSync, spawnSync } from 'node:child_process';
@@ -28,9 +28,8 @@ const GUTENBERG = {
 	repo: 'https://github.com/WordPress/gutenberg.git',
 	commit: 'd15f04a87173302fb9107e8e663abdef5de47398',
 };
-// The release build is the npm package Gutenberg installs, unpacked by npm run setup.
 const LIBS = {
-	baseline: join( ROOT, 'src/npm-0.0.19/lib' ),
+	baseline: join( ROOT, 'src/baseline/lib' ),
 	nothreads: join( ROOT, 'src/nothreads/lib' ),
 };
 const LIB_FILES = [
@@ -125,7 +124,7 @@ const vips = await Vips();
 const image = vips.Image.newFromBuffer(
 	readFileSync( join( ROOT, 'images/input.jpg' ) )
 )
-	.thumbnailImage( 1024 )
+	.thumbnailImage( 1024, { height: 683, crop: 'centre' } )
 	.colourspace( 'rgb16' );
 for ( const bitdepth of [ 10, 12 ] ) {
 	writeFileSync(

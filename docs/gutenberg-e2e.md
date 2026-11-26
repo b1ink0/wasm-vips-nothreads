@@ -4,9 +4,9 @@ The media e2e tests of Gutenberg, run in Chromium, Firefox and WebKit with two b
 
 ## The two runs
 
-| | Current build | Build without threads |
+| | Release build | Build without threads |
 |---|---|---|
-| wasm-vips | The npm package Gutenberg installs (0.0.19) | The same release built without threads |
+| wasm-vips | The 0.0.19 release built from source here, with threads and the heap fix described in [How it works](how-it-works.md#what-the-build-without-threads-changes) | The same commit built without threads |
 | Editor isolation | `Document-Isolation-Policy`, as Gutenberg sends it | Off |
 | `SharedArrayBuffer` check in `@wordpress/upload-media` | Kept | Removed |
 | Gutenberg | trunk at [`d15f04a`](https://github.com/WordPress/gutenberg/commit/d15f04a87173302fb9107e8e663abdef5de47398) | Same |
@@ -28,13 +28,13 @@ Specs, all in `test/e2e/specs/editor/`:
 
 ## Results
 
-| Browser | Current build | Build without threads |
+| Browser | Release build | Build without threads |
 |---|---|---|
-| Chromium | 102 passed, 1 failed, 1 skipped | 103 passed, 0 failed, 1 skipped |
-| Firefox | 67 passed, 2 failed, 35 skipped | 101 passed, 2 failed, 1 skipped |
-| WebKit | 63 passed, 6 failed, 35 skipped | 96 passed, 7 failed, 1 skipped |
+| Chromium | 101 passed, 2 failed, 1 skipped | 102 passed, 1 failed, 1 skipped |
+| Firefox | 67 passed, 2 failed, 35 skipped | 98 passed, 5 failed, 1 skipped |
+| WebKit | 63 passed, 6 failed, 35 skipped | 97 passed, 6 failed, 1 skipped |
 
-- The tests skipped with the current build need client-side processing. Firefox and WebKit can't isolate the editor, so client-side processing is off there and the tests skip themselves.
+- The tests skipped with the release build need client-side processing. Firefox and WebKit can't isolate the editor, so client-side processing is off there and the tests skip themselves.
 - Without threads, client-side processing runs in all three browsers, so those tests run.
 - Every failure is listed in [Failures](#failures).
 
@@ -42,7 +42,7 @@ Specs, all in `test/e2e/specs/editor/`:
 
 ✅ passed, ⏭️ skipped, ❌ failed. C, F and W are Chromium, Firefox and WebKit.
 
-| Case | Test | Current build (C, F, W) | Without threads (C, F, W) |
+| Case | Test | Release build (C, F, W) | Without threads (C, F, W) |
 |---|---|---|---|
 | Animated GIF | keeps the animation in every sub-size of an animated GIF | ✅ ⏭️ ⏭️ | ✅ ✅ ✅ |
 | Animated WebP | keeps the animation in every sub-size of an animated WebP | ✅ ⏭️ ⏭️ | ✅ ✅ ✅ |
@@ -85,7 +85,8 @@ Gutenberg has no tests for high bit depth AVIF or for cancelling. They are added
 
 | | Chromium | Firefox | WebKit |
 |---|---|---|---|
-| Queue empty after cancel, without threads | 734 ms | 7 ms | 89 ms |
+| Queue empty after cancel, release build | 15 ms | Skipped | Skipped |
+| Queue empty after cancel, without threads | 937 ms | 8 ms | 70 ms |
 
 ## Changes to existing tests
 
@@ -99,22 +100,26 @@ These are in [`patches/gutenberg-e2e.patch`](../patches/gutenberg-e2e.patch) and
 
 ## Failures
 
-| Test | Failed in | Current build | Why |
+| Test | Failed in | Release build | Why |
 |---|---|---|---|
-| Image: can be replaced by dragging and dropping images from the inserter | Firefox | Fails too | Not related to wasm-vips |
-| Image: should have keyboard navigable toolbar for caption | WebKit | Fails too | Not related to wasm-vips |
+| Image: can be replaced by dragging-and-dropping images from the inserter | Firefox | Fails too | Not related to wasm-vips |
+| Image: should keep the overlay intact when reopened before the close cleanup runs | Chromium | Fails too | Not related to wasm-vips |
+| Image: should have keyboard navigable toolbar for caption | Firefox, WebKit | Fails too in WebKit, passed in Firefox | Fails in WebKit with both builds. In Firefox it passed 2 of 3 reruns, so it is flaky there. |
 | HEIC upload error message (2 tests) | WebKit | Fails too | Not related to wasm-vips |
 | Uploading a HEIC file with a mismatched extension (2 tests) | WebKit | Fails too | Not related to wasm-vips |
 | Big image size threshold: should finish uploading an image the browser cannot decode | Firefox, WebKit | Skipped | The test expects the browser to fail to decode a damaged JPEG. Only Chromium fails. Firefox and WebKit decode it, so a scaled copy is made. The upload still finishes. |
-| Image: should give the image its context menu while selected | WebKit | Passed | Flaky. It passed 4 of 5 reruns. It uploads through the REST API, so wasm-vips is not involved. |
+| Image: should undo without broken temporary state | Firefox | Passed, processed on the server | It failed 2 of 3 reruns. Chromium processes the image in the browser with both builds and passes, so this may be an editor bug in Firefox that is not related to the vips build. Not investigated. |
+| Client-side media processing: preserves a transparent PNG even when PNG-to-JPEG is filtered | Firefox | Skipped | Flaky. It passed 3 of 3 reruns. |
 
-Three tests failed with the current build only: "allows rotating an image using the media editor modal" in Firefox and WebKit, and "should keep the overlay intact when reopened before the close cleanup runs" in Chromium.
+The reruns ran the caption toolbar, undo and transparent PNG tests in Firefox with the build without threads, 3 times each, after the full run. They are not in `results/gutenberg-e2e.json`.
+
+Three tests failed with the release build only: "allows rotating an image using the media editor modal" in Firefox and WebKit, and "should upload through prepublish panel" in Chromium.
 
 ## Run it yourself
 
 ```sh
 npm run setup
-npm run build nothreads
+npm run build
 npm run gutenberg:test
 ```
 

@@ -53,9 +53,8 @@ if ( args.concurrency ) {
 	query.set( 'concurrency', args.concurrency );
 }
 
-// Serves the same tree that scripts/deploy.ts publishes, plus the npm build.
+// Serves the same tree that scripts/deploy.ts publishes.
 const LIBS: Record< string, string > = {
-	npm: 'src/npm-0.0.19/lib',
 	baseline: 'src/baseline/lib',
 	nothreads: 'src/nothreads/lib',
 };
@@ -116,7 +115,6 @@ const origin = `http://127.0.0.1:${ typeof address === 'object' && address?.port
 
 const jobs = args.jobs;
 const RUNS = [
-	[ 'npm', 'iso', '1' ],
 	[ 'baseline', 'iso', '1' ],
 	[ 'baseline', 'iso', jobs ],
 	[ 'baseline', 'plain', '1' ],

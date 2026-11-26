@@ -1,6 +1,6 @@
+72c7451399abe9951d1e6b55f084a9060d13355771c1b324c1ea9e87663a64e1  emscripten-mimalloc-pagemap.patch
 8e5a81a90cbcebc0b502cf774d3653890f068bd26fcb6959231068cda3251bbd  emscripten-wasm-vips-6.0.10.patch
 e57b5b8bc485d74dbdacd56432b9a98cb3889b4ed46007c6bfe210275a4cc2be  glib-wasm-vips-2.90.0.patch
 6c9039a65d5853dd2918c5a308b0e1f7db0f05d8b2cf9cab0b79376348b65df7  libvips-wasm-vips-8.18.7.patch
 f0475206df39214377821faae087a2ee9eef58660f272bf0b4874c1783930cab  mozjpeg-a60fb46.patch
-0bfec00056bc72e2d37b936e4836889885fb61c8f2dbe6d028d340bee4aa5ee1  wasm-vips-0.0.19-npm.tgz
 5baaead3b0bb20ffdb9e9ff09aa9fda08620923df77b63b436654cb5e0b3bf94  vips-8.18.7.tar.xz

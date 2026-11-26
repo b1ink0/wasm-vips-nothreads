@@ -1,35 +1,35 @@
 {
 	"label": "50mp-single-baseline-default",
 	"lib": "src/baseline/lib",
-	"input": "input-8660x5773.jpg",
+	"input": "input-8685x5789.jpg",
 	"jobs": 1,
 	"concurrency": 8,
 	"iters": 5,
 	"avif": false,
 	"cpus": 8,
 	"heapMiB": [
-		368.75
+		531
 	],
-	"totalHeapMiB": 368.75,
+	"totalHeapMiB": 531,
 	"node": "v24.22.1",
-	"initMs": 71,
-	"medianMs": 222,
-	"minMs": 219,
-	"maxMs": 243,
+	"initMs": 63,
+	"medianMs": 471,
+	"minMs": 467,
+	"maxMs": 514,
 	"times": [
-		243,
-		219,
-		232,
-		222,
-		219
+		471,
+		467,
+		469,
+		514,
+		471
 	],
 	"outputs": [
 		{
 			"task": "2048x2048.jpeg",
 			"width": 2048,
 			"height": 1365,
-			"bytes": 407402,
-			"sha256": "c75a46ec6dd70bf79a630d1bfceb382c21fbb1d8399dc36e177f754647a880a6"
+			"bytes": 711034,
+			"sha256": "3814d1f56c7c36a08c389df85f3682986c57c39b03ef2047214b7c984064546c"
 		}
 	]
 }

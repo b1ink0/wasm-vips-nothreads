@@ -75,6 +75,7 @@ async function bench( input ) {
 			),
 		] );
 		const initMs = performance.now() - tInit;
+		summary.textContent = `Started in ${ Math.round( initMs ) } ms. Warm-up run…`;
 
 		const once = ( hash ) =>
 			Promise.all(
@@ -91,6 +92,7 @@ async function bench( input ) {
 			const t0 = performance.now();
 			heapMiB = ( await once( false ) ).map( ( r ) => r.heapMiB );
 			times.push( performance.now() - t0 );
+			summary.textContent = `Started in ${ Math.round( initMs ) } ms. Iteration ${ i + 1 } of ${ iters }: ${ Math.round( times.at( -1 ) ) } ms`;
 		}
 		workers.forEach( ( w ) => w.terminate() );
 		const sorted = [ ...times ].sort( ( a, b ) => a - b );
@@ -111,7 +113,7 @@ async function bench( input ) {
 			totalHeapMiB: heapMiB.reduce( ( a, b ) => a + b, 0 ),
 			outputs: warm.map( ( { out, ...r } ) => r ),
 		};
-		summary.textContent = `${ lib }: median ${ window.result.medianMs } ms for ${ tasks.length } sub-sizes, wasm heap ${ window.result.totalHeapMiB } MiB`;
+		summary.textContent = `${ lib }: median ${ window.result.medianMs } ms for ${ tasks.length } sub-sizes, start-up ${ window.result.initMs } ms, wasm heap ${ window.result.totalHeapMiB } MiB`;
 		outputs.replaceChildren(
 			...warm.map( ( { task, width, height, bytes, out } ) => {
 				const url = URL.createObjectURL(

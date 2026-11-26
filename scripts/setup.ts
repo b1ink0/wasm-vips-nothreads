@@ -1,6 +1,5 @@
 /**
- * Downloads and verifies the release archives, unpacks the npm build into src/npm-0.0.19, then
- * clones every source at its pinned commit: wasm-vips into src/baseline and src/nothreads (with
+ * Downloads and verifies the libvips release archive, then clones every source at its pinned commit: wasm-vips into src/baseline and src/nothreads (with
  * the patches), and the two Gutenberg packages the WordPress test rebuilds into src/gutenberg.
  * Safe to run again.
  *
@@ -23,12 +22,10 @@ const GUTENBERG = {
 	repo: 'https://github.com/WordPress/gutenberg.git',
 	commit: 'c5bdc7f4898ec98114cdccbe1cacec7a979b85cc',
 };
-// The upstream patches are committed, the release archives are downloaded. upstream/SHA256SUMS pins both.
+// The upstream patches are committed, the release archive is downloaded. upstream/SHA256SUMS pins both.
 const DOWNLOADS = {
 	'vips-8.18.7.tar.xz':
 		'https://github.com/libvips/libvips/releases/download/v8.18.7/vips-8.18.7.tar.xz',
-	'wasm-vips-0.0.19-npm.tgz':
-		'https://registry.npmjs.org/wasm-vips/-/wasm-vips-0.0.19.tgz',
 };
 
 function git( dir: string, ...args: string[] ): string {
@@ -102,19 +99,6 @@ for ( const line of readFileSync( join( UPSTREAM, 'SHA256SUMS' ), 'utf8' )
 			`upstream/${ file } does not match upstream/SHA256SUMS`
 		);
 	}
-}
-
-// The published npm build, benchmarked as "npm".
-const npm = join( ROOT, 'src/npm-0.0.19' );
-if ( ! existsSync( npm ) ) {
-	mkdirSync( npm, { recursive: true } );
-	execFileSync( 'tar', [
-		'xzf',
-		join( UPSTREAM, 'wasm-vips-0.0.19-npm.tgz' ),
-		'-C',
-		npm,
-		'--strip-components=1',
-	] );
 }
 
 for ( const variant of [ 'baseline', 'nothreads' ] ) {

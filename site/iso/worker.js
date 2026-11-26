@@ -26,7 +26,7 @@ function run( [ name, w, h, crop, format ], input ) {
 		out = img.webpsaveBuffer( { Q: 86, keep: 'icc' } );
 	} else {
 		out = img.heifsaveBuffer( {
-			Q: 52,
+			Q: 82,
 			compression: 'av1',
 			effort: 2,
 			keep: 'icc',

@@ -18,6 +18,7 @@ x-env: &env
 x-volumes: &volumes
   - wproot:/var/www/html
   - ../plugins/wasm-vips-nothreads-demo:/var/www/html/wp-content/plugins/wasm-vips-nothreads-demo:ro
+  - ./output-format.php:/var/www/html/wp-content/mu-plugins/output-format.php:ro
 
 services:
   db:
@@ -39,6 +40,7 @@ services:
     volumes:
       - wproot:/var/www/html
       - ../plugins/wasm-vips-nothreads-demo:/var/www/html/wp-content/plugins/wasm-vips-nothreads-demo:ro
+      - ./output-format.php:/var/www/html/wp-content/mu-plugins/output-format.php:ro
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini:ro
   cli:
     image: wordpress:cli-2.12.0-php8.4@sha256:df224f633697444bbd1d2ca54b357b4f86834f82a74881b3e1acfbcc761025bb

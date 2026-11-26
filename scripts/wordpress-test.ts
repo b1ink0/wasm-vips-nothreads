@@ -1,7 +1,9 @@
 /**
  * Uploads each test image to an image block in Chromium, Firefox and WebKit, RUNS times per plugin
- * setup, each time in a fresh browser, and records whether the editor made the sub-sizes in the browser, how long
- * the upload took and how much memory the browser used.
+ * setup and output format, each time in a fresh browser, and records whether the editor made the sub-sizes in
+ * the browser, how long the upload took, how much memory the browser used and the type and size of each file.
+ * The output format is WordPress's default, or WebP or AVIF set through the image_editor_output_format filter
+ * by wordpress/output-format.php.
  * Client-side processing uploads the original without sub-sizes, then sideloads each one, so a
  * sideload request means the browser made that sub-size.
  *
@@ -18,7 +20,14 @@ import { chromium, firefox, webkit, type Page } from 'playwright';
 const ROOT = join( import.meta.dirname, '..' );
 const SITE = 'http://localhost:8889';
 const CSME_VERSION = '1.3.0';
-const IMAGES = [ 'images/input.jpg', 'images/input-8660x5773.jpg' ];
+const IMAGES = [
+	'images/input.jpg',
+	'images/input-8685x5789.jpg',
+	'images/phone.jpg',
+	'images/screenshot.png',
+];
+// An empty value keeps WordPress's default output formats.
+const FORMATS = [ '', 'image/webp', 'image/avif' ];
 // Uploads of each image per setup and browser. Memory use varies between runs.
 const RUNS = 3;
 // Plugins active in each setup. client-side-media-everywhere sends COOP/COEP where Document-Isolation-Policy is missing.
@@ -197,66 +206,92 @@ for ( const [ setup, plugins ] of Object.entries( SETUPS ) ) {
 	if ( plugins.length ) {
 		wp( 'plugin', 'activate', ...plugins );
 	}
-	for ( const name of args.browsers.split( ',' ) ) {
-		for ( const image of IMAGES.flatMap( ( path ) =>
-			Array( RUNS ).fill( path )
-		) ) {
-			const browser = await (
-				{ chromium, firefox, webkit } as Record<
-					string,
-					typeof chromium
-				>
-			 )[ name ].launch();
-			const page = await browser.newPage();
-			// page.request shares the page's cookies.
-			await page.request.post( `${ SITE }/wp-login.php`, {
-				form: { log: 'admin', pwd: 'password' },
-			} );
-			let result;
-			try {
-				const run = await upload( page, name, image );
-				const metadata = JSON.parse(
+	for ( const format of FORMATS ) {
+		wp( 'option', 'update', 'wasm_vips_nothreads_output_format', format );
+		for ( const name of args.browsers.split( ',' ) ) {
+			for ( const image of IMAGES.flatMap( ( path ) =>
+				Array( RUNS ).fill( path )
+			) ) {
+				const browser = await (
+					{ chromium, firefox, webkit } as Record<
+						string,
+						typeof chromium
+					>
+				 )[ name ].launch();
+				const page = await browser.newPage();
+				// page.request shares the page's cookies.
+				await page.request.post( `${ SITE }/wp-login.php`, {
+					form: { log: 'admin', pwd: 'password' },
+				} );
+				let result;
+				try {
+					const run = await upload( page, name, image );
+					const metadata = JSON.parse(
+						wp(
+							'post',
+							'meta',
+							'get',
+							String( run.id ),
+							'_wp_attachment_metadata',
+							'--format=json'
+						)
+					);
+					result = {
+						setup,
+						format: format || 'default',
+						browser: name,
+						image,
+						ok: true,
+						...run,
+						clientSide: run.requests.sideload > 0,
+						file: metadata.file,
+						filesize: metadata.filesize,
+						sizes: metadata.sizes ?? {},
+						originalImage: metadata.original_image ?? null,
+						width: metadata.width,
+						height: metadata.height,
+					};
+				} catch ( e ) {
+					result = {
+						setup,
+						format: format || 'default',
+						browser: name,
+						image,
+						ok: false,
+						error: String( ( e as Error ).message ).split(
+							'\n'
+						)[ 0 ],
+					};
+				}
+				await browser.close();
+				// Like deleteAllMedia() in the e2e tests, so the uploads do not fill the Docker disk.
+				const attachments = wp(
+					'post',
+					'list',
+					'--post_type=attachment',
+					'--post_status=any',
+					'--format=ids'
+				);
+				if ( attachments ) {
 					wp(
 						'post',
-						'meta',
-						'get',
-						String( run.id ),
-						'_wp_attachment_metadata',
-						'--format=json'
-					)
+						'delete',
+						...attachments.split( ' ' ),
+						'--force'
+					);
+				}
+				results.push( result );
+				console.log(
+					`${ setup.padEnd( 23 ) } ${ ( format || 'default' ).padEnd( 10 ) } ${ name.padEnd( 8 ) } ${ image.padEnd( 27 ) } ` +
+						( 'ms' in result
+							? `${ result.ms } ms isolated=${ result.env.crossOriginIsolated } clientSide=${ result.clientSide } sideloads=${ result.requests.sideload } sizes=${ Object.keys( result.sizes ).length } ${ result.width }x${ result.height } file=${ result.file } dip=${ result.headers.dip } coep=${ result.headers.coep } memory=${ result.memory.idle }/${ result.memory.peak }/${ result.memory.after } MiB workers=${ result.workers }`
+							: `FAILED ${ result.error }` )
 				);
-				result = {
-					setup,
-					browser: name,
-					image,
-					ok: true,
-					...run,
-					clientSide: run.requests.sideload > 0,
-					sizes: Object.keys( metadata.sizes ?? {} ),
-					originalImage: metadata.original_image ?? null,
-					width: metadata.width,
-					height: metadata.height,
-				};
-			} catch ( e ) {
-				result = {
-					setup,
-					browser: name,
-					image,
-					ok: false,
-					error: String( ( e as Error ).message ).split( '\n' )[ 0 ],
-				};
 			}
-			await browser.close();
-			results.push( result );
-			console.log(
-				`${ setup.padEnd( 23 ) } ${ name.padEnd( 8 ) } ${ image.padEnd( 27 ) } ` +
-					( 'ms' in result
-						? `${ result.ms } ms isolated=${ result.env.crossOriginIsolated } clientSide=${ result.clientSide } sideloads=${ result.requests.sideload } sizes=${ result.sizes.length } ${ result.width }x${ result.height } dip=${ result.headers.dip } coep=${ result.headers.coep } memory=${ result.memory.idle }/${ result.memory.peak }/${ result.memory.after } MiB workers=${ result.workers }`
-						: `FAILED ${ result.error }` )
-			);
 		}
 	}
 }
+wp( 'option', 'update', 'wasm_vips_nothreads_output_format', '' );
 wp( 'plugin', 'deactivate', '--all' );
 writeFileSync(
 	join( ROOT, 'results/wordpress.json' ),

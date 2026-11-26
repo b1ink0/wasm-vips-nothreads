@@ -8,10 +8,9 @@ import { execFileSync } from 'node:child_process';
 import { join } from 'node:path';
 
 const ROOT = join( import.meta.dirname, '..' );
-const NPM = 'src/npm-0.0.19/lib';
 const BASE = 'src/baseline/lib';
 const NT = 'src/nothreads/lib';
-const LARGE = 'input-8660x5773.jpg';
+const LARGE = 'input-8685x5789.jpg';
 const step = process.argv[ 2 ];
 
 function node( lib: string, label: string, ...args: string[] ) {
@@ -31,7 +30,6 @@ function browser( ...args: string[] ) {
 
 if ( step !== 'browser' ) {
 	// JPEG and WebP, every WordPress sub-size of the 24 MP input.
-	node( NPM, 'npm-default' );
 	node( BASE, 'baseline-default' );
 	node( BASE, 'baseline-c1', '--concurrency', '1' );
 	node( BASE, 'baseline-c1-j4', '--concurrency', '1', '--jobs', '4' );
@@ -40,7 +38,6 @@ if ( step !== 'browser' ) {
 	}
 
 	// The same with AVIF added.
-	node( NPM, 'avif-npm-default', '--avif' );
 	node( BASE, 'avif-baseline-default', '--avif' );
 	node( BASE, 'avif-baseline-c1', '--concurrency', '1', '--avif' );
 	node(

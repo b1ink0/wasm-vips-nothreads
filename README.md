@@ -6,21 +6,24 @@ An experiment: [wasm-vips](https://github.com/kleisauke/wasm-vips) compiled with
 
 In the browser, the release build of wasm-vips already runs libvips with one worker thread, and WordPress runs all processing in one worker. So in WordPress its threads do no parallel work, yet they are the only reason the editor must be cross-origin isolated: threads share memory through `SharedArrayBuffer`, which browsers only allow on isolated pages.
 
-The same wasm-vips commit built without threads needs no isolation. For the work WordPress does, it runs within 4% of the release build in either direction, and its output is byte-identical.
+The same wasm-vips commit built without threads needs no isolation, and its output is byte-identical. For the work WordPress does, it ran between 7% faster and 4% slower than the release build, except AVIF in WebKit, where it was 13% slower with a wide spread between runs.
 
-Every WordPress image size of a 24 MP JPEG, encoded as JPEG and WebP, in one worker. Median of 5 runs on an Apple M3:
+Every WordPress image size of a 24 MP camera photo, encoded as JPEG and WebP, in one worker. Median of 5 runs on an Apple M3:
 
 | Browser | Release build, isolated page | Release build, plain page | Without threads, plain page |
 |---|:-:|:-:|:-:|
-| Chromium | 1830 ms | ❌ | 1771 ms |
-| Firefox | 1897 ms | ❌ | 1961 ms |
-| WebKit | 1709 ms | ❌ | 1784 ms |
+| Chromium | 2961 ms | ❌ | 3017 ms |
+| Firefox | 3360 ms | ❌ | 3301 ms |
+| WebKit | 2936 ms | ❌ | 3065 ms |
 
+- Both builds are built from the wasm-vips 0.0.19 source here, with the fix for [wasm-vips#135](https://github.com/kleisauke/wasm-vips/issues/135), see [How it works](docs/how-it-works.md#what-the-build-without-threads-changes).
 - ❌: the release build does not work without isolation. Start-up does not finish within 60 seconds in Chromium and Firefox, and WebKit throws on the first image.
-- With AVIF added, or with a 50 MP input, the difference stays within 4%. AVIF output is byte-identical too.
 - The build without threads also ran in every browser tried on an Android phone and an iPhone. See [Phones](docs/benchmarks.md#phones).
-- In WordPress, the release build starts its thread pool with the vips worker: 9 workers for one upload in Chromium and Firefox, where the build without threads starts 1.
-- The media e2e tests of Gutenberg pass in Chromium, Firefox and WebKit without isolation, including animated GIF and WebP, palette PNG, UltraHDR, 10 and 12-bit AVIF and cancelling an upload. See [Gutenberg e2e tests](docs/gutenberg-e2e.md).
+- In WordPress, the release build starts its thread pool with the vips worker: 9 workers for one upload in Chromium and Firefox, where the build without threads starts 1. Uploads with the build without threads had the lowest rise in browser memory of the setups that process in the browser, with default and WebP output. See [WordPress plugin](docs/wordpress-plugin.md#results).
+- The media e2e tests of Gutenberg run in Chromium, Firefox and WebKit without isolation. The tests for animated GIF and WebP, palette PNG, UltraHDR, 10 and 12-bit AVIF and cancelling an upload pass in all three. See [Gutenberg e2e tests](docs/gutenberg-e2e.md) for every failure.
+
+> [!NOTE]
+> The vips worker in WordPress 7.2 uses wasm-vips 0.0.19, which can run out of memory while encoding AVIF ([wasm-vips#135](https://github.com/kleisauke/wasm-vips/issues/135)). The fix is planned for wasm-vips 0.0.20, which is not released yet. Until then, WordPress uploads with AVIF output are only compared for the build without threads. See [WordPress plugin](docs/wordpress-plugin.md#avif-output).
 
 All tables and the method: [Benchmarks](docs/benchmarks.md).
 
@@ -82,6 +85,17 @@ To test WordPress on a phone, expose it through an HTTPS tunnel, for example `cl
 | [Gutenberg e2e tests](docs/gutenberg-e2e.md) | The media e2e tests of Gutenberg with both builds, the tests added and every failure. |
 | [Updating](docs/updating.md) | Where each version is pinned and how to move to a new release. |
 | [AGENTS.md](AGENTS.md) | Layout, commands and conventions for coding agents. |
+
+## Test photos
+
+All test images come from Wikimedia Commons under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+
+| File | Image | Author |
+|---|---|---|
+| `images/input.jpg` | [Looking down Rue du Gros-Horloge, with balloons, Rouen, 2024](https://commons.wikimedia.org/wiki/File:Looking_down_Rue_du_Gros-Horloge,_with_balloons,_Rouen,_2024.jpg) | DimiTalen |
+| `images/input-8685x5789.jpg` | [Worcester Guildhall Assembly Room](https://commons.wikimedia.org/wiki/File:Worcester_Guildhall_Assembly_Room.jpg) | Michael D Beckwith |
+| `images/phone.jpg` | [20200801 021556 things places IMG 7366](https://commons.wikimedia.org/wiki/File:20200801_021556_things_places_IMG_7366.jpg), an iPhone X photo with EXIF orientation 6 | Choi Kwang-mo |
+| `images/screenshot.png` | [Screenshot Arc Browser](https://commons.wikimedia.org/wiki/File:Screenshot_Arc_Browser.png) | Temaro |
 
 ## License
 

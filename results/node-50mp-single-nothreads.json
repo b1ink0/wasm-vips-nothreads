@@ -1,7 +1,7 @@
 {
 	"label": "50mp-single-nothreads",
 	"lib": "src/nothreads/lib",
-	"input": "input-8660x5773.jpg",
+	"input": "input-8685x5789.jpg",
 	"jobs": 1,
 	"concurrency": 1,
 	"iters": 5,
@@ -12,24 +12,24 @@
 	],
 	"totalHeapMiB": 368.75,
 	"node": "v24.22.1",
-	"initMs": 67,
-	"medianMs": 236,
-	"minMs": 229,
-	"maxMs": 247,
+	"initMs": 64,
+	"medianMs": 506,
+	"minMs": 503,
+	"maxMs": 598,
 	"times": [
-		247,
-		238,
-		236,
-		229,
-		232
+		598,
+		505,
+		516,
+		503,
+		506
 	],
 	"outputs": [
 		{
 			"task": "2048x2048.jpeg",
 			"width": 2048,
 			"height": 1365,
-			"bytes": 407402,
-			"sha256": "c75a46ec6dd70bf79a630d1bfceb382c21fbb1d8399dc36e177f754647a880a6"
+			"bytes": 711034,
+			"sha256": "3814d1f56c7c36a08c389df85f3682986c57c39b03ef2047214b7c984064546c"
 		}
 	]
 }

@@ -95,7 +95,7 @@ function run(
 		out = image.webpsaveBuffer( { Q: 86, keep: 'icc' } );
 	} else {
 		out = image.heifsaveBuffer( {
-			Q: 52,
+			Q: 82,
 			compression: 'av1',
 			effort: 2,
 			keep: 'icc',

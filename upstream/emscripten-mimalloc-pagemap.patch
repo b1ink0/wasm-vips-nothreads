@@ -1,0 +1,16 @@
+Backport of https://github.com/emscripten-core/emscripten/commit/61b8d612f2e8d7c727341e299bda697c6fdaa11d
+([mimalloc] Define `MI_FREE_USE_PAGEMAP`, Emscripten 6.0.13), which fixes the heap growth in
+https://github.com/kleisauke/wasm-vips/issues/135.
+
+--- a/tools/system_libs.py
++++ b/tools/system_libs.py
+@@ -1882,6 +1882,9 @@ class libmimalloc(MTLibrary):
+     '-DMI_LIBC_MUSL',
+     # enable use of `__builtin_thread_pointer()`
+     '-DMI_USE_BUILTIN_THREAD_POINTER',
++    # always use the page map when free-ing a pointer, as we don't support
++    # large OS aligned allocations well
++    '-DMI_FREE_USE_PAGEMAP=1',
+   ]
+
+   # malloc/free/calloc are runtime functions and can be generated during LTO
