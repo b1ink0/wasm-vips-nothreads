@@ -28,6 +28,7 @@ Generated and ignored: `src/` (pinned clones), `work/` (trees for making patches
 | `npm run wordpress` | Builds the plugin worker and starts WordPress at http://localhost:8889. |
 | `npm run wordpress:test` | Uploads a 24 MP and a 50 MP image 3 times each in Chromium, Firefox and WebKit with each plugin setup, and records time, memory and workers. |
 | `npm run gutenberg:test` | Clones Gutenberg into `src/gutenberg-e2e` and runs its media e2e tests in Chromium, Firefox and WebKit, once with the release build and once with the build without threads. Takes about an hour. |
+| `npm run wasm-vips:test` | Runs the unit tests of wasm-vips (`test/unit`) with the build without threads in Node, then in Chromium, Firefox and WebKit through `test/unit/index.html` without isolation, and writes `results/wasm-vips-test.json`. A hang is stopped after 20 minutes and recorded. |
 | `npm run plugin:assets` | Renders the icon SVG in `.wordpress-org/` to the PNG sizes WordPress.org uses. |
 | `npm run plugin:zip` | Checks that the plugin versions match, copies the plugin to `build/wasm-vips-nothreads-demo/` and zips it as `build/wasm-vips-nothreads-demo-<version>.zip`, with its SHA-256 in `build/wasm-vips-nothreads-demo-<version>.zip.sha256`. |
 | `npm run tsc` | TypeScript check of `scripts/`. |

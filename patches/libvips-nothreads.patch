@@ -1,6 +1,6 @@
 diff --color -ruN libvips-base/libvips/iofuncs/sinkdisc.c libvips-nothreads/libvips/iofuncs/sinkdisc.c
---- libvips-base/libvips/iofuncs/sinkdisc.c	2026-09-26 16:59:16
-+++ libvips-nothreads/libvips/iofuncs/sinkdisc.c	2026-11-25 13:01:21
+--- libvips-base/libvips/iofuncs/sinkdisc.c	2026-11-26 17:02:22
++++ libvips-nothreads/libvips/iofuncs/sinkdisc.c	2026-11-26 17:02:22
 @@ -246,6 +246,7 @@
  	 */
  	vips__region_no_ownership(wbuffer->region);
@@ -35,17 +35,36 @@ diff --color -ruN libvips-base/libvips/iofuncs/sinkdisc.c libvips-nothreads/libv
  
  	return 0;
  }
+diff --color -ruN libvips-base/libvips/iofuncs/thread.c libvips-nothreads/libvips/iofuncs/thread.c
+--- libvips-base/libvips/iofuncs/thread.c	2026-11-26 17:02:22
++++ libvips-nothreads/libvips/iofuncs/thread.c	2026-11-26 17:02:45
+@@ -83,7 +83,13 @@
+ gboolean
+ vips_thread_isvips(void)
+ {
++#if defined(__EMSCRIPTEN__) && !defined(__EMSCRIPTEN_PTHREADS__)
++	/* No threads: the calling thread runs every worker.
++	 */
++	return TRUE;
++#else
+ 	return g_private_get(&is_vips_thread_key) != NULL;
++#endif
+ }
+ 
+ typedef struct {
 diff --color -ruN libvips-base/libvips/iofuncs/threadpool.c libvips-nothreads/libvips/iofuncs/threadpool.c
---- libvips-base/libvips/iofuncs/threadpool.c	2026-09-26 16:59:16
-+++ libvips-nothreads/libvips/iofuncs/threadpool.c	2026-11-25 13:01:06
-@@ -647,6 +647,29 @@
+--- libvips-base/libvips/iofuncs/threadpool.c	2026-11-26 17:02:22
++++ libvips-nothreads/libvips/iofuncs/threadpool.c	2026-11-26 17:02:45
+@@ -647,6 +647,37 @@
  	pool->work = work;
  	pool->a = a;
  
 +#if defined(__EMSCRIPTEN__) && !defined(__EMSCRIPTEN_PTHREADS__)
 +	/* No threads: run a single worker inline on the calling thread.
++	 * Pipelines started by this worker run nested inside it.
 +	 */
 +	{
++		VipsWorker *outer = (VipsWorker *) g_private_get(&worker_key);
 +		VipsWorker worker = { .pool = pool };
 +
 +		g_private_set(&worker_key, &worker);
@@ -61,14 +80,20 @@ diff --color -ruN libvips-base/libvips/iofuncs/threadpool.c libvips-nothreads/li
 +		}
 +
 +		VIPS_FREEF(g_object_unref, worker.state);
-+		g_private_set(&worker_key, NULL);
++		g_private_set(&worker_key, outer);
 +		n_working = 1;
++
++		/* Free the buffer cache like a worker thread does after each
++		 * task, once the outermost pipeline is done with it.
++		 */
++		if (!outer)
++			vips_thread_shutdown();
 +	}
 +#else
  	/* Start with half of the max number of threads, then let it drift up
  	 * and down with load.
  	 */
-@@ -696,6 +719,7 @@
+@@ -696,6 +727,7 @@
  			n_working += 1;
  		}
  	}

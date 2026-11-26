@@ -18,6 +18,7 @@
 		"wordpress": "node scripts/wordpress.ts",
 		"wordpress:test": "playwright install chromium firefox webkit && node scripts/wordpress-test.ts",
 		"gutenberg:test": "node scripts/gutenberg-e2e.ts",
+		"wasm-vips:test": "playwright install chromium firefox webkit && node scripts/wasm-vips-test.ts",
 		"wordpress:down":"docker compose -f wordpress/compose.yml down -v",
 		"plugin:assets": "playwright install chromium && node scripts/plugin.ts assets",
 		"plugin:zip": "node scripts/plugin.ts zip",

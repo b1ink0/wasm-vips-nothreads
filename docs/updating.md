@@ -25,7 +25,7 @@ Every input is pinned so a build can be reproduced: source commits, release arch
 2. Move `src/` aside and run `npm run setup`. A patch that no longer applies stops the setup.
 3. Refresh the patches that failed:
    - `pin-vendored.patch` and `nothreads-wasm-vips.patch` are diffs of the wasm-vips tree. Edit the files in `src/baseline` or `src/nothreads` and save `git -C src/<variant> diff` as the patch. `nothreads-wasm-vips.patch` holds the changes of `src/nothreads` minus those of `pin-vendored.patch`.
-   - `libvips-nothreads.patch`, `meson-nothreads.patch` and `emscripten-growable-random.patch` are made with `diff -ruN` between an unpacked upstream tree and a copy with the change. Keep the paths one level deep, since `build.sh` applies them with `patch -p1`.
+   - `libvips-nothreads.patch`, `meson-nothreads.patch`, `emscripten-growable-random.patch` and `emscripten-vector-heap.patch` are made with `diff -ruN` between an unpacked upstream tree and a copy with the change. Keep the paths one level deep, since `build.sh` applies them with `patch -p1`.
 4. Run `npm run build`. The full log is in `results/build-<variant>.log`. Emscripten caches its system libraries by name, not by flags, so after a change to an Emscripten patch run `docker volume rm wasm-vips-nothreads-emcache-baseline wasm-vips-nothreads-emcache-nothreads` first.
 5. Run `npm run bench` and compare with the previous results. The output hashes in the JSON files show whether the images changed.
 

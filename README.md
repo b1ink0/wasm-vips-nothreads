@@ -21,6 +21,7 @@ Every WordPress image size of a 24 MP camera photo, encoded as JPEG and WebP, in
 - The build without threads also ran in every browser tried on an Android phone and an iPhone. See [Phones](docs/benchmarks.md#phones).
 - In WordPress, the release build starts its thread pool with the vips worker: 9 workers for one upload in Chromium and Firefox, where the build without threads starts 1. Uploads with the build without threads had the lowest rise in browser memory of the setups that process in the browser, with default and WebP output. See [WordPress plugin](docs/wordpress-plugin.md#results).
 - The media e2e tests of Gutenberg run in Chromium, Firefox and WebKit without isolation. The tests for animated GIF and WebP, palette PNG, UltraHDR, 10 and 12-bit AVIF and cancelling an upload pass in all three. See [Gutenberg e2e tests](docs/gutenberg-e2e.md) for every failure.
+- The unit tests of wasm-vips pass with the build without threads in Node, and in Chromium, Firefox and WebKit without isolation: 235 passed, 3 skipped, 0 failed in each. The skipped tests need text or FFTW support, which wasm-vips does not include, or are skipped in the test source. See [wasm-vips unit tests](docs/wasm-vips-tests.md) for what they cover and what they don't.
 
 > [!NOTE]
 > The vips worker in WordPress 7.2 uses wasm-vips 0.0.19, which can run out of memory while encoding AVIF ([wasm-vips#135](https://github.com/kleisauke/wasm-vips/issues/135)). The fix is planned for wasm-vips 0.0.20, which is not released yet. Until then, WordPress uploads with AVIF output are only compared for the build without threads. See [WordPress plugin](docs/wordpress-plugin.md#avif-output).
@@ -69,6 +70,7 @@ npm run bench           # every Node and browser benchmark, written to results/
 npm run wordpress       # build the plugin worker, start WordPress at http://localhost:8889 (admin, password)
 npm run wordpress:test  # upload images in Chromium, Firefox and WebKit with each plugin setup
 npm run gutenberg:test  # the media e2e tests of Gutenberg with both builds (about an hour)
+npm run wasm-vips:test  # the unit tests of wasm-vips with the build without threads, in Node and three browsers
 npm run plugin:zip      # zip the plugin into build/
 npm run deploy          # publish the benchmark pages, the plugin zip and the Blueprint to GitHub Pages
 ```
@@ -83,6 +85,7 @@ To test WordPress on a phone, expose it through an HTTPS tunnel, for example `cl
 | [Benchmarks](docs/benchmarks.md) | Method, setups and every result table. |
 | [WordPress plugin](docs/wordpress-plugin.md) | What the plugin changes, the test setup and its results. |
 | [Gutenberg e2e tests](docs/gutenberg-e2e.md) | The media e2e tests of Gutenberg with both builds, the tests added and every failure. |
+| [wasm-vips unit tests](docs/wasm-vips-tests.md) | The unit tests of wasm-vips with the build without threads, what they cover and what they don't. |
 | [Updating](docs/updating.md) | Where each version is pinned and how to move to a new release. |
 | [AGENTS.md](AGENTS.md) | Layout, commands and conventions for coding agents. |
 

@@ -1,6 +1,12 @@
 --- a/build.sh
 +++ b/build.sh
-@@ -101,7 +101,11 @@
+@@ -96,12 +96,18 @@
+ #COMMON_FLAGS="-Os -g2 -fsanitize=address -pthread"
+
+ # Rust flags
+-export RUSTFLAGS="-Copt-level=z -Ctarget-feature=+atomics,+simd128 -Zdefault-visibility=hidden -Zlocation-detail=none -Zfmt-debug=none"
++export RUSTFLAGS="-Copt-level=z -Ctarget-feature=+simd128 -Zdefault-visibility=hidden -Zlocation-detail=none -Zfmt-debug=none"
+
  # Common compiler flags
  # Default optimization level is for binary size (-Os)
  # Overridden to performance (-O3) for select dependencies that benefit
@@ -10,10 +16,12 @@
 +patch -p1 -d /root/.local/share/pipx/venvs/meson/lib/python3.12/site-packages < /patches/meson-nothreads.patch
 +# Web Crypto rejects views of resizable (GROWABLE_ARRAYBUFFERS) memory, like shared memory
 +patch -p1 -d $EMSDK/upstream/emscripten < /patches/emscripten-growable-random.patch
++# Memory growth replaces non-shared heap views, so embind vectors look them up on each call
++patch -p1 -d $EMSDK/upstream/emscripten < /patches/emscripten-vector-heap.patch
  if [ "$WASM_EXNREF" = "true" ]; then
    COMMON_FLAGS+=" -sWASM_LEGACY_EXCEPTIONS=0"
    export RUSTFLAGS+=" -Cllvm-args=-wasm-use-legacy-eh=0"
-@@ -484,6 +488,7 @@
+@@ -484,6 +490,7 @@
    cd $DEPS/vips
    # Emscripten specific patches
    patch -p1 < /vendor/libvips-wasm-vips-$VERSION_VIPS.patch

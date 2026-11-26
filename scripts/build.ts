@@ -11,8 +11,6 @@ import { join } from 'node:path';
 
 const ROOT = join( import.meta.dirname, '..' );
 const IMAGE = 'wasm-vips-nothreads-env';
-// Same flags for both variants. SVG (resvg) is off because its Rust build needs +atomics.
-const BUILD_ARGS = [ '--disable-svg' ];
 const variants = process.argv.slice( 2 ).length
 	? process.argv.slice( 2 )
 	: [ 'baseline', 'nothreads' ];
@@ -51,7 +49,6 @@ for ( const variant of variants ) {
 			`${ ROOT }/patches:/patches:ro`,
 			IMAGE,
 			'./build.sh',
-			...BUILD_ARGS,
 		],
 		{ cwd: ROOT }
 	);
