@@ -8,20 +8,20 @@
 	"avif": false,
 	"cpus": 8,
 	"heapMiB": [
-		307.25
+		368.75
 	],
-	"totalHeapMiB": 307.25,
+	"totalHeapMiB": 368.75,
 	"node": "v24.22.1",
-	"initMs": 74,
-	"medianMs": 3210,
-	"minMs": 3188,
-	"maxMs": 3245,
+	"initMs": 89,
+	"medianMs": 3185,
+	"minMs": 3117,
+	"maxMs": 3243,
 	"times": [
-		3211,
-		3190,
-		3188,
-		3210,
-		3245
+		3219,
+		3117,
+		3243,
+		3156,
+		3185
 	],
 	"outputs": [
 		{

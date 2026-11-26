@@ -14,16 +14,16 @@
 		"iters": 5,
 		"avif": true,
 		"concurrency": 1,
-		"initMs": 132,
-		"medianMs": 7305,
-		"minMs": 7235,
-		"maxMs": 7477,
+		"initMs": 99,
+		"medianMs": 7249,
+		"minMs": 7204,
+		"maxMs": 7312,
 		"times": [
-			7477,
-			7235,
-			7305,
-			7316,
-			7262
+			7302,
+			7218,
+			7312,
+			7204,
+			7249
 		],
 		"heapMiB": [
 			531
@@ -173,16 +173,16 @@
 		"iters": 5,
 		"avif": true,
 		"concurrency": 1,
-		"initMs": 419,
-		"medianMs": 4628,
-		"minMs": 3475,
-		"maxMs": 5371,
+		"initMs": 361,
+		"medianMs": 4063,
+		"minMs": 3785,
+		"maxMs": 4872,
 		"times": [
-			3475,
-			5095,
-			5371,
-			4628,
-			3728
+			3785,
+			4094,
+			3798,
+			4063,
+			4872
 		],
 		"heapMiB": [
 			531,
@@ -332,7 +332,7 @@
 		},
 		"lib": "baseline",
 		"jobs": 1,
-		"error": "Ab@http://127.0.0.1:54970/iso/lib/baseline/vips-es6.js:93:391\n248@wasm-function[248]\n173@wasm-function[173]\n4167@wasm-function[4167]\n4959@wasm-function[4959]\n@\nrun@http://127.0.0.1:54970/iso/worker.js:18:40\nmap@[native code]\n@http://127.0.0.1:54970/iso/worker.js:66:33"
+		"error": "Ab@http://127.0.0.1:58598/iso/lib/baseline/vips-es6.js:93:391\n248@wasm-function[248]\n173@wasm-function[173]\n4170@wasm-function[4170]\n4968@wasm-function[4968]\n@\nrun@http://127.0.0.1:58598/iso/worker.js:18:40\nmap@[native code]\n@http://127.0.0.1:58598/iso/worker.js:66:33"
 	},
 	{
 		"variant": "nothreads",
@@ -350,20 +350,20 @@
 		"avif": true,
 		"concurrency": 1,
 		"initMs": 167,
-		"medianMs": 8255,
-		"minMs": 7590,
-		"maxMs": 10236,
+		"medianMs": 8343,
+		"minMs": 8127,
+		"maxMs": 8670,
 		"times": [
-			7989,
-			9221,
-			10236,
-			8255,
-			7590
+			8127,
+			8280,
+			8585,
+			8343,
+			8670
 		],
 		"heapMiB": [
-			307.25
+			368.75
 		],
-		"totalHeapMiB": 307.25,
+		"totalHeapMiB": 368.75,
 		"outputs": [
 			{
 				"task": "1536x1536.avif",
@@ -508,24 +508,24 @@
 		"iters": 5,
 		"avif": true,
 		"concurrency": 1,
-		"initMs": 256,
-		"medianMs": 3996,
-		"minMs": 3543,
-		"maxMs": 5663,
+		"initMs": 170,
+		"medianMs": 4622,
+		"minMs": 4331,
+		"maxMs": 4974,
 		"times": [
-			4697,
-			5663,
-			3869,
-			3996,
-			3543
+			4974,
+			4804,
+			4492,
+			4622,
+			4331
 		],
 		"heapMiB": [
 			307.25,
+			368.75,
 			307.25,
-			307.25,
-			307.25
+			368.75
 		],
-		"totalHeapMiB": 1229,
+		"totalHeapMiB": 1352,
 		"outputs": [
 			{
 				"task": "1536x1536.avif",

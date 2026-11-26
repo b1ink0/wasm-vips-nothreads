@@ -9,22 +9,22 @@ An experiment: [wasm-vips](https://github.com/kleisauke/wasm-vips) compiled with
 
 In the browser, the release build of wasm-vips already runs libvips with one worker thread, and WordPress runs all processing in one worker. So in WordPress its threads do no parallel work, yet they are the only reason the editor must be cross-origin isolated: threads share memory through `SharedArrayBuffer`, which browsers only allow on isolated pages.
 
-The same wasm-vips commit built without threads needs no isolation, and its output is byte-identical. For the work WordPress does, it ran between 7% faster and 4% slower than the release build, except AVIF in WebKit, where it was 13% slower with a wide spread between runs.
+The same wasm-vips commit built without threads needs no isolation, and its output is byte-identical. For the work WordPress does, it ran between 15% faster and 3% slower than the release build, except AVIF in WebKit, where it was 15% slower.
 
 Every WordPress image size of a 24 MP camera photo, encoded as JPEG and WebP, in one worker. Median of 5 runs on an Apple M3:
 
 | Browser | Release build, isolated page | Release build, plain page | Without threads, plain page |
 |---|:-:|:-:|:-:|
-| Chromium | 2961 ms | ❌ | 3017 ms |
-| Firefox | 3360 ms | ❌ | 3301 ms |
-| WebKit | 2936 ms | ❌ | 3065 ms |
+| Chromium | 3405 ms | ❌ | 2889 ms |
+| Firefox | 3474 ms | ❌ | 3237 ms |
+| WebKit | 2979 ms | ❌ | 3067 ms |
 
-- Both builds are built from the wasm-vips 0.0.19 source here, with the fix for [wasm-vips#135](https://github.com/kleisauke/wasm-vips/issues/135), see [How it works](docs/how-it-works.md#what-the-build-without-threads-changes).
+- Both builds come from the wasm-vips 0.0.19 source with the fix for [wasm-vips#135](https://github.com/kleisauke/wasm-vips/issues/135). See [How it works](docs/how-it-works.md#what-the-build-without-threads-changes).
 - ❌: the release build does not work without isolation. Start-up does not finish within 60 seconds in Chromium and Firefox, and WebKit throws on the first image.
 - The build without threads also ran in every browser tried on an Android phone and an iPhone. See [Phones](docs/benchmarks.md#phones).
-- In WordPress, the release build starts its thread pool with the vips worker: 9 workers for one upload in Chromium and Firefox, where the build without threads starts 1. Uploads with the build without threads had the lowest rise in browser memory of the setups that process in the browser, with default and WebP output. See [WordPress plugin](docs/wordpress-plugin.md#results).
+- In WordPress, the build without threads starts 1 worker per upload where the release build starts 9, and had the lowest rise in browser memory of the client-side setups in 22 of 24 default and WebP cases. See [WordPress plugin](docs/wordpress-plugin.md#results).
 - The media e2e tests of Gutenberg run in Chromium, Firefox and WebKit without isolation. The tests for animated GIF and WebP, palette PNG, UltraHDR, 10 and 12-bit AVIF and cancelling an upload pass in all three. See [Gutenberg e2e tests](docs/gutenberg-e2e.md) for every failure.
-- The unit tests of wasm-vips pass with the build without threads in Node, and in Chromium, Firefox and WebKit without isolation: 235 passed, 3 skipped, 0 failed in each. The skipped tests need text or FFTW support, which wasm-vips does not include, or are skipped in the test source. See [wasm-vips unit tests](docs/wasm-vips-tests.md) for what they cover and what they don't.
+- The unit tests of wasm-vips pass with the build without threads in Node, and in Chromium, Firefox and WebKit without isolation: 235 passed, 3 skipped, 0 failed in each. See [wasm-vips unit tests](docs/wasm-vips-tests.md) for what they cover and what they don't.
 
 > [!NOTE]
 > The vips worker in WordPress 7.2 uses wasm-vips 0.0.19, which can run out of memory while encoding AVIF ([wasm-vips#135](https://github.com/kleisauke/wasm-vips/issues/135)). The fix is planned for wasm-vips 0.0.20, which is not released yet. Until then, WordPress uploads with AVIF output are only compared for the build without threads. See [WordPress plugin](docs/wordpress-plugin.md#avif-output).

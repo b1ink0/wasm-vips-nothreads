@@ -22,7 +22,7 @@ It is not meant to run alongside Client Side Media Everywhere.
 
 The plugin only replaces the wasm-vips build. WordPress still decides which images to create and with which formats and quality.
 
-This is a demo. The bundled worker is built from the `@wordpress/vips` package of WordPress 7.2, so a later WordPress release may need a plugin update.
+The bundled worker is built from the `@wordpress/vips` package of WordPress 7.2, so a later WordPress release may need a plugin update.
 
 == Installation ==
 
@@ -39,7 +39,7 @@ Threads in WebAssembly share memory through `SharedArrayBuffer`, which browsers 
 
 = Is it slower? =
 
-About the same. In Chromium, Firefox and WebKit on desktop it runs within 4% of the build in core, in either direction, and creates byte-identical images. The build in core already limits libvips to one thread on the web, and WordPress runs all processing in one worker, so the build without threads does the same work on that one thread.
+About the same. In Chromium, Firefox and WebKit on desktop it ran between 15% faster and 3% slower than the build in core, except AVIF in WebKit, where it was 15% slower, and it creates byte-identical images. The build in core already limits libvips to one thread on the web, and WordPress runs all processing in one worker, so the build without threads does the same work on that one thread.
 
 = Why does the plugin define a SharedArrayBuffer placeholder? =
 

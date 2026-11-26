@@ -1,6 +1,6 @@
 # Gutenberg e2e tests
 
-The media e2e tests of Gutenberg, run in Chromium, Firefox and WebKit with two builds of wasm-vips. Every number on this page comes from [`results/gutenberg-e2e.json`](../results/gutenberg-e2e.json), written by `npm run gutenberg:test`.
+The media e2e tests of Gutenberg, run in Chromium, Firefox and WebKit with two builds of wasm-vips. The results come from [`results/gutenberg-e2e.json`](../results/gutenberg-e2e.json), written by `npm run gutenberg:test`, except the reruns in [Failures](#failures).
 
 ## The two runs
 
@@ -34,9 +34,7 @@ Specs, all in `test/e2e/specs/editor/`:
 | Firefox | 67 passed, 2 failed, 35 skipped | 98 passed, 5 failed, 1 skipped |
 | WebKit | 63 passed, 6 failed, 35 skipped | 97 passed, 6 failed, 1 skipped |
 
-- The tests skipped with the release build need client-side processing. Firefox and WebKit can't isolate the editor, so client-side processing is off there and the tests skip themselves.
-- Without threads, client-side processing runs in all three browsers, so those tests run.
-- Every failure is listed in [Failures](#failures).
+The tests skipped with the release build need client-side processing, which is off in Firefox and WebKit because they can't isolate the editor. Without threads they run in all three browsers.
 
 ## Image types and cases
 
@@ -68,7 +66,7 @@ Gutenberg has no tests for high bit depth AVIF or for cancelling. They are added
 
 - The script makes the two test images from `images/input.jpg` with the Node build of wasm-vips: 1024 × 683, 16-bit RGB, saved as AVIF with 10 and 12 bits.
 - The test uploads each image and checks the size and type of the upload and the size of the `thumbnail`, `medium` and `medium_large` files.
-- It also reads each generated file with wasm-vips and records its bit depth. It records it but does not check it.
+- It also records the bit depth of each generated file, without checking it.
 
 | Image | Recorded bit depth of the sizes, without threads (C, F, W) |
 |---|---|
@@ -104,14 +102,14 @@ These are in [`patches/gutenberg-e2e.patch`](../patches/gutenberg-e2e.patch) and
 |---|---|---|---|
 | Image: can be replaced by dragging-and-dropping images from the inserter | Firefox | Fails too | Not related to wasm-vips |
 | Image: should keep the overlay intact when reopened before the close cleanup runs | Chromium | Fails too | Not related to wasm-vips |
-| Image: should have keyboard navigable toolbar for caption | Firefox, WebKit | Fails too in WebKit, passed in Firefox | Fails in WebKit with both builds. In Firefox it passed 2 of 3 reruns, so it is flaky there. |
+| Image: should have keyboard navigable toolbar for caption | Firefox, WebKit | Fails too in WebKit, passed in Firefox | Flaky in Firefox, passed 2 of 3 reruns. Not related to wasm-vips in WebKit. |
 | HEIC upload error message (2 tests) | WebKit | Fails too | Not related to wasm-vips |
 | Uploading a HEIC file with a mismatched extension (2 tests) | WebKit | Fails too | Not related to wasm-vips |
-| Big image size threshold: should finish uploading an image the browser cannot decode | Firefox, WebKit | Skipped | The test expects the browser to fail to decode a damaged JPEG. Only Chromium fails. Firefox and WebKit decode it, so a scaled copy is made. The upload still finishes. |
-| Image: should undo without broken temporary state | Firefox | Passed, processed on the server | It failed 2 of 3 reruns. Chromium processes the image in the browser with both builds and passes, so this may be an editor bug in Firefox that is not related to the vips build. Not investigated. |
-| Client-side media processing: preserves a transparent PNG even when PNG-to-JPEG is filtered | Firefox | Skipped | Flaky. It passed 3 of 3 reruns. |
+| Big image size threshold: should finish uploading an image the browser cannot decode | Firefox, WebKit | Skipped | Expects the browser to fail to decode a damaged JPEG. Firefox and WebKit decode it, and the upload still finishes. |
+| Image: should undo without broken temporary state | Firefox | Passed, processed on the server | Failed 2 of 3 reruns. Passes in Chromium, which also processes the image in the browser. |
+| Client-side media processing: preserves a transparent PNG even when PNG-to-JPEG is filtered | Firefox | Skipped | Flaky. Passed all 3 reruns. |
 
-The reruns ran the caption toolbar, undo and transparent PNG tests in Firefox with the build without threads, 3 times each, after the full run. They are not in `results/gutenberg-e2e.json`.
+Reruns: each of these three tests 3 more times in Firefox without threads, after the full run.
 
 Three tests failed with the release build only: "allows rotating an image using the media editor modal" in Firefox and WebKit, and "should upload through prepublish panel" in Chromium.
 

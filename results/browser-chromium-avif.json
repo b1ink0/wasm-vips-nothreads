@@ -14,16 +14,16 @@
 		"iters": 5,
 		"avif": true,
 		"concurrency": 1,
-		"initMs": 112,
-		"medianMs": 7412,
-		"minMs": 7399,
-		"maxMs": 7511,
+		"initMs": 105,
+		"medianMs": 7526,
+		"minMs": 7487,
+		"maxMs": 7644,
 		"times": [
-			7511,
-			7408,
-			7399,
-			7453,
-			7412
+			7579,
+			7644,
+			7487,
+			7526,
+			7516
 		],
 		"heapMiB": [
 			531
@@ -173,24 +173,24 @@
 		"iters": 5,
 		"avif": true,
 		"concurrency": 1,
-		"initMs": 327,
-		"medianMs": 3417,
-		"minMs": 3368,
-		"maxMs": 3445,
+		"initMs": 256,
+		"medianMs": 4495,
+		"minMs": 4204,
+		"maxMs": 4807,
 		"times": [
-			3388,
-			3368,
-			3417,
-			3445,
-			3442
+			4495,
+			4204,
+			4322,
+			4807,
+			4602
 		],
 		"heapMiB": [
-			531,
+			442.5,
 			531,
 			531,
 			531
 		],
-		"totalHeapMiB": 2124,
+		"totalHeapMiB": 2035.5,
 		"outputs": [
 			{
 				"task": "1536x1536.avif",
@@ -349,21 +349,21 @@
 		"iters": 5,
 		"avif": true,
 		"concurrency": 1,
-		"initMs": 72,
-		"medianMs": 7210,
-		"minMs": 7160,
-		"maxMs": 7295,
+		"initMs": 63,
+		"medianMs": 7264,
+		"minMs": 7171,
+		"maxMs": 7425,
 		"times": [
-			7160,
-			7199,
-			7210,
-			7212,
-			7295
+			7171,
+			7213,
+			7264,
+			7275,
+			7425
 		],
 		"heapMiB": [
-			307.25
+			368.75
 		],
-		"totalHeapMiB": 307.25,
+		"totalHeapMiB": 368.75,
 		"outputs": [
 			{
 				"task": "1536x1536.avif",
@@ -508,24 +508,24 @@
 		"iters": 5,
 		"avif": true,
 		"concurrency": 1,
-		"initMs": 99,
-		"medianMs": 3333,
-		"minMs": 3271,
-		"maxMs": 3487,
+		"initMs": 85,
+		"medianMs": 3317,
+		"minMs": 3248,
+		"maxMs": 3392,
 		"times": [
-			3271,
-			3274,
-			3487,
-			3333,
-			3396
+			3248,
+			3368,
+			3296,
+			3317,
+			3392
 		],
 		"heapMiB": [
 			307.25,
+			368.75,
 			307.25,
-			307.25,
-			307.25
+			368.75
 		],
-		"totalHeapMiB": 1229,
+		"totalHeapMiB": 1352,
 		"outputs": [
 			{
 				"task": "1536x1536.avif",

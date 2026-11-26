@@ -11,18 +11,18 @@
 		442.5,
 		442.5,
 		442.5,
-		442.5
+		531
 	],
-	"totalHeapMiB": 1770,
+	"totalHeapMiB": 1858.5,
 	"node": "v24.22.1",
-	"initMs": 118,
-	"medianMs": 2743,
-	"minMs": 2665,
-	"maxMs": 2749,
+	"initMs": 83,
+	"medianMs": 2586,
+	"minMs": 2517,
+	"maxMs": 2928,
 	"times": [
-		2743,
-		2749,
-		2665
+		2928,
+		2586,
+		2517
 	],
 	"outputs": [
 		{

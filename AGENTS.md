@@ -7,7 +7,7 @@ Guidance for coding agents working in this repository. Read the [README](README.
 | Path | Contents |
 |---|---|
 | `scripts/` | TypeScript scripts that run every step. Node runs them directly (type stripping), there is no build step. |
-| `patches/` | Patches applied to wasm-vips, libvips, Meson and Emscripten. The changes that make the build work without threads. `gutenberg-*.patch` apply to the Gutenberg clone of the e2e test. |
+| `patches/` | Patches applied to wasm-vips, libvips, Meson and Emscripten. `gutenberg-*.patch` apply to the Gutenberg clone of the e2e test. |
 | `upstream/` | Upstream patches and `SHA256SUMS`. `npm run setup` downloads the release archives next to them. |
 | `plugins/wasm-vips-nothreads-demo/` | The WordPress plugin. `build/` is generated. `.wordpress-org/` holds the plugin icon: edit the SVG, then run `npm run plugin:assets`. |
 | `wordpress/` | Docker Compose setup for the WordPress test. |
@@ -26,9 +26,9 @@ Generated and ignored: `src/` (pinned clones), `work/` (trees for making patches
 | `npm run build [baseline\|nothreads]` | Builds wasm-vips in Docker. Takes a long time on the first run. |
 | `npm run bench` | Every Node and browser benchmark behind the tables in `docs/benchmarks.md`. |
 | `npm run wordpress` | Builds the plugin worker and starts WordPress at http://localhost:8889. |
-| `npm run wordpress:test` | Uploads a 24 MP and a 50 MP image 3 times each in Chromium, Firefox and WebKit with each plugin setup, and records time, memory and workers. |
+| `npm run wordpress:test` | Uploads four test images 3 times each in Chromium, Firefox and WebKit with each plugin setup and output format, and records time, memory and workers. |
 | `npm run gutenberg:test` | Clones Gutenberg into `src/gutenberg-e2e` and runs its media e2e tests in Chromium, Firefox and WebKit, once with the release build and once with the build without threads. Takes about an hour. |
-| `npm run wasm-vips:test` | Runs the unit tests of wasm-vips (`test/unit`) with the build without threads in Node, then in Chromium, Firefox and WebKit through `test/unit/index.html` without isolation, and writes `results/wasm-vips-test.json`. A hang is stopped after 20 minutes and recorded. |
+| `npm run wasm-vips:test` | Runs the unit tests of wasm-vips (`test/unit`) with the build without threads in Node, then in Chromium, Firefox and WebKit through `test/unit/index.html` without isolation, and writes `results/wasm-vips-test.json`. |
 | `npm run plugin:assets` | Renders the icon SVG in `.wordpress-org/` to the PNG sizes WordPress.org uses. |
 | `npm run plugin:zip` | Checks that the plugin versions match, copies the plugin to `build/wasm-vips-nothreads-demo/` and zips it as `build/wasm-vips-nothreads-demo-<version>.zip`, with its SHA-256 in `build/wasm-vips-nothreads-demo-<version>.zip.sha256`. |
 | `npm run tsc` | TypeScript check of `scripts/`. |
@@ -44,7 +44,7 @@ A husky pre-commit hook runs lint-staged, which lints and type-checks the staged
 - **Pins:** every version is exact. Commits, archive hashes and Docker image digests are listed in [docs/updating.md](docs/updating.md). Do not loosen a pin.
 - **Patches:** change the sources in `src/`, then regenerate the patch as described in `docs/updating.md`. Never edit a build output.
 - **Results:** files in `results/` come from the scripts only. Never edit them by hand. Rerun the script and commit the new file.
-- **Docs:** every number in the docs comes from a file in `results/`, except the phone results, which were read from screenshots of the published pages and from the server log of the test site. Update the docs in the same change as the results.
+- **Docs:** every number in the docs comes from a file in `results/`, except the phone results and the Gutenberg reruns. Update the docs in the same change as the results.
 - **Plugin:** follows the WordPress Coding Standards. Prefix every global with `wasm_vips_nothreads_demo`, use the text domain `wasm-vips-nothreads-demo`, keep `readme.txt` in the WordPress.org format, and keep the version in `load.php` and `readme.txt` the same.
 
 ## Checks before a change is done

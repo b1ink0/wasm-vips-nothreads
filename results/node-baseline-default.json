@@ -12,16 +12,16 @@
 	],
 	"totalHeapMiB": 531,
 	"node": "v24.22.1",
-	"initMs": 76,
-	"medianMs": 3069,
-	"minMs": 2998,
-	"maxMs": 3273,
+	"initMs": 150,
+	"medianMs": 3127,
+	"minMs": 3070,
+	"maxMs": 3205,
 	"times": [
-		3069,
-		3106,
-		3273,
-		2998,
-		3067
+		3203,
+		3205,
+		3103,
+		3070,
+		3127
 	],
 	"outputs": [
 		{

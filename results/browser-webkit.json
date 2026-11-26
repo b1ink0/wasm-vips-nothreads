@@ -14,16 +14,16 @@
 		"iters": 5,
 		"avif": false,
 		"concurrency": 1,
-		"initMs": 67,
-		"medianMs": 2936,
-		"minMs": 2917,
-		"maxMs": 2949,
+		"initMs": 143,
+		"medianMs": 2979,
+		"minMs": 2950,
+		"maxMs": 3015,
 		"times": [
-			2949,
-			2931,
-			2917,
-			2948,
-			2936
+			3014,
+			2979,
+			2950,
+			2952,
+			3015
 		],
 		"heapMiB": [
 			531
@@ -131,24 +131,24 @@
 		"iters": 5,
 		"avif": false,
 		"concurrency": 1,
-		"initMs": 301,
-		"medianMs": 1169,
-		"minMs": 1133,
-		"maxMs": 1187,
+		"initMs": 237,
+		"medianMs": 1257,
+		"minMs": 1181,
+		"maxMs": 1306,
 		"times": [
-			1187,
-			1169,
-			1172,
-			1133,
-			1155
+			1257,
+			1225,
+			1181,
+			1305,
+			1306
 		],
 		"heapMiB": [
 			368.75,
+			531,
 			442.5,
-			368.75,
 			531
 		],
-		"totalHeapMiB": 1711,
+		"totalHeapMiB": 1873.25,
 		"outputs": [
 			{
 				"task": "1536x1536.jpeg",
@@ -248,7 +248,7 @@
 		},
 		"lib": "baseline",
 		"jobs": 1,
-		"error": "Ab@http://127.0.0.1:54666/iso/lib/baseline/vips-es6.js:93:391\n248@wasm-function[248]\n173@wasm-function[173]\n4167@wasm-function[4167]\n4959@wasm-function[4959]\n@\nrun@http://127.0.0.1:54666/iso/worker.js:18:40\nmap@[native code]\n@http://127.0.0.1:54666/iso/worker.js:66:33"
+		"error": "Ab@http://127.0.0.1:56900/iso/lib/baseline/vips-es6.js:93:391\n248@wasm-function[248]\n173@wasm-function[173]\n4170@wasm-function[4170]\n4968@wasm-function[4968]\n@\nrun@http://127.0.0.1:56900/iso/worker.js:18:40\nmap@[native code]\n@http://127.0.0.1:56900/iso/worker.js:66:33"
 	},
 	{
 		"variant": "nothreads",
@@ -265,21 +265,21 @@
 		"iters": 5,
 		"avif": false,
 		"concurrency": 1,
-		"initMs": 39,
-		"medianMs": 3065,
-		"minMs": 3039,
-		"maxMs": 3123,
+		"initMs": 122,
+		"medianMs": 3067,
+		"minMs": 3034,
+		"maxMs": 3178,
 		"times": [
-			3065,
-			3039,
-			3041,
-			3123,
-			3069
+			3178,
+			3057,
+			3067,
+			3085,
+			3034
 		],
 		"heapMiB": [
-			307.25
+			368.75
 		],
-		"totalHeapMiB": 307.25,
+		"totalHeapMiB": 368.75,
 		"outputs": [
 			{
 				"task": "1536x1536.jpeg",
@@ -382,24 +382,24 @@
 		"iters": 5,
 		"avif": false,
 		"concurrency": 1,
-		"initMs": 177,
-		"medianMs": 1208,
-		"minMs": 1187,
-		"maxMs": 1363,
+		"initMs": 97,
+		"medianMs": 1211,
+		"minMs": 1137,
+		"maxMs": 1992,
 		"times": [
-			1363,
-			1200,
-			1208,
-			1187,
-			1224
+			1160,
+			1211,
+			1992,
+			1137,
+			1217
 		],
 		"heapMiB": [
-			256,
 			307.25,
 			307.25,
-			307.25
+			368.75,
+			368.75
 		],
-		"totalHeapMiB": 1177.75,
+		"totalHeapMiB": 1352,
 		"outputs": [
 			{
 				"task": "1536x1536.jpeg",

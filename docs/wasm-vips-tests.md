@@ -6,45 +6,19 @@ The unit tests that ship with wasm-vips (`test/unit`), run with the build withou
 
 wasm-vips 0.0.19, [`49ac437`](https://github.com/kleisauke/wasm-vips/commit/49ac4378f2df80e38f45491abeeac9b86dddbedd), built without threads. 238 tests in 15 files.
 
-| Environment | How | mocha |
-|---|---|---|
-| Node v24.22.1 | The `test` script of `test/unit/package.json`, as the wasm-vips CI runs it | 12.0.3 |
-| Chromium 156.0.8078.4 | `test/unit/index.html`, served without cross-origin isolation headers, through Playwright | 12.0.2 |
-| Firefox 157.0 | Same | 12.0.2 |
-| WebKit 27.2 | Same | 12.0.2 |
+| Environment | How |
+|---|---|
+| Node v24.22.1 | The `test` script of `test/unit/package.json`, as the wasm-vips CI runs it |
+| Chromium 156.0.8078.4 | `test/unit/index.html`, served without cross-origin isolation headers, through Playwright |
+| Firefox 157.0 | Same |
+| WebKit 27.2 | Same |
 
 - In the browsers, the tests run on the main thread of the page, as `index.html` loads them. The script stops if the page is cross-origin isolated.
-- Each run stops after 20 minutes and is recorded as hung.
 - The tests, `node-helper.js` and `index.html` are not changed. They load the JPEG XL, HEIF and SVG modules, which the build has.
 
 ## Results
 
-| Environment | Passed | Skipped | Failed | Hung |
-|---|---|---|---|---|
-| Node | 235 | 3 | 0 | No |
-| Chromium | 235 | 3 | 0 | No |
-| Firefox | 235 | 3 | 0 | No |
-| WebKit | 235 | 3 | 0 | No |
-
-The same tests pass and skip in all four. Per file:
-
-| File | Passed | Skipped | Failed |
-|---|---|---|---|
-| `test_arithmetic.js` | 63 | 0 | 0 |
-| `test_auto_delete.js` | 3 | 0 | 0 |
-| `test_block.js` | 2 | 0 | 0 |
-| `test_colour.js` | 6 | 0 | 0 |
-| `test_connection.js` | 14 | 0 | 0 |
-| `test_conversion.js` | 40 | 0 | 0 |
-| `test_convolution.js` | 7 | 1 | 0 |
-| `test_create.js` | 26 | 2 | 0 |
-| `test_draw.js` | 7 | 0 | 0 |
-| `test_foreign.js` | 30 | 0 | 0 |
-| `test_histogram.js` | 12 | 0 | 0 |
-| `test_iofuncs.js` | 5 | 0 | 0 |
-| `test_morphology.js` | 5 | 0 | 0 |
-| `test_mosaicing.js` | 6 | 0 | 0 |
-| `test_resample.js` | 9 | 0 | 0 |
+235 passed, 3 skipped and 0 failed in each environment. The same tests pass and skip in all four.
 
 The skipped tests skip themselves, whatever the build:
 
@@ -56,7 +30,7 @@ The skipped tests skip themselves, whatever the build:
 
 ## Bugs found by the tests
 
-The first runs of these tests found two bugs in the build without threads. Both are fixed by patches described in [How it works](how-it-works.md#what-the-build-without-threads-changes):
+These tests found two bugs in the build without threads, both fixed by patches described in [How it works](how-it-works.md#what-the-build-without-threads-changes):
 
 - Tests that pass number arrays to wasm failed with "detached ArrayBuffer" after the memory first grew. Fixed by `emscripten-vector-heap.patch`.
 - `colour colourspace` and `foreign heifload` ran out of memory, as the calling thread did not get the buffer cache libvips gives its own threads. Fixed in `libvips-nothreads.patch`.
@@ -75,9 +49,6 @@ The first runs of these tests found two bugs in the build without threads. Both 
 - **Phones.** The browsers are the desktop builds Playwright installs.
 - **Speed and memory.** The tests check results, not time or heap size.
 - **Operations the tests do not call.** None of them calls `dzsave`, `tilecache` or `linecache` directly.
-- **Features wasm-vips does not include.** Text and FFTW, listed above.
-
-Passing these tests means the build gives the same results as wasm-vips expects for what the tests check. It does not show that every libvips path works without threads.
 
 ## Run it yourself
 

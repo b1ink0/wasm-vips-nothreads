@@ -7,9 +7,9 @@ wasm-vips is libvips compiled to WebAssembly with Emscripten. The release build 
 Shared WebAssembly memory is backed by a `SharedArrayBuffer`. Browsers only expose `SharedArrayBuffer` on pages that are cross-origin isolated (`self.crossOriginIsolated === true`). A page becomes isolated in one of two ways:
 
 - **COOP and COEP headers** (`Cross-Origin-Opener-Policy: same-origin` and `Cross-Origin-Embedder-Policy: require-corp` or `credentialless`). Every browser supports them, but they apply to the whole page: cross-origin popups lose their link to the opener, and cross-origin embeds without CORP or CORS headers are blocked in `require-corp` mode.
-- **`Document-Isolation-Policy`**, which isolates only the document that sends it. Chromium 137 and later support it on desktop, and Chrome 158 and Samsung Internet 31 on Android isolated the editor with it in the [phone test](wordpress-plugin.md#android-phone).
+- **`Document-Isolation-Policy`**, which isolates only the document that sends it. Chromium 137 and later support it.
 
-Without isolation, the release build does not work. In the browser bench, its start-up does not finish within 60 seconds in Chromium and Firefox, and in WebKit the first image throws a `WebAssembly.Exception`.
+Without isolation, the release build does not work. See [Release build without isolation](benchmarks.md#release-build-without-isolation).
 
 WordPress 7.2 runs this build in the block editor to process uploaded images in the browser. Core sends `Document-Isolation-Policy` on the editor and media screens, so client-side processing works in Chromium browsers and falls back to the server in Firefox and Safari.
 
@@ -34,9 +34,9 @@ Everything else stays the same: the libraries, their versions and the codecs.
 
 Without threads, one wasm-vips instance processes one image on one thread. To use more cores, run several instances, each in its own Web Worker. Workers do not share memory, so they need no isolation.
 
-The trade-off is memory: every instance has its own heap, which starts at 256 MiB and grows as needed. Four workers hold four heaps. The benchmarks record the heap of every worker.
+The trade-off is memory: every instance has its own heap, which starts at 256 MiB and grows as needed. Four workers hold four heaps.
 
-The release build gains less from its threads on the web than it would elsewhere: it sets `VIPS_CONCURRENCY` to 1 on the web, so libvips processes pixels with one worker thread there too. Its source gives the reason: dedicated workers cannot be started safely on the web, and the limit avoids deadlocks.
+On the web the release build sets `VIPS_CONCURRENCY` to 1, so libvips uses one worker thread there too. Its source says dedicated workers cannot be started safely on the web, and the limit avoids deadlocks.
 
 ## The WordPress plugin
 
@@ -45,6 +45,4 @@ WordPress loads the vips worker as the `@wordpress/vips/worker` script module. T
 - stops core from sending `Document-Isolation-Policy`,
 - defines a placeholder `SharedArrayBuffer` on pages without one.
 
-The placeholder is needed because `@wordpress/upload-media` checks for `SharedArrayBuffer` before it enables client-side processing. The check exists for the threaded build only. The placeholder throws when it is constructed, and the vips worker runs in its own global scope where it is not defined. Code on the page that only checks whether `SharedArrayBuffer` exists sees the placeholder, which is the main limit of this approach. The clean fix is in WordPress: skip that check when the vips build does not need it.
-
-See [WordPress plugin](wordpress-plugin.md) for the test setup and results.
+The placeholder is needed because `@wordpress/upload-media` checks for `SharedArrayBuffer` before it enables client-side processing. See [Limits](wordpress-plugin.md#limits).

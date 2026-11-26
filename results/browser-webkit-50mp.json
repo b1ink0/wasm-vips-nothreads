@@ -14,14 +14,14 @@
 		"iters": 3,
 		"avif": false,
 		"concurrency": 1,
-		"initMs": 257,
-		"medianMs": 5233,
-		"minMs": 5169,
-		"maxMs": 5280,
+		"initMs": 64,
+		"medianMs": 5194,
+		"minMs": 5153,
+		"maxMs": 5230,
 		"times": [
-			5233,
-			5280,
-			5169
+			5194,
+			5153,
+			5230
 		],
 		"heapMiB": [
 			908.9375
@@ -129,22 +129,22 @@
 		"iters": 3,
 		"avif": false,
 		"concurrency": 1,
-		"initMs": 434,
-		"medianMs": 1875,
-		"minMs": 1791,
-		"maxMs": 2193,
+		"initMs": 264,
+		"medianMs": 2077,
+		"minMs": 1965,
+		"maxMs": 2291,
 		"times": [
-			2193,
-			1791,
-			1875
+			2291,
+			1965,
+			2077
 		],
 		"heapMiB": [
+			531,
 			636.625,
 			636.625,
-			636.625,
-			764
+			636.625
 		],
-		"totalHeapMiB": 2673.875,
+		"totalHeapMiB": 2440.875,
 		"outputs": [
 			{
 				"task": "1536x1536.jpeg",
@@ -244,7 +244,7 @@
 		},
 		"lib": "baseline",
 		"jobs": 1,
-		"error": "Ab@http://127.0.0.1:55509/iso/lib/baseline/vips-es6.js:93:391\n248@wasm-function[248]\n173@wasm-function[173]\n4167@wasm-function[4167]\n4959@wasm-function[4959]\n@\nrun@http://127.0.0.1:55509/iso/worker.js:18:40\nmap@[native code]\n@http://127.0.0.1:55509/iso/worker.js:66:33"
+		"error": "Ab@http://127.0.0.1:61810/iso/lib/baseline/vips-es6.js:93:391\n248@wasm-function[248]\n173@wasm-function[173]\n4170@wasm-function[4170]\n4968@wasm-function[4968]\n@\nrun@http://127.0.0.1:61810/iso/worker.js:18:40\nmap@[native code]\n@http://127.0.0.1:61810/iso/worker.js:66:33"
 	},
 	{
 		"variant": "nothreads",
@@ -262,18 +262,18 @@
 		"avif": false,
 		"concurrency": 1,
 		"initMs": 39,
-		"medianMs": 5239,
-		"minMs": 5181,
-		"maxMs": 5299,
+		"medianMs": 5258,
+		"minMs": 5204,
+		"maxMs": 5270,
 		"times": [
-			5299,
-			5239,
-			5181
+			5258,
+			5204,
+			5270
 		],
 		"heapMiB": [
-			442.5
+			531
 		],
-		"totalHeapMiB": 442.5,
+		"totalHeapMiB": 531,
 		"outputs": [
 			{
 				"task": "1536x1536.jpeg",
@@ -376,22 +376,22 @@
 		"iters": 3,
 		"avif": false,
 		"concurrency": 1,
-		"initMs": 92,
-		"medianMs": 1958,
-		"minMs": 1889,
-		"maxMs": 2018,
+		"initMs": 90,
+		"medianMs": 2312,
+		"minMs": 2118,
+		"maxMs": 2672,
 		"times": [
-			1889,
-			1958,
-			2018
+			2118,
+			2312,
+			2672
 		],
 		"heapMiB": [
 			442.5,
 			442.5,
 			442.5,
-			442.5
+			531
 		],
-		"totalHeapMiB": 1770,
+		"totalHeapMiB": 1858.5,
 		"outputs": [
 			{
 				"task": "1536x1536.jpeg",

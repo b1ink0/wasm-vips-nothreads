@@ -15,8 +15,8 @@ Each run does what WordPress does for one uploaded image: it makes every default
 | 1536x1536 | 1536 × 1536 | no |
 | 2048x2048 | 2048 × 2048 | no |
 
-- **Encoding:** the same options as `@wordpress/vips` in WordPress 7.2: JPEG quality 82, WebP quality 86, AVIF quality 82 with effort 2, ICC profiles kept. Most runs encode JPEG and WebP (12 outputs). The AVIF runs add AVIF (18 outputs).
-- **Inputs:** two camera photos from Wikimedia Commons, downloaded and checked by `npm run images`: `images/input.jpg` (6016 × 4000, 24 MP, 13 MB) and `images/input-8685x5789.jpg` (50 MP, 33 MB). Both are sRGB JPEGs with an ICC profile and EXIF. Credits are in the [README](../README.md#test-photos).
+- **Encoding:** the same options as `@wordpress/vips` in WordPress 7.2: JPEG quality 82, WebP quality 86, AVIF quality 82 with effort 2, ICC profiles kept. Most runs encode JPEG and WebP. The AVIF runs add AVIF.
+- **Inputs:** two camera photos from Wikimedia Commons, downloaded and checked by `npm run images`: `images/input.jpg` (6016 × 4000, 24 MP, 13 MB) and `images/input-8685x5789.jpg` (8685 × 5789, 50 MP, 33 MB). Both are sRGB JPEGs with an ICC profile and EXIF. Credits are in the [README](../README.md#test-photos).
 - **Timing:** one warm-up batch, then 5 timed batches (3 for the 50 MP input). The tables show the median. Start-up time is measured separately.
 - **Workers:** with more than one worker, the tasks are spread round-robin over that many workers, each with its own wasm-vips instance. WordPress uses one worker.
 - **Heap:** the size of each instance's WebAssembly memory after the run, which starts at 256 MiB and grows as needed.
@@ -29,7 +29,7 @@ The builds:
 | baseline | The wasm-vips 0.0.19 release built from source here, with threads and the heap fix described in [How it works](how-it-works.md#what-the-build-without-threads-changes) |
 | nothreads | The same commit built without threads |
 
-In the browser tables, baseline runs on a cross-origin isolated page, since it needs it. nothreads runs on a plain page without isolation. Browsers run both builds with libvips concurrency 1, which the release build sets on the web, except in [More threads per image](#browsers-more-threads-per-image).
+In the browser tables, baseline runs on a cross-origin isolated page and nothreads on a plain page. Browsers run both builds with libvips concurrency 1, as the release build does on the web, except in [More threads per image](#browsers-more-threads-per-image).
 
 ## Browsers, one worker
 
@@ -37,70 +37,73 @@ This is the case WordPress runs. The difference compares nothreads with baseline
 
 ### 24 MP, JPEG and WebP
 
-| Browser | baseline | nothreads | Difference | Heap (baseline, nothreads) |
-|---|---|---|---|---|
-| Chromium | 2961 ms | 3017 ms | +2% | 531, 307.25 MiB |
-| Firefox | 3360 ms | 3301 ms | -2% | 531, 307.25 MiB |
-| WebKit | 2936 ms | 3065 ms | +4% | 531, 307.25 MiB |
+| Browser | baseline | nothreads | Difference |
+|---|---|---|---|
+| Chromium | 3405 ms | 2889 ms | -15% |
+| Firefox | 3474 ms | 3237 ms | -7% |
+| WebKit | 2979 ms | 3067 ms | +3% |
 
 ### 24 MP, JPEG, WebP and AVIF
 
-| Browser | baseline | nothreads | Difference | Heap (baseline, nothreads) |
-|---|---|---|---|---|
-| Chromium | 7412 ms | 7210 ms | -3% | 531, 307.25 MiB |
-| Firefox | 8683 ms | 8483 ms | -2% | 531, 307.25 MiB |
-| WebKit | 7305 ms | 8255 ms | +13% | 531, 307.25 MiB |
+| Browser | baseline | nothreads | Difference |
+|---|---|---|---|
+| Chromium | 7526 ms | 7264 ms | -3% |
+| Firefox | 8548 ms | 8041 ms | -6% |
+| WebKit | 7249 ms | 8343 ms | +15% |
 
-In WebKit the nothreads batches spread from 7590 to 10236 ms, the baseline batches from 7235 to 7477 ms.
+In WebKit every baseline batch was faster than every nothreads batch.
+
+With the 24 MP input, the heap after the run is 531 MiB for baseline and 369 MiB for nothreads in every browser.
 
 ### 50 MP, JPEG and WebP
 
-| Browser | baseline | nothreads | Difference | Heap (baseline, nothreads) |
-|---|---|---|---|---|
-| Chromium | 5427 ms | 5033 ms | -7% | 908.94, 442.5 MiB |
-| Firefox | 5819 ms | 5669 ms | -3% | 908.94, 442.5 MiB |
-| WebKit | 5233 ms | 5239 ms | 0% | 908.94, 442.5 MiB |
+| Browser | baseline | nothreads | Difference |
+|---|---|---|---|
+| Chromium | 5585 ms | 4977 ms | -11% |
+| Firefox | 5842 ms | 5677 ms | -3% |
+| WebKit | 5194 ms | 5258 ms | +1% |
 
-Start-up of one instance, 24 MP runs: Chromium 75 ms (baseline) and 60 ms (nothreads), Firefox 216 ms and 193 ms, WebKit 67 ms and 39 ms.
+Heap after the run: baseline 764 MiB in Chromium and 909 MiB in Firefox and WebKit, nothreads 531 MiB.
+
+Start-up of one instance, 24 MP runs: Chromium 78 ms (baseline) and 40 ms (nothreads), Firefox 267 ms and 125 ms, WebKit 143 ms and 122 ms.
 
 ## Browsers, four workers
 
 | Input | Browser | baseline | nothreads |
 |---|---|---|---|
-| 24 MP, JPEG and WebP | Chromium | 1499 ms | 1145 ms |
-| | Firefox | 1532 ms | 1274 ms |
-| | WebKit | 1169 ms | 1208 ms |
-| 24 MP, with AVIF | Chromium | 3417 ms | 3333 ms |
-| | Firefox | 3964 ms | 4132 ms |
-| | WebKit | 4628 ms | 3996 ms |
-| 50 MP, JPEG and WebP | Chromium | 2210 ms | 1900 ms |
-| | Firefox | 2290 ms | 2113 ms |
-| | WebKit | 1875 ms | 1958 ms |
+| 24 MP, JPEG and WebP | Chromium | 1782 ms | 1138 ms |
+| | Firefox | 1426 ms | 1280 ms |
+| | WebKit | 1257 ms | 1211 ms |
+| 24 MP, with AVIF | Chromium | 4495 ms | 3317 ms |
+| | Firefox | 6660 ms | 3867 ms |
+| | WebKit | 4063 ms | 4622 ms |
+| 50 MP, JPEG and WebP | Chromium | 2705 ms | 1972 ms |
+| | Firefox | 2332 ms | 2240 ms |
+| | WebKit | 2077 ms | 2312 ms |
 
-Four workers hold four heaps, 256 to 764 MiB each in these runs.
+Four workers hold four heaps, 307 to 764 MiB each in these runs.
 
 ## Browsers, more threads per image
 
 The release build on the isolated page, one worker, 24 MP JPEG and WebP, with libvips concurrency set by `vips.concurrency()` after start-up. The c1 column is the baseline column of the one-worker table, from a separate run, so differences of a few percent are within noise.
 
-| Browser | c1 | c4 | c8 | Heap (c1, c4, c8) |
-|---|---|---|---|---|
-| Chromium | 2961 ms | 2832 ms | 2849 ms | 531, 531, 531 MiB |
-| Firefox | 3360 ms | 3230 ms | 3220 ms | 531, 531, 531 MiB |
-| WebKit | 2936 ms | 2875 ms | 2868 ms | 531, 531, 531 MiB |
+| Browser | c1 | c4 | c8 |
+|---|---|---|---|
+| Chromium | 3405 ms | 2853 ms | 2883 ms |
+| Firefox | 3474 ms | 3187 ms | 3651 ms |
+| WebKit | 2979 ms | 2859 ms | 2881 ms |
 
-- Every run finished, and the workers reported the concurrency that was set.
-- Concurrency 4 is 2 to 4% faster than concurrency 1.
-- Concurrency 8 is no faster than 4: within 1% in every browser.
+- The heap is 531 MiB at every concurrency.
+- Concurrency 4 is 4 to 16% faster than concurrency 1.
+- Concurrency 8 is no faster than 4: within 1% in Chromium and WebKit, and 15% slower in Firefox.
 - nothreads with four workers (the four-worker table) is 2.4 to 2.5 times faster than baseline with one worker at concurrency 4.
-- nothreads ignores the setting. Its one-worker times in the same runs stay within 2% of the one-worker table.
-- The outputs are byte-identical at every concurrency.
+- nothreads ignores the setting. Its one-worker times in the same runs stay within 3% of the one-worker table, except one WebKit run at 3672 ms.
 
 ## Phones
 
-The [published pages](https://b1ink0.github.io/wasm-vips-nothreads/), opened once per setup on a Samsung Galaxy S26 Ultra and an iPhone 17 Pro on 25 November 2026. These runs used the earlier 24 MP input, a 6000 × 4000 JPEG of synthetic noise (3.2 MB), and AVIF quality 52, so they cannot be compared with the tables above. They have not been run again with the camera photo.
+The [published pages](https://b1ink0.github.io/wasm-vips-nothreads/), opened once per setup on a Samsung Galaxy S26 Ultra and an iPhone 17 Pro on 25 November 2026. These runs used a 6000 × 4000 JPEG of synthetic noise (3.2 MB) and AVIF quality 52, so they cannot be compared with the tables above.
 
-Each cell is the median of 5 batches. The numbers were read from screenshots of the pages, so there is no file in `results/` for them, and the browser versions were not recorded. Every browser on iOS uses WebKit.
+Each cell is the median of 5 batches, read from screenshots of the pages. Every browser on iOS uses WebKit.
 
 | Phone | Browser | nothreads, 1 worker, plain page | baseline, 1 worker, isolated page | nothreads, 4 workers with AVIF, plain page | baseline, 4 workers with AVIF, isolated page |
 |---|---|---|---|---|---|
@@ -113,10 +116,8 @@ Each cell is the median of 5 batches. The numbers were read from screenshots of 
 
 - Every run finished. On the plain page every browser reported `crossOriginIsolated` and `SharedArrayBuffer` as false, and the build without threads still ran.
 - On the iPhone, the two builds are within 3% of each other in every browser.
-- On the Galaxy, the build without threads was faster than the release build in Chrome and Firefox. The 4083 ms run in Samsung Internet spread from 2511 to 4569 ms, so it is not a steady number.
-- With four workers and AVIF, the heaps added up to 1136.75 MiB for the build without threads and 1323.25 MiB for the release build on both phones.
-- For the first output, `1536x1536.jpeg`, the part of the SHA-256 visible in the screenshots is the same in both builds in Chrome and Firefox on the Galaxy, and matched the desktop output of that input.
-- The release build on the plain page was not run on the phones.
+- On the Galaxy, the build without threads was faster than the release build in Chrome and Firefox. Its Samsung Internet result varied too much between batches to compare.
+- With four workers and AVIF, the heaps added up to 1137 MiB for the build without threads and 1323 MiB for the release build on both phones.
 
 ## Release build without isolation
 
@@ -131,15 +132,15 @@ Node needs no isolation, so it compares the builds with libvips' own thread pool
 
 | Run | 24 MP, JPEG and WebP | 24 MP, with AVIF | 50 MP, JPEG and WebP |
 |---|---|---|---|
-| baseline, c8 | 3069 ms | 7621 ms | 6278 ms |
-| baseline, c1 | 3118 ms | 7793 ms | 5732 ms |
-| nothreads | 3210 ms | 8069 ms | 5454 ms |
-| baseline, c1, 4 workers | 1174 ms | 3527 ms | 2834 ms |
-| nothreads, 4 workers | 1302 ms | 4167 ms | 2743 ms |
+| baseline, c8 | 3127 ms | 8008 ms | 6032 ms |
+| baseline, c1 | 3169 ms | 8134 ms | 5849 ms |
+| nothreads | 3185 ms | 9258 ms | 5608 ms |
+| baseline, c1, 4 workers | 1194 ms | 3968 ms | 2996 ms |
+| nothreads, 4 workers | 1260 ms | 4992 ms | 2586 ms |
 
-nothreads with 2 and 6 workers on the 24 MP JPEG and WebP run: 1950 ms and 1159 ms.
+In the AVIF run, the nothreads batches varied widely, so its median is not a steady number.
 
-One 2048 px JPEG from the 50 MP input, the case a thread pool helps most: 471 ms (baseline, c8) and 506 ms (nothreads).
+One 2048 px JPEG from the 50 MP input, the case a thread pool helps most: 552 ms (baseline, c8) and 530 ms (nothreads).
 
 ## Output
 
