@@ -1,12 +1,13 @@
 // Browser benchmark, shared by plain/index.html and iso/index.html.
 // Query: lib=baseline|nothreads, jobs, iters, avif=1, input=<file in images/>, only=<size>.<format>,...,
-// concurrency=<libvips threads per image, the wasm-vips default on the web is 1>
+// concurrency=<libvips threads per image, the wasm-vips default on the web is 1>, report=1
 const p = new URLSearchParams( location.search );
 const lib = p.get( 'lib' ) || 'nothreads';
 const jobs = Number( p.get( 'jobs' ) || 1 );
 const iters = Number( p.get( 'iters' ) || 5 );
 const avif = p.get( 'avif' ) === '1';
 const concurrency = Number( p.get( 'concurrency' ) || 0 );
+const report = p.get( 'report' ) === '1';
 
 const SIZES = [
 	[ 'thumbnail', 150, 150, true ],
@@ -140,10 +141,12 @@ async function bench( input ) {
 	log.textContent = JSON.stringify( window.result, null, 2 );
 	file.disabled = false;
 	// Lets the local runner collect results from browsers it cannot drive (--system).
-	fetch( 'result', {
-		method: 'POST',
-		body: JSON.stringify( window.result ),
-	} ).catch( () => {} );
+	if ( report ) {
+		fetch( 'result', {
+			method: 'POST',
+			body: JSON.stringify( window.result ),
+		} );
+	}
 }
 
 file.onchange = async () => {
@@ -151,9 +154,13 @@ file.onchange = async () => {
 	await bench( new Uint8Array( await file.files[ 0 ].arrayBuffer() ) );
 };
 
-const url = new URL(
-	`images/${ p.get( 'input' ) || 'input.jpg' }`,
-	import.meta.url
-);
-preview.src = url;
-await bench( new Uint8Array( await ( await fetch( url ) ).arrayBuffer() ) );
+const input = await (
+	await fetch(
+		new URL(
+			`images/${ p.get( 'input' ) || 'input.jpg' }`,
+			import.meta.url
+		)
+	)
+).blob();
+preview.src = URL.createObjectURL( input );
+await bench( new Uint8Array( await input.arrayBuffer() ) );

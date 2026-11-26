@@ -52,6 +52,9 @@ if ( args.only ) {
 if ( args.concurrency ) {
 	query.set( 'concurrency', args.concurrency );
 }
+if ( args.system ) {
+	query.set( 'report', '1' );
+}
 
 // Serves the same tree that scripts/deploy.ts publishes.
 const LIBS: Record< string, string > = {
