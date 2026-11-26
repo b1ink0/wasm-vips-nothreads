@@ -1,0 +1,53 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>wasm-vips nothreads bench</title>
+<link rel="stylesheet" href="style.css">
+<main>
+	<h1>wasm-vips without threads</h1>
+	<p>
+		Runs the <a href="https://github.com/kleisauke/wasm-vips">wasm-vips</a> release build and a build without threads in your browser.
+		Each run makes every WordPress image size as JPEG and WebP and takes about half a minute.
+		The findings are in <a href="https://github.com/b1ink0/wasm-vips-nothreads">the repository</a>.
+	</p>
+
+	<h2>Run in this browser</h2>
+	<ul class="actions">
+		<li>
+			<a class="button" href="plain/?lib=nothreads&jobs=1">Without threads, normal page</a>
+			<span class="muted">Finishes and shows the images.</span>
+		</li>
+		<li>
+			<a class="button" href="plain/?lib=baseline&jobs=1">Release build, normal page</a>
+			<span class="muted">Fails after 60 seconds.</span>
+		</li>
+		<li>
+			<a class="button" href="iso/?lib=baseline&jobs=1">Release build, isolated page</a>
+			<span class="muted">Finishes. Compare its time with the first run.</span>
+		</li>
+	</ul>
+	<p class="muted">An isolated page reloads itself once before the run starts.</p>
+
+	<h2>Try it in WordPress</h2>
+	<ul class="actions">
+		<li>
+			<a class="button" href="https://playground.wordpress.net/?blueprint-url=https://b1ink0.github.io/wasm-vips-nothreads/blueprint.json">Open WordPress Playground</a>
+			<span class="muted">Add an image block and upload an image.</span>
+		</li>
+	</ul>
+
+	<details>
+		<summary>More runs</summary>
+		<ul>
+			<li><a href="plain/?lib=nothreads&jobs=4">Without threads, 4 workers</a>, normal page</li>
+			<li><a href="plain/?lib=nothreads&jobs=4&avif=1">Without threads, 4 workers, with AVIF</a>, normal page</li>
+			<li><a href="iso/?lib=baseline&jobs=4">Release build, 4 workers</a>, isolated page</li>
+			<li><a href="iso/?lib=nothreads&jobs=4">Without threads, 4 workers</a>, isolated page</li>
+			<li><a href="iso/?lib=baseline&jobs=4&avif=1">Release build, 4 workers, with AVIF</a>, isolated page</li>
+		</ul>
+		<p class="muted">
+			The query string takes <code>lib</code> (<code>baseline</code> or <code>nothreads</code>),
+			<code>jobs</code>, <code>iters</code> (default 5) and <code>avif=1</code>.
+		</p>
+	</details>
+</main>

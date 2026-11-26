@@ -1,0 +1,18 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/wp-admin/post-new.php",
+	"preferredVersions": {
+		"php": "8.4",
+		"wp": "beta"
+	},
+	"login": true,
+	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "url",
+				"url": "https://b1ink0.github.io/wasm-vips-nothreads/wasm-vips-nothreads-demo-0.1.0.zip"
+			}
+		}
+	]
+}

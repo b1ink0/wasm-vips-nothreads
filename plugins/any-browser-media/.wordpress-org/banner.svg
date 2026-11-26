@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1544 500">
+	<rect width="1544" height="500" fill="#000"/>
+	<g fill="#fff" transform="translate(110 106) scale(2) translate(-40 -56)">
+		<rect x="40" y="56" width="176" height="144" rx="14" fill="none" stroke="#fff" stroke-width="12"/>
+		<rect x="40" y="90" width="176" height="12"/>
+		<circle cx="60" cy="76" r="5"/>
+		<circle cx="78" cy="76" r="5"/>
+		<circle cx="96" cy="76" r="5"/>
+		<path d="M78 182 L112 134 L134 162 L148 146 L178 182 Z"/>
+		<circle cx="162" cy="124" r="10"/>
+	</g>
+	<g fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+		<text x="530" y="250" font-size="96" font-weight="700">Any Browser Media</text>
+		<text x="533" y="318" font-size="36" opacity="0.7">Client-side image processing in Chrome, Firefox and Safari.</text>
+	</g>
+</svg>
