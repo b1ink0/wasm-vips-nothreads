@@ -1,7 +1,8 @@
 /**
  * Every benchmark run behind the README tables. Needs npm run setup and npm run build first.
  *
- * Usage: node scripts/bench.ts [node|browser]. With no step, runs both.
+ * Usage: node scripts/bench.ts [node|browser|combined]. With no step, runs node and browser.
+ *        combined runs only the browser benchmarks of the combined build.
  * Output: results/node-*.json and results/browser-*.json.
  */
 import { execFileSync } from 'node:child_process';
@@ -28,7 +29,7 @@ function browser( ...args: string[] ) {
 	} );
 }
 
-if ( step !== 'browser' ) {
+if ( step === undefined || step === 'node' ) {
 	// JPEG and WebP, every WordPress sub-size of the 24 MP input.
 	node( BASE, 'baseline-default' );
 	node( BASE, 'baseline-c1', '--concurrency', '1' );
@@ -108,10 +109,14 @@ if ( step !== 'browser' ) {
 }
 
 if ( step !== 'node' ) {
-	// Chromium, Firefox and WebKit through Playwright.
-	browser();
-	browser( '--avif', '--label', 'avif' );
-	browser( '--input', LARGE, '--iters', '3', '--label', '50mp' );
-	browser( '--concurrency', '4', '--label', 'c4' );
-	browser( '--concurrency', '8', '--label', 'c8' );
+	// Chromium, Firefox and WebKit through Playwright, the baseline and nothreads builds, then the combined build.
+	for ( const only of step === 'combined'
+		? [ [ '--combined' ] ]
+		: [ [], [ '--combined' ] ] ) {
+		browser( ...only );
+		browser( ...only, '--avif', '--label', 'avif' );
+		browser( ...only, '--input', LARGE, '--iters', '3', '--label', '50mp' );
+		browser( ...only, '--concurrency', '4', '--label', 'c4' );
+		browser( ...only, '--concurrency', '8', '--label', 'c8' );
+	}
 }

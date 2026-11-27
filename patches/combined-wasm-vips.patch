@@ -1,0 +1,59 @@
+--- a/build.sh
++++ b/build.sh
+@@ -484,6 +484,7 @@
+   cd $DEPS/vips
+   # Emscripten specific patches
+   patch -p1 < /vendor/libvips-wasm-vips-$VERSION_VIPS.patch
++  patch -p1 < /patches/libvips-combined.patch
+   # Disable building man pages, gettext po files, tools, and (fuzz-)tests
+   sed -i "/subdir('man')/{N;N;N;N;d;}" meson.build
+   meson setup _build --prefix=$TARGET $MESON_ARGS --default-library=static --buildtype=release \
+diff --git a/src/bindings/utils.cpp b/src/bindings/utils.cpp
+index 2147efa..3188f85 100644
+--- a/src/bindings/utils.cpp
++++ b/src/bindings/utils.cpp
+@@ -48,6 +48,12 @@ static void run(void *arg) {
+ }
+ 
+ bool proxy_sync(const std::function<void()> &func) {
++    // Without threads the main runtime thread runs libvips itself, and a
++    // synchronous proxy to the current thread would wait forever.
++    if (emscripten_is_main_runtime_thread()) {
++        func();
++        return true;
++    }
+     em_proxying_queue *q = emscripten_proxy_get_system_queue();
+     return emscripten_proxy_sync(q, emscripten_main_runtime_thread_id(), run,
+                                  (void *)&func);
+diff --git a/src/meson.build b/src/meson.build
+index 3cb5192..29fcc7c 100644
+--- a/src/meson.build
++++ b/src/meson.build
+@@ -123,10 +123,12 @@ if 'web' in get_option('environments')
+     # two concurrent pipelines, we need to double that number. Therefore, build with:
+     # `-sPTHREAD_POOL_SIZE='Math.max(navigator.hardwareConcurrency, 6)'`.
+     # Only needed on the web, pthreads on Node.js can be spawned synchronously without waiting for an event loop tick.
++    # Pages without cross-origin isolation cannot share memory with workers, so start none there and let libvips
++    # run on the calling thread (see emscripten_has_threading_support in vips-library.js).
+     web_link_args = [
+         '--use-preload-plugins',
+         '-sENVIRONMENT=web',
+-        '-sPTHREAD_POOL_SIZE=navigator.hardwareConcurrency>6?navigator.hardwareConcurrency:6',
++        '-sPTHREAD_POOL_SIZE=_emscripten_has_threading_support()?(navigator.hardwareConcurrency>6?navigator.hardwareConcurrency:6):0',
+         '-sMIN_CHROME_VERSION=95',
+         '-sMIN_FIREFOX_VERSION=100',
+         '-sMIN_SAFARI_VERSION=160400',
+diff --git a/src/vips-library.js b/src/vips-library.js
+index 09402c5..8fe3e7d 100644
+--- a/src/vips-library.js
++++ b/src/vips-library.js
+@@ -1,4 +1,9 @@
+ var LibraryVips = {
++#if ENVIRONMENT_MAY_BE_WEB
++  // Workers can receive the shared memory only on cross-origin isolated pages, and a page can define a
++  // SharedArrayBuffer without isolation. libvips, pthread_create and the worker pool all use this check.
++  emscripten_has_threading_support: () => !!globalThis.crossOriginIsolated,
++#endif
+   $VIPS__deps: [
+     '$ENV',
+     '$ClassHandle',

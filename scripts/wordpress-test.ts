@@ -7,8 +7,10 @@
  * Client-side processing uploads the original without sub-sizes, then sideloads each one, so a
  * sideload request means the browser made that sub-size.
  *
- * Usage: node scripts/wordpress-test.ts [--browsers chromium,firefox,webkit]. Needs npm run wordpress first.
- * Output: results/wordpress.json
+ * Usage: node scripts/wordpress-test.ts [--browsers chromium,firefox,webkit] [--setups core,csme,...] [--label <name>].
+ *        Needs npm run wordpress first. wasm-vips-nothreads-demo-isolated keeps core's Document-Isolation-Policy,
+ *        through wordpress/keep-isolation.php, and only runs when named in --setups.
+ * Output: results/wordpress[-<label>].json
  */
 import { execFile, execFileSync } from 'node:child_process';
 import { writeFileSync } from 'node:fs';
@@ -35,10 +37,16 @@ const SETUPS: Record< string, string[] > = {
 	core: [],
 	csme: [ 'client-side-media-everywhere' ],
 	'wasm-vips-nothreads-demo': [ 'wasm-vips-nothreads-demo' ],
+	'wasm-vips-nothreads-demo-isolated': [ 'wasm-vips-nothreads-demo' ],
 };
 const { values: args } = parseArgs( {
 	options: {
 		browsers: { type: 'string', default: 'chromium,firefox,webkit' },
+		setups: {
+			type: 'string',
+			default: 'core,csme,wasm-vips-nothreads-demo',
+		},
+		label: { type: 'string' },
 	},
 } );
 
@@ -201,11 +209,18 @@ wp(
 	'--force'
 );
 const results = [];
-for ( const [ setup, plugins ] of Object.entries( SETUPS ) ) {
+for ( const setup of args.setups.split( ',' ) ) {
+	const plugins = SETUPS[ setup ];
 	wp( 'plugin', 'deactivate', '--all' );
 	if ( plugins.length ) {
 		wp( 'plugin', 'activate', ...plugins );
 	}
+	wp(
+		'option',
+		'update',
+		'wasm_vips_nothreads_keep_isolation',
+		setup === 'wasm-vips-nothreads-demo-isolated' ? '1' : ''
+	);
 	for ( const format of FORMATS ) {
 		wp( 'option', 'update', 'wasm_vips_nothreads_output_format', format );
 		for ( const name of args.browsers.split( ',' ) ) {
@@ -292,8 +307,12 @@ for ( const [ setup, plugins ] of Object.entries( SETUPS ) ) {
 	}
 }
 wp( 'option', 'update', 'wasm_vips_nothreads_output_format', '' );
+wp( 'option', 'update', 'wasm_vips_nothreads_keep_isolation', '' );
 wp( 'plugin', 'deactivate', '--all' );
 writeFileSync(
-	join( ROOT, 'results/wordpress.json' ),
+	join(
+		ROOT,
+		`results/wordpress${ args.label ? `-${ args.label }` : '' }.json`
+	),
 	JSON.stringify( results, null, '\t' )
 );

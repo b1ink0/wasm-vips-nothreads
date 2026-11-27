@@ -1,7 +1,7 @@
 /**
  * Builds the toolchain image once, then each wasm-vips variant inside it.
  *
- * Usage: node scripts/build.ts [baseline|nothreads ...]. With no variant, builds both.
+ * Usage: node scripts/build.ts [baseline|nothreads|combined ...]. With no variant, builds baseline and nothreads.
  * Output: src/<variant>/lib/ and results/build-<variant>.log.
  */
 import { execFileSync, spawn } from 'node:child_process';

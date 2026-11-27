@@ -1,0 +1,8354 @@
+[
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1821,
+		"ms": 3394,
+		"memory": {
+			"idle": 488,
+			"peak": 825,
+			"after": 393
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-67-scaled.jpg",
+		"filesize": 777136,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-67-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 12336
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-67-300x199.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 24254
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-67-767x510.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 108600
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-67-1024x681.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 175804
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-67-1536x1021.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 342407
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-67-2048x1362.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 546037
+			}
+		},
+		"originalImage": "input-67.jpg",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1823,
+		"ms": 3684,
+		"memory": {
+			"idle": 497,
+			"peak": 748,
+			"after": 519
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-67-scaled.jpg",
+		"filesize": 777136,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-67-300x199.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 24254
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-67-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 12336
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-67-767x510.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 108600
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-67-1024x681.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 175804
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-67-1536x1021.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 342407
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-67-2048x1362.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 546037
+			}
+		},
+		"originalImage": "input-67.jpg",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1825,
+		"ms": 2781,
+		"memory": {
+			"idle": 584,
+			"peak": 836,
+			"after": 602
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-67-scaled.jpg",
+		"filesize": 777136,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-67-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 12336
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-67-300x199.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 24254
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-67-767x510.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 108600
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-67-1024x681.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 175804
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-67-1536x1021.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 342407
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-67-2048x1362.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 546037
+			}
+		},
+		"originalImage": "input-67.jpg",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "chromium",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1827,
+		"ms": 6400,
+		"memory": {
+			"idle": 492,
+			"peak": 1256,
+			"after": 383
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-31-scaled.jpg",
+		"filesize": 1070823,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-31-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 10204
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-31-300x200.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 20764
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-31-767x511.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 114025
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-31-1024x683.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 196935
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-31-1536x1024.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 422702
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-31-2048x1365.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 711034
+			}
+		},
+		"originalImage": "input-8685x5789-31.jpg",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "chromium",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1829,
+		"ms": 6849,
+		"memory": {
+			"idle": 590,
+			"peak": 1166,
+			"after": 382
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-31-scaled.jpg",
+		"filesize": 1070823,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-31-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 10204
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-31-300x200.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 20764
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-31-767x511.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 114025
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-31-1024x683.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 196935
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-31-1536x1024.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 422702
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-31-2048x1365.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 711034
+			}
+		},
+		"originalImage": "input-8685x5789-31.jpg",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "chromium",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1831,
+		"ms": 6933,
+		"memory": {
+			"idle": 521,
+			"peak": 1127,
+			"after": 611
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-31-scaled.jpg",
+		"filesize": 1070823,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-31-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 10204
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-31-300x200.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 20764
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-31-767x511.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 114025
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-31-1024x683.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 196935
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-31-1536x1024.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 422702
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-31-2048x1365.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 711034
+			}
+		},
+		"originalImage": "input-8685x5789-31.jpg",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "chromium",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1833,
+		"ms": 2067,
+		"memory": {
+			"idle": 557,
+			"peak": 783,
+			"after": 572
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-127-scaled-1.jpg",
+		"filesize": 595745,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-127-150x150-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 6456
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-127-225x300-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 13776
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-127-432x576-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 38204
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-127-768x1024-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 106371
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-127-1152x1536-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 223138
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-127-1536x2048-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 385520
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "chromium",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1835,
+		"ms": 1754,
+		"memory": {
+			"idle": 561,
+			"peak": 827,
+			"after": 664
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-128-scaled-1.jpg",
+		"filesize": 595745,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-128-150x150-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 6456
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-128-225x300-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 13776
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-128-432x576-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 38204
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-128-768x1024-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 106371
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-128-1152x1536-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 223138
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-128-1536x2048-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 385520
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "chromium",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1837,
+		"ms": 1653,
+		"memory": {
+			"idle": 582,
+			"peak": 826,
+			"after": 631
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-129-scaled-1.jpg",
+		"filesize": 595745,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-129-150x150-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 6456
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-129-225x300-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 13776
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-129-432x576-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 38204
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-129-768x1024-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 106371
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-129-1152x1536-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 223138
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-129-1536x2048-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 385520
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "chromium",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1839,
+		"ms": 1607,
+		"memory": {
+			"idle": 501,
+			"peak": 806,
+			"after": 674
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-84-scaled.png",
+		"filesize": 1627359,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-84-300x170.png",
+				"mime-type": "image/png",
+				"filesize": 49877
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-84-150x150.png",
+				"mime-type": "image/png",
+				"filesize": 28019
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-84-768x434.png",
+				"mime-type": "image/png",
+				"filesize": 207769
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-84-1024x579.png",
+				"mime-type": "image/png",
+				"filesize": 326689
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-84-1536x868.png",
+				"mime-type": "image/png",
+				"filesize": 636426
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-84-2048x1158.png",
+				"mime-type": "image/png",
+				"filesize": 1135866
+			}
+		},
+		"originalImage": "screenshot-84.png",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "chromium",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1841,
+		"ms": 1550,
+		"memory": {
+			"idle": 585,
+			"peak": 889,
+			"after": 580
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-84-scaled.png",
+		"filesize": 1627359,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-84-300x170.png",
+				"mime-type": "image/png",
+				"filesize": 49877
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-84-150x150.png",
+				"mime-type": "image/png",
+				"filesize": 28019
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-84-768x434.png",
+				"mime-type": "image/png",
+				"filesize": 207769
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-84-1024x579.png",
+				"mime-type": "image/png",
+				"filesize": 326689
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-84-1536x868.png",
+				"mime-type": "image/png",
+				"filesize": 636426
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-84-2048x1158.png",
+				"mime-type": "image/png",
+				"filesize": 1135866
+			}
+		},
+		"originalImage": "screenshot-84.png",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "chromium",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1843,
+		"ms": 1560,
+		"memory": {
+			"idle": 589,
+			"peak": 887,
+			"after": 709
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-84-scaled.png",
+		"filesize": 1627359,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-84-300x170.png",
+				"mime-type": "image/png",
+				"filesize": 49877
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-84-150x150.png",
+				"mime-type": "image/png",
+				"filesize": 28019
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-84-768x434.png",
+				"mime-type": "image/png",
+				"filesize": 207769
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-84-1024x579.png",
+				"mime-type": "image/png",
+				"filesize": 326689
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-84-1536x868.png",
+				"mime-type": "image/png",
+				"filesize": 636426
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-84-2048x1158.png",
+				"mime-type": "image/png",
+				"filesize": 1135866
+			}
+		},
+		"originalImage": "screenshot-84.png",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1845,
+		"ms": 3963,
+		"memory": {
+			"idle": 1408,
+			"peak": 1627,
+			"after": 1410
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-67-scaled.jpg",
+		"filesize": 777136,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-67-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 12336
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-67-300x199.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 24254
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-67-767x510.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 108600
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-67-1024x681.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 175804
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-67-1536x1021.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 342407
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-67-2048x1362.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 546037
+			}
+		},
+		"originalImage": "input-67.jpg",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1847,
+		"ms": 3525,
+		"memory": {
+			"idle": 1258,
+			"peak": 1638,
+			"after": 1414
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-67-scaled.jpg",
+		"filesize": 777136,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-67-300x199.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 24254
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-67-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 12336
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-67-767x510.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 108600
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-67-1024x681.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 175804
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-67-1536x1021.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 342407
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-67-2048x1362.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 546037
+			}
+		},
+		"originalImage": "input-67.jpg",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1849,
+		"ms": 3696,
+		"memory": {
+			"idle": 1258,
+			"peak": 1608,
+			"after": 1378
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-67-scaled.jpg",
+		"filesize": 777136,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-67-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 12336
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-67-300x199.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 24254
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-67-767x510.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 108600
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-67-1024x681.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 175804
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-67-1536x1021.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 342407
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-67-2048x1362.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 546037
+			}
+		},
+		"originalImage": "input-67.jpg",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "firefox",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1851,
+		"ms": 6421,
+		"memory": {
+			"idle": 1283,
+			"peak": 1672,
+			"after": 1225
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-31-scaled.jpg",
+		"filesize": 1070823,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-31-300x200.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 20764
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-31-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 10204
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-31-767x511.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 114025
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-31-1024x683.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 196935
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-31-1536x1024.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 422702
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-31-2048x1365.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 711034
+			}
+		},
+		"originalImage": "input-8685x5789-31.jpg",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "firefox",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1853,
+		"ms": 6665,
+		"memory": {
+			"idle": 1266,
+			"peak": 1636,
+			"after": 1222
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-31-scaled.jpg",
+		"filesize": 1070823,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-31-300x200.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 20764
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-31-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 10204
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-31-767x511.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 114025
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-31-1024x683.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 196935
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-31-1536x1024.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 422702
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-31-2048x1365.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 711034
+			}
+		},
+		"originalImage": "input-8685x5789-31.jpg",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "firefox",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1855,
+		"ms": 6625,
+		"memory": {
+			"idle": 1191,
+			"peak": 1703,
+			"after": 1206
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-31-scaled.jpg",
+		"filesize": 1070823,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-31-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 10204
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-31-300x200.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 20764
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-31-767x511.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 114025
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-31-1024x683.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 196935
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-31-1536x1024.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 422702
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-31-2048x1365.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 711034
+			}
+		},
+		"originalImage": "input-8685x5789-31.jpg",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "firefox",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1857,
+		"ms": 2230,
+		"memory": {
+			"idle": 1276,
+			"peak": 1557,
+			"after": 1405
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-130-scaled-1.jpg",
+		"filesize": 595745,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-130-150x150-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 6456
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-130-225x300-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 13776
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-130-432x576-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 38204
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-130-768x1024-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 106371
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-130-1152x1536-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 223138
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-130-1536x2048-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 385520
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "firefox",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1859,
+		"ms": 3497,
+		"memory": {
+			"idle": 1448,
+			"peak": 1473,
+			"after": 1332
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-131-scaled-1.jpg",
+		"filesize": 595745,
+		"sizes": {
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-131-225x300-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 13776
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-131-150x150-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 6456
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-131-432x576-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 38204
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-131-768x1024-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 106371
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-131-1152x1536-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 223138
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-131-1536x2048-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 385520
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "firefox",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1861,
+		"ms": 3420,
+		"memory": {
+			"idle": 1294,
+			"peak": 1512,
+			"after": 1260
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-132-scaled-1.jpg",
+		"filesize": 595745,
+		"sizes": {
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-132-225x300-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 13776
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-132-150x150-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 6456
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-132-432x576-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 38204
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-132-768x1024-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 106371
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-132-1152x1536-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 223138
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-132-1536x2048-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 385520
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "firefox",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1863,
+		"ms": 3018,
+		"memory": {
+			"idle": 1300,
+			"peak": 1522,
+			"after": 1412
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-84-scaled.png",
+		"filesize": 1627359,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-84-150x150.png",
+				"mime-type": "image/png",
+				"filesize": 28019
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-84-300x170.png",
+				"mime-type": "image/png",
+				"filesize": 49877
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-84-768x434.png",
+				"mime-type": "image/png",
+				"filesize": 207769
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-84-1024x579.png",
+				"mime-type": "image/png",
+				"filesize": 326689
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-84-1536x868.png",
+				"mime-type": "image/png",
+				"filesize": 636426
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-84-2048x1158.png",
+				"mime-type": "image/png",
+				"filesize": 1135866
+			}
+		},
+		"originalImage": "screenshot-84.png",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "firefox",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1865,
+		"ms": 2995,
+		"memory": {
+			"idle": 1234,
+			"peak": 1500,
+			"after": 1417
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-84-scaled.png",
+		"filesize": 1627359,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-84-150x150.png",
+				"mime-type": "image/png",
+				"filesize": 28019
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-84-300x170.png",
+				"mime-type": "image/png",
+				"filesize": 49877
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-84-1024x579.png",
+				"mime-type": "image/png",
+				"filesize": 326689
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-84-768x434.png",
+				"mime-type": "image/png",
+				"filesize": 207769
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-84-1536x868.png",
+				"mime-type": "image/png",
+				"filesize": 636426
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-84-2048x1158.png",
+				"mime-type": "image/png",
+				"filesize": 1135866
+			}
+		},
+		"originalImage": "screenshot-84.png",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "firefox",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1867,
+		"ms": 3675,
+		"memory": {
+			"idle": 1215,
+			"peak": 1399,
+			"after": 1216
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-84-scaled.png",
+		"filesize": 1627359,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-84-150x150.png",
+				"mime-type": "image/png",
+				"filesize": 28019
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-84-300x170.png",
+				"mime-type": "image/png",
+				"filesize": 49877
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-84-768x434.png",
+				"mime-type": "image/png",
+				"filesize": 207769
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-84-1024x579.png",
+				"mime-type": "image/png",
+				"filesize": 326689
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-84-1536x868.png",
+				"mime-type": "image/png",
+				"filesize": 636426
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-84-2048x1158.png",
+				"mime-type": "image/png",
+				"filesize": 1135866
+			}
+		},
+		"originalImage": "screenshot-84.png",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1869,
+		"ms": 5138,
+		"memory": {
+			"idle": 765,
+			"peak": 1159,
+			"after": 1007
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-67-scaled.jpg",
+		"filesize": 777136,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-67-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 12336
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-67-300x199.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 24254
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-67-767x510.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 108600
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-67-1024x681.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 175804
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-67-1536x1021.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 342407
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-67-2048x1362.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 546037
+			}
+		},
+		"originalImage": "input-67.jpg",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1871,
+		"ms": 5178,
+		"memory": {
+			"idle": 833,
+			"peak": 1125,
+			"after": 930
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-67-scaled.jpg",
+		"filesize": 777136,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-67-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 12336
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-67-300x199.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 24254
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-67-767x510.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 108600
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-67-1024x681.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 175804
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-67-1536x1021.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 342407
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-67-2048x1362.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 546037
+			}
+		},
+		"originalImage": "input-67.jpg",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1873,
+		"ms": 4502,
+		"memory": {
+			"idle": 754,
+			"peak": 1184,
+			"after": 1166
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-67-scaled.jpg",
+		"filesize": 777136,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-67-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 12336
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-67-300x199.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 24254
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-67-767x510.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 108600
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-67-1024x681.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 175804
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-67-1536x1021.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 342407
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-67-2048x1362.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 546037
+			}
+		},
+		"originalImage": "input-67.jpg",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "webkit",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1875,
+		"ms": 7490,
+		"memory": {
+			"idle": 831,
+			"peak": 1383,
+			"after": 1043
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-31-scaled.jpg",
+		"filesize": 1070823,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-31-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 10204
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-31-300x200.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 20764
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-31-767x511.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 114025
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-31-1024x683.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 196935
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-31-1536x1024.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 422702
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-31-2048x1365.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 711034
+			}
+		},
+		"originalImage": "input-8685x5789-31.jpg",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "webkit",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1877,
+		"ms": 7961,
+		"memory": {
+			"idle": 853,
+			"peak": 1416,
+			"after": 976
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-31-scaled.jpg",
+		"filesize": 1070823,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-31-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 10204
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-31-300x200.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 20764
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-31-767x511.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 114025
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-31-1024x683.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 196935
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-31-1536x1024.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 422702
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-31-2048x1365.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 711034
+			}
+		},
+		"originalImage": "input-8685x5789-31.jpg",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "webkit",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1879,
+		"ms": 6339,
+		"memory": {
+			"idle": 817,
+			"peak": 1449,
+			"after": 1061
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-31-scaled.jpg",
+		"filesize": 1070823,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-31-150x150.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 10204
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-31-300x200.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 20764
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-31-767x511.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 114025
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-31-1024x683.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 196935
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-31-1536x1024.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 422702
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-31-2048x1365.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 711034
+			}
+		},
+		"originalImage": "input-8685x5789-31.jpg",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "webkit",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1881,
+		"ms": 2525,
+		"memory": {
+			"idle": 740,
+			"peak": 1087,
+			"after": 1121
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-133-scaled-1.jpg",
+		"filesize": 595745,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-133-150x150-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 6456
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-133-225x300-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 13776
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-133-432x576-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 38204
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-133-768x1024-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 106371
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-133-1152x1536-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 223138
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-133-1536x2048-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 385520
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "webkit",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1883,
+		"ms": 2663,
+		"memory": {
+			"idle": 794,
+			"peak": 1041,
+			"after": 1022
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-134-scaled-1.jpg",
+		"filesize": 595745,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-134-150x150-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 6456
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-134-225x300-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 13776
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-134-432x576-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 38204
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-134-768x1024-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 106371
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-134-1152x1536-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 223138
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-134-1536x2048-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 385520
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "webkit",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1885,
+		"ms": 3093,
+		"memory": {
+			"idle": 718,
+			"peak": 1090,
+			"after": 1017
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-135-scaled-1.jpg",
+		"filesize": 595745,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-135-150x150-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 6456
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-135-225x300-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 13776
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-135-432x576-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 38204
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-135-768x1024-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 106371
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-135-1152x1536-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 223138
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-135-1536x2048-1.jpg",
+				"mime-type": "image/jpeg",
+				"filesize": 385520
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "webkit",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1887,
+		"ms": 2073,
+		"memory": {
+			"idle": 814,
+			"peak": 1147,
+			"after": 1152
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-84-scaled.png",
+		"filesize": 1627359,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-84-150x150.png",
+				"mime-type": "image/png",
+				"filesize": 28019
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-84-300x170.png",
+				"mime-type": "image/png",
+				"filesize": 49877
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-84-768x434.png",
+				"mime-type": "image/png",
+				"filesize": 207769
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-84-1024x579.png",
+				"mime-type": "image/png",
+				"filesize": 326689
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-84-1536x868.png",
+				"mime-type": "image/png",
+				"filesize": 636426
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-84-2048x1158.png",
+				"mime-type": "image/png",
+				"filesize": 1135866
+			}
+		},
+		"originalImage": "screenshot-84.png",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "webkit",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1889,
+		"ms": 1985,
+		"memory": {
+			"idle": 809,
+			"peak": 1015,
+			"after": 1023
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-84-scaled.png",
+		"filesize": 1627359,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-84-150x150.png",
+				"mime-type": "image/png",
+				"filesize": 28019
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-84-300x170.png",
+				"mime-type": "image/png",
+				"filesize": 49877
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-84-768x434.png",
+				"mime-type": "image/png",
+				"filesize": 207769
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-84-1024x579.png",
+				"mime-type": "image/png",
+				"filesize": 326689
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-84-1536x868.png",
+				"mime-type": "image/png",
+				"filesize": 636426
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-84-2048x1158.png",
+				"mime-type": "image/png",
+				"filesize": 1135866
+			}
+		},
+		"originalImage": "screenshot-84.png",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "default",
+		"browser": "webkit",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1891,
+		"ms": 2308,
+		"memory": {
+			"idle": 835,
+			"peak": 1007,
+			"after": 993
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-84-scaled.png",
+		"filesize": 1627359,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-84-150x150.png",
+				"mime-type": "image/png",
+				"filesize": 28019
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-84-300x170.png",
+				"mime-type": "image/png",
+				"filesize": 49877
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-84-768x434.png",
+				"mime-type": "image/png",
+				"filesize": 207769
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-84-1024x579.png",
+				"mime-type": "image/png",
+				"filesize": 326689
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-84-1536x868.png",
+				"mime-type": "image/png",
+				"filesize": 636426
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-84-2048x1158.png",
+				"mime-type": "image/png",
+				"filesize": 1135866
+			}
+		},
+		"originalImage": "screenshot-84.png",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1893,
+		"ms": 6270,
+		"memory": {
+			"idle": 593,
+			"peak": 943,
+			"after": 729
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-67-scaled.webp",
+		"filesize": 637108,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-67-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 12392
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-67-300x199.webp",
+				"mime-type": "image/webp",
+				"filesize": 24530
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-67-767x510.webp",
+				"mime-type": "image/webp",
+				"filesize": 103528
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-67-1024x681.webp",
+				"mime-type": "image/webp",
+				"filesize": 162156
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-67-1536x1021.webp",
+				"mime-type": "image/webp",
+				"filesize": 299264
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-67-2048x1362.webp",
+				"mime-type": "image/webp",
+				"filesize": 459504
+			}
+		},
+		"originalImage": "input-67.webp",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1895,
+		"ms": 6225,
+		"memory": {
+			"idle": 594,
+			"peak": 948,
+			"after": 559
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-68-scaled.webp",
+		"filesize": 637108,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-68-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 12392
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-68-300x199.webp",
+				"mime-type": "image/webp",
+				"filesize": 24530
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-68-767x510.webp",
+				"mime-type": "image/webp",
+				"filesize": 103528
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-68-1024x681.webp",
+				"mime-type": "image/webp",
+				"filesize": 162156
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-68-1536x1021.webp",
+				"mime-type": "image/webp",
+				"filesize": 299264
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-68-2048x1362.webp",
+				"mime-type": "image/webp",
+				"filesize": 459504
+			}
+		},
+		"originalImage": "input-68.webp",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1897,
+		"ms": 6280,
+		"memory": {
+			"idle": 591,
+			"peak": 938,
+			"after": 563
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-69-scaled.webp",
+		"filesize": 637108,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-69-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 12392
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-69-300x199.webp",
+				"mime-type": "image/webp",
+				"filesize": 24530
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-69-767x510.webp",
+				"mime-type": "image/webp",
+				"filesize": 103528
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-69-1024x681.webp",
+				"mime-type": "image/webp",
+				"filesize": 162156
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-69-1536x1021.webp",
+				"mime-type": "image/webp",
+				"filesize": 299264
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-69-2048x1362.webp",
+				"mime-type": "image/webp",
+				"filesize": 459504
+			}
+		},
+		"originalImage": "input-69.webp",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "chromium",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1899,
+		"ms": 22409,
+		"memory": {
+			"idle": 498,
+			"peak": 1322,
+			"after": 582
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-46-scaled.webp",
+		"filesize": 1024560,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-46-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 10040
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-46-300x200.webp",
+				"mime-type": "image/webp",
+				"filesize": 20664
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-46-767x511.webp",
+				"mime-type": "image/webp",
+				"filesize": 118118
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-46-1024x683.webp",
+				"mime-type": "image/webp",
+				"filesize": 200476
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-46-1536x1024.webp",
+				"mime-type": "image/webp",
+				"filesize": 425166
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-46-2048x1365.webp",
+				"mime-type": "image/webp",
+				"filesize": 694454
+			}
+		},
+		"originalImage": "input-8685x5789-46.webp",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "chromium",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1901,
+		"ms": 20811,
+		"memory": {
+			"idle": 590,
+			"peak": 1301,
+			"after": 388
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-47-scaled.webp",
+		"filesize": 1024560,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-47-300x200.webp",
+				"mime-type": "image/webp",
+				"filesize": 20664
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-47-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 10040
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-47-767x511.webp",
+				"mime-type": "image/webp",
+				"filesize": 118118
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-47-1024x683.webp",
+				"mime-type": "image/webp",
+				"filesize": 200476
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-47-1536x1024.webp",
+				"mime-type": "image/webp",
+				"filesize": 425166
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-47-2048x1365.webp",
+				"mime-type": "image/webp",
+				"filesize": 694454
+			}
+		},
+		"originalImage": "input-8685x5789-47.webp",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "chromium",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1903,
+		"ms": 20765,
+		"memory": {
+			"idle": 588,
+			"peak": 1208,
+			"after": 760
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-48-scaled.webp",
+		"filesize": 1024560,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-48-300x200.webp",
+				"mime-type": "image/webp",
+				"filesize": 20664
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-48-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 10040
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-48-767x511.webp",
+				"mime-type": "image/webp",
+				"filesize": 118118
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-48-1024x683.webp",
+				"mime-type": "image/webp",
+				"filesize": 200476
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-48-1536x1024.webp",
+				"mime-type": "image/webp",
+				"filesize": 425166
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-48-2048x1365.webp",
+				"mime-type": "image/webp",
+				"filesize": 694454
+			}
+		},
+		"originalImage": "input-8685x5789-48.webp",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "chromium",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1905,
+		"ms": 3654,
+		"memory": {
+			"idle": 589,
+			"peak": 980,
+			"after": 814
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-136-scaled-1.webp",
+		"filesize": 443262,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-136-150x150-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 5476
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-136-225x300-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 11348
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-136-432x576-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 31824
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-136-768x1024-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 88916
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-136-1152x1536-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 184646
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-136-1536x2048-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 312362
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "chromium",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1907,
+		"ms": 4128,
+		"memory": {
+			"idle": 585,
+			"peak": 782,
+			"after": 660
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-137-scaled-1.webp",
+		"filesize": 443262,
+		"sizes": {
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-137-225x300-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 11348
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-137-150x150-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 5476
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-137-432x576-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 31824
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-137-768x1024-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 88916
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-137-1152x1536-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 184646
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-137-1536x2048-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 312362
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "chromium",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1909,
+		"ms": 4150,
+		"memory": {
+			"idle": 582,
+			"peak": 806,
+			"after": 640
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-138-scaled-1.webp",
+		"filesize": 443262,
+		"sizes": {
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-138-225x300-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 11348
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-138-150x150-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 5476
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-138-432x576-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 31824
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-138-768x1024-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 88916
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-138-1152x1536-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 184646
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-138-1536x2048-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 312362
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "chromium",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1911,
+		"ms": 3290,
+		"memory": {
+			"idle": 588,
+			"peak": 775,
+			"after": 630
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-84-scaled.webp",
+		"filesize": 266034,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-84-300x170.webp",
+				"mime-type": "image/webp",
+				"filesize": 14484
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-84-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 9858
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-84-768x434.webp",
+				"mime-type": "image/webp",
+				"filesize": 52598
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-84-1024x579.webp",
+				"mime-type": "image/webp",
+				"filesize": 78894
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-84-1536x868.webp",
+				"mime-type": "image/webp",
+				"filesize": 139354
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-84-2048x1158.webp",
+				"mime-type": "image/webp",
+				"filesize": 199618
+			}
+		},
+		"originalImage": "screenshot-84.webp",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "chromium",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1913,
+		"ms": 2904,
+		"memory": {
+			"idle": 577,
+			"peak": 843,
+			"after": 658
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-85-scaled.webp",
+		"filesize": 266034,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-85-300x170.webp",
+				"mime-type": "image/webp",
+				"filesize": 14484
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-85-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 9858
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-85-768x434.webp",
+				"mime-type": "image/webp",
+				"filesize": 52598
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-85-1024x579.webp",
+				"mime-type": "image/webp",
+				"filesize": 78894
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-85-1536x868.webp",
+				"mime-type": "image/webp",
+				"filesize": 139354
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-85-2048x1158.webp",
+				"mime-type": "image/webp",
+				"filesize": 199618
+			}
+		},
+		"originalImage": "screenshot-85.webp",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "chromium",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1915,
+		"ms": 3591,
+		"memory": {
+			"idle": 508,
+			"peak": 789,
+			"after": 623
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-86-scaled.webp",
+		"filesize": 266034,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-86-300x170.webp",
+				"mime-type": "image/webp",
+				"filesize": 14484
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-86-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 9858
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-86-768x434.webp",
+				"mime-type": "image/webp",
+				"filesize": 52598
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-86-1024x579.webp",
+				"mime-type": "image/webp",
+				"filesize": 78894
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-86-1536x868.webp",
+				"mime-type": "image/webp",
+				"filesize": 139354
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-86-2048x1158.webp",
+				"mime-type": "image/webp",
+				"filesize": 199618
+			}
+		},
+		"originalImage": "screenshot-86.webp",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1917,
+		"ms": 9337,
+		"memory": {
+			"idle": 1318,
+			"peak": 1486,
+			"after": 1171
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-70-scaled.webp",
+		"filesize": 637108,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-70-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 12392
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-70-300x199.webp",
+				"mime-type": "image/webp",
+				"filesize": 24530
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-70-767x510.webp",
+				"mime-type": "image/webp",
+				"filesize": 103528
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-70-1024x681.webp",
+				"mime-type": "image/webp",
+				"filesize": 162156
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-70-1536x1021.webp",
+				"mime-type": "image/webp",
+				"filesize": 299264
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-70-2048x1362.webp",
+				"mime-type": "image/webp",
+				"filesize": 459504
+			}
+		},
+		"originalImage": "input-70.webp",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1919,
+		"ms": 9311,
+		"memory": {
+			"idle": 1322,
+			"peak": 1380,
+			"after": 1127
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-71-scaled.webp",
+		"filesize": 637108,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-71-300x199.webp",
+				"mime-type": "image/webp",
+				"filesize": 24530
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-71-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 12392
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-71-767x510.webp",
+				"mime-type": "image/webp",
+				"filesize": 103528
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-71-1024x681.webp",
+				"mime-type": "image/webp",
+				"filesize": 162156
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-71-1536x1021.webp",
+				"mime-type": "image/webp",
+				"filesize": 299264
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-71-2048x1362.webp",
+				"mime-type": "image/webp",
+				"filesize": 459504
+			}
+		},
+		"originalImage": "input-71.webp",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1921,
+		"ms": 8490,
+		"memory": {
+			"idle": 1261,
+			"peak": 1438,
+			"after": 1203
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-72-scaled.webp",
+		"filesize": 637108,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-72-300x199.webp",
+				"mime-type": "image/webp",
+				"filesize": 24530
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-72-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 12392
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-72-767x510.webp",
+				"mime-type": "image/webp",
+				"filesize": 103528
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-72-1024x681.webp",
+				"mime-type": "image/webp",
+				"filesize": 162156
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-72-1536x1021.webp",
+				"mime-type": "image/webp",
+				"filesize": 299264
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-72-2048x1362.webp",
+				"mime-type": "image/webp",
+				"filesize": 459504
+			}
+		},
+		"originalImage": "input-72.webp",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "firefox",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1923,
+		"ms": 25128,
+		"memory": {
+			"idle": 1271,
+			"peak": 1607,
+			"after": 1068
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-49-scaled.webp",
+		"filesize": 1024560,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-49-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 10040
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-49-300x200.webp",
+				"mime-type": "image/webp",
+				"filesize": 20664
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-49-767x511.webp",
+				"mime-type": "image/webp",
+				"filesize": 118118
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-49-1024x683.webp",
+				"mime-type": "image/webp",
+				"filesize": 200476
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-49-1536x1024.webp",
+				"mime-type": "image/webp",
+				"filesize": 425166
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-49-2048x1365.webp",
+				"mime-type": "image/webp",
+				"filesize": 694454
+			}
+		},
+		"originalImage": "input-8685x5789-49.webp",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "firefox",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1925,
+		"ms": 23655,
+		"memory": {
+			"idle": 1250,
+			"peak": 1616,
+			"after": 964
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-50-scaled.webp",
+		"filesize": 1024560,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-50-300x200.webp",
+				"mime-type": "image/webp",
+				"filesize": 20664
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-50-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 10040
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-50-767x511.webp",
+				"mime-type": "image/webp",
+				"filesize": 118118
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-50-1024x683.webp",
+				"mime-type": "image/webp",
+				"filesize": 200476
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-50-1536x1024.webp",
+				"mime-type": "image/webp",
+				"filesize": 425166
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-50-2048x1365.webp",
+				"mime-type": "image/webp",
+				"filesize": 694454
+			}
+		},
+		"originalImage": "input-8685x5789-50.webp",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "firefox",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1927,
+		"ms": 22692,
+		"memory": {
+			"idle": 1256,
+			"peak": 1562,
+			"after": 1017
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-51-scaled.webp",
+		"filesize": 1024560,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-51-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 10040
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-51-300x200.webp",
+				"mime-type": "image/webp",
+				"filesize": 20664
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-51-767x511.webp",
+				"mime-type": "image/webp",
+				"filesize": 118118
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-51-1024x683.webp",
+				"mime-type": "image/webp",
+				"filesize": 200476
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-51-1536x1024.webp",
+				"mime-type": "image/webp",
+				"filesize": 425166
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-51-2048x1365.webp",
+				"mime-type": "image/webp",
+				"filesize": 694454
+			}
+		},
+		"originalImage": "input-8685x5789-51.webp",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "firefox",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1929,
+		"ms": 5201,
+		"memory": {
+			"idle": 1252,
+			"peak": 1464,
+			"after": 1098
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-139-scaled-1.webp",
+		"filesize": 443262,
+		"sizes": {
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-139-225x300-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 11348
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-139-150x150-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 5476
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-139-432x576-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 31824
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-139-768x1024-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 88916
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-139-1152x1536-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 184646
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-139-1536x2048-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 312362
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "firefox",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1931,
+		"ms": 4886,
+		"memory": {
+			"idle": 1384,
+			"peak": 1497,
+			"after": 1389
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-140-scaled-1.webp",
+		"filesize": 443262,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-140-150x150-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 5476
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-140-225x300-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 11348
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-140-432x576-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 31824
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-140-768x1024-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 88916
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-140-1152x1536-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 184646
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-140-1536x2048-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 312362
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "firefox",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1933,
+		"ms": 5070,
+		"memory": {
+			"idle": 1221,
+			"peak": 1524,
+			"after": 1371
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-141-scaled-1.webp",
+		"filesize": 443262,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-141-150x150-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 5476
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-141-225x300-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 11348
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-141-432x576-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 31824
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-141-768x1024-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 88916
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-141-1152x1536-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 184646
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-141-1536x2048-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 312362
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "firefox",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1935,
+		"ms": 3406,
+		"memory": {
+			"idle": 1251,
+			"peak": 1530,
+			"after": 1377
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-87-scaled.webp",
+		"filesize": 266034,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-87-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 9858
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-87-300x170.webp",
+				"mime-type": "image/webp",
+				"filesize": 14484
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-87-768x434.webp",
+				"mime-type": "image/webp",
+				"filesize": 52598
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-87-1024x579.webp",
+				"mime-type": "image/webp",
+				"filesize": 78894
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-87-1536x868.webp",
+				"mime-type": "image/webp",
+				"filesize": 139354
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-87-2048x1158.webp",
+				"mime-type": "image/webp",
+				"filesize": 199618
+			}
+		},
+		"originalImage": "screenshot-87.webp",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "firefox",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1937,
+		"ms": 3707,
+		"memory": {
+			"idle": 1285,
+			"peak": 1480,
+			"after": 1382
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-88-scaled.webp",
+		"filesize": 266034,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-88-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 9858
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-88-300x170.webp",
+				"mime-type": "image/webp",
+				"filesize": 14484
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-88-1024x579.webp",
+				"mime-type": "image/webp",
+				"filesize": 78894
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-88-768x434.webp",
+				"mime-type": "image/webp",
+				"filesize": 52598
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-88-1536x868.webp",
+				"mime-type": "image/webp",
+				"filesize": 139354
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-88-2048x1158.webp",
+				"mime-type": "image/webp",
+				"filesize": 199618
+			}
+		},
+		"originalImage": "screenshot-88.webp",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "firefox",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1939,
+		"ms": 3343,
+		"memory": {
+			"idle": 1280,
+			"peak": 1493,
+			"after": 1383
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-89-scaled.webp",
+		"filesize": 266034,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-89-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 9858
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-89-300x170.webp",
+				"mime-type": "image/webp",
+				"filesize": 14484
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-89-1024x579.webp",
+				"mime-type": "image/webp",
+				"filesize": 78894
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-89-768x434.webp",
+				"mime-type": "image/webp",
+				"filesize": 52598
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-89-1536x868.webp",
+				"mime-type": "image/webp",
+				"filesize": 139354
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-89-2048x1158.webp",
+				"mime-type": "image/webp",
+				"filesize": 199618
+			}
+		},
+		"originalImage": "screenshot-89.webp",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1941,
+		"ms": 7153,
+		"memory": {
+			"idle": 763,
+			"peak": 1210,
+			"after": 874
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-73-scaled.webp",
+		"filesize": 637108,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-73-300x199.webp",
+				"mime-type": "image/webp",
+				"filesize": 24530
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-73-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 12392
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-73-767x510.webp",
+				"mime-type": "image/webp",
+				"filesize": 103528
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-73-1024x681.webp",
+				"mime-type": "image/webp",
+				"filesize": 162156
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-73-1536x1021.webp",
+				"mime-type": "image/webp",
+				"filesize": 299264
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-73-2048x1362.webp",
+				"mime-type": "image/webp",
+				"filesize": 459504
+			}
+		},
+		"originalImage": "input-73.webp",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1943,
+		"ms": 7113,
+		"memory": {
+			"idle": 805,
+			"peak": 1295,
+			"after": 870
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-74-scaled.webp",
+		"filesize": 637108,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-74-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 12392
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-74-300x199.webp",
+				"mime-type": "image/webp",
+				"filesize": 24530
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-74-767x510.webp",
+				"mime-type": "image/webp",
+				"filesize": 103528
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-74-1024x681.webp",
+				"mime-type": "image/webp",
+				"filesize": 162156
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-74-1536x1021.webp",
+				"mime-type": "image/webp",
+				"filesize": 299264
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-74-2048x1362.webp",
+				"mime-type": "image/webp",
+				"filesize": 459504
+			}
+		},
+		"originalImage": "input-74.webp",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1945,
+		"ms": 6750,
+		"memory": {
+			"idle": 851,
+			"peak": 1373,
+			"after": 1101
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-75-scaled.webp",
+		"filesize": 637108,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-75-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 12392
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-75-300x199.webp",
+				"mime-type": "image/webp",
+				"filesize": 24530
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-75-767x510.webp",
+				"mime-type": "image/webp",
+				"filesize": 103528
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-75-1024x681.webp",
+				"mime-type": "image/webp",
+				"filesize": 162156
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-75-1536x1021.webp",
+				"mime-type": "image/webp",
+				"filesize": 299264
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-75-2048x1362.webp",
+				"mime-type": "image/webp",
+				"filesize": 459504
+			}
+		},
+		"originalImage": "input-75.webp",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "webkit",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1947,
+		"ms": 23512,
+		"memory": {
+			"idle": 796,
+			"peak": 1591,
+			"after": 904
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-52-scaled.webp",
+		"filesize": 1024560,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-52-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 10040
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-52-300x200.webp",
+				"mime-type": "image/webp",
+				"filesize": 20664
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-52-767x511.webp",
+				"mime-type": "image/webp",
+				"filesize": 118118
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-52-1024x683.webp",
+				"mime-type": "image/webp",
+				"filesize": 200476
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-52-1536x1024.webp",
+				"mime-type": "image/webp",
+				"filesize": 425166
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-52-2048x1365.webp",
+				"mime-type": "image/webp",
+				"filesize": 694454
+			}
+		},
+		"originalImage": "input-8685x5789-52.webp",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "webkit",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1949,
+		"ms": 23705,
+		"memory": {
+			"idle": 804,
+			"peak": 1536,
+			"after": 1019
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-53-scaled.webp",
+		"filesize": 1024560,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-53-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 10040
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-53-300x200.webp",
+				"mime-type": "image/webp",
+				"filesize": 20664
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-53-767x511.webp",
+				"mime-type": "image/webp",
+				"filesize": 118118
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-53-1024x683.webp",
+				"mime-type": "image/webp",
+				"filesize": 200476
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-53-1536x1024.webp",
+				"mime-type": "image/webp",
+				"filesize": 425166
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-53-2048x1365.webp",
+				"mime-type": "image/webp",
+				"filesize": 694454
+			}
+		},
+		"originalImage": "input-8685x5789-53.webp",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "webkit",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1951,
+		"ms": 20944,
+		"memory": {
+			"idle": 854,
+			"peak": 1944,
+			"after": 1048
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-54-scaled.webp",
+		"filesize": 1024560,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-54-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 10040
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-54-300x200.webp",
+				"mime-type": "image/webp",
+				"filesize": 20664
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-54-767x511.webp",
+				"mime-type": "image/webp",
+				"filesize": 118118
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-54-1024x683.webp",
+				"mime-type": "image/webp",
+				"filesize": 200476
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-54-1536x1024.webp",
+				"mime-type": "image/webp",
+				"filesize": 425166
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-54-2048x1365.webp",
+				"mime-type": "image/webp",
+				"filesize": 694454
+			}
+		},
+		"originalImage": "input-8685x5789-54.webp",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "webkit",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1953,
+		"ms": 4156,
+		"memory": {
+			"idle": 793,
+			"peak": 1353,
+			"after": 1218
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-142-scaled-1.webp",
+		"filesize": 443262,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-142-150x150-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 5476
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-142-225x300-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 11348
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-142-432x576-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 31824
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-142-768x1024-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 88916
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-142-1152x1536-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 184646
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-142-1536x2048-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 312362
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "webkit",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1955,
+		"ms": 4350,
+		"memory": {
+			"idle": 798,
+			"peak": 1425,
+			"after": 1009
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-143-scaled-1.webp",
+		"filesize": 443262,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-143-150x150-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 5476
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-143-225x300-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 11348
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-143-432x576-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 31824
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-143-768x1024-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 88916
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-143-1152x1536-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 184646
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-143-1536x2048-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 312362
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "webkit",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1957,
+		"ms": 4484,
+		"memory": {
+			"idle": 812,
+			"peak": 1226,
+			"after": 1050
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-144-scaled-1.webp",
+		"filesize": 443262,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-144-150x150-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 5476
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-144-225x300-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 11348
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-144-432x576-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 31824
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-144-768x1024-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 88916
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-144-1152x1536-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 184646
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-144-1536x2048-1.webp",
+				"mime-type": "image/webp",
+				"filesize": 312362
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "webkit",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1959,
+		"ms": 3051,
+		"memory": {
+			"idle": 804,
+			"peak": 1149,
+			"after": 1144
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-90-scaled.webp",
+		"filesize": 266034,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-90-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 9858
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-90-300x170.webp",
+				"mime-type": "image/webp",
+				"filesize": 14484
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-90-768x434.webp",
+				"mime-type": "image/webp",
+				"filesize": 52598
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-90-1024x579.webp",
+				"mime-type": "image/webp",
+				"filesize": 78894
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-90-1536x868.webp",
+				"mime-type": "image/webp",
+				"filesize": 139354
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-90-2048x1158.webp",
+				"mime-type": "image/webp",
+				"filesize": 199618
+			}
+		},
+		"originalImage": "screenshot-90.webp",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "webkit",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1961,
+		"ms": 3394,
+		"memory": {
+			"idle": 794,
+			"peak": 1090,
+			"after": 1106
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-91-scaled.webp",
+		"filesize": 266034,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-91-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 9858
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-91-300x170.webp",
+				"mime-type": "image/webp",
+				"filesize": 14484
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-91-768x434.webp",
+				"mime-type": "image/webp",
+				"filesize": 52598
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-91-1024x579.webp",
+				"mime-type": "image/webp",
+				"filesize": 78894
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-91-1536x868.webp",
+				"mime-type": "image/webp",
+				"filesize": 139354
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-91-2048x1158.webp",
+				"mime-type": "image/webp",
+				"filesize": 199618
+			}
+		},
+		"originalImage": "screenshot-91.webp",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/webp",
+		"browser": "webkit",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1963,
+		"ms": 3009,
+		"memory": {
+			"idle": 802,
+			"peak": 1241,
+			"after": 1169
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-92-scaled.webp",
+		"filesize": 266034,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-92-150x150.webp",
+				"mime-type": "image/webp",
+				"filesize": 9858
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-92-300x170.webp",
+				"mime-type": "image/webp",
+				"filesize": 14484
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-92-768x434.webp",
+				"mime-type": "image/webp",
+				"filesize": 52598
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-92-1024x579.webp",
+				"mime-type": "image/webp",
+				"filesize": 78894
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-92-1536x868.webp",
+				"mime-type": "image/webp",
+				"filesize": 139354
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-92-2048x1158.webp",
+				"mime-type": "image/webp",
+				"filesize": 199618
+			}
+		},
+		"originalImage": "screenshot-92.webp",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1965,
+		"ms": 9944,
+		"memory": {
+			"idle": 594,
+			"peak": 1136,
+			"after": 689
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-76-scaled.avif",
+		"filesize": 683784,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-76-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 11298
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-76-300x199.avif",
+				"mime-type": "image/avif",
+				"filesize": 22009
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-76-767x510.avif",
+				"mime-type": "image/avif",
+				"filesize": 98350
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-76-1024x681.avif",
+				"mime-type": "image/avif",
+				"filesize": 157927
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-76-1536x1021.avif",
+				"mime-type": "image/avif",
+				"filesize": 304869
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-76-2048x1362.avif",
+				"mime-type": "image/avif",
+				"filesize": 483714
+			}
+		},
+		"originalImage": "input-76.avif",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1967,
+		"ms": 9862,
+		"memory": {
+			"idle": 582,
+			"peak": 1149,
+			"after": 636
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-77-scaled.avif",
+		"filesize": 683784,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-77-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 11298
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-77-300x199.avif",
+				"mime-type": "image/avif",
+				"filesize": 22009
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-77-767x510.avif",
+				"mime-type": "image/avif",
+				"filesize": 98350
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-77-1024x681.avif",
+				"mime-type": "image/avif",
+				"filesize": 157927
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-77-1536x1021.avif",
+				"mime-type": "image/avif",
+				"filesize": 304869
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-77-2048x1362.avif",
+				"mime-type": "image/avif",
+				"filesize": 483714
+			}
+		},
+		"originalImage": "input-77.avif",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "chromium",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1969,
+		"ms": 10056,
+		"memory": {
+			"idle": 579,
+			"peak": 966,
+			"after": 701
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-78-scaled.avif",
+		"filesize": 683784,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-78-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 11298
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-78-300x199.avif",
+				"mime-type": "image/avif",
+				"filesize": 22009
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-78-767x510.avif",
+				"mime-type": "image/avif",
+				"filesize": 98350
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-78-1024x681.avif",
+				"mime-type": "image/avif",
+				"filesize": 157927
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-78-1536x1021.avif",
+				"mime-type": "image/avif",
+				"filesize": 304869
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-78-2048x1362.avif",
+				"mime-type": "image/avif",
+				"filesize": 483714
+			}
+		},
+		"originalImage": "input-78.avif",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "chromium",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1974,
+		"ms": 40953,
+		"memory": {
+			"idle": 590,
+			"peak": 1314,
+			"after": 429
+		},
+		"workers": 1,
+		"requests": {
+			"media": 3,
+			"sideload": 0
+		},
+		"console": [],
+		"clientSide": false,
+		"file": "2026/11/input-8685x5789-231-scaled.avif",
+		"filesize": 956119,
+		"sizes": {
+			"medium": {
+				"file": "input-8685x5789-231-300x200.avif",
+				"width": 300,
+				"height": 200,
+				"mime-type": "image/avif",
+				"filesize": 40091
+			},
+			"large": {
+				"file": "input-8685x5789-231-1024x683.avif",
+				"width": 1024,
+				"height": 683,
+				"mime-type": "image/avif",
+				"filesize": 213199
+			},
+			"thumbnail": {
+				"file": "input-8685x5789-231-150x150.avif",
+				"width": 150,
+				"height": 150,
+				"mime-type": "image/avif",
+				"filesize": 28923
+			},
+			"medium_large": {
+				"file": "input-8685x5789-231-768x512.avif",
+				"width": 768,
+				"height": 512,
+				"mime-type": "image/avif",
+				"filesize": 133947
+			},
+			"1536x1536": {
+				"file": "input-8685x5789-231-1536x1024.avif",
+				"width": 1536,
+				"height": 1024,
+				"mime-type": "image/avif",
+				"filesize": 419977
+			},
+			"2048x2048": {
+				"file": "input-8685x5789-231-2048x1365.avif",
+				"width": 2048,
+				"height": 1365,
+				"mime-type": "image/avif",
+				"filesize": 670800
+			}
+		},
+		"originalImage": "input-8685x5789-231.jpg",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "chromium",
+		"image": "images/input-8685x5789.jpg",
+		"ok": false,
+		"error": "Could not get a valid response from the server."
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "chromium",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1990,
+		"ms": 70780,
+		"memory": {
+			"idle": 524,
+			"peak": 1179,
+			"after": 359
+		},
+		"workers": 1,
+		"requests": {
+			"media": 4,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-245-scaled.avif",
+		"filesize": 959734,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-245-300x200.avif",
+				"mime-type": "image/avif",
+				"filesize": 19888
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-245-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 9745
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-245-767x511.avif",
+				"mime-type": "image/avif",
+				"filesize": 107843
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-245-1024x683.avif",
+				"mime-type": "image/avif",
+				"filesize": 184009
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-245-1536x1024.avif",
+				"mime-type": "image/avif",
+				"filesize": 388540
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-245-2048x1365.avif",
+				"mime-type": "image/avif",
+				"filesize": 643271
+			}
+		},
+		"originalImage": "input-8685x5789-245.avif",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "chromium",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1992,
+		"ms": 7782,
+		"memory": {
+			"idle": 495,
+			"peak": 867,
+			"after": 395
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-145-scaled-1.avif",
+		"filesize": 526544,
+		"sizes": {
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-145-225x300-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 12521
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-145-150x150-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 5823
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-145-432x576-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 34804
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-145-768x1024-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 96542
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-145-1152x1536-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 200335
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-145-1536x2048-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 343086
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "chromium",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1994,
+		"ms": 11064,
+		"memory": {
+			"idle": 489,
+			"peak": 688,
+			"after": 390
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-146-scaled-1.avif",
+		"filesize": 526544,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-146-150x150-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 5823
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-146-225x300-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 12521
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-146-432x576-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 34804
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-146-768x1024-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 96542
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-146-1152x1536-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 200335
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-146-1536x2048-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 343086
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "chromium",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1996,
+		"ms": 6932,
+		"memory": {
+			"idle": 585,
+			"peak": 914,
+			"after": 651
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-147-scaled-1.avif",
+		"filesize": 526544,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-147-150x150-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 5823
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-147-225x300-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 12521
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-147-432x576-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 34804
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-147-768x1024-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 96542
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-147-1152x1536-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 200335
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-147-1536x2048-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 343086
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "chromium",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 1998,
+		"ms": 6644,
+		"memory": {
+			"idle": 589,
+			"peak": 892,
+			"after": 631
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-93-scaled.avif",
+		"filesize": 247145,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-93-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 9946
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-93-300x170.avif",
+				"mime-type": "image/avif",
+				"filesize": 14505
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-93-768x434.avif",
+				"mime-type": "image/avif",
+				"filesize": 49709
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-93-1024x579.avif",
+				"mime-type": "image/avif",
+				"filesize": 73232
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-93-1536x868.avif",
+				"mime-type": "image/avif",
+				"filesize": 125834
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-93-2048x1158.avif",
+				"mime-type": "image/avif",
+				"filesize": 187336
+			}
+		},
+		"originalImage": "screenshot-93.avif",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "chromium",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2000,
+		"ms": 6718,
+		"memory": {
+			"idle": 584,
+			"peak": 887,
+			"after": 639
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-94-scaled.avif",
+		"filesize": 247145,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-94-300x170.avif",
+				"mime-type": "image/avif",
+				"filesize": 14505
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-94-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 9946
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-94-768x434.avif",
+				"mime-type": "image/avif",
+				"filesize": 49709
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-94-1024x579.avif",
+				"mime-type": "image/avif",
+				"filesize": 73232
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-94-1536x868.avif",
+				"mime-type": "image/avif",
+				"filesize": 125834
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-94-2048x1158.avif",
+				"mime-type": "image/avif",
+				"filesize": 187336
+			}
+		},
+		"originalImage": "screenshot-94.avif",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "chromium",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2002,
+		"ms": 6436,
+		"memory": {
+			"idle": 563,
+			"peak": 937,
+			"after": 618
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-95-scaled.avif",
+		"filesize": 247145,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-95-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 9946
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-95-300x170.avif",
+				"mime-type": "image/avif",
+				"filesize": 14505
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-95-768x434.avif",
+				"mime-type": "image/avif",
+				"filesize": 49709
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-95-1024x579.avif",
+				"mime-type": "image/avif",
+				"filesize": 73232
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-95-1536x868.avif",
+				"mime-type": "image/avif",
+				"filesize": 125834
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-95-2048x1158.avif",
+				"mime-type": "image/avif",
+				"filesize": 187336
+			}
+		},
+		"originalImage": "screenshot-95.avif",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2004,
+		"ms": 15365,
+		"memory": {
+			"idle": 1345,
+			"peak": 1405,
+			"after": 1016
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-79-scaled.avif",
+		"filesize": 683784,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-79-300x199.avif",
+				"mime-type": "image/avif",
+				"filesize": 22009
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-79-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 11298
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-79-767x510.avif",
+				"mime-type": "image/avif",
+				"filesize": 98350
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-79-1024x681.avif",
+				"mime-type": "image/avif",
+				"filesize": 157927
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-79-1536x1021.avif",
+				"mime-type": "image/avif",
+				"filesize": 304869
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-79-2048x1362.avif",
+				"mime-type": "image/avif",
+				"filesize": 483714
+			}
+		},
+		"originalImage": "input-79.avif",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2006,
+		"ms": 14528,
+		"memory": {
+			"idle": 1316,
+			"peak": 1399,
+			"after": 954
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-80-scaled.avif",
+		"filesize": 683784,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-80-300x199.avif",
+				"mime-type": "image/avif",
+				"filesize": 22009
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-80-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 11298
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-80-767x510.avif",
+				"mime-type": "image/avif",
+				"filesize": 98350
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-80-1024x681.avif",
+				"mime-type": "image/avif",
+				"filesize": 157927
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-80-1536x1021.avif",
+				"mime-type": "image/avif",
+				"filesize": 304869
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-80-2048x1362.avif",
+				"mime-type": "image/avif",
+				"filesize": 483714
+			}
+		},
+		"originalImage": "input-80.avif",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "firefox",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2008,
+		"ms": 15496,
+		"memory": {
+			"idle": 1317,
+			"peak": 1523,
+			"after": 964
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-81-scaled.avif",
+		"filesize": 683784,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-81-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 11298
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-81-300x199.avif",
+				"mime-type": "image/avif",
+				"filesize": 22009
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-81-767x510.avif",
+				"mime-type": "image/avif",
+				"filesize": 98350
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-81-1024x681.avif",
+				"mime-type": "image/avif",
+				"filesize": 157927
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-81-1536x1021.avif",
+				"mime-type": "image/avif",
+				"filesize": 304869
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-81-2048x1362.avif",
+				"mime-type": "image/avif",
+				"filesize": 483714
+			}
+		},
+		"originalImage": "input-81.avif",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "firefox",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2015,
+		"ms": 64769,
+		"memory": {
+			"idle": 1331,
+			"peak": 1649,
+			"after": 964
+		},
+		"workers": 1,
+		"requests": {
+			"media": 4,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-8685x5789-251-scaled.avif",
+		"filesize": 959734,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-8685x5789-251-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 9745
+			},
+			"medium": {
+				"width": 300,
+				"height": 200,
+				"file": "input-8685x5789-251-300x200.avif",
+				"mime-type": "image/avif",
+				"filesize": 19888
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 511,
+				"file": "input-8685x5789-251-767x511.avif",
+				"mime-type": "image/avif",
+				"filesize": 107843
+			},
+			"large": {
+				"width": 1024,
+				"height": 683,
+				"file": "input-8685x5789-251-1024x683.avif",
+				"mime-type": "image/avif",
+				"filesize": 184009
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1024,
+				"file": "input-8685x5789-251-1536x1024.avif",
+				"mime-type": "image/avif",
+				"filesize": 388540
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1365,
+				"file": "input-8685x5789-251-2048x1365.avif",
+				"mime-type": "image/avif",
+				"filesize": 643271
+			}
+		},
+		"originalImage": "input-8685x5789-251.avif",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "firefox",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2019,
+		"ms": 36569,
+		"memory": {
+			"idle": 1316,
+			"peak": 1646,
+			"after": 930
+		},
+		"workers": 1,
+		"requests": {
+			"media": 2,
+			"sideload": 0
+		},
+		"console": [],
+		"clientSide": false,
+		"file": "2026/11/input-8685x5789-254-scaled.avif",
+		"filesize": 956119,
+		"sizes": {
+			"medium": {
+				"file": "input-8685x5789-254-300x200.avif",
+				"width": 300,
+				"height": 200,
+				"mime-type": "image/avif",
+				"filesize": 40091
+			},
+			"large": {
+				"file": "input-8685x5789-254-1024x683.avif",
+				"width": 1024,
+				"height": 683,
+				"mime-type": "image/avif",
+				"filesize": 213199
+			},
+			"thumbnail": {
+				"file": "input-8685x5789-254-150x150.avif",
+				"width": 150,
+				"height": 150,
+				"mime-type": "image/avif",
+				"filesize": 28923
+			},
+			"medium_large": {
+				"file": "input-8685x5789-254-768x512.avif",
+				"width": 768,
+				"height": 512,
+				"mime-type": "image/avif",
+				"filesize": 133947
+			},
+			"1536x1536": {
+				"file": "input-8685x5789-254-1536x1024.avif",
+				"width": 1536,
+				"height": 1024,
+				"mime-type": "image/avif",
+				"filesize": 419977
+			},
+			"2048x2048": {
+				"file": "input-8685x5789-254-2048x1365.avif",
+				"width": 2048,
+				"height": 1365,
+				"mime-type": "image/avif",
+				"filesize": 670800
+			}
+		},
+		"originalImage": "input-8685x5789-254.jpg",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "firefox",
+		"image": "images/input-8685x5789.jpg",
+		"ok": false,
+		"error": "Could not get a valid response from the server."
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "firefox",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2028,
+		"ms": 13274,
+		"memory": {
+			"idle": 1286,
+			"peak": 1303,
+			"after": 1015
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-148-scaled-1.avif",
+		"filesize": 526544,
+		"sizes": {
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-148-225x300-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 12521
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-148-150x150-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 5823
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-148-432x576-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 34804
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-148-768x1024-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 96542
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-148-1152x1536-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 200335
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-148-1536x2048-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 343086
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "firefox",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2030,
+		"ms": 12074,
+		"memory": {
+			"idle": 1282,
+			"peak": 1423,
+			"after": 1106
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-149-scaled-1.avif",
+		"filesize": 526544,
+		"sizes": {
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-149-225x300-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 12521
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-149-150x150-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 5823
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-149-768x1024-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 96542
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-149-432x576-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 34804
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-149-1152x1536-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 200335
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-149-1536x2048-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 343086
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "firefox",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2032,
+		"ms": 13353,
+		"memory": {
+			"idle": 1336,
+			"peak": 1403,
+			"after": 1085
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-150-scaled-1.avif",
+		"filesize": 526544,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-150-150x150-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 5823
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-150-225x300-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 12521
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-150-432x576-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 34804
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-150-768x1024-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 96542
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-150-1152x1536-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 200335
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-150-1536x2048-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 343086
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "firefox",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2034,
+		"ms": 10079,
+		"memory": {
+			"idle": 1145,
+			"peak": 1217,
+			"after": 1067
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-96-scaled.avif",
+		"filesize": 247145,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-96-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 9946
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-96-300x170.avif",
+				"mime-type": "image/avif",
+				"filesize": 14505
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-96-1024x579.avif",
+				"mime-type": "image/avif",
+				"filesize": 73232
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-96-768x434.avif",
+				"mime-type": "image/avif",
+				"filesize": 49709
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-96-1536x868.avif",
+				"mime-type": "image/avif",
+				"filesize": 125834
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-96-2048x1158.avif",
+				"mime-type": "image/avif",
+				"filesize": 187336
+			}
+		},
+		"originalImage": "screenshot-96.avif",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "firefox",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2036,
+		"ms": 8938,
+		"memory": {
+			"idle": 1300,
+			"peak": 1393,
+			"after": 1192
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-97-scaled.avif",
+		"filesize": 247145,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-97-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 9946
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-97-300x170.avif",
+				"mime-type": "image/avif",
+				"filesize": 14505
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-97-1024x579.avif",
+				"mime-type": "image/avif",
+				"filesize": 73232
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-97-768x434.avif",
+				"mime-type": "image/avif",
+				"filesize": 49709
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-97-1536x868.avif",
+				"mime-type": "image/avif",
+				"filesize": 125834
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-97-2048x1158.avif",
+				"mime-type": "image/avif",
+				"filesize": 187336
+			}
+		},
+		"originalImage": "screenshot-97.avif",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "firefox",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2038,
+		"ms": 8900,
+		"memory": {
+			"idle": 1276,
+			"peak": 1502,
+			"after": 1015
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-98-scaled.avif",
+		"filesize": 247145,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-98-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 9946
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-98-300x170.avif",
+				"mime-type": "image/avif",
+				"filesize": 14505
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-98-768x434.avif",
+				"mime-type": "image/avif",
+				"filesize": 49709
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-98-1024x579.avif",
+				"mime-type": "image/avif",
+				"filesize": 73232
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-98-1536x868.avif",
+				"mime-type": "image/avif",
+				"filesize": 125834
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-98-2048x1158.avif",
+				"mime-type": "image/avif",
+				"filesize": 187336
+			}
+		},
+		"originalImage": "screenshot-98.avif",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2040,
+		"ms": 12406,
+		"memory": {
+			"idle": 743,
+			"peak": 1004,
+			"after": 860
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-82-scaled.avif",
+		"filesize": 683784,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-82-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 11298
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-82-300x199.avif",
+				"mime-type": "image/avif",
+				"filesize": 22009
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-82-767x510.avif",
+				"mime-type": "image/avif",
+				"filesize": 98350
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-82-1024x681.avif",
+				"mime-type": "image/avif",
+				"filesize": 157927
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-82-1536x1021.avif",
+				"mime-type": "image/avif",
+				"filesize": 304869
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-82-2048x1362.avif",
+				"mime-type": "image/avif",
+				"filesize": 483714
+			}
+		},
+		"originalImage": "input-82.avif",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2042,
+		"ms": 12952,
+		"memory": {
+			"idle": 828,
+			"peak": 1059,
+			"after": 688
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-83-scaled.avif",
+		"filesize": 683784,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-83-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 11298
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-83-300x199.avif",
+				"mime-type": "image/avif",
+				"filesize": 22009
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-83-767x510.avif",
+				"mime-type": "image/avif",
+				"filesize": 98350
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-83-1024x681.avif",
+				"mime-type": "image/avif",
+				"filesize": 157927
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-83-1536x1021.avif",
+				"mime-type": "image/avif",
+				"filesize": 304869
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-83-2048x1362.avif",
+				"mime-type": "image/avif",
+				"filesize": 483714
+			}
+		},
+		"originalImage": "input-83.avif",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "webkit",
+		"image": "images/input.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2044,
+		"ms": 12714,
+		"memory": {
+			"idle": 821,
+			"peak": 1118,
+			"after": 683
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/input-84-scaled.avif",
+		"filesize": 683784,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "input-84-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 11298
+			},
+			"medium": {
+				"width": 300,
+				"height": 199,
+				"file": "input-84-300x199.avif",
+				"mime-type": "image/avif",
+				"filesize": 22009
+			},
+			"medium_large": {
+				"width": 767,
+				"height": 510,
+				"file": "input-84-767x510.avif",
+				"mime-type": "image/avif",
+				"filesize": 98350
+			},
+			"large": {
+				"width": 1024,
+				"height": 681,
+				"file": "input-84-1024x681.avif",
+				"mime-type": "image/avif",
+				"filesize": 157927
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 1021,
+				"file": "input-84-1536x1021.avif",
+				"mime-type": "image/avif",
+				"filesize": 304869
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1362,
+				"file": "input-84-2048x1362.avif",
+				"mime-type": "image/avif",
+				"filesize": 483714
+			}
+		},
+		"originalImage": "input-84.avif",
+		"width": 2560,
+		"height": 1702
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "webkit",
+		"image": "images/input-8685x5789.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2049,
+		"ms": 46464,
+		"memory": {
+			"idle": 836,
+			"peak": 1097,
+			"after": 610
+		},
+		"workers": 1,
+		"requests": {
+			"media": 4,
+			"sideload": 0
+		},
+		"console": [],
+		"clientSide": false,
+		"file": "2026/11/input-8685x5789-264-scaled.avif",
+		"filesize": 956119,
+		"sizes": {
+			"medium": {
+				"file": "input-8685x5789-264-300x200.avif",
+				"width": 300,
+				"height": 200,
+				"mime-type": "image/avif",
+				"filesize": 40091
+			},
+			"large": {
+				"file": "input-8685x5789-264-1024x683.avif",
+				"width": 1024,
+				"height": 683,
+				"mime-type": "image/avif",
+				"filesize": 213199
+			},
+			"thumbnail": {
+				"file": "input-8685x5789-264-150x150.avif",
+				"width": 150,
+				"height": 150,
+				"mime-type": "image/avif",
+				"filesize": 28923
+			},
+			"medium_large": {
+				"file": "input-8685x5789-264-768x512.avif",
+				"width": 768,
+				"height": 512,
+				"mime-type": "image/avif",
+				"filesize": 133947
+			},
+			"1536x1536": {
+				"file": "input-8685x5789-264-1536x1024.avif",
+				"width": 1536,
+				"height": 1024,
+				"mime-type": "image/avif",
+				"filesize": 419977
+			},
+			"2048x2048": {
+				"file": "input-8685x5789-264-2048x1365.avif",
+				"width": 2048,
+				"height": 1365,
+				"mime-type": "image/avif",
+				"filesize": 670800
+			}
+		},
+		"originalImage": "input-8685x5789-264.jpg",
+		"width": 2560,
+		"height": 1706
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "webkit",
+		"image": "images/input-8685x5789.jpg",
+		"ok": false,
+		"error": "Could not get a valid response from the server."
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "webkit",
+		"image": "images/input-8685x5789.jpg",
+		"ok": false,
+		"error": "Could not get a valid response from the server."
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "webkit",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2061,
+		"ms": 8046,
+		"memory": {
+			"idle": 713,
+			"peak": 1261,
+			"after": 797
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-151-scaled-1.avif",
+		"filesize": 526544,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-151-150x150-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 5823
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-151-225x300-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 12521
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-151-432x576-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 34804
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-151-768x1024-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 96542
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-151-1152x1536-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 200335
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-151-1536x2048-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 343086
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "webkit",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2063,
+		"ms": 8871,
+		"memory": {
+			"idle": 827,
+			"peak": 1211,
+			"after": 758
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-152-scaled-1.avif",
+		"filesize": 526544,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-152-150x150-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 5823
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-152-225x300-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 12521
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-152-432x576-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 34804
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-152-768x1024-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 96542
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-152-1152x1536-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 200335
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-152-1536x2048-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 343086
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "webkit",
+		"image": "images/phone.jpg",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2065,
+		"ms": 10452,
+		"memory": {
+			"idle": 805,
+			"peak": 938,
+			"after": 868
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 8
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/phone-153-scaled-1.avif",
+		"filesize": 526544,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "phone-153-150x150-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 5823
+			},
+			"medium": {
+				"width": 225,
+				"height": 300,
+				"file": "phone-153-225x300-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 12521
+			},
+			"medium_large": {
+				"width": 432,
+				"height": 576,
+				"file": "phone-153-432x576-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 34804
+			},
+			"large": {
+				"width": 768,
+				"height": 1024,
+				"file": "phone-153-768x1024-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 96542
+			},
+			"1536x1536": {
+				"width": 1152,
+				"height": 1536,
+				"file": "phone-153-1152x1536-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 200335
+			},
+			"2048x2048": {
+				"width": 1536,
+				"height": 2048,
+				"file": "phone-153-1536x2048-1.avif",
+				"mime-type": "image/avif",
+				"filesize": 343086
+			}
+		},
+		"originalImage": "phone-rotated-1.jpg",
+		"width": 1920,
+		"height": 2560
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "webkit",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2067,
+		"ms": 8211,
+		"memory": {
+			"idle": 737,
+			"peak": 1173,
+			"after": 755
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-99-scaled.avif",
+		"filesize": 247145,
+		"sizes": {
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-99-300x170.avif",
+				"mime-type": "image/avif",
+				"filesize": 14505
+			},
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-99-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 9946
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-99-768x434.avif",
+				"mime-type": "image/avif",
+				"filesize": 49709
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-99-1024x579.avif",
+				"mime-type": "image/avif",
+				"filesize": 73232
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-99-1536x868.avif",
+				"mime-type": "image/avif",
+				"filesize": 125834
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-99-2048x1158.avif",
+				"mime-type": "image/avif",
+				"filesize": 187336
+			}
+		},
+		"originalImage": "screenshot-99.avif",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "webkit",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2069,
+		"ms": 7463,
+		"memory": {
+			"idle": 819,
+			"peak": 1142,
+			"after": 909
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-100-scaled.avif",
+		"filesize": 247145,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-100-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 9946
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-100-300x170.avif",
+				"mime-type": "image/avif",
+				"filesize": 14505
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-100-768x434.avif",
+				"mime-type": "image/avif",
+				"filesize": 49709
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-100-1024x579.avif",
+				"mime-type": "image/avif",
+				"filesize": 73232
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-100-1536x868.avif",
+				"mime-type": "image/avif",
+				"filesize": 125834
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-100-2048x1158.avif",
+				"mime-type": "image/avif",
+				"filesize": 187336
+			}
+		},
+		"originalImage": "screenshot-100.avif",
+		"width": 2560,
+		"height": 1447
+	},
+	{
+		"setup": "wasm-vips-nothreads-demo",
+		"format": "image/avif",
+		"browser": "webkit",
+		"image": "images/screenshot.png",
+		"ok": true,
+		"env": {
+			"crossOriginIsolated": false,
+			"clientSideFlag": true,
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+		},
+		"headers": {
+			"dip": null,
+			"coep": null,
+			"coop": null
+		},
+		"id": 2071,
+		"ms": 7609,
+		"memory": {
+			"idle": 843,
+			"peak": 1198,
+			"after": 956
+		},
+		"workers": 1,
+		"requests": {
+			"media": 1,
+			"sideload": 7
+		},
+		"console": [],
+		"clientSide": true,
+		"file": "2026/11/screenshot-101-scaled.avif",
+		"filesize": 247145,
+		"sizes": {
+			"thumbnail": {
+				"width": 150,
+				"height": 150,
+				"file": "screenshot-101-150x150.avif",
+				"mime-type": "image/avif",
+				"filesize": 9946
+			},
+			"medium": {
+				"width": 300,
+				"height": 170,
+				"file": "screenshot-101-300x170.avif",
+				"mime-type": "image/avif",
+				"filesize": 14505
+			},
+			"medium_large": {
+				"width": 768,
+				"height": 434,
+				"file": "screenshot-101-768x434.avif",
+				"mime-type": "image/avif",
+				"filesize": 49709
+			},
+			"large": {
+				"width": 1024,
+				"height": 579,
+				"file": "screenshot-101-1024x579.avif",
+				"mime-type": "image/avif",
+				"filesize": 73232
+			},
+			"1536x1536": {
+				"width": 1536,
+				"height": 868,
+				"file": "screenshot-101-1536x868.avif",
+				"mime-type": "image/avif",
+				"filesize": 125834
+			},
+			"2048x2048": {
+				"width": 2048,
+				"height": 1158,
+				"file": "screenshot-101-2048x1158.avif",
+				"mime-type": "image/avif",
+				"filesize": 187336
+			}
+		},
+		"originalImage": "screenshot-101.avif",
+		"width": 2560,
+		"height": 1447
+	}
+]

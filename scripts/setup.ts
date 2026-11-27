@@ -1,5 +1,5 @@
 /**
- * Downloads and verifies the libvips release archive, then clones every source at its pinned commit: wasm-vips into src/baseline and src/nothreads (with
+ * Downloads and verifies the libvips release archive, then clones every source at its pinned commit: wasm-vips into src/baseline, src/nothreads and src/combined (with
  * the patches), and the two Gutenberg packages the WordPress test rebuilds into src/gutenberg.
  * Safe to run again.
  *
@@ -101,7 +101,7 @@ for ( const line of readFileSync( join( UPSTREAM, 'SHA256SUMS' ), 'utf8' )
 	}
 }
 
-for ( const variant of [ 'baseline', 'nothreads' ] ) {
+for ( const variant of [ 'baseline', 'nothreads', 'combined' ] ) {
 	const dir = join( ROOT, 'src', variant );
 	clone( dir, WASM_VIPS );
 	try {
@@ -113,6 +113,7 @@ for ( const variant of [ 'baseline', 'nothreads' ] ) {
 	const patches = [
 		'pin-vendored.patch',
 		...( variant === 'nothreads' ? [ 'nothreads-wasm-vips.patch' ] : [] ),
+		...( variant === 'combined' ? [ 'combined-wasm-vips.patch' ] : [] ),
 	];
 	for ( const patch of patches ) {
 		git( dir, 'apply', join( ROOT, 'patches', patch ) );

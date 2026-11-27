@@ -33,4 +33,15 @@ export default [
 			'no-console': 'off',
 		},
 	},
+	{
+		// Node scripts that also run code in the browser and read wasm binaries.
+		files: [ 'research/**/*.mjs' ],
+		languageOptions: {
+			globals: { ...globals.node, ...globals.browser },
+		},
+		rules: {
+			'no-console': 'off',
+			'no-bitwise': 'off',
+		},
+	},
 ];

@@ -1,0 +1,8643 @@
+{
+	"wasmVips": "49ac4378f2df80e38f45491abeeac9b86dddbedd",
+	"runs": [
+		{
+			"environment": "Node v24.22.1",
+			"mocha": "12.0.3",
+			"hung": false,
+			"passed": 235,
+			"pending": 3,
+			"failed": 0,
+			"tests": [
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic add",
+					"state": "passed",
+					"durationMs": 413
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic sub",
+					"state": "passed",
+					"durationMs": 183
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic mul",
+					"state": "passed",
+					"durationMs": 198
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic div",
+					"state": "passed",
+					"durationMs": 228
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic floordiv",
+					"state": "passed",
+					"durationMs": 232
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic pow",
+					"state": "passed",
+					"durationMs": 134
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic and",
+					"state": "passed",
+					"durationMs": 128
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic or",
+					"state": "passed",
+					"durationMs": 120
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic xor",
+					"state": "passed",
+					"durationMs": 122
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic more",
+					"state": "passed",
+					"durationMs": 236
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic moreEq",
+					"state": "passed",
+					"durationMs": 859
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic less",
+					"state": "passed",
+					"durationMs": 1512
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic lessEq",
+					"state": "passed",
+					"durationMs": 624
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic equal",
+					"state": "passed",
+					"durationMs": 502
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic notEq",
+					"state": "passed",
+					"durationMs": 803
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic abs",
+					"state": "passed",
+					"durationMs": 68
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic lshift",
+					"state": "passed",
+					"durationMs": 74
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic rshift",
+					"state": "passed",
+					"durationMs": 22
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic mod",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic pos",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic neg",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic invert",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic avg",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic deviate",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic polar",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic rect",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic conjugate",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic histFind",
+					"state": "passed",
+					"durationMs": 77
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic histFindIndexed",
+					"state": "passed",
+					"durationMs": 23
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic histFindNdim",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic houghCircle",
+					"state": "passed",
+					"durationMs": 222
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic houghLine",
+					"state": "passed",
+					"durationMs": 111
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic sin",
+					"state": "passed",
+					"durationMs": 32
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic cos",
+					"state": "passed",
+					"durationMs": 38
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic tan",
+					"state": "passed",
+					"durationMs": 22
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic asin",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic acos",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic atan",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic sinh",
+					"state": "passed",
+					"durationMs": 87
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic cosh",
+					"state": "passed",
+					"durationMs": 74
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic tanh",
+					"state": "passed",
+					"durationMs": 74
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic asinh",
+					"state": "passed",
+					"durationMs": 124
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic acosh",
+					"state": "passed",
+					"durationMs": 40
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic atanh",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic atan2",
+					"state": "passed",
+					"durationMs": 188
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic log",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic log10",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic exp",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic exp10",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic floor",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic ceil",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic rint",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic sign",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic max",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic min",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic measure",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic findTrim",
+					"state": "passed",
+					"durationMs": 16
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic profile",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic project",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic sum",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic clamp",
+					"state": "passed",
+					"durationMs": 178
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic minpair",
+					"state": "passed",
+					"durationMs": 77
+				},
+				{
+					"file": "test_arithmetic.js",
+					"title": "arithmetic maxpair",
+					"state": "passed",
+					"durationMs": 81
+				},
+				{
+					"file": "test_auto_delete.js",
+					"title": "auto delete auto delete",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_auto_delete.js",
+					"title": "auto delete preventAutoDelete all handles",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_auto_delete.js",
+					"title": "auto delete preventAutoDelete cloned handle",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_block.js",
+					"title": "block blockUntrusted",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"file": "test_block.js",
+					"title": "block operationBlock",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"file": "test_colour.js",
+					"title": "colour colourspace",
+					"state": "passed",
+					"durationMs": 459
+				},
+				{
+					"file": "test_colour.js",
+					"title": "colour dE00",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_colour.js",
+					"title": "colour dE76",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_colour.js",
+					"title": "colour dECMC",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_colour.js",
+					"title": "colour icc",
+					"state": "passed",
+					"durationMs": 67
+				},
+				{
+					"file": "test_colour.js",
+					"title": "colour cmyk",
+					"state": "passed",
+					"durationMs": 21
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection matrix",
+					"state": "passed",
+					"durationMs": 33
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection csv",
+					"state": "passed",
+					"durationMs": 35
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection ppm",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection tiff",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection source newFromFile",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection source newFromMemory",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection target newToFile",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection target newToMemory",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection image newFromSource file",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection image newFromSource memory",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection image newFromSource custom",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection image writeToTarget file",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection image writeToTarget memory",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"file": "test_connection.js",
+					"title": "connection image writeToTarget custom",
+					"state": "passed",
+					"durationMs": 22
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion cast",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion bandand",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion bandor",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion bandeor",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion bandjoin",
+					"state": "passed",
+					"durationMs": 154
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion bandjoinConst",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion addalpha",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion bandmean",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion bandrank",
+					"state": "passed",
+					"durationMs": 99
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion copy",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion bandfold",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion byteswap",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion embed",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion gravity",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion extract",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion slice",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion crop",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion falsecolour",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion flatten",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion premultiply",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion composite",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion unpremultiply",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion flip",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion gamma",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion grid",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion ifthenelse",
+					"state": "passed",
+					"durationMs": 344
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion switch",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion insert",
+					"state": "passed",
+					"durationMs": 81
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion arrayjoin",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion msb",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion recomb",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion replicate",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion rot45",
+					"state": "passed",
+					"durationMs": 69
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion rot",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion scale",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion subsample",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion zoom",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion wrap",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion smartcrop entropy",
+					"state": "passed",
+					"durationMs": 21
+				},
+				{
+					"file": "test_conversion.js",
+					"title": "conversion smartcrop attention",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"file": "test_convolution.js",
+					"title": "convolution conv",
+					"state": "passed",
+					"durationMs": 27
+				},
+				{
+					"file": "test_convolution.js",
+					"title": "convolution conva",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"file": "test_convolution.js",
+					"title": "convolution compass",
+					"state": "passed",
+					"durationMs": 180
+				},
+				{
+					"file": "test_convolution.js",
+					"title": "convolution convsep",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"file": "test_convolution.js",
+					"title": "convolution fastcor",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"file": "test_convolution.js",
+					"title": "convolution spcor",
+					"state": "passed",
+					"durationMs": 34
+				},
+				{
+					"file": "test_convolution.js",
+					"title": "convolution gaussblur",
+					"state": "passed",
+					"durationMs": 22
+				},
+				{
+					"file": "test_convolution.js",
+					"title": "convolution sharpen",
+					"state": "passed",
+					"durationMs": 166
+				},
+				{
+					"file": "test_create.js",
+					"title": "create black",
+					"state": "passed",
+					"durationMs": 54
+				},
+				{
+					"file": "test_create.js",
+					"title": "create buildlut",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_create.js",
+					"title": "create eye",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_create.js",
+					"title": "create fractsurf",
+					"state": "pending",
+					"durationMs": 1
+				},
+				{
+					"file": "test_create.js",
+					"title": "create gaussmat",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_create.js",
+					"title": "create gaussnoise",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_create.js",
+					"title": "create grey",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_create.js",
+					"title": "create identity",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_create.js",
+					"title": "create invertlut",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_create.js",
+					"title": "create matrixinvert",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_create.js",
+					"title": "create logmat",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_create.js",
+					"title": "create maskButterworthBand",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"file": "test_create.js",
+					"title": "create maskButterworth",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_create.js",
+					"title": "create maskButterworthRing",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_create.js",
+					"title": "create maskFractal",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_create.js",
+					"title": "create maskGaussian",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_create.js",
+					"title": "create maskGaussianRing",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_create.js",
+					"title": "create maskIdealBand",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_create.js",
+					"title": "create maskIdeal",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_create.js",
+					"title": "create maskIdealRing",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_create.js",
+					"title": "create sines",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_create.js",
+					"title": "create text",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"file": "test_create.js",
+					"title": "create tonelut",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_create.js",
+					"title": "create xyz",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_create.js",
+					"title": "create sdf",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_create.js",
+					"title": "create zone",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_create.js",
+					"title": "create worley",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_create.js",
+					"title": "create perlin",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_draw.js",
+					"title": "draw drawCircle",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_draw.js",
+					"title": "draw drawFlood",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_draw.js",
+					"title": "draw drawImage",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_draw.js",
+					"title": "draw drawLine",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"file": "test_draw.js",
+					"title": "draw drawMask",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_draw.js",
+					"title": "draw drawRect",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"file": "test_draw.js",
+					"title": "draw drawSmudge",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign vips",
+					"state": "passed",
+					"durationMs": 22
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign jpeg",
+					"state": "passed",
+					"durationMs": 70
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign jpegsave",
+					"state": "passed",
+					"durationMs": 32
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign uhdrload",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign truncated",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign png",
+					"state": "passed",
+					"durationMs": 174
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign tiff",
+					"state": "passed",
+					"durationMs": 3064
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign webp",
+					"state": "passed",
+					"durationMs": 527
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign gifload",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign gifsave",
+					"state": "passed",
+					"durationMs": 789
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign analyzeload",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign csv",
+					"state": "passed",
+					"durationMs": 30
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign matrix",
+					"state": "passed",
+					"durationMs": 21
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign ppm",
+					"state": "passed",
+					"durationMs": 665
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign radload",
+					"state": "passed",
+					"durationMs": 28
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign svgload",
+					"state": "passed",
+					"durationMs": 78
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign heifload",
+					"state": "passed",
+					"durationMs": 2317
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign jxlload",
+					"state": "passed",
+					"durationMs": 37
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign jxlsave",
+					"state": "passed",
+					"durationMs": 1533
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign fail_on",
+					"state": "passed",
+					"durationMs": 57
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign uhdrsave sRGB",
+					"state": "passed",
+					"durationMs": 108
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign uhdrsave roundtrip",
+					"state": "passed",
+					"durationMs": 187
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign uhdrsave roundtrip HDR",
+					"state": "passed",
+					"durationMs": 2182
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign uhdrsave thumbnail",
+					"state": "passed",
+					"durationMs": 29
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign uhdrsave thumbnail with crop",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign heifsave roundtrip",
+					"state": "passed",
+					"durationMs": 1273
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign heifsave quality",
+					"state": "passed",
+					"durationMs": 770
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign heifsave chroma",
+					"state": "passed",
+					"durationMs": 2123
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign heifsave icc",
+					"state": "passed",
+					"durationMs": 718
+				},
+				{
+					"file": "test_foreign.js",
+					"title": "foreign heifsave exif",
+					"state": "passed",
+					"durationMs": 1356
+				},
+				{
+					"file": "test_histogram.js",
+					"title": "histogram histCum",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_histogram.js",
+					"title": "histogram histEqual",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"file": "test_histogram.js",
+					"title": "histogram histIsmonotonic",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_histogram.js",
+					"title": "histogram histLocal",
+					"state": "passed",
+					"durationMs": 48
+				},
+				{
+					"file": "test_histogram.js",
+					"title": "histogram histMatch",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_histogram.js",
+					"title": "histogram histNorm",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_histogram.js",
+					"title": "histogram histPlot",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_histogram.js",
+					"title": "histogram histMap",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_histogram.js",
+					"title": "histogram percent",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"file": "test_histogram.js",
+					"title": "histogram histEntropy",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_histogram.js",
+					"title": "histogram stdif",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"file": "test_histogram.js",
+					"title": "histogram case",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"file": "test_iofuncs.js",
+					"title": "iofuncs newFromImage",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_iofuncs.js",
+					"title": "iofuncs newFromMemory",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_iofuncs.js",
+					"title": "iofuncs getFields",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_iofuncs.js",
+					"title": "iofuncs writeToMemory",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_iofuncs.js",
+					"title": "iofuncs revalidate",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"file": "test_morphology.js",
+					"title": "morphology countlines",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"file": "test_morphology.js",
+					"title": "morphology labelregions",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_morphology.js",
+					"title": "morphology erode",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_morphology.js",
+					"title": "morphology dilate",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"file": "test_morphology.js",
+					"title": "morphology rank",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"file": "test_mosaicing.js",
+					"title": "mosaicing lrmerge",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_mosaicing.js",
+					"title": "mosaicing tbmerge",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"file": "test_mosaicing.js",
+					"title": "mosaicing lrmosaic",
+					"state": "passed",
+					"durationMs": 131
+				},
+				{
+					"file": "test_mosaicing.js",
+					"title": "mosaicing tbmosaic",
+					"state": "passed",
+					"durationMs": 73
+				},
+				{
+					"file": "test_mosaicing.js",
+					"title": "mosaicing mosaic",
+					"state": "passed",
+					"durationMs": 472
+				},
+				{
+					"file": "test_mosaicing.js",
+					"title": "mosaicing globalbalance",
+					"state": "passed",
+					"durationMs": 544
+				},
+				{
+					"file": "test_resample.js",
+					"title": "resample affine",
+					"state": "passed",
+					"durationMs": 94
+				},
+				{
+					"file": "test_resample.js",
+					"title": "resample reduce",
+					"state": "passed",
+					"durationMs": 3322
+				},
+				{
+					"file": "test_resample.js",
+					"title": "resample resize",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"file": "test_resample.js",
+					"title": "resample shrink",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"file": "test_resample.js",
+					"title": "resample thumbnail",
+					"state": "passed",
+					"durationMs": 160
+				},
+				{
+					"file": "test_resample.js",
+					"title": "resample rotate",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"file": "test_resample.js",
+					"title": "resample mapim",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"file": "test_resample.js",
+					"title": "resample similarity angle",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"file": "test_resample.js",
+					"title": "resample similarity scale",
+					"state": "passed",
+					"durationMs": 7
+				}
+			]
+		},
+		{
+			"environment": "chromium 156.0.8078.4",
+			"mocha": "12.0.2",
+			"hung": false,
+			"passed": 235,
+			"pending": 3,
+			"failed": 0,
+			"tests": [
+				{
+					"title": "arithmetic add",
+					"state": "passed",
+					"durationMs": 241
+				},
+				{
+					"title": "arithmetic sub",
+					"state": "passed",
+					"durationMs": 199
+				},
+				{
+					"title": "arithmetic mul",
+					"state": "passed",
+					"durationMs": 185
+				},
+				{
+					"title": "arithmetic div",
+					"state": "passed",
+					"durationMs": 184
+				},
+				{
+					"title": "arithmetic floordiv",
+					"state": "passed",
+					"durationMs": 218
+				},
+				{
+					"title": "arithmetic pow",
+					"state": "passed",
+					"durationMs": 139
+				},
+				{
+					"title": "arithmetic and",
+					"state": "passed",
+					"durationMs": 132
+				},
+				{
+					"title": "arithmetic or",
+					"state": "passed",
+					"durationMs": 124
+				},
+				{
+					"title": "arithmetic xor",
+					"state": "passed",
+					"durationMs": 126
+				},
+				{
+					"title": "arithmetic more",
+					"state": "passed",
+					"durationMs": 197
+				},
+				{
+					"title": "arithmetic moreEq",
+					"state": "passed",
+					"durationMs": 184
+				},
+				{
+					"title": "arithmetic less",
+					"state": "passed",
+					"durationMs": 188
+				},
+				{
+					"title": "arithmetic lessEq",
+					"state": "passed",
+					"durationMs": 188
+				},
+				{
+					"title": "arithmetic equal",
+					"state": "passed",
+					"durationMs": 184
+				},
+				{
+					"title": "arithmetic notEq",
+					"state": "passed",
+					"durationMs": 193
+				},
+				{
+					"title": "arithmetic abs",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic lshift",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "arithmetic rshift",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic mod",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic pos",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic neg",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "arithmetic invert",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic avg",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic deviate",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic polar",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic rect",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "arithmetic conjugate",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "arithmetic histFind",
+					"state": "passed",
+					"durationMs": 24
+				},
+				{
+					"title": "arithmetic histFindIndexed",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "arithmetic histFindNdim",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic houghCircle",
+					"state": "passed",
+					"durationMs": 38
+				},
+				{
+					"title": "arithmetic houghLine",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic sin",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic cos",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic tan",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic asin",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic acos",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic atan",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic sinh",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic cosh",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic tanh",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic asinh",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic acosh",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic atanh",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic atan2",
+					"state": "passed",
+					"durationMs": 142
+				},
+				{
+					"title": "arithmetic log",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic log10",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic exp",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic exp10",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic floor",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "arithmetic ceil",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "arithmetic rint",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "arithmetic sign",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "arithmetic max",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic min",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic measure",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic findTrim",
+					"state": "passed",
+					"durationMs": 23
+				},
+				{
+					"title": "arithmetic profile",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "arithmetic project",
+					"state": "passed",
+					"durationMs": 16
+				},
+				{
+					"title": "arithmetic sum",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic clamp",
+					"state": "passed",
+					"durationMs": 140
+				},
+				{
+					"title": "arithmetic minpair",
+					"state": "passed",
+					"durationMs": 65
+				},
+				{
+					"title": "arithmetic maxpair",
+					"state": "passed",
+					"durationMs": 68
+				},
+				{
+					"title": "auto delete auto delete",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "auto delete preventAutoDelete all handles",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "auto delete preventAutoDelete cloned handle",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "block blockUntrusted",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "block operationBlock",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "colour colourspace",
+					"state": "passed",
+					"durationMs": 424
+				},
+				{
+					"title": "colour dE00",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "colour dE76",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "colour dECMC",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "colour icc",
+					"state": "passed",
+					"durationMs": 130
+				},
+				{
+					"title": "colour cmyk",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "connection matrix",
+					"state": "passed",
+					"durationMs": 42
+				},
+				{
+					"title": "connection csv",
+					"state": "passed",
+					"durationMs": 33
+				},
+				{
+					"title": "connection ppm",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "connection tiff",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "connection source newFromFile",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection source newFromMemory",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "connection target newToFile",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection target newToMemory",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection image newFromSource file",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "connection image newFromSource memory",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "connection image newFromSource custom",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "connection image writeToTarget file",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "connection image writeToTarget memory",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "connection image writeToTarget custom",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "conversion cast",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion bandand",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "conversion bandor",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "conversion bandeor",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "conversion bandjoin",
+					"state": "passed",
+					"durationMs": 154
+				},
+				{
+					"title": "conversion bandjoinConst",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion addalpha",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "conversion bandmean",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "conversion bandrank",
+					"state": "passed",
+					"durationMs": 88
+				},
+				{
+					"title": "conversion copy",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "conversion bandfold",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion byteswap",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion embed",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "conversion gravity",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion extract",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion slice",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion crop",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion falsecolour",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion flatten",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "conversion premultiply",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion composite",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion unpremultiply",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion flip",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion gamma",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "conversion grid",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion ifthenelse",
+					"state": "passed",
+					"durationMs": 192
+				},
+				{
+					"title": "conversion switch",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion insert",
+					"state": "passed",
+					"durationMs": 71
+				},
+				{
+					"title": "conversion arrayjoin",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion msb",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion recomb",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion replicate",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion rot45",
+					"state": "passed",
+					"durationMs": 45
+				},
+				{
+					"title": "conversion rot",
+					"state": "passed",
+					"durationMs": 16
+				},
+				{
+					"title": "conversion scale",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "conversion subsample",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion zoom",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion wrap",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion smartcrop entropy",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "conversion smartcrop attention",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "convolution conv",
+					"state": "passed",
+					"durationMs": 23
+				},
+				{
+					"title": "convolution conva",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "convolution compass",
+					"state": "passed",
+					"durationMs": 154
+				},
+				{
+					"title": "convolution convsep",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "convolution fastcor",
+					"state": "passed",
+					"durationMs": 31
+				},
+				{
+					"title": "convolution spcor",
+					"state": "passed",
+					"durationMs": 65
+				},
+				{
+					"title": "convolution gaussblur",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "convolution sharpen",
+					"state": "passed",
+					"durationMs": 148
+				},
+				{
+					"title": "create black",
+					"state": "passed",
+					"durationMs": 25
+				},
+				{
+					"title": "create buildlut",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create eye",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create fractsurf",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "create gaussmat",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create gaussnoise",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create grey",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create identity",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create invertlut",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create matrixinvert",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create logmat",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskButterworthBand",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "create maskButterworth",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create maskButterworthRing",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create maskFractal",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskGaussian",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskGaussianRing",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskIdealBand",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskIdeal",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskIdealRing",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create sines",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create text",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "create tonelut",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create xyz",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create sdf",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create zone",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create worley",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create perlin",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawCircle",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "draw drawFlood",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawImage",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawLine",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawMask",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawRect",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "draw drawSmudge",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "foreign vips",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "foreign jpeg",
+					"state": "passed",
+					"durationMs": 28
+				},
+				{
+					"title": "foreign jpegsave",
+					"state": "passed",
+					"durationMs": 21
+				},
+				{
+					"title": "foreign uhdrload",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "foreign truncated",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "foreign png",
+					"state": "passed",
+					"durationMs": 86
+				},
+				{
+					"title": "foreign tiff",
+					"state": "passed",
+					"durationMs": 141
+				},
+				{
+					"title": "foreign webp",
+					"state": "passed",
+					"durationMs": 470
+				},
+				{
+					"title": "foreign gifload",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "foreign gifsave",
+					"state": "passed",
+					"durationMs": 748
+				},
+				{
+					"title": "foreign analyzeload",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "foreign csv",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "foreign matrix",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "foreign ppm",
+					"state": "passed",
+					"durationMs": 288
+				},
+				{
+					"title": "foreign radload",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "foreign svgload",
+					"state": "passed",
+					"durationMs": 37
+				},
+				{
+					"title": "foreign heifload",
+					"state": "passed",
+					"durationMs": 2082
+				},
+				{
+					"title": "foreign jxlload",
+					"state": "passed",
+					"durationMs": 31
+				},
+				{
+					"title": "foreign jxlsave",
+					"state": "passed",
+					"durationMs": 1617
+				},
+				{
+					"title": "foreign fail_on",
+					"state": "passed",
+					"durationMs": 60
+				},
+				{
+					"title": "foreign uhdrsave sRGB",
+					"state": "passed",
+					"durationMs": 137
+				},
+				{
+					"title": "foreign uhdrsave roundtrip",
+					"state": "passed",
+					"durationMs": 581
+				},
+				{
+					"title": "foreign uhdrsave roundtrip HDR",
+					"state": "passed",
+					"durationMs": 2613
+				},
+				{
+					"title": "foreign uhdrsave thumbnail",
+					"state": "passed",
+					"durationMs": 22
+				},
+				{
+					"title": "foreign uhdrsave thumbnail with crop",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "foreign heifsave roundtrip",
+					"state": "passed",
+					"durationMs": 1197
+				},
+				{
+					"title": "foreign heifsave quality",
+					"state": "passed",
+					"durationMs": 807
+				},
+				{
+					"title": "foreign heifsave chroma",
+					"state": "passed",
+					"durationMs": 1511
+				},
+				{
+					"title": "foreign heifsave icc",
+					"state": "passed",
+					"durationMs": 401
+				},
+				{
+					"title": "foreign heifsave exif",
+					"state": "passed",
+					"durationMs": 425
+				},
+				{
+					"title": "histogram histCum",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histEqual",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "histogram histIsmonotonic",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histLocal",
+					"state": "passed",
+					"durationMs": 48
+				},
+				{
+					"title": "histogram histMatch",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram histNorm",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram histPlot",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histMap",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram percent",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "histogram histEntropy",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram stdif",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "histogram case",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "iofuncs newFromImage",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "iofuncs newFromMemory",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "iofuncs getFields",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "iofuncs writeToMemory",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "iofuncs revalidate",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "morphology countlines",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology labelregions",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "morphology erode",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology dilate",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "morphology rank",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "mosaicing lrmerge",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "mosaicing tbmerge",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "mosaicing lrmosaic",
+					"state": "passed",
+					"durationMs": 39
+				},
+				{
+					"title": "mosaicing tbmosaic",
+					"state": "passed",
+					"durationMs": 35
+				},
+				{
+					"title": "mosaicing mosaic",
+					"state": "passed",
+					"durationMs": 271
+				},
+				{
+					"title": "mosaicing globalbalance",
+					"state": "passed",
+					"durationMs": 354
+				},
+				{
+					"title": "resample affine",
+					"state": "passed",
+					"durationMs": 221
+				},
+				{
+					"title": "resample reduce",
+					"state": "passed",
+					"durationMs": 6928
+				},
+				{
+					"title": "resample resize",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "resample shrink",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "resample thumbnail",
+					"state": "passed",
+					"durationMs": 68
+				},
+				{
+					"title": "resample rotate",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "resample mapim",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "resample similarity angle",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "resample similarity scale",
+					"state": "passed",
+					"durationMs": 12
+				}
+			]
+		},
+		{
+			"environment": "chromium 156.0.8078.4 isolated",
+			"mocha": "12.0.2",
+			"hung": false,
+			"passed": 235,
+			"pending": 3,
+			"failed": 0,
+			"tests": [
+				{
+					"title": "arithmetic add",
+					"state": "passed",
+					"durationMs": 193
+				},
+				{
+					"title": "arithmetic sub",
+					"state": "passed",
+					"durationMs": 168
+				},
+				{
+					"title": "arithmetic mul",
+					"state": "passed",
+					"durationMs": 159
+				},
+				{
+					"title": "arithmetic div",
+					"state": "passed",
+					"durationMs": 164
+				},
+				{
+					"title": "arithmetic floordiv",
+					"state": "passed",
+					"durationMs": 170
+				},
+				{
+					"title": "arithmetic pow",
+					"state": "passed",
+					"durationMs": 247
+				},
+				{
+					"title": "arithmetic and",
+					"state": "passed",
+					"durationMs": 128
+				},
+				{
+					"title": "arithmetic or",
+					"state": "passed",
+					"durationMs": 103
+				},
+				{
+					"title": "arithmetic xor",
+					"state": "passed",
+					"durationMs": 99
+				},
+				{
+					"title": "arithmetic more",
+					"state": "passed",
+					"durationMs": 173
+				},
+				{
+					"title": "arithmetic moreEq",
+					"state": "passed",
+					"durationMs": 162
+				},
+				{
+					"title": "arithmetic less",
+					"state": "passed",
+					"durationMs": 245
+				},
+				{
+					"title": "arithmetic lessEq",
+					"state": "passed",
+					"durationMs": 223
+				},
+				{
+					"title": "arithmetic equal",
+					"state": "passed",
+					"durationMs": 219
+				},
+				{
+					"title": "arithmetic notEq",
+					"state": "passed",
+					"durationMs": 202
+				},
+				{
+					"title": "arithmetic abs",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "arithmetic lshift",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic rshift",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic mod",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic pos",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic neg",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "arithmetic invert",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic avg",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "arithmetic deviate",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic polar",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic rect",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic conjugate",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "arithmetic histFind",
+					"state": "passed",
+					"durationMs": 30
+				},
+				{
+					"title": "arithmetic histFindIndexed",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "arithmetic histFindNdim",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic houghCircle",
+					"state": "passed",
+					"durationMs": 30
+				},
+				{
+					"title": "arithmetic houghLine",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic sin",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic cos",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic tan",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic asin",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic acos",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic atan",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic sinh",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic cosh",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic tanh",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic asinh",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic acosh",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic atanh",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic atan2",
+					"state": "passed",
+					"durationMs": 135
+				},
+				{
+					"title": "arithmetic log",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic log10",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic exp",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic exp10",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic floor",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic ceil",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic rint",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic sign",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic max",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic min",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic measure",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic findTrim",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "arithmetic profile",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "arithmetic project",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic sum",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "arithmetic clamp",
+					"state": "passed",
+					"durationMs": 113
+				},
+				{
+					"title": "arithmetic minpair",
+					"state": "passed",
+					"durationMs": 79
+				},
+				{
+					"title": "arithmetic maxpair",
+					"state": "passed",
+					"durationMs": 97
+				},
+				{
+					"title": "auto delete auto delete",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "auto delete preventAutoDelete all handles",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "auto delete preventAutoDelete cloned handle",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "block blockUntrusted",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "block operationBlock",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "colour colourspace",
+					"state": "passed",
+					"durationMs": 419
+				},
+				{
+					"title": "colour dE00",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "colour dE76",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "colour dECMC",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "colour icc",
+					"state": "passed",
+					"durationMs": 130
+				},
+				{
+					"title": "colour cmyk",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"title": "connection matrix",
+					"state": "passed",
+					"durationMs": 47
+				},
+				{
+					"title": "connection csv",
+					"state": "passed",
+					"durationMs": 32
+				},
+				{
+					"title": "connection ppm",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "connection tiff",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "connection source newFromFile",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "connection source newFromMemory",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "connection target newToFile",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection target newToMemory",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection image newFromSource file",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "connection image newFromSource memory",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "connection image newFromSource custom",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "connection image writeToTarget file",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "connection image writeToTarget memory",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "connection image writeToTarget custom",
+					"state": "passed",
+					"durationMs": 31
+				},
+				{
+					"title": "conversion cast",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion bandand",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "conversion bandor",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "conversion bandeor",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "conversion bandjoin",
+					"state": "passed",
+					"durationMs": 192
+				},
+				{
+					"title": "conversion bandjoinConst",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion addalpha",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion bandmean",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "conversion bandrank",
+					"state": "passed",
+					"durationMs": 92
+				},
+				{
+					"title": "conversion copy",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "conversion bandfold",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion byteswap",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "conversion embed",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "conversion gravity",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion extract",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion slice",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion crop",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion falsecolour",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion flatten",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion premultiply",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion composite",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion unpremultiply",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion flip",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion gamma",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "conversion grid",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion ifthenelse",
+					"state": "passed",
+					"durationMs": 192
+				},
+				{
+					"title": "conversion switch",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion insert",
+					"state": "passed",
+					"durationMs": 73
+				},
+				{
+					"title": "conversion arrayjoin",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion msb",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion recomb",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion replicate",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion rot45",
+					"state": "passed",
+					"durationMs": 45
+				},
+				{
+					"title": "conversion rot",
+					"state": "passed",
+					"durationMs": 16
+				},
+				{
+					"title": "conversion scale",
+					"state": "passed",
+					"durationMs": 19
+				},
+				{
+					"title": "conversion subsample",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion zoom",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion wrap",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion smartcrop entropy",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "conversion smartcrop attention",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "convolution conv",
+					"state": "passed",
+					"durationMs": 24
+				},
+				{
+					"title": "convolution conva",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "convolution compass",
+					"state": "passed",
+					"durationMs": 149
+				},
+				{
+					"title": "convolution convsep",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "convolution fastcor",
+					"state": "passed",
+					"durationMs": 31
+				},
+				{
+					"title": "convolution spcor",
+					"state": "passed",
+					"durationMs": 68
+				},
+				{
+					"title": "convolution gaussblur",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"title": "convolution sharpen",
+					"state": "passed",
+					"durationMs": 138
+				},
+				{
+					"title": "create black",
+					"state": "passed",
+					"durationMs": 21
+				},
+				{
+					"title": "create buildlut",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create eye",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create fractsurf",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "create gaussmat",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create gaussnoise",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create grey",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create identity",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create invertlut",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create matrixinvert",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create logmat",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskButterworthBand",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "create maskButterworth",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create maskButterworthRing",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskFractal",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskGaussian",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskGaussianRing",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskIdealBand",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskIdeal",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskIdealRing",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create sines",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create text",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "create tonelut",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create xyz",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create sdf",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create zone",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create worley",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create perlin",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawCircle",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawFlood",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawImage",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawLine",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawMask",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawRect",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "draw drawSmudge",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "foreign vips",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "foreign jpeg",
+					"state": "passed",
+					"durationMs": 22
+				},
+				{
+					"title": "foreign jpegsave",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "foreign uhdrload",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "foreign truncated",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "foreign png",
+					"state": "passed",
+					"durationMs": 72
+				},
+				{
+					"title": "foreign tiff",
+					"state": "passed",
+					"durationMs": 156
+				},
+				{
+					"title": "foreign webp",
+					"state": "passed",
+					"durationMs": 396
+				},
+				{
+					"title": "foreign gifload",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "foreign gifsave",
+					"state": "passed",
+					"durationMs": 882
+				},
+				{
+					"title": "foreign analyzeload",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "foreign csv",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"title": "foreign matrix",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "foreign ppm",
+					"state": "passed",
+					"durationMs": 295
+				},
+				{
+					"title": "foreign radload",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "foreign svgload",
+					"state": "passed",
+					"durationMs": 39
+				},
+				{
+					"title": "foreign heifload",
+					"state": "passed",
+					"durationMs": 3038
+				},
+				{
+					"title": "foreign jxlload",
+					"state": "passed",
+					"durationMs": 54
+				},
+				{
+					"title": "foreign jxlsave",
+					"state": "passed",
+					"durationMs": 2133
+				},
+				{
+					"title": "foreign fail_on",
+					"state": "passed",
+					"durationMs": 202
+				},
+				{
+					"title": "foreign uhdrsave sRGB",
+					"state": "passed",
+					"durationMs": 289
+				},
+				{
+					"title": "foreign uhdrsave roundtrip",
+					"state": "passed",
+					"durationMs": 1367
+				},
+				{
+					"title": "foreign uhdrsave roundtrip HDR",
+					"state": "passed",
+					"durationMs": 3076
+				},
+				{
+					"title": "foreign uhdrsave thumbnail",
+					"state": "passed",
+					"durationMs": 29
+				},
+				{
+					"title": "foreign uhdrsave thumbnail with crop",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "foreign heifsave roundtrip",
+					"state": "passed",
+					"durationMs": 1373
+				},
+				{
+					"title": "foreign heifsave quality",
+					"state": "passed",
+					"durationMs": 789
+				},
+				{
+					"title": "foreign heifsave chroma",
+					"state": "passed",
+					"durationMs": 2817
+				},
+				{
+					"title": "foreign heifsave icc",
+					"state": "passed",
+					"durationMs": 989
+				},
+				{
+					"title": "foreign heifsave exif",
+					"state": "passed",
+					"durationMs": 1011
+				},
+				{
+					"title": "histogram histCum",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histEqual",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "histogram histIsmonotonic",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histLocal",
+					"state": "passed",
+					"durationMs": 90
+				},
+				{
+					"title": "histogram histMatch",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histNorm",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histPlot",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histMap",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram percent",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "histogram histEntropy",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram stdif",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "histogram case",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "iofuncs newFromImage",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "iofuncs newFromMemory",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "iofuncs getFields",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "iofuncs writeToMemory",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "iofuncs revalidate",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "morphology countlines",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology labelregions",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "morphology erode",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "morphology dilate",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology rank",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "mosaicing lrmerge",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "mosaicing tbmerge",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "mosaicing lrmosaic",
+					"state": "passed",
+					"durationMs": 74
+				},
+				{
+					"title": "mosaicing tbmosaic",
+					"state": "passed",
+					"durationMs": 74
+				},
+				{
+					"title": "mosaicing mosaic",
+					"state": "passed",
+					"durationMs": 582
+				},
+				{
+					"title": "mosaicing globalbalance",
+					"state": "passed",
+					"durationMs": 369
+				},
+				{
+					"title": "resample affine",
+					"state": "passed",
+					"durationMs": 217
+				},
+				{
+					"title": "resample reduce",
+					"state": "passed",
+					"durationMs": 11076
+				},
+				{
+					"title": "resample resize",
+					"state": "passed",
+					"durationMs": 21
+				},
+				{
+					"title": "resample shrink",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "resample thumbnail",
+					"state": "passed",
+					"durationMs": 144
+				},
+				{
+					"title": "resample rotate",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "resample mapim",
+					"state": "passed",
+					"durationMs": 44
+				},
+				{
+					"title": "resample similarity angle",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "resample similarity scale",
+					"state": "passed",
+					"durationMs": 21
+				}
+			]
+		},
+		{
+			"environment": "firefox 157.0",
+			"mocha": "12.0.2",
+			"hung": false,
+			"passed": 235,
+			"pending": 3,
+			"failed": 0,
+			"tests": [
+				{
+					"title": "arithmetic add",
+					"state": "passed",
+					"durationMs": 201
+				},
+				{
+					"title": "arithmetic sub",
+					"state": "passed",
+					"durationMs": 189
+				},
+				{
+					"title": "arithmetic mul",
+					"state": "passed",
+					"durationMs": 200
+				},
+				{
+					"title": "arithmetic div",
+					"state": "passed",
+					"durationMs": 2303
+				},
+				{
+					"title": "arithmetic floordiv",
+					"state": "passed",
+					"durationMs": 504
+				},
+				{
+					"title": "arithmetic pow",
+					"state": "passed",
+					"durationMs": 140
+				},
+				{
+					"title": "arithmetic and",
+					"state": "passed",
+					"durationMs": 209
+				},
+				{
+					"title": "arithmetic or",
+					"state": "passed",
+					"durationMs": 190
+				},
+				{
+					"title": "arithmetic xor",
+					"state": "passed",
+					"durationMs": 132
+				},
+				{
+					"title": "arithmetic more",
+					"state": "passed",
+					"durationMs": 179
+				},
+				{
+					"title": "arithmetic moreEq",
+					"state": "passed",
+					"durationMs": 230
+				},
+				{
+					"title": "arithmetic less",
+					"state": "passed",
+					"durationMs": 195
+				},
+				{
+					"title": "arithmetic lessEq",
+					"state": "passed",
+					"durationMs": 202
+				},
+				{
+					"title": "arithmetic equal",
+					"state": "passed",
+					"durationMs": 162
+				},
+				{
+					"title": "arithmetic notEq",
+					"state": "passed",
+					"durationMs": 173
+				},
+				{
+					"title": "arithmetic abs",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic lshift",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic rshift",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic mod",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic pos",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic neg",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic invert",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic avg",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "arithmetic deviate",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic polar",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic rect",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic conjugate",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "arithmetic histFind",
+					"state": "passed",
+					"durationMs": 23
+				},
+				{
+					"title": "arithmetic histFindIndexed",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic histFindNdim",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic houghCircle",
+					"state": "passed",
+					"durationMs": 21
+				},
+				{
+					"title": "arithmetic houghLine",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic sin",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic cos",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic tan",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic asin",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic acos",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic atan",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic sinh",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic cosh",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic tanh",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic asinh",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "arithmetic acosh",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic atanh",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic atan2",
+					"state": "passed",
+					"durationMs": 125
+				},
+				{
+					"title": "arithmetic log",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic log10",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic exp",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic exp10",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic floor",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic ceil",
+					"state": "passed",
+					"durationMs": 16
+				},
+				{
+					"title": "arithmetic rint",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic sign",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic max",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic min",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic measure",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "arithmetic findTrim",
+					"state": "passed",
+					"durationMs": 19
+				},
+				{
+					"title": "arithmetic profile",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "arithmetic project",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic sum",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic clamp",
+					"state": "passed",
+					"durationMs": 146
+				},
+				{
+					"title": "arithmetic minpair",
+					"state": "passed",
+					"durationMs": 115
+				},
+				{
+					"title": "arithmetic maxpair",
+					"state": "passed",
+					"durationMs": 112
+				},
+				{
+					"title": "auto delete auto delete",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "auto delete preventAutoDelete all handles",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "auto delete preventAutoDelete cloned handle",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "block blockUntrusted",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "block operationBlock",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "colour colourspace",
+					"state": "passed",
+					"durationMs": 817
+				},
+				{
+					"title": "colour dE00",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "colour dE76",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "colour dECMC",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "colour icc",
+					"state": "passed",
+					"durationMs": 351
+				},
+				{
+					"title": "colour cmyk",
+					"state": "passed",
+					"durationMs": 26
+				},
+				{
+					"title": "connection matrix",
+					"state": "passed",
+					"durationMs": 42
+				},
+				{
+					"title": "connection csv",
+					"state": "passed",
+					"durationMs": 36
+				},
+				{
+					"title": "connection ppm",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "connection tiff",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "connection source newFromFile",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection source newFromMemory",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "connection target newToFile",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection target newToMemory",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection image newFromSource file",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection image newFromSource memory",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "connection image newFromSource custom",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "connection image writeToTarget file",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "connection image writeToTarget memory",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "connection image writeToTarget custom",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "conversion cast",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion bandand",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "conversion bandor",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "conversion bandeor",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "conversion bandjoin",
+					"state": "passed",
+					"durationMs": 203
+				},
+				{
+					"title": "conversion bandjoinConst",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion addalpha",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion bandmean",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "conversion bandrank",
+					"state": "passed",
+					"durationMs": 115
+				},
+				{
+					"title": "conversion copy",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "conversion bandfold",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion byteswap",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion embed",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "conversion gravity",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion extract",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion slice",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion crop",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion falsecolour",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion flatten",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "conversion premultiply",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion composite",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion unpremultiply",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion flip",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion gamma",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "conversion grid",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion ifthenelse",
+					"state": "passed",
+					"durationMs": 218
+				},
+				{
+					"title": "conversion switch",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion insert",
+					"state": "passed",
+					"durationMs": 75
+				},
+				{
+					"title": "conversion arrayjoin",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion msb",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion recomb",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion replicate",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion rot45",
+					"state": "passed",
+					"durationMs": 48
+				},
+				{
+					"title": "conversion rot",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "conversion scale",
+					"state": "passed",
+					"durationMs": 32
+				},
+				{
+					"title": "conversion subsample",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion zoom",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion wrap",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion smartcrop entropy",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "conversion smartcrop attention",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "convolution conv",
+					"state": "passed",
+					"durationMs": 31
+				},
+				{
+					"title": "convolution conva",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "convolution compass",
+					"state": "passed",
+					"durationMs": 215
+				},
+				{
+					"title": "convolution convsep",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "convolution fastcor",
+					"state": "passed",
+					"durationMs": 31
+				},
+				{
+					"title": "convolution spcor",
+					"state": "passed",
+					"durationMs": 65
+				},
+				{
+					"title": "convolution gaussblur",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "convolution sharpen",
+					"state": "passed",
+					"durationMs": 155
+				},
+				{
+					"title": "create black",
+					"state": "passed",
+					"durationMs": 43
+				},
+				{
+					"title": "create buildlut",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create eye",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create fractsurf",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "create gaussmat",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create gaussnoise",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "create grey",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "create identity",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create invertlut",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create matrixinvert",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create logmat",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskButterworthBand",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "create maskButterworth",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "create maskButterworthRing",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskFractal",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskGaussian",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskGaussianRing",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskIdealBand",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskIdeal",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskIdealRing",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create sines",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create text",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "create tonelut",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create xyz",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create sdf",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create zone",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create worley",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create perlin",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawCircle",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawFlood",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawImage",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawLine",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawMask",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawRect",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "draw drawSmudge",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "foreign vips",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "foreign jpeg",
+					"state": "passed",
+					"durationMs": 47
+				},
+				{
+					"title": "foreign jpegsave",
+					"state": "passed",
+					"durationMs": 31
+				},
+				{
+					"title": "foreign uhdrload",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "foreign truncated",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "foreign png",
+					"state": "passed",
+					"durationMs": 78
+				},
+				{
+					"title": "foreign tiff",
+					"state": "passed",
+					"durationMs": 114
+				},
+				{
+					"title": "foreign webp",
+					"state": "passed",
+					"durationMs": 451
+				},
+				{
+					"title": "foreign gifload",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "foreign gifsave",
+					"state": "passed",
+					"durationMs": 1343
+				},
+				{
+					"title": "foreign analyzeload",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "foreign csv",
+					"state": "passed",
+					"durationMs": 26
+				},
+				{
+					"title": "foreign matrix",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "foreign ppm",
+					"state": "passed",
+					"durationMs": 299
+				},
+				{
+					"title": "foreign radload",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "foreign svgload",
+					"state": "passed",
+					"durationMs": 38
+				},
+				{
+					"title": "foreign heifload",
+					"state": "passed",
+					"durationMs": 4279
+				},
+				{
+					"title": "foreign jxlload",
+					"state": "passed",
+					"durationMs": 56
+				},
+				{
+					"title": "foreign jxlsave",
+					"state": "passed",
+					"durationMs": 2250
+				},
+				{
+					"title": "foreign fail_on",
+					"state": "passed",
+					"durationMs": 61
+				},
+				{
+					"title": "foreign uhdrsave sRGB",
+					"state": "passed",
+					"durationMs": 125
+				},
+				{
+					"title": "foreign uhdrsave roundtrip",
+					"state": "passed",
+					"durationMs": 543
+				},
+				{
+					"title": "foreign uhdrsave roundtrip HDR",
+					"state": "passed",
+					"durationMs": 2258
+				},
+				{
+					"title": "foreign uhdrsave thumbnail",
+					"state": "passed",
+					"durationMs": 64
+				},
+				{
+					"title": "foreign uhdrsave thumbnail with crop",
+					"state": "passed",
+					"durationMs": 39
+				},
+				{
+					"title": "foreign heifsave roundtrip",
+					"state": "passed",
+					"durationMs": 3169
+				},
+				{
+					"title": "foreign heifsave quality",
+					"state": "passed",
+					"durationMs": 890
+				},
+				{
+					"title": "foreign heifsave chroma",
+					"state": "passed",
+					"durationMs": 1769
+				},
+				{
+					"title": "foreign heifsave icc",
+					"state": "passed",
+					"durationMs": 516
+				},
+				{
+					"title": "foreign heifsave exif",
+					"state": "passed",
+					"durationMs": 496
+				},
+				{
+					"title": "histogram histCum",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histEqual",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "histogram histIsmonotonic",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram histLocal",
+					"state": "passed",
+					"durationMs": 51
+				},
+				{
+					"title": "histogram histMatch",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histNorm",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histPlot",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram histMap",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram percent",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "histogram histEntropy",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram stdif",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "histogram case",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "iofuncs newFromImage",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "iofuncs newFromMemory",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "iofuncs getFields",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "iofuncs writeToMemory",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "iofuncs revalidate",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "morphology countlines",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology labelregions",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "morphology erode",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology dilate",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "morphology rank",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "mosaicing lrmerge",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "mosaicing tbmerge",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "mosaicing lrmosaic",
+					"state": "passed",
+					"durationMs": 40
+				},
+				{
+					"title": "mosaicing tbmosaic",
+					"state": "passed",
+					"durationMs": 68
+				},
+				{
+					"title": "mosaicing mosaic",
+					"state": "passed",
+					"durationMs": 369
+				},
+				{
+					"title": "mosaicing globalbalance",
+					"state": "passed",
+					"durationMs": 338
+				},
+				{
+					"title": "resample affine",
+					"state": "passed",
+					"durationMs": 199
+				},
+				{
+					"title": "resample reduce",
+					"state": "passed",
+					"durationMs": 9236
+				},
+				{
+					"title": "resample resize",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "resample shrink",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "resample thumbnail",
+					"state": "passed",
+					"durationMs": 85
+				},
+				{
+					"title": "resample rotate",
+					"state": "passed",
+					"durationMs": 22
+				},
+				{
+					"title": "resample mapim",
+					"state": "passed",
+					"durationMs": 23
+				},
+				{
+					"title": "resample similarity angle",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "resample similarity scale",
+					"state": "passed",
+					"durationMs": 13
+				}
+			]
+		},
+		{
+			"environment": "firefox 157.0 isolated",
+			"mocha": "12.0.2",
+			"hung": false,
+			"passed": 235,
+			"pending": 3,
+			"failed": 0,
+			"tests": [
+				{
+					"title": "arithmetic add",
+					"state": "passed",
+					"durationMs": 356
+				},
+				{
+					"title": "arithmetic sub",
+					"state": "passed",
+					"durationMs": 562
+				},
+				{
+					"title": "arithmetic mul",
+					"state": "passed",
+					"durationMs": 629
+				},
+				{
+					"title": "arithmetic div",
+					"state": "passed",
+					"durationMs": 313
+				},
+				{
+					"title": "arithmetic floordiv",
+					"state": "passed",
+					"durationMs": 257
+				},
+				{
+					"title": "arithmetic pow",
+					"state": "passed",
+					"durationMs": 144
+				},
+				{
+					"title": "arithmetic and",
+					"state": "passed",
+					"durationMs": 138
+				},
+				{
+					"title": "arithmetic or",
+					"state": "passed",
+					"durationMs": 140
+				},
+				{
+					"title": "arithmetic xor",
+					"state": "passed",
+					"durationMs": 154
+				},
+				{
+					"title": "arithmetic more",
+					"state": "passed",
+					"durationMs": 325
+				},
+				{
+					"title": "arithmetic moreEq",
+					"state": "passed",
+					"durationMs": 435
+				},
+				{
+					"title": "arithmetic less",
+					"state": "passed",
+					"durationMs": 1785
+				},
+				{
+					"title": "arithmetic lessEq",
+					"state": "passed",
+					"durationMs": 919
+				},
+				{
+					"title": "arithmetic equal",
+					"state": "passed",
+					"durationMs": 446
+				},
+				{
+					"title": "arithmetic notEq",
+					"state": "passed",
+					"durationMs": 435
+				},
+				{
+					"title": "arithmetic abs",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic lshift",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"title": "arithmetic rshift",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "arithmetic mod",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "arithmetic pos",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "arithmetic neg",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "arithmetic invert",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic avg",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "arithmetic deviate",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic polar",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "arithmetic rect",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic conjugate",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "arithmetic histFind",
+					"state": "passed",
+					"durationMs": 29
+				},
+				{
+					"title": "arithmetic histFindIndexed",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "arithmetic histFindNdim",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic houghCircle",
+					"state": "passed",
+					"durationMs": 28
+				},
+				{
+					"title": "arithmetic houghLine",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic sin",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "arithmetic cos",
+					"state": "passed",
+					"durationMs": 21
+				},
+				{
+					"title": "arithmetic tan",
+					"state": "passed",
+					"durationMs": 16
+				},
+				{
+					"title": "arithmetic asin",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic acos",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic atan",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"title": "arithmetic sinh",
+					"state": "passed",
+					"durationMs": 33
+				},
+				{
+					"title": "arithmetic cosh",
+					"state": "passed",
+					"durationMs": 16
+				},
+				{
+					"title": "arithmetic tanh",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "arithmetic asinh",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "arithmetic acosh",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic atanh",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic atan2",
+					"state": "passed",
+					"durationMs": 300
+				},
+				{
+					"title": "arithmetic log",
+					"state": "passed",
+					"durationMs": 247
+				},
+				{
+					"title": "arithmetic log10",
+					"state": "passed",
+					"durationMs": 26
+				},
+				{
+					"title": "arithmetic exp",
+					"state": "passed",
+					"durationMs": 44
+				},
+				{
+					"title": "arithmetic exp10",
+					"state": "passed",
+					"durationMs": 36
+				},
+				{
+					"title": "arithmetic floor",
+					"state": "passed",
+					"durationMs": 30
+				},
+				{
+					"title": "arithmetic ceil",
+					"state": "passed",
+					"durationMs": 49
+				},
+				{
+					"title": "arithmetic rint",
+					"state": "passed",
+					"durationMs": 105
+				},
+				{
+					"title": "arithmetic sign",
+					"state": "passed",
+					"durationMs": 104
+				},
+				{
+					"title": "arithmetic max",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic min",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic measure",
+					"state": "passed",
+					"durationMs": 19
+				},
+				{
+					"title": "arithmetic findTrim",
+					"state": "passed",
+					"durationMs": 48
+				},
+				{
+					"title": "arithmetic profile",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic project",
+					"state": "passed",
+					"durationMs": 53
+				},
+				{
+					"title": "arithmetic sum",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "arithmetic clamp",
+					"state": "passed",
+					"durationMs": 209
+				},
+				{
+					"title": "arithmetic minpair",
+					"state": "passed",
+					"durationMs": 152
+				},
+				{
+					"title": "arithmetic maxpair",
+					"state": "passed",
+					"durationMs": 100
+				},
+				{
+					"title": "auto delete auto delete",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "auto delete preventAutoDelete all handles",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "auto delete preventAutoDelete cloned handle",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "block blockUntrusted",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "block operationBlock",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "colour colourspace",
+					"state": "passed",
+					"durationMs": 543
+				},
+				{
+					"title": "colour dE00",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "colour dE76",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "colour dECMC",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "colour icc",
+					"state": "passed",
+					"durationMs": 418
+				},
+				{
+					"title": "colour cmyk",
+					"state": "passed",
+					"durationMs": 44
+				},
+				{
+					"title": "connection matrix",
+					"state": "passed",
+					"durationMs": 71
+				},
+				{
+					"title": "connection csv",
+					"state": "passed",
+					"durationMs": 96
+				},
+				{
+					"title": "connection ppm",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "connection tiff",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "connection source newFromFile",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection source newFromMemory",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "connection target newToFile",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "connection target newToMemory",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection image newFromSource file",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection image newFromSource memory",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "connection image newFromSource custom",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "connection image writeToTarget file",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "connection image writeToTarget memory",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "connection image writeToTarget custom",
+					"state": "passed",
+					"durationMs": 44
+				},
+				{
+					"title": "conversion cast",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion bandand",
+					"state": "passed",
+					"durationMs": 25
+				},
+				{
+					"title": "conversion bandor",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "conversion bandeor",
+					"state": "passed",
+					"durationMs": 35
+				},
+				{
+					"title": "conversion bandjoin",
+					"state": "passed",
+					"durationMs": 411
+				},
+				{
+					"title": "conversion bandjoinConst",
+					"state": "passed",
+					"durationMs": 58
+				},
+				{
+					"title": "conversion addalpha",
+					"state": "passed",
+					"durationMs": 183
+				},
+				{
+					"title": "conversion bandmean",
+					"state": "passed",
+					"durationMs": 685
+				},
+				{
+					"title": "conversion bandrank",
+					"state": "passed",
+					"durationMs": 418
+				},
+				{
+					"title": "conversion copy",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "conversion bandfold",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion byteswap",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion embed",
+					"state": "passed",
+					"durationMs": 30
+				},
+				{
+					"title": "conversion gravity",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion extract",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "conversion slice",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion crop",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion falsecolour",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion flatten",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "conversion premultiply",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion composite",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion unpremultiply",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "conversion flip",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "conversion gamma",
+					"state": "passed",
+					"durationMs": 26
+				},
+				{
+					"title": "conversion grid",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion ifthenelse",
+					"state": "passed",
+					"durationMs": 284
+				},
+				{
+					"title": "conversion switch",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion insert",
+					"state": "passed",
+					"durationMs": 90
+				},
+				{
+					"title": "conversion arrayjoin",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion msb",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion recomb",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion replicate",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "conversion rot45",
+					"state": "passed",
+					"durationMs": 62
+				},
+				{
+					"title": "conversion rot",
+					"state": "passed",
+					"durationMs": 22
+				},
+				{
+					"title": "conversion scale",
+					"state": "passed",
+					"durationMs": 25
+				},
+				{
+					"title": "conversion subsample",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion zoom",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion wrap",
+					"state": "passed",
+					"durationMs": 51
+				},
+				{
+					"title": "conversion smartcrop entropy",
+					"state": "passed",
+					"durationMs": 32
+				},
+				{
+					"title": "conversion smartcrop attention",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "convolution conv",
+					"state": "passed",
+					"durationMs": 97
+				},
+				{
+					"title": "convolution conva",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "convolution compass",
+					"state": "passed",
+					"durationMs": 449
+				},
+				{
+					"title": "convolution convsep",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "convolution fastcor",
+					"state": "passed",
+					"durationMs": 44
+				},
+				{
+					"title": "convolution spcor",
+					"state": "passed",
+					"durationMs": 125
+				},
+				{
+					"title": "convolution gaussblur",
+					"state": "passed",
+					"durationMs": 31
+				},
+				{
+					"title": "convolution sharpen",
+					"state": "passed",
+					"durationMs": 392
+				},
+				{
+					"title": "create black",
+					"state": "passed",
+					"durationMs": 30
+				},
+				{
+					"title": "create buildlut",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create eye",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create fractsurf",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "create gaussmat",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create gaussnoise",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "create grey",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create identity",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create invertlut",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create matrixinvert",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create logmat",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskButterworthBand",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "create maskButterworth",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "create maskButterworthRing",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskFractal",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskGaussian",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskGaussianRing",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskIdealBand",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskIdeal",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskIdealRing",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create sines",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create text",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "create tonelut",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create xyz",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create sdf",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create zone",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create worley",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create perlin",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawCircle",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "draw drawFlood",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawImage",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawLine",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawMask",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawRect",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "draw drawSmudge",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "foreign vips",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "foreign jpeg",
+					"state": "passed",
+					"durationMs": 62
+				},
+				{
+					"title": "foreign jpegsave",
+					"state": "passed",
+					"durationMs": 33
+				},
+				{
+					"title": "foreign uhdrload",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "foreign truncated",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "foreign png",
+					"state": "passed",
+					"durationMs": 108
+				},
+				{
+					"title": "foreign tiff",
+					"state": "passed",
+					"durationMs": 193
+				},
+				{
+					"title": "foreign webp",
+					"state": "passed",
+					"durationMs": 618
+				},
+				{
+					"title": "foreign gifload",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "foreign gifsave",
+					"state": "passed",
+					"durationMs": 1899
+				},
+				{
+					"title": "foreign analyzeload",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "foreign csv",
+					"state": "passed",
+					"durationMs": 26
+				},
+				{
+					"title": "foreign matrix",
+					"state": "passed",
+					"durationMs": 23
+				},
+				{
+					"title": "foreign ppm",
+					"state": "passed",
+					"durationMs": 401
+				},
+				{
+					"title": "foreign radload",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "foreign svgload",
+					"state": "passed",
+					"durationMs": 59
+				},
+				{
+					"title": "foreign heifload",
+					"state": "passed",
+					"durationMs": 3436
+				},
+				{
+					"title": "foreign jxlload",
+					"state": "passed",
+					"durationMs": 66
+				},
+				{
+					"title": "foreign jxlsave",
+					"state": "passed",
+					"durationMs": 3973
+				},
+				{
+					"title": "foreign fail_on",
+					"state": "passed",
+					"durationMs": 88
+				},
+				{
+					"title": "foreign uhdrsave sRGB",
+					"state": "passed",
+					"durationMs": 240
+				},
+				{
+					"title": "foreign uhdrsave roundtrip",
+					"state": "passed",
+					"durationMs": 2147
+				},
+				{
+					"title": "foreign uhdrsave roundtrip HDR",
+					"state": "passed",
+					"durationMs": 2995
+				},
+				{
+					"title": "foreign uhdrsave thumbnail",
+					"state": "passed",
+					"durationMs": 24
+				},
+				{
+					"title": "foreign uhdrsave thumbnail with crop",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "foreign heifsave roundtrip",
+					"state": "passed",
+					"durationMs": 2799
+				},
+				{
+					"title": "foreign heifsave quality",
+					"state": "passed",
+					"durationMs": 1292
+				},
+				{
+					"title": "foreign heifsave chroma",
+					"state": "passed",
+					"durationMs": 2519
+				},
+				{
+					"title": "foreign heifsave icc",
+					"state": "passed",
+					"durationMs": 587
+				},
+				{
+					"title": "foreign heifsave exif",
+					"state": "passed",
+					"durationMs": 504
+				},
+				{
+					"title": "histogram histCum",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histEqual",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "histogram histIsmonotonic",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histLocal",
+					"state": "passed",
+					"durationMs": 61
+				},
+				{
+					"title": "histogram histMatch",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histNorm",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histPlot",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram histMap",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram percent",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "histogram histEntropy",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram stdif",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "histogram case",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "iofuncs newFromImage",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "iofuncs newFromMemory",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "iofuncs getFields",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "iofuncs writeToMemory",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "iofuncs revalidate",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "morphology countlines",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology labelregions",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology erode",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology dilate",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology rank",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "mosaicing lrmerge",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "mosaicing tbmerge",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "mosaicing lrmosaic",
+					"state": "passed",
+					"durationMs": 55
+				},
+				{
+					"title": "mosaicing tbmosaic",
+					"state": "passed",
+					"durationMs": 55
+				},
+				{
+					"title": "mosaicing mosaic",
+					"state": "passed",
+					"durationMs": 417
+				},
+				{
+					"title": "mosaicing globalbalance",
+					"state": "passed",
+					"durationMs": 415
+				},
+				{
+					"title": "resample affine",
+					"state": "passed",
+					"durationMs": 225
+				},
+				{
+					"title": "resample reduce",
+					"state": "passed",
+					"durationMs": 11039
+				},
+				{
+					"title": "resample resize",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "resample shrink",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "resample thumbnail",
+					"state": "passed",
+					"durationMs": 79
+				},
+				{
+					"title": "resample rotate",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "resample mapim",
+					"state": "passed",
+					"durationMs": 23
+				},
+				{
+					"title": "resample similarity angle",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "resample similarity scale",
+					"state": "passed",
+					"durationMs": 13
+				}
+			]
+		},
+		{
+			"environment": "webkit 27.2",
+			"mocha": "12.0.2",
+			"hung": false,
+			"passed": 235,
+			"pending": 3,
+			"failed": 0,
+			"tests": [
+				{
+					"title": "arithmetic add",
+					"state": "passed",
+					"durationMs": 139
+				},
+				{
+					"title": "arithmetic sub",
+					"state": "passed",
+					"durationMs": 124
+				},
+				{
+					"title": "arithmetic mul",
+					"state": "passed",
+					"durationMs": 120
+				},
+				{
+					"title": "arithmetic div",
+					"state": "passed",
+					"durationMs": 116
+				},
+				{
+					"title": "arithmetic floordiv",
+					"state": "passed",
+					"durationMs": 126
+				},
+				{
+					"title": "arithmetic pow",
+					"state": "passed",
+					"durationMs": 77
+				},
+				{
+					"title": "arithmetic and",
+					"state": "passed",
+					"durationMs": 74
+				},
+				{
+					"title": "arithmetic or",
+					"state": "passed",
+					"durationMs": 75
+				},
+				{
+					"title": "arithmetic xor",
+					"state": "passed",
+					"durationMs": 72
+				},
+				{
+					"title": "arithmetic more",
+					"state": "passed",
+					"durationMs": 120
+				},
+				{
+					"title": "arithmetic moreEq",
+					"state": "passed",
+					"durationMs": 124
+				},
+				{
+					"title": "arithmetic less",
+					"state": "passed",
+					"durationMs": 125
+				},
+				{
+					"title": "arithmetic lessEq",
+					"state": "passed",
+					"durationMs": 124
+				},
+				{
+					"title": "arithmetic equal",
+					"state": "passed",
+					"durationMs": 120
+				},
+				{
+					"title": "arithmetic notEq",
+					"state": "passed",
+					"durationMs": 116
+				},
+				{
+					"title": "arithmetic abs",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic lshift",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic rshift",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic mod",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic pos",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "arithmetic neg",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic invert",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic avg",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic deviate",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic polar",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic rect",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "arithmetic conjugate",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "arithmetic histFind",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "arithmetic histFindIndexed",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "arithmetic histFindNdim",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic houghCircle",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "arithmetic houghLine",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic sin",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic cos",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic tan",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "arithmetic asin",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "arithmetic acos",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "arithmetic atan",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic sinh",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic cosh",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "arithmetic tanh",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "arithmetic asinh",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "arithmetic acosh",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic atanh",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic atan2",
+					"state": "passed",
+					"durationMs": 95
+				},
+				{
+					"title": "arithmetic log",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic log10",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic exp",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic exp10",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "arithmetic floor",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic ceil",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic rint",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic sign",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic max",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic min",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic measure",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "arithmetic findTrim",
+					"state": "passed",
+					"durationMs": 16
+				},
+				{
+					"title": "arithmetic profile",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic project",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic sum",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic clamp",
+					"state": "passed",
+					"durationMs": 94
+				},
+				{
+					"title": "arithmetic minpair",
+					"state": "passed",
+					"durationMs": 51
+				},
+				{
+					"title": "arithmetic maxpair",
+					"state": "passed",
+					"durationMs": 46
+				},
+				{
+					"title": "auto delete auto delete",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "auto delete preventAutoDelete all handles",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "auto delete preventAutoDelete cloned handle",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "block blockUntrusted",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "block operationBlock",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "colour colourspace",
+					"state": "passed",
+					"durationMs": 404
+				},
+				{
+					"title": "colour dE00",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "colour dE76",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "colour dECMC",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "colour icc",
+					"state": "passed",
+					"durationMs": 184
+				},
+				{
+					"title": "colour cmyk",
+					"state": "passed",
+					"durationMs": 27
+				},
+				{
+					"title": "connection matrix",
+					"state": "passed",
+					"durationMs": 43
+				},
+				{
+					"title": "connection csv",
+					"state": "passed",
+					"durationMs": 37
+				},
+				{
+					"title": "connection ppm",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "connection tiff",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "connection source newFromFile",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "connection source newFromMemory",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "connection target newToFile",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "connection target newToMemory",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection image newFromSource file",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "connection image newFromSource memory",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "connection image newFromSource custom",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "connection image writeToTarget file",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "connection image writeToTarget memory",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "connection image writeToTarget custom",
+					"state": "passed",
+					"durationMs": 35
+				},
+				{
+					"title": "conversion cast",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion bandand",
+					"state": "passed",
+					"durationMs": 15
+				},
+				{
+					"title": "conversion bandor",
+					"state": "passed",
+					"durationMs": 27
+				},
+				{
+					"title": "conversion bandeor",
+					"state": "passed",
+					"durationMs": 16
+				},
+				{
+					"title": "conversion bandjoin",
+					"state": "passed",
+					"durationMs": 284
+				},
+				{
+					"title": "conversion bandjoinConst",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion addalpha",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion bandmean",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"title": "conversion bandrank",
+					"state": "passed",
+					"durationMs": 154
+				},
+				{
+					"title": "conversion copy",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "conversion bandfold",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion byteswap",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion embed",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "conversion gravity",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion extract",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "conversion slice",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion crop",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion falsecolour",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion flatten",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "conversion premultiply",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion composite",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion unpremultiply",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion flip",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "conversion gamma",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "conversion grid",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion ifthenelse",
+					"state": "passed",
+					"durationMs": 211
+				},
+				{
+					"title": "conversion switch",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion insert",
+					"state": "passed",
+					"durationMs": 80
+				},
+				{
+					"title": "conversion arrayjoin",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion msb",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion recomb",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion replicate",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion rot45",
+					"state": "passed",
+					"durationMs": 48
+				},
+				{
+					"title": "conversion rot",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "conversion scale",
+					"state": "passed",
+					"durationMs": 21
+				},
+				{
+					"title": "conversion subsample",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion zoom",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion wrap",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "conversion smartcrop entropy",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "conversion smartcrop attention",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "convolution conv",
+					"state": "passed",
+					"durationMs": 24
+				},
+				{
+					"title": "convolution conva",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "convolution compass",
+					"state": "passed",
+					"durationMs": 136
+				},
+				{
+					"title": "convolution convsep",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "convolution fastcor",
+					"state": "passed",
+					"durationMs": 32
+				},
+				{
+					"title": "convolution spcor",
+					"state": "passed",
+					"durationMs": 72
+				},
+				{
+					"title": "convolution gaussblur",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "convolution sharpen",
+					"state": "passed",
+					"durationMs": 153
+				},
+				{
+					"title": "create black",
+					"state": "passed",
+					"durationMs": 19
+				},
+				{
+					"title": "create buildlut",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create eye",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create fractsurf",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "create gaussmat",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create gaussnoise",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create grey",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create identity",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create invertlut",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create matrixinvert",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create logmat",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskButterworthBand",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "create maskButterworth",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create maskButterworthRing",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskFractal",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskGaussian",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskGaussianRing",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskIdealBand",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskIdeal",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskIdealRing",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create sines",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create text",
+					"state": "pending",
+					"durationMs": 1
+				},
+				{
+					"title": "create tonelut",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create xyz",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create sdf",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create zone",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create worley",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create perlin",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawCircle",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawFlood",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawImage",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawLine",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawMask",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawRect",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "draw drawSmudge",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "foreign vips",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "foreign jpeg",
+					"state": "passed",
+					"durationMs": 26
+				},
+				{
+					"title": "foreign jpegsave",
+					"state": "passed",
+					"durationMs": 22
+				},
+				{
+					"title": "foreign uhdrload",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "foreign truncated",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "foreign png",
+					"state": "passed",
+					"durationMs": 83
+				},
+				{
+					"title": "foreign tiff",
+					"state": "passed",
+					"durationMs": 105
+				},
+				{
+					"title": "foreign webp",
+					"state": "passed",
+					"durationMs": 470
+				},
+				{
+					"title": "foreign gifload",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "foreign gifsave",
+					"state": "passed",
+					"durationMs": 822
+				},
+				{
+					"title": "foreign analyzeload",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "foreign csv",
+					"state": "passed",
+					"durationMs": 16
+				},
+				{
+					"title": "foreign matrix",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "foreign ppm",
+					"state": "passed",
+					"durationMs": 194
+				},
+				{
+					"title": "foreign radload",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "foreign svgload",
+					"state": "passed",
+					"durationMs": 37
+				},
+				{
+					"title": "foreign heifload",
+					"state": "passed",
+					"durationMs": 2027
+				},
+				{
+					"title": "foreign jxlload",
+					"state": "passed",
+					"durationMs": 32
+				},
+				{
+					"title": "foreign jxlsave",
+					"state": "passed",
+					"durationMs": 1487
+				},
+				{
+					"title": "foreign fail_on",
+					"state": "passed",
+					"durationMs": 40
+				},
+				{
+					"title": "foreign uhdrsave sRGB",
+					"state": "passed",
+					"durationMs": 92
+				},
+				{
+					"title": "foreign uhdrsave roundtrip",
+					"state": "passed",
+					"durationMs": 394
+				},
+				{
+					"title": "foreign uhdrsave roundtrip HDR",
+					"state": "passed",
+					"durationMs": 1535
+				},
+				{
+					"title": "foreign uhdrsave thumbnail",
+					"state": "passed",
+					"durationMs": 25
+				},
+				{
+					"title": "foreign uhdrsave thumbnail with crop",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "foreign heifsave roundtrip",
+					"state": "passed",
+					"durationMs": 1183
+				},
+				{
+					"title": "foreign heifsave quality",
+					"state": "passed",
+					"durationMs": 733
+				},
+				{
+					"title": "foreign heifsave chroma",
+					"state": "passed",
+					"durationMs": 1280
+				},
+				{
+					"title": "foreign heifsave icc",
+					"state": "passed",
+					"durationMs": 349
+				},
+				{
+					"title": "foreign heifsave exif",
+					"state": "passed",
+					"durationMs": 348
+				},
+				{
+					"title": "histogram histCum",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram histEqual",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "histogram histIsmonotonic",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram histLocal",
+					"state": "passed",
+					"durationMs": 43
+				},
+				{
+					"title": "histogram histMatch",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histNorm",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram histPlot",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram histMap",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram percent",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "histogram histEntropy",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram stdif",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "histogram case",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "iofuncs newFromImage",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "iofuncs newFromMemory",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "iofuncs getFields",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "iofuncs writeToMemory",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "iofuncs revalidate",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "morphology countlines",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology labelregions",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology erode",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "morphology dilate",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology rank",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "mosaicing lrmerge",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "mosaicing tbmerge",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "mosaicing lrmosaic",
+					"state": "passed",
+					"durationMs": 32
+				},
+				{
+					"title": "mosaicing tbmosaic",
+					"state": "passed",
+					"durationMs": 30
+				},
+				{
+					"title": "mosaicing mosaic",
+					"state": "passed",
+					"durationMs": 223
+				},
+				{
+					"title": "mosaicing globalbalance",
+					"state": "passed",
+					"durationMs": 242
+				},
+				{
+					"title": "resample affine",
+					"state": "passed",
+					"durationMs": 177
+				},
+				{
+					"title": "resample reduce",
+					"state": "passed",
+					"durationMs": 5936
+				},
+				{
+					"title": "resample resize",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "resample shrink",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "resample thumbnail",
+					"state": "passed",
+					"durationMs": 65
+				},
+				{
+					"title": "resample rotate",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "resample mapim",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "resample similarity angle",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "resample similarity scale",
+					"state": "passed",
+					"durationMs": 10
+				}
+			]
+		},
+		{
+			"environment": "webkit 27.2 isolated",
+			"mocha": "12.0.2",
+			"hung": false,
+			"passed": 235,
+			"pending": 3,
+			"failed": 0,
+			"tests": [
+				{
+					"title": "arithmetic add",
+					"state": "passed",
+					"durationMs": 170
+				},
+				{
+					"title": "arithmetic sub",
+					"state": "passed",
+					"durationMs": 181
+				},
+				{
+					"title": "arithmetic mul",
+					"state": "passed",
+					"durationMs": 161
+				},
+				{
+					"title": "arithmetic div",
+					"state": "passed",
+					"durationMs": 206
+				},
+				{
+					"title": "arithmetic floordiv",
+					"state": "passed",
+					"durationMs": 173
+				},
+				{
+					"title": "arithmetic pow",
+					"state": "passed",
+					"durationMs": 98
+				},
+				{
+					"title": "arithmetic and",
+					"state": "passed",
+					"durationMs": 87
+				},
+				{
+					"title": "arithmetic or",
+					"state": "passed",
+					"durationMs": 85
+				},
+				{
+					"title": "arithmetic xor",
+					"state": "passed",
+					"durationMs": 83
+				},
+				{
+					"title": "arithmetic more",
+					"state": "passed",
+					"durationMs": 138
+				},
+				{
+					"title": "arithmetic moreEq",
+					"state": "passed",
+					"durationMs": 137
+				},
+				{
+					"title": "arithmetic less",
+					"state": "passed",
+					"durationMs": 137
+				},
+				{
+					"title": "arithmetic lessEq",
+					"state": "passed",
+					"durationMs": 132
+				},
+				{
+					"title": "arithmetic equal",
+					"state": "passed",
+					"durationMs": 133
+				},
+				{
+					"title": "arithmetic notEq",
+					"state": "passed",
+					"durationMs": 131
+				},
+				{
+					"title": "arithmetic abs",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic lshift",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic rshift",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "arithmetic mod",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "arithmetic pos",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic neg",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic invert",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic avg",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic deviate",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic polar",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic rect",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "arithmetic conjugate",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "arithmetic histFind",
+					"state": "passed",
+					"durationMs": 19
+				},
+				{
+					"title": "arithmetic histFindIndexed",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic histFindNdim",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic houghCircle",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "arithmetic houghLine",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic sin",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic cos",
+					"state": "passed",
+					"durationMs": 16
+				},
+				{
+					"title": "arithmetic tan",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic asin",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic acos",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "arithmetic atan",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic sinh",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic cosh",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic tanh",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic asinh",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic acosh",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "arithmetic atanh",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "arithmetic atan2",
+					"state": "passed",
+					"durationMs": 146
+				},
+				{
+					"title": "arithmetic log",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic log10",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "arithmetic exp",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "arithmetic exp10",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "arithmetic floor",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "arithmetic ceil",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "arithmetic rint",
+					"state": "passed",
+					"durationMs": 24
+				},
+				{
+					"title": "arithmetic sign",
+					"state": "passed",
+					"durationMs": 33
+				},
+				{
+					"title": "arithmetic max",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "arithmetic min",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "arithmetic measure",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "arithmetic findTrim",
+					"state": "passed",
+					"durationMs": 63
+				},
+				{
+					"title": "arithmetic profile",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic project",
+					"state": "passed",
+					"durationMs": 31
+				},
+				{
+					"title": "arithmetic sum",
+					"state": "passed",
+					"durationMs": 12
+				},
+				{
+					"title": "arithmetic clamp",
+					"state": "passed",
+					"durationMs": 116
+				},
+				{
+					"title": "arithmetic minpair",
+					"state": "passed",
+					"durationMs": 55
+				},
+				{
+					"title": "arithmetic maxpair",
+					"state": "passed",
+					"durationMs": 51
+				},
+				{
+					"title": "auto delete auto delete",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "auto delete preventAutoDelete all handles",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "auto delete preventAutoDelete cloned handle",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "block blockUntrusted",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "block operationBlock",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "colour colourspace",
+					"state": "passed",
+					"durationMs": 336
+				},
+				{
+					"title": "colour dE00",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "colour dE76",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "colour dECMC",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "colour icc",
+					"state": "passed",
+					"durationMs": 118
+				},
+				{
+					"title": "colour cmyk",
+					"state": "passed",
+					"durationMs": 19
+				},
+				{
+					"title": "connection matrix",
+					"state": "passed",
+					"durationMs": 28
+				},
+				{
+					"title": "connection csv",
+					"state": "passed",
+					"durationMs": 24
+				},
+				{
+					"title": "connection ppm",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "connection tiff",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "connection source newFromFile",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection source newFromMemory",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "connection target newToFile",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection target newToMemory",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection image newFromSource file",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "connection image newFromSource memory",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "connection image newFromSource custom",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "connection image writeToTarget file",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "connection image writeToTarget memory",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "connection image writeToTarget custom",
+					"state": "passed",
+					"durationMs": 22
+				},
+				{
+					"title": "conversion cast",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion bandand",
+					"state": "passed",
+					"durationMs": 10
+				},
+				{
+					"title": "conversion bandor",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "conversion bandeor",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "conversion bandjoin",
+					"state": "passed",
+					"durationMs": 127
+				},
+				{
+					"title": "conversion bandjoinConst",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion addalpha",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion bandmean",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "conversion bandrank",
+					"state": "passed",
+					"durationMs": 78
+				},
+				{
+					"title": "conversion copy",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "conversion bandfold",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion byteswap",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion embed",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "conversion gravity",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "conversion extract",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion slice",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion crop",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion falsecolour",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion flatten",
+					"state": "passed",
+					"durationMs": 8
+				},
+				{
+					"title": "conversion premultiply",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion composite",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "conversion unpremultiply",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion flip",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion gamma",
+					"state": "passed",
+					"durationMs": 9
+				},
+				{
+					"title": "conversion grid",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "conversion ifthenelse",
+					"state": "passed",
+					"durationMs": 152
+				},
+				{
+					"title": "conversion switch",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion insert",
+					"state": "passed",
+					"durationMs": 58
+				},
+				{
+					"title": "conversion arrayjoin",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "conversion msb",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion recomb",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion replicate",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "conversion rot45",
+					"state": "passed",
+					"durationMs": 39
+				},
+				{
+					"title": "conversion rot",
+					"state": "passed",
+					"durationMs": 14
+				},
+				{
+					"title": "conversion scale",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"title": "conversion subsample",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion zoom",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "conversion wrap",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "conversion smartcrop entropy",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "conversion smartcrop attention",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "convolution conv",
+					"state": "passed",
+					"durationMs": 24
+				},
+				{
+					"title": "convolution conva",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "convolution compass",
+					"state": "passed",
+					"durationMs": 130
+				},
+				{
+					"title": "convolution convsep",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "convolution fastcor",
+					"state": "passed",
+					"durationMs": 28
+				},
+				{
+					"title": "convolution spcor",
+					"state": "passed",
+					"durationMs": 64
+				},
+				{
+					"title": "convolution gaussblur",
+					"state": "passed",
+					"durationMs": 17
+				},
+				{
+					"title": "convolution sharpen",
+					"state": "passed",
+					"durationMs": 121
+				},
+				{
+					"title": "create black",
+					"state": "passed",
+					"durationMs": 18
+				},
+				{
+					"title": "create buildlut",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create eye",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create fractsurf",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "create gaussmat",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create gaussnoise",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create grey",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create identity",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create invertlut",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create matrixinvert",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create logmat",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskButterworthBand",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "create maskButterworth",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "create maskButterworthRing",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskFractal",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskGaussian",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskGaussianRing",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskIdealBand",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create maskIdeal",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create maskIdealRing",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create sines",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create text",
+					"state": "pending",
+					"durationMs": 0
+				},
+				{
+					"title": "create tonelut",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "create xyz",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create sdf",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create zone",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create worley",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "create perlin",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawCircle",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawFlood",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawImage",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawLine",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "draw drawMask",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "draw drawRect",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "draw drawSmudge",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "foreign vips",
+					"state": "passed",
+					"durationMs": 6
+				},
+				{
+					"title": "foreign jpeg",
+					"state": "passed",
+					"durationMs": 29
+				},
+				{
+					"title": "foreign jpegsave",
+					"state": "passed",
+					"durationMs": 19
+				},
+				{
+					"title": "foreign uhdrload",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "foreign truncated",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "foreign png",
+					"state": "passed",
+					"durationMs": 78
+				},
+				{
+					"title": "foreign tiff",
+					"state": "passed",
+					"durationMs": 120
+				},
+				{
+					"title": "foreign webp",
+					"state": "passed",
+					"durationMs": 400
+				},
+				{
+					"title": "foreign gifload",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "foreign gifsave",
+					"state": "passed",
+					"durationMs": 797
+				},
+				{
+					"title": "foreign analyzeload",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "foreign csv",
+					"state": "passed",
+					"durationMs": 16
+				},
+				{
+					"title": "foreign matrix",
+					"state": "passed",
+					"durationMs": 13
+				},
+				{
+					"title": "foreign ppm",
+					"state": "passed",
+					"durationMs": 222
+				},
+				{
+					"title": "foreign radload",
+					"state": "passed",
+					"durationMs": 11
+				},
+				{
+					"title": "foreign svgload",
+					"state": "passed",
+					"durationMs": 44
+				},
+				{
+					"title": "foreign heifload",
+					"state": "passed",
+					"durationMs": 2320
+				},
+				{
+					"title": "foreign jxlload",
+					"state": "passed",
+					"durationMs": 49
+				},
+				{
+					"title": "foreign jxlsave",
+					"state": "passed",
+					"durationMs": 1523
+				},
+				{
+					"title": "foreign fail_on",
+					"state": "passed",
+					"durationMs": 51
+				},
+				{
+					"title": "foreign uhdrsave sRGB",
+					"state": "passed",
+					"durationMs": 96
+				},
+				{
+					"title": "foreign uhdrsave roundtrip",
+					"state": "passed",
+					"durationMs": 448
+				},
+				{
+					"title": "foreign uhdrsave roundtrip HDR",
+					"state": "passed",
+					"durationMs": 1657
+				},
+				{
+					"title": "foreign uhdrsave thumbnail",
+					"state": "passed",
+					"durationMs": 28
+				},
+				{
+					"title": "foreign uhdrsave thumbnail with crop",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "foreign heifsave roundtrip",
+					"state": "passed",
+					"durationMs": 1159
+				},
+				{
+					"title": "foreign heifsave quality",
+					"state": "passed",
+					"durationMs": 732
+				},
+				{
+					"title": "foreign heifsave chroma",
+					"state": "passed",
+					"durationMs": 1400
+				},
+				{
+					"title": "foreign heifsave icc",
+					"state": "passed",
+					"durationMs": 379
+				},
+				{
+					"title": "foreign heifsave exif",
+					"state": "passed",
+					"durationMs": 378
+				},
+				{
+					"title": "histogram histCum",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram histEqual",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "histogram histIsmonotonic",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histLocal",
+					"state": "passed",
+					"durationMs": 47
+				},
+				{
+					"title": "histogram histMatch",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram histNorm",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram histPlot",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "histogram histMap",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram percent",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "histogram histEntropy",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "histogram stdif",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "histogram case",
+					"state": "passed",
+					"durationMs": 7
+				},
+				{
+					"title": "iofuncs newFromImage",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "iofuncs newFromMemory",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "iofuncs getFields",
+					"state": "passed",
+					"durationMs": 2
+				},
+				{
+					"title": "iofuncs writeToMemory",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "iofuncs revalidate",
+					"state": "passed",
+					"durationMs": 5
+				},
+				{
+					"title": "morphology countlines",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology labelregions",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology erode",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology dilate",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "morphology rank",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "mosaicing lrmerge",
+					"state": "passed",
+					"durationMs": 1
+				},
+				{
+					"title": "mosaicing tbmerge",
+					"state": "passed",
+					"durationMs": 0
+				},
+				{
+					"title": "mosaicing lrmosaic",
+					"state": "passed",
+					"durationMs": 44
+				},
+				{
+					"title": "mosaicing tbmosaic",
+					"state": "passed",
+					"durationMs": 70
+				},
+				{
+					"title": "mosaicing mosaic",
+					"state": "passed",
+					"durationMs": 470
+				},
+				{
+					"title": "mosaicing globalbalance",
+					"state": "passed",
+					"durationMs": 414
+				},
+				{
+					"title": "resample affine",
+					"state": "passed",
+					"durationMs": 211
+				},
+				{
+					"title": "resample reduce",
+					"state": "passed",
+					"durationMs": 6700
+				},
+				{
+					"title": "resample resize",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "resample shrink",
+					"state": "passed",
+					"durationMs": 4
+				},
+				{
+					"title": "resample thumbnail",
+					"state": "passed",
+					"durationMs": 59
+				},
+				{
+					"title": "resample rotate",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "resample mapim",
+					"state": "passed",
+					"durationMs": 20
+				},
+				{
+					"title": "resample similarity angle",
+					"state": "passed",
+					"durationMs": 3
+				},
+				{
+					"title": "resample similarity scale",
+					"state": "passed",
+					"durationMs": 9
+				}
+			]
+		}
+	]
+}

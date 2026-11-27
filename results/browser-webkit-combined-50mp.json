@@ -1,0 +1,468 @@
+[
+	{
+		"variant": "combined",
+		"isolation": "iso",
+		"ok": true,
+		"env": {
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+			"hardwareConcurrency": 8,
+			"crossOriginIsolated": true,
+			"sharedArrayBuffer": true
+		},
+		"lib": "combined",
+		"jobs": 1,
+		"iters": 3,
+		"avif": false,
+		"concurrency": 1,
+		"initMs": 65,
+		"medianMs": 5193,
+		"minMs": 5181,
+		"maxMs": 5249,
+		"times": [
+			5249,
+			5193,
+			5181
+		],
+		"heapMiB": [
+			908.9375
+		],
+		"totalHeapMiB": 908.9375,
+		"outputs": [
+			{
+				"task": "1536x1536.jpeg",
+				"width": 1536,
+				"height": 1024,
+				"bytes": 422702,
+				"sha256": "1ecaa932881d77554f0cebe880ad01150e76e0d7b27890341bf8a1aa83cc8bf4"
+			},
+			{
+				"task": "1536x1536.webp",
+				"width": 1536,
+				"height": 1024,
+				"bytes": 431902,
+				"sha256": "2eeea1edeff8dd7edda4288eacd0c6c2cadaf2bf8541b27944ecec3f82347d38"
+			},
+			{
+				"task": "2048x2048.jpeg",
+				"width": 2048,
+				"height": 1365,
+				"bytes": 711034,
+				"sha256": "3814d1f56c7c36a08c389df85f3682986c57c39b03ef2047214b7c984064546c"
+			},
+			{
+				"task": "2048x2048.webp",
+				"width": 2048,
+				"height": 1365,
+				"bytes": 699818,
+				"sha256": "f1aae2bfd9fb03a31829e865e5680ebf57dd2235a9f7aea8fe9daf8eab8acc27"
+			},
+			{
+				"task": "large.jpeg",
+				"width": 1024,
+				"height": 683,
+				"bytes": 196935,
+				"sha256": "e1f38a01b0d8c103c03e9c94bd59efdc393d77a1a3729727c931943ed76ed79d"
+			},
+			{
+				"task": "large.webp",
+				"width": 1024,
+				"height": 683,
+				"bytes": 204106,
+				"sha256": "391eaba258d94ad80b91154a9a64ac2812868cc86c917ec5a51a77e7c61b733e"
+			},
+			{
+				"task": "medium_large.jpeg",
+				"width": 768,
+				"height": 512,
+				"bytes": 114238,
+				"sha256": "ddbd14e26302634f1dbbc425b721287a88c3a41334705f039034e538731dafb5"
+			},
+			{
+				"task": "medium_large.webp",
+				"width": 768,
+				"height": 512,
+				"bytes": 119838,
+				"sha256": "be68c0973371cb06e27c30f0d53a13c2d1d4db189c59f0d45d9b8617ebf3e89b"
+			},
+			{
+				"task": "medium.jpeg",
+				"width": 300,
+				"height": 200,
+				"bytes": 20764,
+				"sha256": "29cbbf60fc517a69cab518f6f12faf32d9bfc2ad4ebb2452d85670362f52cd4a"
+			},
+			{
+				"task": "medium.webp",
+				"width": 300,
+				"height": 200,
+				"bytes": 21638,
+				"sha256": "c8ebfe4e0969fbb7aa82ddacd6d520dd4b311105f8d4843e9b76c9489aa1cfcb"
+			},
+			{
+				"task": "thumbnail.jpeg",
+				"width": 150,
+				"height": 150,
+				"bytes": 10204,
+				"sha256": "605e8ac7ad0108cc7c7583def8fdf4ab23d3abe2ebdd49b86fd836c354ccfb3d"
+			},
+			{
+				"task": "thumbnail.webp",
+				"width": 150,
+				"height": 150,
+				"bytes": 10574,
+				"sha256": "11a31db876766187b2fcbaf33dc3733252bfd3a1ec3bd1c6a65a3ab75c20923c"
+			}
+		]
+	},
+	{
+		"variant": "combined",
+		"isolation": "iso",
+		"ok": true,
+		"env": {
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+			"hardwareConcurrency": 8,
+			"crossOriginIsolated": true,
+			"sharedArrayBuffer": true
+		},
+		"lib": "combined",
+		"jobs": 4,
+		"iters": 3,
+		"avif": false,
+		"concurrency": 1,
+		"initMs": 216,
+		"medianMs": 2083,
+		"minMs": 1959,
+		"maxMs": 2346,
+		"times": [
+			2083,
+			1959,
+			2346
+		],
+		"heapMiB": [
+			531,
+			531,
+			636.625,
+			636.625
+		],
+		"totalHeapMiB": 2335.25,
+		"outputs": [
+			{
+				"task": "1536x1536.jpeg",
+				"width": 1536,
+				"height": 1024,
+				"bytes": 422702,
+				"sha256": "1ecaa932881d77554f0cebe880ad01150e76e0d7b27890341bf8a1aa83cc8bf4"
+			},
+			{
+				"task": "1536x1536.webp",
+				"width": 1536,
+				"height": 1024,
+				"bytes": 431902,
+				"sha256": "2eeea1edeff8dd7edda4288eacd0c6c2cadaf2bf8541b27944ecec3f82347d38"
+			},
+			{
+				"task": "2048x2048.jpeg",
+				"width": 2048,
+				"height": 1365,
+				"bytes": 711034,
+				"sha256": "3814d1f56c7c36a08c389df85f3682986c57c39b03ef2047214b7c984064546c"
+			},
+			{
+				"task": "2048x2048.webp",
+				"width": 2048,
+				"height": 1365,
+				"bytes": 699818,
+				"sha256": "f1aae2bfd9fb03a31829e865e5680ebf57dd2235a9f7aea8fe9daf8eab8acc27"
+			},
+			{
+				"task": "large.jpeg",
+				"width": 1024,
+				"height": 683,
+				"bytes": 196935,
+				"sha256": "e1f38a01b0d8c103c03e9c94bd59efdc393d77a1a3729727c931943ed76ed79d"
+			},
+			{
+				"task": "large.webp",
+				"width": 1024,
+				"height": 683,
+				"bytes": 204106,
+				"sha256": "391eaba258d94ad80b91154a9a64ac2812868cc86c917ec5a51a77e7c61b733e"
+			},
+			{
+				"task": "medium_large.jpeg",
+				"width": 768,
+				"height": 512,
+				"bytes": 114238,
+				"sha256": "ddbd14e26302634f1dbbc425b721287a88c3a41334705f039034e538731dafb5"
+			},
+			{
+				"task": "medium_large.webp",
+				"width": 768,
+				"height": 512,
+				"bytes": 119838,
+				"sha256": "be68c0973371cb06e27c30f0d53a13c2d1d4db189c59f0d45d9b8617ebf3e89b"
+			},
+			{
+				"task": "medium.jpeg",
+				"width": 300,
+				"height": 200,
+				"bytes": 20764,
+				"sha256": "29cbbf60fc517a69cab518f6f12faf32d9bfc2ad4ebb2452d85670362f52cd4a"
+			},
+			{
+				"task": "medium.webp",
+				"width": 300,
+				"height": 200,
+				"bytes": 21638,
+				"sha256": "c8ebfe4e0969fbb7aa82ddacd6d520dd4b311105f8d4843e9b76c9489aa1cfcb"
+			},
+			{
+				"task": "thumbnail.jpeg",
+				"width": 150,
+				"height": 150,
+				"bytes": 10204,
+				"sha256": "605e8ac7ad0108cc7c7583def8fdf4ab23d3abe2ebdd49b86fd836c354ccfb3d"
+			},
+			{
+				"task": "thumbnail.webp",
+				"width": 150,
+				"height": 150,
+				"bytes": 10574,
+				"sha256": "11a31db876766187b2fcbaf33dc3733252bfd3a1ec3bd1c6a65a3ab75c20923c"
+			}
+		]
+	},
+	{
+		"variant": "combined",
+		"isolation": "plain",
+		"ok": true,
+		"env": {
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+			"hardwareConcurrency": 8,
+			"crossOriginIsolated": false,
+			"sharedArrayBuffer": false
+		},
+		"lib": "combined",
+		"jobs": 1,
+		"iters": 3,
+		"avif": false,
+		"concurrency": 1,
+		"initMs": 56,
+		"medianMs": 5199,
+		"minMs": 5199,
+		"maxMs": 5247,
+		"times": [
+			5199,
+			5247,
+			5199
+		],
+		"heapMiB": [
+			908.9375
+		],
+		"totalHeapMiB": 908.9375,
+		"outputs": [
+			{
+				"task": "1536x1536.jpeg",
+				"width": 1536,
+				"height": 1024,
+				"bytes": 422702,
+				"sha256": "1ecaa932881d77554f0cebe880ad01150e76e0d7b27890341bf8a1aa83cc8bf4"
+			},
+			{
+				"task": "1536x1536.webp",
+				"width": 1536,
+				"height": 1024,
+				"bytes": 431902,
+				"sha256": "2eeea1edeff8dd7edda4288eacd0c6c2cadaf2bf8541b27944ecec3f82347d38"
+			},
+			{
+				"task": "2048x2048.jpeg",
+				"width": 2048,
+				"height": 1365,
+				"bytes": 711034,
+				"sha256": "3814d1f56c7c36a08c389df85f3682986c57c39b03ef2047214b7c984064546c"
+			},
+			{
+				"task": "2048x2048.webp",
+				"width": 2048,
+				"height": 1365,
+				"bytes": 699818,
+				"sha256": "f1aae2bfd9fb03a31829e865e5680ebf57dd2235a9f7aea8fe9daf8eab8acc27"
+			},
+			{
+				"task": "large.jpeg",
+				"width": 1024,
+				"height": 683,
+				"bytes": 196935,
+				"sha256": "e1f38a01b0d8c103c03e9c94bd59efdc393d77a1a3729727c931943ed76ed79d"
+			},
+			{
+				"task": "large.webp",
+				"width": 1024,
+				"height": 683,
+				"bytes": 204106,
+				"sha256": "391eaba258d94ad80b91154a9a64ac2812868cc86c917ec5a51a77e7c61b733e"
+			},
+			{
+				"task": "medium_large.jpeg",
+				"width": 768,
+				"height": 512,
+				"bytes": 114238,
+				"sha256": "ddbd14e26302634f1dbbc425b721287a88c3a41334705f039034e538731dafb5"
+			},
+			{
+				"task": "medium_large.webp",
+				"width": 768,
+				"height": 512,
+				"bytes": 119838,
+				"sha256": "be68c0973371cb06e27c30f0d53a13c2d1d4db189c59f0d45d9b8617ebf3e89b"
+			},
+			{
+				"task": "medium.jpeg",
+				"width": 300,
+				"height": 200,
+				"bytes": 20764,
+				"sha256": "29cbbf60fc517a69cab518f6f12faf32d9bfc2ad4ebb2452d85670362f52cd4a"
+			},
+			{
+				"task": "medium.webp",
+				"width": 300,
+				"height": 200,
+				"bytes": 21638,
+				"sha256": "c8ebfe4e0969fbb7aa82ddacd6d520dd4b311105f8d4843e9b76c9489aa1cfcb"
+			},
+			{
+				"task": "thumbnail.jpeg",
+				"width": 150,
+				"height": 150,
+				"bytes": 10204,
+				"sha256": "605e8ac7ad0108cc7c7583def8fdf4ab23d3abe2ebdd49b86fd836c354ccfb3d"
+			},
+			{
+				"task": "thumbnail.webp",
+				"width": 150,
+				"height": 150,
+				"bytes": 10574,
+				"sha256": "11a31db876766187b2fcbaf33dc3733252bfd3a1ec3bd1c6a65a3ab75c20923c"
+			}
+		]
+	},
+	{
+		"variant": "combined",
+		"isolation": "plain",
+		"ok": true,
+		"env": {
+			"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+			"hardwareConcurrency": 8,
+			"crossOriginIsolated": false,
+			"sharedArrayBuffer": false
+		},
+		"lib": "combined",
+		"jobs": 4,
+		"iters": 3,
+		"avif": false,
+		"concurrency": 1,
+		"initMs": 203,
+		"medianMs": 2255,
+		"minMs": 2159,
+		"maxMs": 2436,
+		"times": [
+			2159,
+			2436,
+			2255
+		],
+		"heapMiB": [
+			531,
+			636.625,
+			636.625,
+			636.625
+		],
+		"totalHeapMiB": 2440.875,
+		"outputs": [
+			{
+				"task": "1536x1536.jpeg",
+				"width": 1536,
+				"height": 1024,
+				"bytes": 422702,
+				"sha256": "1ecaa932881d77554f0cebe880ad01150e76e0d7b27890341bf8a1aa83cc8bf4"
+			},
+			{
+				"task": "1536x1536.webp",
+				"width": 1536,
+				"height": 1024,
+				"bytes": 431902,
+				"sha256": "2eeea1edeff8dd7edda4288eacd0c6c2cadaf2bf8541b27944ecec3f82347d38"
+			},
+			{
+				"task": "2048x2048.jpeg",
+				"width": 2048,
+				"height": 1365,
+				"bytes": 711034,
+				"sha256": "3814d1f56c7c36a08c389df85f3682986c57c39b03ef2047214b7c984064546c"
+			},
+			{
+				"task": "2048x2048.webp",
+				"width": 2048,
+				"height": 1365,
+				"bytes": 699818,
+				"sha256": "f1aae2bfd9fb03a31829e865e5680ebf57dd2235a9f7aea8fe9daf8eab8acc27"
+			},
+			{
+				"task": "large.jpeg",
+				"width": 1024,
+				"height": 683,
+				"bytes": 196935,
+				"sha256": "e1f38a01b0d8c103c03e9c94bd59efdc393d77a1a3729727c931943ed76ed79d"
+			},
+			{
+				"task": "large.webp",
+				"width": 1024,
+				"height": 683,
+				"bytes": 204106,
+				"sha256": "391eaba258d94ad80b91154a9a64ac2812868cc86c917ec5a51a77e7c61b733e"
+			},
+			{
+				"task": "medium_large.jpeg",
+				"width": 768,
+				"height": 512,
+				"bytes": 114238,
+				"sha256": "ddbd14e26302634f1dbbc425b721287a88c3a41334705f039034e538731dafb5"
+			},
+			{
+				"task": "medium_large.webp",
+				"width": 768,
+				"height": 512,
+				"bytes": 119838,
+				"sha256": "be68c0973371cb06e27c30f0d53a13c2d1d4db189c59f0d45d9b8617ebf3e89b"
+			},
+			{
+				"task": "medium.jpeg",
+				"width": 300,
+				"height": 200,
+				"bytes": 20764,
+				"sha256": "29cbbf60fc517a69cab518f6f12faf32d9bfc2ad4ebb2452d85670362f52cd4a"
+			},
+			{
+				"task": "medium.webp",
+				"width": 300,
+				"height": 200,
+				"bytes": 21638,
+				"sha256": "c8ebfe4e0969fbb7aa82ddacd6d520dd4b311105f8d4843e9b76c9489aa1cfcb"
+			},
+			{
+				"task": "thumbnail.jpeg",
+				"width": 150,
+				"height": 150,
+				"bytes": 10204,
+				"sha256": "605e8ac7ad0108cc7c7583def8fdf4ab23d3abe2ebdd49b86fd836c354ccfb3d"
+			},
+			{
+				"task": "thumbnail.webp",
+				"width": 150,
+				"height": 150,
+				"bytes": 10574,
+				"sha256": "11a31db876766187b2fcbaf33dc3733252bfd3a1ec3bd1c6a65a3ab75c20923c"
+			}
+		]
+	}
+]

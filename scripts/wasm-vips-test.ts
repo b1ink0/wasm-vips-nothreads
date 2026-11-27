@@ -1,12 +1,14 @@
 /**
- * Runs the unit tests of wasm-vips (test/unit) against the build without threads: in Node with
- * mocha, as wasm-vips' CI does, then in Chromium, Firefox and WebKit through test/unit/index.html,
- * served without cross-origin isolation headers. The tests are not changed.
+ * Runs the unit tests of wasm-vips (test/unit) against one build: in Node with mocha, as
+ * wasm-vips' CI does, then in Chromium, Firefox and WebKit through test/unit/index.html, served
+ * without cross-origin isolation headers. The combined build also runs in each browser with the
+ * isolation headers of test/unit/serve.json, since it takes the threaded path there.
+ * The tests are not changed.
  * A hang ends a run after 20 minutes and is recorded, since a deadlock blocks the thread mocha
  * uses for its own timeouts.
  *
- * Usage: node scripts/wasm-vips-test.ts. Needs npm run setup and npm run build first.
- * Output: results/wasm-vips-test.json
+ * Usage: node scripts/wasm-vips-test.ts [nothreads|combined]. Needs npm run setup and npm run build first.
+ * Output: results/wasm-vips-test.json, or results/wasm-vips-test-combined.json
  */
 import { execFileSync, spawnSync } from 'node:child_process';
 import {
@@ -22,7 +24,8 @@ import { extname, join } from 'node:path';
 import { chromium, firefox, webkit } from 'playwright';
 
 const ROOT = join( import.meta.dirname, '..' );
-const SRC = join( ROOT, 'src/nothreads' );
+const VARIANT = process.argv[ 2 ] ?? 'nothreads';
+const SRC = join( ROOT, `src/${ VARIANT }` );
 const DIR = join( SRC, 'test/unit' );
 const REPORT = join( DIR, 'mocha-report.json' );
 const TIMEOUT_MS = 20 * 60 * 1000;
@@ -121,14 +124,23 @@ const runs = [
 ];
 
 // Serves test/unit/index.html at / and its files the way test/unit/serve.json does, without its
-// isolation headers.
+// isolation headers. Under /iso/ it serves the same files with them.
 const TYPES: Record< string, string > = {
 	'.html': 'text/html',
 	'.js': 'text/javascript',
 	'.wasm': 'application/wasm',
 };
+const ISOLATION = {
+	'Cross-Origin-Opener-Policy': 'same-origin',
+	'Cross-Origin-Embedder-Policy': 'require-corp',
+	'Cross-Origin-Resource-Policy': 'cross-origin',
+};
 const server = createServer( async ( req, res ) => {
 	let path = new URL( req.url!, 'http://x' ).pathname;
+	const isolated = path.startsWith( '/iso/' );
+	if ( isolated ) {
+		path = path.slice( 4 );
+	}
 	if ( path === '/' ) {
 		path = '/index.html';
 	}
@@ -139,6 +151,7 @@ const server = createServer( async ( req, res ) => {
 		res.writeHead( 200, {
 			'Content-Type':
 				TYPES[ extname( file ) ] ?? 'application/octet-stream',
+			...( isolated ? ISOLATION : {} ),
 		} ).end( body );
 	} catch {
 		res.writeHead( 404 ).end();
@@ -148,7 +161,12 @@ await new Promise< void >( ( ok ) => server.listen( 0, '127.0.0.1', ok ) );
 const address = server.address();
 const origin = `http://127.0.0.1:${ typeof address === 'object' && address?.port }`;
 
-for ( const type of [ chromium, firefox, webkit ] ) {
+const cases = [ chromium, firefox, webkit ].flatMap( ( type ) =>
+	( VARIANT === 'combined' ? [ false, true ] : [ false ] ).map(
+		( isolated ) => [ type, isolated ] as const
+	)
+);
+for ( const [ type, isolated ] of cases ) {
 	const browser = await type.launch();
 	const tab = await browser.newPage();
 	// Records each result from the runner that index.html starts with mocha.run().
@@ -189,9 +207,11 @@ for ( const type of [ chromium, firefox, webkit ] ) {
 			},
 		} );
 	} );
-	await tab.goto( origin );
-	if ( await tab.evaluate( () => crossOriginIsolated ) ) {
-		throw new Error( 'The test page must not be cross-origin isolated' );
+	await tab.goto( isolated ? `${ origin }/iso/` : origin );
+	if ( ( await tab.evaluate( () => crossOriginIsolated ) ) !== isolated ) {
+		throw new Error(
+			`The test page must ${ isolated ? '' : 'not ' }be cross-origin isolated`
+		);
 	}
 	let hung = false;
 	try {
@@ -206,7 +226,9 @@ for ( const type of [ chromium, firefox, webkit ] ) {
 		? []
 		: await tab.evaluate( () => ( window as any ).results );
 	runs.push( {
-		environment: `${ type.name() } ${ browser.version() }`,
+		environment: `${ type.name() } ${ browser.version() }${
+			isolated ? ' isolated' : ''
+		}`,
 		mocha: readFileSync( join( DIR, 'index.html' ), 'utf8' ).match(
 			/mocha\/([\d.]+)\/mocha\.min\.js/
 		)![ 1 ],
@@ -219,7 +241,12 @@ for ( const type of [ chromium, firefox, webkit ] ) {
 server.close();
 
 writeFileSync(
-	join( ROOT, 'results/wasm-vips-test.json' ),
+	join(
+		ROOT,
+		`results/wasm-vips-test${
+			VARIANT === 'nothreads' ? '' : `-${ VARIANT }`
+		}.json`
+	),
 	JSON.stringify(
 		{
 			wasmVips: execFileSync( 'git', [ '-C', SRC, 'rev-parse', 'HEAD' ], {

@@ -1,5 +1,5 @@
 // Browser benchmark, shared by plain/index.html and iso/index.html.
-// Query: lib=baseline|nothreads, jobs, iters, avif=1, input=<file in images/>, only=<size>.<format>,...,
+// Query: lib=baseline|nothreads|combined, jobs, iters, avif=1, input=<file in images/>, only=<size>.<format>,...,
 // concurrency=<libvips threads per image, the wasm-vips default on the web is 1>, report=1
 const p = new URLSearchParams( location.search );
 const lib = p.get( 'lib' ) || 'nothreads';

@@ -5,7 +5,8 @@
  * Usage: node scripts/bench-browser.ts [--browsers chromium,firefox,webkit] [--jobs 4] [--iters 5] [--avif]
  *          [--input <file in images/>] [--only 2048x2048.jpeg,...] [--concurrency <n>] [--label <name>]
  *        --system Safari,Firefox,"Google Chrome" opens the installed apps instead of Playwright browsers.
- * Output: results/browser-<browser>[-<label>].json
+ *        --combined runs only the combined build, with and without isolation.
+ * Output: results/browser-<browser>[-combined][-<label>].json
  */
 import { createServer } from 'node:http';
 import { readFile, writeFile } from 'node:fs/promises';
@@ -37,6 +38,7 @@ const { values: args } = parseArgs( {
 		only: { type: 'string' },
 		concurrency: { type: 'string' },
 		label: { type: 'string' },
+		combined: { type: 'boolean', default: false },
 	},
 } );
 const query = new URLSearchParams( {
@@ -56,10 +58,11 @@ if ( args.system ) {
 	query.set( 'report', '1' );
 }
 
-// Serves the same tree that scripts/deploy.ts publishes.
+// Serves the same tree that scripts/deploy.ts publishes, plus the combined build.
 const LIBS: Record< string, string > = {
 	baseline: 'src/baseline/lib',
 	nothreads: 'src/nothreads/lib',
+	combined: 'src/combined/lib',
 };
 const TYPES: Record< string, string > = {
 	'.html': 'text/html',
@@ -117,13 +120,20 @@ const address = server.address();
 const origin = `http://127.0.0.1:${ typeof address === 'object' && address?.port }`;
 
 const jobs = args.jobs;
-const RUNS = [
-	[ 'baseline', 'iso', '1' ],
-	[ 'baseline', 'iso', jobs ],
-	[ 'baseline', 'plain', '1' ],
-	[ 'nothreads', 'plain', '1' ],
-	[ 'nothreads', 'plain', jobs ],
-];
+const RUNS = args.combined
+	? [
+			[ 'combined', 'iso', '1' ],
+			[ 'combined', 'iso', jobs ],
+			[ 'combined', 'plain', '1' ],
+			[ 'combined', 'plain', jobs ],
+		]
+	: [
+			[ 'baseline', 'iso', '1' ],
+			[ 'baseline', 'iso', jobs ],
+			[ 'baseline', 'plain', '1' ],
+			[ 'nothreads', 'plain', '1' ],
+			[ 'nothreads', 'plain', jobs ],
+		];
 
 const system = args.system?.split( ',' ) ?? [];
 for ( const name of system.length ? system : args.browsers.split( ',' ) ) {
@@ -168,7 +178,9 @@ for ( const name of system.length ? system : args.browsers.split( ',' ) ) {
 	await writeFile(
 		join(
 			ROOT,
-			`results/browser-${ file }${ args.label ? `-${ args.label }` : '' }.json`
+			`results/browser-${ file }${ args.combined ? '-combined' : '' }${
+				args.label ? `-${ args.label }` : ''
+			}.json`
 		),
 		JSON.stringify( results, null, '\t' )
 	);

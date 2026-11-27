@@ -23,7 +23,7 @@ Generated and ignored: `src/` (pinned clones), `work/` (trees for making patches
 | Command | What it does |
 |---|---|
 | `npm run setup` | Downloads and verifies the archives, clones the pinned sources into `src/` and applies the patches. |
-| `npm run build [baseline\|nothreads]` | Builds wasm-vips in Docker. Takes a long time on the first run. |
+| `npm run build [baseline\|nothreads\|combined]` | Builds wasm-vips in Docker. Takes a long time on the first run. With no variant, builds baseline and nothreads. |
 | `npm run bench` | Every Node and browser benchmark behind the tables in `docs/benchmarks.md`. |
 | `npm run wordpress` | Builds the plugin worker and starts WordPress at http://localhost:8889. |
 | `npm run wordpress:test` | Uploads four test images 3 times each in Chromium, Firefox and WebKit with each plugin setup and output format, and records time, memory and workers. |
