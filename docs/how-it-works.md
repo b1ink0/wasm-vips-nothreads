@@ -22,13 +22,38 @@ libvips assumes it can start threads, so a few places need changes. Each is a pa
 | Patch | Applies to | Change |
 |---|---|---|
 | `nothreads-wasm-vips.patch` | wasm-vips | Drops `-pthread` from the compiler flags and `PTHREAD_POOL_SIZE` from the link flags. Drops the `VIPS_MAX_THREADS` and `VIPS_CONCURRENCY` defaults, which only size the thread pool. Makes `proxy_sync()` call the function directly, since there is no main thread to hand it to. Builds resvg, the SVG loader, without the Rust `atomics` target feature. Applies the four patches below during the build. |
-| `libvips-nothreads.patch` | libvips | `vips_threadpool_run()` runs one worker on the calling thread instead of starting threads. `vips_sink_disc()` writes each buffer on the calling thread instead of in a background writer thread. `vips_thread_isvips()` returns true, so the calling thread keeps the buffer cache that libvips only gives its own threads, and the outermost pipeline frees it when done, like a worker thread after each task. All changes only apply to Emscripten builds without pthreads. |
+| `libvips-nothreads.patch` | libvips | Runs the work libvips gives to threads on the calling thread. See [The libvips patch](#the-libvips-patch). |
 | `meson-nothreads.patch` | Meson | Meson adds `-pthread` for every `dependency('threads')` on Emscripten. The patch makes it add nothing. |
 | `emscripten-growable-random.patch` | Emscripten | The build uses resizable memory (`GROWABLE_ARRAYBUFFERS`). Web Crypto rejects views of resizable buffers, like views of shared ones, so `getrandom` copies through a temporary buffer in both cases. |
 | `emscripten-vector-heap.patch` | Emscripten | Fixes the helper from wasm-vips' own Emscripten patch that passes number arrays in and out of wasm. It kept the memory view from startup. Memory growth replaces views of non-shared memory, so after the first growth the helper failed with "detached ArrayBuffer". It now looks the view up on each call. |
 | `pin-vendored.patch` | wasm-vips | Shared by both builds. Pins the emsdk image by digest and Meson to 1.12.1, and reads the upstream patches from `upstream/` (mounted as `/vendor` in the build container) instead of downloading them during the build. Adds `-msimd128` to the libpng flags: libpng 1.6.58's configure fails with `-msse4.1` alone under Emscripten. Applies `upstream/emscripten-mimalloc-pagemap.patch` to Emscripten, a backport of [emscripten#27982](https://github.com/emscripten-core/emscripten/pull/27982) (Emscripten 6.0.13), which fixes the heap growth of wasm-vips 0.0.19 reported in [wasm-vips#135](https://github.com/kleisauke/wasm-vips/issues/135). |
 
 Everything else stays the same: the libraries, their versions and the codecs.
+
+### The libvips patch
+
+Without `-pthread`, Emscripten's `pthread_create` fails with "Not supported". GLib only returns an error for "try again" and aborts on any other code, so every thread libvips starts would abort the whole module. The patch changes these places, only in Emscripten builds without pthreads.
+
+What wasm-vips needs:
+
+| Change | What it fixes |
+|---|---|
+| `vips_threadpool_run()` runs one worker on the calling thread. | Computing any image. `vips_sink()`, `vips_sink_disc()` and `vips_sink_memory()` all start their workers through it. |
+| `vips_sink_disc()` writes each buffer on the calling thread. | Saving to a file, buffer or target with the JPEG, PNG, WebP, GIF, TIFF, HEIF and JPEG XL savers, which start a background writer thread. |
+| `vips_thread_isvips()` returns true, and the outermost pipeline frees the buffer cache when it is done. | Running out of memory, for example in `colour colourspace` and `foreign heifload`. libvips only gives its own threads a buffer cache, and the calling thread now does all the work. |
+
+So the rest of the libvips API fails with an error instead of aborting. wasm-vips does not set `VIPS_MAX_THREADS` or start other threads, but a caller can:
+
+| Change | What it fixes |
+|---|---|
+| `vips_g_thread_new()` returns an error instead of starting a thread. | Any other thread start, such as `vips_thread_execute()`. |
+| `VIPS_MAX_THREADS` is ignored on startup. | The abort on startup when it is set, since libvips starts that many threads during `vips_init()`. |
+
+These work without a change:
+
+- **Progress feedback** (`onProgress`). The worker reports progress after each tile, as the thread pool does.
+- **The threaded tile cache.** It only waits when another thread is computing the tile it needs, which can't happen with one thread.
+- **`vips_sink_screen()`.** wasm-vips' own libvips patch already makes it run without a background thread, in every wasm-vips build.
 
 ## Where the parallelism goes
 

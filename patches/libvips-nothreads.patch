@@ -1,6 +1,6 @@
-diff --color -ruN libvips-base/libvips/iofuncs/sinkdisc.c libvips-nothreads/libvips/iofuncs/sinkdisc.c
---- libvips-base/libvips/iofuncs/sinkdisc.c	2026-11-26 17:02:22
-+++ libvips-nothreads/libvips/iofuncs/sinkdisc.c	2026-11-26 17:02:22
+diff --color -ruN a/libvips/iofuncs/sinkdisc.c b/libvips/iofuncs/sinkdisc.c
+--- a/libvips/iofuncs/sinkdisc.c	2026-11-27 17:12:29
++++ b/libvips/iofuncs/sinkdisc.c	2026-11-27 17:12:30
 @@ -246,6 +246,7 @@
  	 */
  	vips__region_no_ownership(wbuffer->region);
@@ -35,9 +35,9 @@ diff --color -ruN libvips-base/libvips/iofuncs/sinkdisc.c libvips-nothreads/libv
  
  	return 0;
  }
-diff --color -ruN libvips-base/libvips/iofuncs/thread.c libvips-nothreads/libvips/iofuncs/thread.c
---- libvips-base/libvips/iofuncs/thread.c	2026-11-26 17:02:22
-+++ libvips-nothreads/libvips/iofuncs/thread.c	2026-11-26 17:02:45
+diff --color -ruN a/libvips/iofuncs/thread.c b/libvips/iofuncs/thread.c
+--- a/libvips/iofuncs/thread.c	2026-11-27 17:12:29
++++ b/libvips/iofuncs/thread.c	2026-11-27 17:16:37
 @@ -83,7 +83,13 @@
  gboolean
  vips_thread_isvips(void)
@@ -52,10 +52,38 @@ diff --color -ruN libvips-base/libvips/iofuncs/thread.c libvips-nothreads/libvip
  }
  
  typedef struct {
-diff --color -ruN libvips-base/libvips/iofuncs/threadpool.c libvips-nothreads/libvips/iofuncs/threadpool.c
---- libvips-base/libvips/iofuncs/threadpool.c	2026-11-26 17:02:22
-+++ libvips-nothreads/libvips/iofuncs/threadpool.c	2026-11-26 17:02:45
-@@ -647,6 +647,37 @@
+@@ -131,6 +137,13 @@
+ 	GThread *thread;
+ 	VipsThreadInfo *info;
+ 	GError *error = NULL;
++
++#if defined(__EMSCRIPTEN__) && !defined(__EMSCRIPTEN_PTHREADS__)
++	/* No threads: GLib aborts when pthread_create fails, so fail here.
++	 */
++	vips_error(domain, "%s", _("threads are not supported"));
++	return NULL;
++#endif
+ 
+ 	info = g_new(VipsThreadInfo, 1);
+ 	info->domain = domain;
+diff --color -ruN a/libvips/iofuncs/threadpool.c b/libvips/iofuncs/threadpool.c
+--- a/libvips/iofuncs/threadpool.c	2026-11-27 17:12:29
++++ b/libvips/iofuncs/threadpool.c	2026-11-27 17:16:37
+@@ -113,7 +113,13 @@
+ {
+ 	/* 3 is the useful minimum, and huge values can crash the machine.
+ 	 */
++#if defined(__EMSCRIPTEN__) && !defined(__EMSCRIPTEN_PTHREADS__)
++	/* No threads to start on startup.
++	 */
++	const char *max_threads_env = NULL;
++#else
+ 	const char *max_threads_env = g_getenv("VIPS_MAX_THREADS");
++#endif
+ 	int max_threads = max_threads_env
+ 		? VIPS_CLIP(3, atoi(max_threads_env), MAX_THREADS)
+ 		: 0;
+@@ -647,6 +653,37 @@
  	pool->work = work;
  	pool->a = a;
  
@@ -93,7 +121,7 @@ diff --color -ruN libvips-base/libvips/iofuncs/threadpool.c libvips-nothreads/li
  	/* Start with half of the max number of threads, then let it drift up
  	 * and down with load.
  	 */
-@@ -696,6 +727,7 @@
+@@ -696,6 +733,7 @@
  			n_working += 1;
  		}
  	}
